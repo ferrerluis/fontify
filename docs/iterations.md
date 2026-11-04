@@ -173,3 +173,15 @@
   projects without a complete matching baseline. Do not infer aesthetic quality
   from a fingerprint match. Required checks: font bytes unchanged, protection
   active, proof label accurate and human review still distinguished.
+
+## B15 · tracing dependency lock excluded Python 3.11
+
+- Reproduction: the first GitHub run failed installing NumPy 2.5.4 on Python
+  3.11, before tests ran. The 3.14 job installed dependencies and passed tests.
+- Cause: the development/tracing locks came from Python 3.14; NumPy 2.5 requires
+  Python 3.12+, while [2.4.6 supports 3.11](https://pypi.org/project/numpy/2.4.6/).
+- Fix: both lock files select 2.4.6 for Python 3.11 and retain 2.5.4 for 3.12+.
+  Runtime compiler dependencies and the approved font bytes are unchanged.
+- Affected evidence: dependency installation and all downstream checks in the
+  3.11 CI job. Re-run both supported interpreter jobs; keep the failed attempt
+  at GitHub Actions run 41768992890. No new product test is needed for CI setup.
