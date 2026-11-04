@@ -135,6 +135,8 @@ the newest filename. [Ferrer evidence](docs/ferrer-lessons.md) motivated these r
 ## Optional Recraft
 
 Use `fontify recraft-plan examples/recraft/concept.txt` for a dry request.
+It defaults to Vector Pro (`recraftv4_1_pro_vector`); select non-Pro explicitly
+only when requested or Pro is confirmed unavailable, following the skill policy.
 It reads no secret and makes no network call. The [setup and research guide](references/recraft.md)
 covers API tokens, remote MCP OAuth, billing, models, candidate review and mock tests.
 API CLI generation requires `--allow-paid`; an agent must also obtain your explicit

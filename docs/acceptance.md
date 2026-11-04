@@ -1,4 +1,4 @@
-# Product acceptance catalog · v7
+# Product acceptance catalog · v8
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -17,6 +17,7 @@ The runner records component versions, source digest, timestamp and command.
 | TC04.3 | Reviewed local project | `pytest tests/test_quality.py -k approval_proof` | Adding a matching protection baseline keeps TTF/WOFF2 bytes identical and changes the proof's pending label to baseline matches, without claiming optical-quality approval. |
 | TC05.1 | Recraft extra, mocked transport | `pytest tests/test_recraft.py -k adapter` | Dry request needs no key; paid call requires explicit opt-in; vector payload, errors and saved SVG provenance work through mocks without secrets in records. |
 | TC05.2 | Recraft extra, mocked transport | `pytest tests/test_recraft.py -k discovery` | Initialize and paginated tools/list capture actual schemas without calling tools; auth/block failures are reported, not replaced by assumed schemas. |
+| TC05.3 | Local CLI and mocked provider | `pytest tests/test_recraft.py -k model_selection` | CLI/API plans and the actual mocked POST select Vector Pro by default; an explicit non-Pro selection is preserved. No live request is made and the paid-call gate remains enforced. |
 | TC06.1 | Built example, browser | Open `build/current.json`'s release `proof.html` | Embedded webfont loads, all glyphs and HarfBuzz samples fit, kerning toggle works, unsupported typed characters are identified. Record screenshot and loaded font evidence. |
 | TC06.2 | Local build | `pytest tests/test_review.py -k proof_overhang` | A very wide glyph with negative sidebearing fits both the glyph sheet and shaped-line proof without changing its font outline. |
 | TC07.1 | Checked-in image-generated example | `pytest tests/test_imagegen.py -k generated_example` | Frozen AI artwork builds offline as A–Z + space; actual TTF/WOFF2 names, coverage, kerning and review-required status match the example. |
@@ -56,6 +57,10 @@ not independent style quality.
 Catalog v7 adds six style-rubric sub-tests: 29 required, 28 automated plus the
 browser observation. Existing approved example inputs and artifacts are retained;
 schema-1 profiles remain reproducible while new skill work uses schema 2.
+
+Catalog v8 adds TC05.3 for the Pro model preference: 30 required sub-tests,
+29 automated plus the unchanged browser observation. Historic generated artwork
+and its recorded models remain unchanged; model fallback is explicit, not retried.
 
 These checks do not certify visual quality. The image-generated example is an
 unapproved candidate; its creation, normalization and tracing are explicit. A

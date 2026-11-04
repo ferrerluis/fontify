@@ -25,6 +25,10 @@ CASES = {
     "TC04.3": ("Proof reflects protected glyph baseline", "test_approval_proof"),
     "TC05.1": ("Mocked optional provider", "test_adapter"),
     "TC05.2": ("MCP schema discovery protocol", "test_discovery"),
+    "TC05.3": (
+        "Vector Pro default and explicit non-Pro choice",
+        "test_model_selection",
+    ),
     "TC06.2": ("Proof canvases include overhanging ink", "test_proof_overhang"),
     "TC07.1": ("Image-generated example builds offline", "test_generated_example"),
     "TC07.2": ("Generated crop tracing and preservation", "test_generated_trace"),
@@ -114,7 +118,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 7,
+        "catalog_version": 8,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),

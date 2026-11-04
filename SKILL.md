@@ -25,13 +25,17 @@ Examples and commands are in [README.md](README.md).
 
 ## Separate drawing from construction
 
-For a new typeface concept, create the letter set with image generation or optional
-Recraft Vector, or use the user's supplied approved vector artwork. Hand-coded
-geometric letters are engineering fixtures, not a substitute for this creative
+For a new typeface concept, use Recraft Vector Pro (`recraftv4_1_pro_vector`) for
+generated glyph artwork when configured Recraft access is available. Use non-Pro
+Recraft Vector only when the user explicitly requests it or Pro is confirmed
+unavailable; record the concrete reason before choosing that fallback. Preserve
+an explicit choice of another provider or supplied approved vector artwork.
+Hand-coded geometric letters are engineering fixtures, not a substitute for this creative
 workflow. The primary runnable example is `examples/imagegen/`; its frozen SVGs
 compile offline. `examples/offline/` remains a synthetic regression fixture.
 
-When the agent has a built-in image-generation tool, use it for the concept sheet
+When Recraft is unavailable or the user chooses image generation, use the
+built-in image-generation tool for the concept sheet
 without inventing an API key requirement. Preserve its original output and exact
 prompt. Review explicit letter crops, baselines and common scaling, then use the
 optional tracing helper from [the imagegen example](examples/imagegen/README.md).
@@ -43,8 +47,11 @@ metrics. Set one Unicode scalar and explicit advance for each glyph. Keep space
 blank. Inspect coordinate convention and placement before interpreting clipping
 or sidebearing warnings. Don't normalize each letter's width/height independently.
 
-If Recraft is explicitly wanted, read [recraft.md](references/recraft.md). Prefer
-configured MCP access for exploration, discover its actual `inputSchema`, and
+For Recraft, read [recraft.md](references/recraft.md) and pass the Pro vector model
+explicitly in MCP calls and request plans. Never omit the model and rely on the
+service default. Price, latency, missing spend approval, authentication failures,
+rate limits or insufficient credits alone do not establish Pro unavailability.
+Prefer configured MCP access for exploration, discover its actual `inputSchema`, and
 don't assume REST fields fit MCP. A reusable application uses the optional
 server-side adapter. First produce a dry request plan. Obtain user authorization
 before a paid call, credential creation or purchase; never infer it from general

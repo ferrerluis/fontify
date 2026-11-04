@@ -67,7 +67,7 @@ def main(argv=None):
     p.add_argument("--out", type=Path, required=True)
     p = sub.add_parser("recraft-plan")
     p.add_argument("prompt", type=Path)
-    p.add_argument("--model", default="recraftv4_1_vector")
+    p.add_argument("--model", default="recraftv4_1_pro_vector")
     p.add_argument("--size", default="1:1")
     p.add_argument("--style-id")
     p.add_argument("--reference-url", action="append", default=[])

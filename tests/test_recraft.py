@@ -5,6 +5,7 @@ import httpx
 import pytest
 
 from fontify import FontifyError
+from fontify.cli import main
 from fontify.providers import DesignRequest, LocalSVGProvider
 from fontify.providers.mcp import discover_schema
 from fontify.providers.recraft import RecraftProvider, plan_request, save_candidate
@@ -15,7 +16,7 @@ SVG = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M
 def test_adapter_paid_gate_and_local_provider(monkeypatch, tmp_path):
     monkeypatch.delenv("RECRAFT_API_TOKEN", raising=False)
     req = DesignRequest("One concept sheet of A V O R")
-    assert plan_request(req)["model"] == "recraftv4_1_vector"
+    assert plan_request(req)["model"] == "recraftv4_1_pro_vector"
     with pytest.raises(FontifyError, match="allow_paid"):
         RecraftProvider().generate(req)
     with pytest.raises(FontifyError, match="RECRAFT_API_TOKEN"):
@@ -62,6 +63,38 @@ def test_adapter_vector_payload_mock_and_save(tmp_path):
     assert artwork.provenance["review_status"] == "unreviewed_source_artwork"
     with pytest.raises(FileExistsError):
         save_candidate(artwork, p.parent)
+
+
+@pytest.mark.parametrize("explicit_model", [None, "recraftv4_1_vector"])
+def test_model_selection_pro_default_and_explicit_non_pro(
+    tmp_path, capsys, explicit_model
+):
+    prompt = tmp_path / "concept.txt"
+    prompt.write_text("One vector glyph concept sheet.")
+    args = ["recraft-plan", str(prompt)]
+    if explicit_model:
+        args += ["--model", explicit_model]
+    assert main(args) == 0
+    payload = json.loads(capsys.readouterr().out)["request"]
+    expected = explicit_model or "recraftv4_1_pro_vector"
+    assert payload["model"] == expected
+    request = DesignRequest(
+        prompt.read_text(), **({"model": explicit_model} if explicit_model else {})
+    )
+    assert plan_request(request)["model"] == expected
+    models = []
+
+    def handle(req):
+        models.append(json.loads(req.content)["model"])
+        return httpx.Response(
+            200, json={"data": [{"b64_json": base64.b64encode(SVG).decode()}]}
+        )
+
+    with httpx.Client(transport=httpx.MockTransport(handle)) as client:
+        RecraftProvider(token="TEST_ONLY", client=client).generate(
+            request, allow_paid=True
+        )
+    assert models == [expected]
 
 
 @pytest.mark.parametrize("status", [401, 429, 500])
