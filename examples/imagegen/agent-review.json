@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "reviewer": "Codex agent: actual-font enlarged and word proofs inspected, 2026-11-03",
+  "project_sha256": "e7c45b41798c97114177319a4dea65dab6938e40687568b91a3bb4e634010936",
+  "font_sha256": "6ba8ee529cfc389a4ff2d0fdaba7d59d677db89a02069a406032fae0755ac26a",
+  "profile_sha256": "5778d06f3d60557410e2cdb4cd269b165ea8123225af0e7bbe59c543073c66e8",
+  "glyphs": {
+    "space": {
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Blank U+0020 with explicit advance; word gaps inspected in AVATAR CREATOR OPTIMIST. No contour to alter.",
+      "evidence": [
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "A": {
+      "fingerprint": "e766ed64644d3ad28e78ef399b6696156112c0fb5bd547a330f3b640c6229d39",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Mirrored diagonals retain the generated broad stance; exact flat apex, crossbar and feet. Counter is centered and open.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "B": {
+      "fingerprint": "d94f82ed6473fd4e8f92d41184e4eb27814c2982f34ff918a410d385968f6d4c",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two counters now have smooth right-facing arcs; outer top and bowl facets were corrected locally. Larger lower bowl and asymmetric junction remain.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "C": {
+      "fingerprint": "28107c3261931227946b573a06f49bcaeb8e8e69d29f141d97f15368b7ce3a91",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact horizontal reflection retains the diagonal terminals. Enlarged outer and inner arcs no longer show the original polygon facets.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "D": {
+      "fingerprint": "bb9c5d7206f1a17ae251fe77c612ba340fb9f2a912e1a5affbfc5e9d167219b8",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Outer and inner right bowls have matching horizontal tangents at their extrema, with a straight left stem. Horizontal reflection survives export.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "E": {
+      "fingerprint": "a391b8cd7e2a2a629113fb167113e671b8dd1543139318b7b7d43561038b3322",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact horizontal arms and vertical upright. Upright probes match the 192-unit family; arm lengths remain deliberately unequal.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "F": {
+      "fingerprint": "9424595e286a309874ca4aea73adbf2cf8846b070bb08ed5d49f85fb75940586",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact upright and two horizontal arms. Upright matches E/H; lower opening and shorter middle arm remain.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "G": {
+      "fingerprint": "d43c4e63bb2dd2790c7d0b13821fd40f3bd7a1dee574fe99a16981af9337044b",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Named bar edges are horizontal; smooth open bowl and right wall preserve the asymmetric G structure. Diagonal mouth remains sharp.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "H": {
+      "fingerprint": "f0530f87cc178c36f736ea82129fbfabe27cf5972703b5298c41be1362c4adb6",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Matching 192-unit uprights, exact crossbar edges and vertical reflection. Bar height remains intentionally below the optical center.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "I": {
+      "fingerprint": "b70d06e05ef93629b86a1f15bd761683a4008f28747b08221635984bf92211fe",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Straight 192-unit upright matches the shared stem family. Both declared reflections survive integer export; I/J are distinguishable.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "J": {
+      "fingerprint": "7df31d2a01c2b1400c957e97f4109dbdbdbe76e6a4f8c29d6fbd1f8b18113916",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Upright is exact vertical and hook is smoothly rounded. Intentional square terminal is preserved; no pointed inner counter remains.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "K": {
+      "fingerprint": "720baa98ad9e22c5b83adef038a601356d3a138aa004555e996acfb4c98b59f4",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Stem is exact vertical; two genuine diagonals remain diagonal and join without trace bevels. Asymmetric leg structure remains.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "L": {
+      "fingerprint": "ba34cac15c83056295614dfd11bf9383ddc4b95487ad144ab1535d78aa89e072",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact upright and baseline arm; 192-unit stem matches E/F/H. Squared corner retains the generated heavy style.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "M": {
+      "fingerprint": "c4fe928ed6ebdfd2884c00f66cfbc0c5152ef51360c8fe16374d7e8e7c5b30aa",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact vertical reflection and straight uprights; explicit central notch correction leaves a single clean diagonal junction. Interior openings remain open.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "N": {
+      "fingerprint": "52a1f76dbc0d3b7e59b31787f76ff5a2f1d94c7d975f13ed5ac441d27eeba45c",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two straight uprights and a true diagonal retain the generated proportions. Caps and baseline are exact horizontal.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "O": {
+      "fingerprint": "e18acddaf58a6110d6bf3255ff0758d851bd18b52a59f4160e2900b34db7fddc",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Both oval contours are smooth at enlarged size, with no faceted counter. Both declared reflections remain exact after export; visual weight compared against C/D/Q.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "P": {
+      "fingerprint": "27c436788af069bf806838d45b01c92e5a20e2be7bbeae550885f1764a49f449",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Upper bowl and counter are rounded with continuous tangents. Upright, cap, baseline and counter mouth are exact; lower opening retained.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Q": {
+      "fingerprint": "e6065222a496a74581835279191855244294225fb992a3ccef0fdd83bee572c2",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Oval counter and bowl are smooth; original tail vertices, angle and placement are retained. Intentional tail asymmetry is preserved.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "R": {
+      "fingerprint": "4ffc9630971ce6cfc570e45fe6c04f267154637d51d65c26469e178c107eae65",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded upper bowl and counter retain the heavy style. Named leg vertices and asymmetric bowl-to-leg corner remain; compared against P/B.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "S": {
+      "fingerprint": "e5353aca022a3b5a624541b3c0c1af101cb643e850381a3de59f04e54985f089",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Named arcs replace trace facets with smooth transitions; both diagonal terminals and larger lower bowl remain. Reviewed at enlarged and word sizes.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "T": {
+      "fingerprint": "589f5791eb610e9675774fe163d2abcaf630dde4e59c35e0c0f684a7e17753cb",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Exact horizontal bar and 192-unit centered upright; vertical reflection survives export. Checked in TEHY and AVATAR for bar spacing.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "U": {
+      "fingerprint": "3843ac57be507b8a1c6df390894d2155f05e380690dffdb098df17f371a44e27",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Four upright edges are exact vertical; inner and outer lower bowls are smooth and centered. Vertical reflection survives export without a bottom spike.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "V": {
+      "fingerprint": "413a2d22505ffc7beec3c6b655c50b6b4da29fb385bcc1395a17d0f56d07a388",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Mirrored diagonals, flat terminals and baseline retained. Interior junction is clean; checked in AVATAR with actual kerning.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "W": {
+      "fingerprint": "30a7214c31026601457b440f00aee976feb21f6d800e823bcaad94f05016075f",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Mirrored diagonals retain the wide stance. Explicit central spike correction leaves a clean single junction; no unwanted near-axis snapping of diagonals.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "X": {
+      "fingerprint": "e0c24a952b6a9635dfe0de67aeb127c0192632f6e467df2df86944b33b17765b",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Both reflections are exact; the mirrored center notches were replaced by the intersections of the original diagonals. All four terminals retain their width.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Y": {
+      "fingerprint": "62baa963095dea6926b86ca8affb1a5917791b1d02bbd0a598fc576113f6b45e",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Mirrored diagonal arms meet the centered 192-unit upright cleanly. Terminal edges and baseline are exact; checked alongside T/H/E.",
+      "evidence": [
+        "review-evidence/group-09.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Z": {
+      "fingerprint": "d6a9f222eda01343474bb4efb0e8a7498b42b0a77c1afb3dca32bc0f8a644a0c",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two exact horizontal arms retain the heavy proportions; the genuine connecting diagonal is preserved. No rounded trace corners remain.",
+      "evidence": [
+        "review-evidence/group-09.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "path": "review-evidence/group-01.png",
+      "sha256": "330dfe5586cb29b991034b6b006d8fc03e62ffaa76a2d1a29c6065919d4a2d7e"
+    },
+    {
+      "path": "review-evidence/group-02.png",
+      "sha256": "ea85d5f7898d353619d931d357963e1811a992e5267ecce0b42687bd3baa031d"
+    },
+    {
+      "path": "review-evidence/group-03.png",
+      "sha256": "be2995c17eb0240447476591c9bfb503488f67dd3d63bdfef2fbe370fc6cb4c4"
+    },
+    {
+      "path": "review-evidence/group-04.png",
+      "sha256": "3657839bfc091342fad65565cd95a3fc83ade3c764cdcd70186f80a293dd3ab0"
+    },
+    {
+      "path": "review-evidence/group-05.png",
+      "sha256": "5aa8b3cb4abd8af06733594a32aa517c3cf7c2f73e05e4ec3a9288edcee246e2"
+    },
+    {
+      "path": "review-evidence/group-06.png",
+      "sha256": "3f6970c093aefcbd6d9453170ca9b9a9d058c902630fd3d9fca099b6ceff7f4b"
+    },
+    {
+      "path": "review-evidence/group-07.png",
+      "sha256": "0ebc1ace8b9ba6af7f45eccb0da13fc2b0efc64079592950499edabdf2671768"
+    },
+    {
+      "path": "review-evidence/group-08.png",
+      "sha256": "32ffbbb67d6d639577a4a3bf349407e8d80b0481b45ccdc289c8a49d7955ac70"
+    },
+    {
+      "path": "review-evidence/group-09.png",
+      "sha256": "c148e9511a050cb42938a3f59f7b1bab00f90a2533d3255047586eb2b0d3d880"
+    },
+    {
+      "path": "review-evidence/spacing-and-weight.png",
+      "sha256": "ddc601b5d8dd489f64b248823476299e30ba35885451c6761cdabaf9ab18f46f"
+    }
+  ],
+  "human_approval": "pending; this is agent preflight, not approval by Luis"
+}

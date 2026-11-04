@@ -289,10 +289,44 @@ def compare_releases(before, after, out):
     ga, gb = fa.getGlyphSet(), fb.getGlyphSet()
     cards = []
     changed = []
+    outline_changed = []
+    layout_changed = []
+    source_only = []
     for name in sorted(set(a["glyphs"]) | set(b["glyphs"])):
-        equal = a["glyphs"].get(name) == b["glyphs"].get(name)
+        old = a["glyphs"].get(name)
+        new = b["glyphs"].get(name)
+        equal = old == new
+        same_outline = (
+            old is not None
+            and new is not None
+            and old["compiled_sha256"] == new["compiled_sha256"]
+        )
+        same_layout = (
+            old is not None
+            and new is not None
+            and (old["unicode"], old["advance"]) == (new["unicode"], new["advance"])
+        )
         if not equal:
             changed.append(name)
+        if not same_outline:
+            outline_changed.append(name)
+        if not same_layout:
+            layout_changed.append(name)
+        if not equal and same_outline and same_layout:
+            source_only.append(name)
+        label = (
+            "unchanged"
+            if equal
+            else (
+                "OUTLINE CHANGED"
+                if not same_outline
+                else (
+                    "mapping/advance changed"
+                    if not same_layout
+                    else "source record changed; exported outline identical"
+                )
+            )
+        )
         paths = []
         for gs, color in [(ga, "#d33352"), (gb, "#087eaa")]:
             if name in gs:
@@ -307,14 +341,14 @@ def compare_releases(before, after, out):
             1000,
         )
         cards.append(
-            f'<article><h2>{escape(name)} — {"unchanged" if equal else "CHANGED"}</h2><svg viewBox="-40 0 {width + 80} {asc - desc + 40}" width="240" height="240"><g transform="translate(0 {asc + 20}) scale(1 -1)">'
+            f'<article><h2>{escape(name)} — {label}</h2><svg viewBox="-40 0 {width + 80} {asc - desc + 40}" width="240" height="240"><g transform="translate(0 {asc + 20}) scale(1 -1)">'
             + "".join(paths)
             + "</g></svg></article>"
         )
     html = (
-        '<!doctype html><html lang="en"><meta charset="utf-8"><title>Fontify comparison</title><style>body{background:#f7f5ef;font:16px system-ui;padding:30px}.grid{display:flex;flex-wrap:wrap}article{border:1px solid #ccc;margin:8px;padding:10px}h2{font-size:16px}</style><h1>Approved / candidate overlay</h1><p>Before = red · after = blue · shared origin, scale and baseline. Purple overlap means shared ink. Review sidebearings in the manifests.</p><p>'
+        '<!doctype html><html lang="en"><meta charset="utf-8"><title>Fontify comparison</title><style>body{background:#f7f5ef;font:16px system-ui;padding:30px}.grid{display:flex;flex-wrap:wrap}article{border:1px solid #ccc;margin:8px;padding:10px}h2{font-size:16px}</style><h1>Before / after overlay</h1><p>Before = red · after = blue · shared origin, scale and baseline. Purple overlap means shared ink. Review sidebearings in the manifests. This comparison does not confer approval.</p><p>'
         + str(len(changed))
-        + ' changed glyph records</p><div class="grid">'
+        + f' changed glyph records; {len(outline_changed)} exported outlines changed; {len(source_only)} source-only changes.</p><div class="grid">'
         + "".join(cards)
         + "</div></html>"
     )
@@ -325,6 +359,9 @@ def compare_releases(before, after, out):
         "before": a["version"],
         "after": b["version"],
         "changed_glyphs": changed,
+        "outline_changed_glyphs": outline_changed,
+        "mapping_or_advance_changed_glyphs": layout_changed,
+        "source_only_changes": source_only,
         "kerning_changed": a["kerning"] != b["kerning"],
         "metrics_changed": a["metrics"] != b["metrics"],
     }

@@ -73,7 +73,7 @@ def load_project(path):
         raise FontifyError(f"cannot read project: {e}") from e
     keys(
         d,
-        "schema family style version copyright license units_per_em ascender descender line_gap cap_height x_height svg_baseline curve_error required_characters glyphs kerning samples approval",
+        "schema family style version copyright license units_per_em ascender descender line_gap cap_height x_height svg_baseline curve_error required_characters glyphs kerning samples approval quality",
         "project",
     )
     if d.get("schema") != 1:
@@ -178,4 +178,6 @@ def load_project(path):
     d["samples"] = samples
     if d.get("approval") is not None:
         local_path(path.parent, d["approval"])
+    if d.get("quality") is not None:
+        local_path(path.parent, d["quality"])
     return Project(path, d)

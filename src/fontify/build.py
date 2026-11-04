@@ -15,6 +15,7 @@ from fontTools.ttLib import TTFont
 
 from .model import FontifyError, Project, codepoint, load_project
 from .outlines import compile_project, digest
+from .quality import audit_project, check_review
 from .review import check_approval, shape_font, verified_release, write_proofs
 
 
@@ -142,7 +143,18 @@ def verify_compiled(path, project, outlines):
     return {"kerning_pairs": pair_checks, "samples": samples}
 
 
-def build_font(project, output_dir):
+def release_font(project, output_dir):
+    """Require geometry preflight and current per-glyph visual evidence."""
+    if not isinstance(project, Project):
+        project = load_project(project)
+    if not project.data.get("quality"):
+        raise FontifyError(
+            "release requires a complete quality profile and per-glyph agent visual review"
+        )
+    return build_font(project, output_dir)
+
+
+def build_font(project, output_dir, *, draft=False):
     """Build TTF, WOFF2, compiled-outline proofs and a hash manifest; no network.
 
     A same-version release may be reproduced, but never replaced by different bytes.
@@ -152,9 +164,20 @@ def build_font(project, output_dir):
         project = load_project(project)
     outlines = compile_project(project)
     approval = check_approval(project, outlines)
+    source_quality = audit_project(project, outlines)
+    gated = source_quality["status"] != "not_configured"
+    if gated and not draft and source_quality["status"] != "passed":
+        names = [
+            n for n, g in source_quality["glyphs"].items() if g["status"] != "passed"
+        ]
+        raise FontifyError(
+            "preflight geometry failed: "
+            + ", ".join(names)
+            + "; audit and correct an internal draft before presenting a font"
+        )
     root = Path(output_dir).resolve()
     root.mkdir(parents=True, exist_ok=True)
-    target = root / project.stem
+    target = root / (project.stem + ("-draft" if draft else ""))
     with tempfile.TemporaryDirectory(prefix=".fontify-", dir=root) as tmp:
         tmp = Path(tmp)
         ttf = tmp / (project.stem + ".ttf")
@@ -166,7 +189,33 @@ def build_font(project, output_dir):
         f.save(woff)
         f.close()
         verify_compiled(woff, project, outlines)
-        write_proofs(ttf, woff, tmp, project, outlines, approval)
+        compiled_quality = audit_project(project, outlines, ttf)
+        review = {"status": "pending"}
+        if gated and not draft:
+            if compiled_quality["status"] != "passed":
+                raise FontifyError(
+                    "compiled font failed geometry recheck; inspect an internal draft"
+                )
+            review = check_review(project, compiled_quality)
+        quality = {
+            "source": source_quality,
+            "compiled": compiled_quality,
+            "visual_review": review,
+            "status": "internal_draft"
+            if draft
+            else ("preflight_passed" if gated else "not_configured"),
+        }
+        proof_approval = approval
+        if gated and not draft:
+            proof_approval = {
+                **approval,
+                "status": "preflight passed; glyph baseline matches"
+                if approval["status"] == "baseline_matches"
+                else "preflight passed; user design approval pending",
+            }
+        write_proofs(ttf, woff, tmp, project, outlines, proof_approval)
+        if gated:
+            (tmp / "quality.json").write_text(json.dumps(quality, indent=2) + "\n")
         report = {
             "approval": approval,
             "glyphs": {o.spec["name"]: o.diagnostics for o in outlines},
@@ -234,6 +283,8 @@ def build_font(project, output_dir):
                 )
             },
         }
+        if gated:
+            manifest["quality"] = {"status": quality["status"], "visual_review": review}
         (tmp / "release-manifest.json").write_text(
             json.dumps(manifest, indent=2) + "\n"
         )
@@ -245,6 +296,8 @@ def build_font(project, output_dir):
                 )
         else:
             shutil.copytree(tmp, target)
+    if draft:
+        return target / "release-manifest.json"
     current = {
         "schema": 1,
         "version": project.data["version"],

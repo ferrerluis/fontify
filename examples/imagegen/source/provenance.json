@@ -1,0 +1,12 @@
+{
+  "provider": "built-in image_gen",
+  "model": null,
+  "model_note": "Model identifier not exposed by the built-in tool; do not infer one.",
+  "calls": 1,
+  "recraft_calls": 0,
+  "source_sha256": "323d5e739fa8d2a13cfa7eadc188a279caa7a4c52c6f4f4b83a91a13ca387b83",
+  "source_file": "alphabet-v1.png",
+  "prompt_file": "prompt.txt",
+  "status": "generated_unapproved",
+  "design_method": "generative image model; no hand-coded substitute letterforms"
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "Recraft official remote MCP",
+  "model": "recraftv4_1_vector",
+  "generation_calls": 1,
+  "image_size_request": "4:5",
+  "output_format": "SVG",
+  "credits_used": 4,
+  "account": "personal Basic subscription; verified without storing identifiers",
+  "credits_before": 1001,
+  "credits_after": 997,
+  "source_sha256": "7ded43dfc5b7d6431208c972f26642a618fd346bd415e88f90ab4add8e47ea07",
+  "request": "request.json",
+  "source": "generated-alphabet.svg",
+  "status": "agent_preflight_passed; user_design_approved_2026-11-03",
+  "construction": "Native vector source, not raster tracing. Explicit sheet extraction, paint-order white-counter subtraction, one common scale, per-row baselines and local grid-collapse cleanup.",
+  "refinement": "Only H, Z and q change after the initial compiled sample. Rejected broad symmetry and I/i/l mirroring edits are preserved separately.",
+  "user_approval": "../user-approval.json"
+}

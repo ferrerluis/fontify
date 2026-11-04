@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "source": "generated-alphabet.svg",
+  "source_sha256": "7ded43dfc5b7d6431208c972f26642a618fd346bd415e88f90ab4add8e47ea07",
+  "base_project": "fontify-base.json",
+  "scale": 2.380952380952381,
+  "svg_baseline": 800,
+  "sidebearing": 40,
+  "space_advance": 280,
+  "ink_fills": [
+    "rgb(32,31,31)"
+  ],
+  "paper_fills": [
+    "rgb(255,255,255)"
+  ],
+  "component_center_tolerance": 90,
+  "rows": [
+    {
+      "characters": "ABCDEFG",
+      "top": 300,
+      "bottom": 800,
+      "baseline": 675
+    },
+    {
+      "characters": "HIJKLMN",
+      "top": 850,
+      "bottom": 1300,
+      "baseline": 1222
+    },
+    {
+      "characters": "OPQRSTU",
+      "top": 1350,
+      "bottom": 1900,
+      "baseline": 1767
+    },
+    {
+      "characters": "VWXYZ",
+      "top": 1950,
+      "bottom": 2400,
+      "baseline": 2310
+    },
+    {
+      "characters": "abcdefg",
+      "top": 2450,
+      "bottom": 3070,
+      "baseline": 2897
+    },
+    {
+      "characters": "hijklmn",
+      "top": 3100,
+      "bottom": 3650,
+      "baseline": 3461
+    },
+    {
+      "characters": "opqrstu",
+      "top": 3700,
+      "bottom": 4200,
+      "baseline": 4009
+    },
+    {
+      "characters": "vwxyz",
+      "top": 4300,
+      "bottom": 4700,
+      "baseline": 4557
+    }
+  ]
+}

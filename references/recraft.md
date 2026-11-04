@@ -17,8 +17,9 @@ Consistency remains an experiment to assess, not a promised capability.
 The [official remote guide](https://www.recraft.ai/docs/mcp-reference/remote-server)
 documents OAuth and subscription billing. The [API quickstart](https://www.recraft.ai/docs/api-reference/getting-started)
 documents tokens and API units. An existing Studio subscription is not evidence
-of API access or API credit balance. No account, token, purchase or paid call was
-created as part of development.
+of API access or API credit balance. No API token or credit purchase was created.
+After explicit user authorization, one MCP generation produced the Mellow sample
+for 4 subscription credits; its frozen source now rebuilds offline.
 
 ## MCP: documented capabilities and live discovery boundary
 
@@ -28,15 +29,40 @@ The [published tools page](https://www.recraft.ai/docs/mcp-reference/tools) list
 and `get_user`. It describes prompt/model/style/size inputs, reference images,
 and account information. This is a **documentation inventory, not a discovered schema**.
 
-No configured Recraft tools were exposed in this session. An actual `initialize`
-POST on 2026-11-03 returned Cloudflare 403/error 1010 before MCP authentication.
-No `tools/list` response was obtained; live fields, tool names and model enums
-remain unverified. [The saved result](../docs/research/recraft-mcp-discovery.json)
-contains no credentials. Do not substitute REST fields or illustrative documentation
-parameter labels for a real MCP `inputSchema`.
+The first unauthenticated `initialize` POST returned Cloudflare 403/error 1010;
+[that historical result](../docs/research/recraft-mcp-discovery.json) is retained.
+The user subsequently connected the official MCP via Codex OAuth. The live tool
+signatures, personal Basic account access and an SVG generation were verified on
+2026-11-03. [Live evidence](../docs/research/recraft-live-tools.json) records the
+exposed signatures, not a raw unauthenticated `tools/list` export or credentials.
+
+The actual `generate_image` fields include `prompt`, `model`, `n`, `image_size`,
+`input_style` and `input_style_id`. Its model enum includes V4.1, Pro, V3 and V2
+vector variants, along with raster/external models. It exposes **no seed or
+response-format argument**, and no V4.1 Utility enum in this connection. REST's
+`size`, `style_id`, `random_seed` and `response_format` must not be forwarded to
+MCP. The working request uses explicit `recraftv4_1_vector`, `n: 1`, `image_size:
+"4:5"`; the response returned an SVG URL, a WEBP preview and `credits: 4`.
+
+Other exposed tools include `get_user`, `select_workspace`, `suggest_model`, style
+operations and `call_agent`. The live style-creation description says it is free;
+this differs from API reference-style billing. No style or Design Agent call was
+used in the sample. Never infer Studio/MCP costs from API unit prices.
+
+`get_user` confirms which account is active and reports plan/credits. Do not
+switch workspaces automatically: workspace results can be visible to teammates
+and use a different credit balance. This experiment stayed in the active personal
+account. One direct Vector generation used 4 of its 1,001 credits, leaving 997 at
+the post-call check. No account identifiers are stored in the repo.
 
 Connect the remote URL in an OAuth-capable MCP client when desired; let that
-client manage authorization. Export its `tools/list` result for review. For a
+client manage authorization. In Codex, `codex mcp add recraft --url
+https://mcp.recraft.ai/mcp` adds it and may start sign-in; use `codex mcp login
+recraft` if needed. The desktop app shares the CLI configuration. If `codex` is
+not on PATH on this Mac, the verified bundled executable is
+`/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex`.
+See [Codex MCP setup](https://developers.openai.com/codex/mcp).
+Inspect the exposed live signatures or export `tools/list` for review. For a
 network that can reach the endpoint, the read-only helper supports pagination:
 
 ```sh
@@ -113,6 +139,14 @@ The local request plan still contains the prompt/references; keep private plans
 out of a public repo. `save_candidate` always creates a fresh review directory.
 
 ## One-shot experiment and correction workflow
+
+The initial ten-letter proposal below was not run. The actual user-authorized
+experiment used a new 52-letter modern comic-inspired brief; see
+[Fontify Mellow](../examples/recraft-mellow/README.md). Only one generation was
+made. It supplied native vector artwork, not a finished font or consistency
+guarantee. Extraction produced all 53 mappings including blank space. Enlarged
+review rejected over-rigid symmetry edits, and only H/Z/q were refined. The
+remaining 49 letter outlines match the first compiled sample exactly.
 
 1. Start with the checked-in concept prompt: one sheet of diagnostic letters
    A H O C G D R S V W, one shared style, black silhouettes, no labels/background.

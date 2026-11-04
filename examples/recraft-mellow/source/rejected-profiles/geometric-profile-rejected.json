@@ -1,0 +1,1892 @@
+{
+  "schema": 1,
+  "review": "agent-review.json",
+  "max_bounds_change": 12,
+  "glyphs": {
+    "space": {
+      "construction": "blank",
+      "symmetry": [],
+      "corners": [],
+      "note": "Blank word spacing, with a deliberately set advance."
+    },
+    "A": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          194.4081424726669,
+          210.55007207961307
+        ],
+        [
+          461.5918575273331,
+          210.55007207961307
+        ],
+        [
+          462.83436550094075,
+          209.86662365141365
+        ],
+        [
+          193.16563449905925,
+          209.86662365141365
+        ],
+        [
+          331.55806225503306,
+          564.7856939406622
+        ],
+        [
+          324.44193774496694,
+          564.7856939406622
+        ],
+        [
+          428.4151876735598,
+          296.05712890625
+        ],
+        [
+          227.58481232644021,
+          296.05712890625
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp crossbar entries and the triangular counter apex; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          241.4545040798098,
+          207.11149483816962,
+          462.84436550094074,
+          209.87662365141364
+        ]
+      ]
+    },
+    "B": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          120.5965457239904,
+          314.11903018043154
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp squared left counter entries; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          41.96047615553811,
+          74.98767485119036,
+          42.796894031281916,
+          243.83614862351192
+        ],
+        [
+          42.29529758410967,
+          243.81614862351194,
+          42.488230526817695,
+          330.96238095238095
+        ],
+        [
+          39.99136575747274,
+          330.942380952381,
+          42.43969304541884,
+          641.6790644763764
+        ],
+        [
+          80.63409501714544,
+          690.9566515531994,
+          190.1540717656569,
+          695.0552532087053
+        ],
+        [
+          102.06266644571654,
+          3.204227585565368,
+          228.2731426361927,
+          4.31472237723211
+        ],
+        [
+          134.64846443678812,
+          85.48470447358635,
+          252.08266644571654,
+          87.30524158296136
+        ],
+        [
+          120.5865457239904,
+          314.10903018043155,
+          280.6779277924427,
+          319.70996861049093
+        ]
+      ]
+    },
+    "C": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "D": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.43879199274579,
+          609.0595063709077
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp squared left counter entries; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          104.0239719592639,
+          1.6280673363094047,
+          199.2820671973584,
+          3.4624100167409413
+        ],
+        [
+          39.66675934765612,
+          74.98767485119036,
+          40.94873386402538,
+          371.4385714285713
+        ],
+        [
+          40.92873386402538,
+          371.41857142857134,
+          43.40118457087079,
+          609.5338095238095
+        ],
+        [
+          125.40720298604923,
+          82.92268112909231,
+          233.8058767211685,
+          83.65766438802076
+        ],
+        [
+          123.42879199274579,
+          609.0495063709077,
+          254.0439719592639,
+          610.5052130998884
+        ]
+      ]
+    },
+    "E": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          122.99088605474753,
+          82.18093145461307
+        ],
+        [
+          121.3714199089136,
+          609.9905104864212
+        ],
+        [
+          123.65704118867598,
+          391.35713123139885
+        ],
+        [
+          123.15713419462827,
+          312.58094424293154
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inner arm-to-upright elbows; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          122.98088605474753,
+          78.61621489025286,
+          404.286344574092,
+          82.19093145461308
+        ],
+        [
+          279.29017734938975,
+          0.14476771763383112,
+          391.2149392541521,
+          2.5766736421130734
+        ],
+        [
+          98.52845859938974,
+          2.556673642113074,
+          279.31017734938973,
+          5.9266317894344045
+        ],
+        [
+          40.42124598778286,
+          179.75190476190483,
+          41.10798240891359,
+          389.96644705636163
+        ],
+        [
+          39.68649896397368,
+          389.94644705636165,
+          40.44124598778286,
+          621.4314506603422
+        ],
+        [
+          128.0997011589136,
+          693.9852305385044,
+          359.71498575712826,
+          700.3385725911457
+        ],
+        [
+          273.38081164998516,
+          610.7053756277902,
+          403.0958683836159,
+          611.7195220656622
+        ],
+        [
+          121.36141990891359,
+          609.9805104864212,
+          273.40081164998514,
+          611.7004122488839
+        ],
+        [
+          123.64704118867597,
+          391.34713123139886,
+          343.5958916351044,
+          393.1386039806548
+        ],
+        [
+          255.6881730711159,
+          312.5594638206844,
+          344.78636782558056,
+          313.01630115327384
+        ],
+        [
+          123.14713419462826,
+          312.57094424293155,
+          255.70817307111588,
+          313.6660349237352
+        ]
+      ]
+    },
+    "F": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          125.42932414716506,
+          307.32625325520826
+        ],
+        [
+          124.61959107424809,
+          611.8618919735862
+        ],
+        [
+          125.95306391651047,
+          393.9190819149926
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inner arm-to-upright elbows; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          124.51658512186735,
+          189.37496907552077,
+          125.43932414716507,
+          307.33625325520825
+        ],
+        [
+          125.22866194478341,
+          67.84481770833325,
+          126.26358940014121,
+          189.39496907552075
+        ],
+        [
+          40.08578155043892,
+          82.1328571428571,
+          40.98991938526047,
+          380.5843989490327
+        ],
+        [
+          40.43920416948662,
+          380.5643989490327,
+          40.98701294924809,
+          636.9171597144717
+        ],
+        [
+          119.53844152067653,
+          692.7828379603794,
+          351.7012986635334,
+          699.1385778227307
+        ],
+        [
+          276.62084479448663,
+          612.1195747302827,
+          386.2251081873435,
+          612.85913562593
+        ],
+        [
+          124.60959107424809,
+          611.8518919735862,
+          276.6408447944866,
+          613.8574963960193
+        ],
+        [
+          199.41892887186737,
+          393.12092912946423,
+          304.0822510444866,
+          393.9229057384673
+        ],
+        [
+          125.41932414716506,
+          307.31625325520827,
+          253.90786488377194,
+          313.71210193452384
+        ]
+      ]
+    },
+    "G": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          517.6920083031191,
+          273.35713704427076
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside corner where the crossbar meets the right wall; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          434.3486749697852,
+          353.92575032552077,
+          537.9401035412145,
+          354.4385365513392
+        ],
+        [
+          599.572586800143,
+          120.22329961867557,
+          600.2035196498452,
+          215.11460263206845
+        ]
+      ]
+    },
+    "H": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          123.73827136811042,
+          313.52393740699426
+        ],
+        [
+          460.2617286318896,
+          313.52393740699426
+        ],
+        [
+          122.92635846818484,
+          398.59531947544656
+        ],
+        [
+          461.07364153181516,
+          398.59531947544656
+        ],
+        [
+          463.983545503155,
+          399.761962890625
+        ],
+        [
+          120.01645449684497,
+          399.761962890625
+        ],
+        [
+          462.0788126627531,
+          316.16675967261926
+        ],
+        [
+          121.92118733724692,
+          316.16675967261926
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp four inside crossbar-to-upright corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          122.14339181081867,
+          166.915048828125,
+          123.74827136811042,
+          313.53393740699426
+        ],
+        [
+          121.72588227770846,
+          48.799523809523855,
+          122.5447162155806,
+          166.935048828125
+        ],
+        [
+          40.725835774732325,
+          132.13285714285735,
+          41.47927490233656,
+          309.9104836309523
+        ],
+        [
+          39.44656796409253,
+          309.8904836309523,
+          40.76022263299138,
+          633.3456584821431
+        ],
+        [
+          119.41163260322945,
+          398.58531947544657,
+          122.93635846818485,
+          642.8671428571431
+        ],
+        [
+          462.78074416386926,
+          399.751962890625,
+          463.993545503155,
+          483.4822609747023
+        ],
+        [
+          461.34409284318485,
+          483.4622609747023,
+          462.80074416386924,
+          611.9170870535715
+        ],
+        [
+          541.3473771158781,
+          386.20564592633923,
+          542.6306595284525,
+          622.6290476190477
+        ],
+        [
+          542.6106595284525,
+          65.46619047619082,
+          544.1103261021133,
+          386.2256459263392
+        ],
+        [
+          462.0688126627531,
+          49.99,
+          465.49355712889906,
+          316.17675967261926
+        ]
+      ]
+    },
+    "I": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          119.97004524534599,
+          207.19650809151813,
+          121.18604366424485,
+          604.771904761905
+        ],
+        [
+          120.92132175204209,
+          66.65666666666696,
+          121.00526334430403,
+          207.2165080915181
+        ],
+        [
+          41.30444814713177,
+          104.75190476190504,
+          41.942356443262504,
+          199.09563523065503
+        ],
+        [
+          39.33243131305402,
+          199.07563523065505,
+          41.32444814713177,
+          634.5361346726193
+        ]
+      ]
+    },
+    "J": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "K": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          155.34338419423102,
+          411.38102213541697
+        ],
+        [
+          225.4623155558379,
+          372.7382114955358
+        ],
+        [
+          153.43850603202873,
+          331.07154482886926
+        ],
+        [
+          119.53376737875487,
+          329.09516834077385
+        ],
+        [
+          121.58135154914135,
+          418.28584216889885
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp deliberate diagonal and upright junctions; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          117.90139479690946,
+          162.7225148809523,
+          119.54376737875488,
+          329.10516834077384
+        ],
+        [
+          118.78960164214799,
+          67.84714285714311,
+          119.316193439023,
+          162.74251488095229
+        ],
+        [
+          39.714197066254876,
+          76.18047619047614,
+          40.78196724854639,
+          216.67666666666696
+        ],
+        [
+          40.76196724854639,
+          216.65666666666698,
+          41.969827646611755,
+          439.8708979724704
+        ],
+        [
+          41.08806936908217,
+          439.8508979724704,
+          41.71057355435028,
+          623.8218489583335
+        ],
+        [
+          121.54199654542184,
+          546.8405859375,
+          122.30807866967758,
+          646.4385714285715
+        ],
+        [
+          120.57851300747528,
+          418.27584216889886,
+          121.59135154914135,
+          546.8605859375
+        ]
+      ]
+    },
+    "L": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          121.92217357267964,
+          84.5953078497023
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside foot elbow; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          118.60232424232275,
+          84.58530784970229,
+          121.93217357267964,
+          628.5814285714289
+        ],
+        [
+          121.91217357267963,
+          83.78487537202385,
+          240.15843380333422,
+          84.6053078497023
+        ],
+        [
+          240.13843380333424,
+          83.84707310267889,
+          361.05105843131037,
+          84.7337723214289
+        ],
+        [
+          139.62631977803653,
+          5.847049851190823,
+          364.6224870027388,
+          7.009860491071558
+        ],
+        [
+          39.72223216642964,
+          84.51380952380963,
+          40.550221377738815,
+          254.6597163318454
+        ],
+        [
+          40.53022137773882,
+          254.63971633184542,
+          41.075123721488815,
+          352.3909523809523
+        ],
+        [
+          40.9847879700012,
+          352.3709523809523,
+          41.125114420893404,
+          439.2776943824408
+        ],
+        [
+          40.70518882565579,
+          439.25769438244083,
+          41.9557738330957,
+          640.488515625
+        ]
+      ]
+    },
+    "M": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          642.34488621533,
+          537.1047247023812
+        ],
+        [
+          152.9400080531277,
+          550.8451915922619
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp two inside upright-to-diagonal corners; these are named corners, not curve-smoothing targets."
+    },
+    "N": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          124.25191867746616,
+          558.8618687220983
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside diagonal entry; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          120.94776410157304,
+          374.1875330171131,
+          124.26191867746617,
+          558.8718687220983
+        ],
+        [
+          121.10122392300148,
+          226.4251981026789,
+          121.58799754651388,
+          333.3433333333335
+        ],
+        [
+          121.5517215048469,
+          55.94238095238119,
+          122.33262645276388,
+          226.4451981026789
+        ],
+        [
+          40.95625089472764,
+          67.84714285714311,
+          41.23841142300149,
+          186.91476190476192
+        ],
+        [
+          40.474363803953786,
+          186.89476190476194,
+          40.976250894727634,
+          345.0080236235119
+        ],
+        [
+          39.641379242942314,
+          344.98802362351194,
+          40.49436380395378,
+          633.3456584821431
+        ],
+        [
+          489.57569378907306,
+          164.27571428571423,
+          497.88136157181157,
+          567.8671428571431
+        ],
+        [
+          573.6705133575254,
+          475.689869791667,
+          574.60952842449,
+          600.01
+        ],
+        [
+          574.58952842449,
+          102.37095238095229,
+          576.6015996670492,
+          475.70986979166696
+        ]
+      ]
+    },
+    "O": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "P": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          122.69727904848514,
+          273.78569103422615
+        ],
+        [
+          120.53053100161014,
+          621.5715680803569
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside bowl mouth and counter entry; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          120.60103927913973,
+          162.75681082589267,
+          122.70727904848515,
+          273.79569103422614
+        ],
+        [
+          119.30622203583629,
+          70.2280952380954,
+          120.62103927913974,
+          162.77681082589265
+        ],
+        [
+          41.94416148896129,
+          79.75190476190458,
+          42.44546729253285,
+          168.314443359375
+        ],
+        [
+          41.12425589000281,
+          189.27571428571423,
+          42.40971812958629,
+          384.18794363839265
+        ],
+        [
+          39.668422091639734,
+          384.16794363839267,
+          41.1442558900028,
+          608.343333333333
+        ],
+        [
+          131.8440057039909,
+          697.6805459449404,
+          218.56444515711587,
+          698.2062658110115
+        ]
+      ]
+    },
+    "Q": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          412.4747458051843,
+          -1.7380487351192642
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp tail-to-bowl junction; these are named corners, not curve-smoothing targets."
+    },
+    "R": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.96862668931044,
+          308.38099888392844
+        ],
+        [
+          303.06408567368544,
+          319.3571544828865
+        ],
+        [
+          210.0162806141616,
+          310.6904529389881
+        ],
+        [
+          121.849834836632,
+          622.9047502790177
+        ],
+        [
+          122.20674517889438,
+          389.7379557291665
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp leg junctions and squared counter mouth; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          120.53019476966823,
+          60.70428571428533,
+          123.97862668931045,
+          308.39099888392843
+        ],
+        [
+          40.952558050918235,
+          72.6090476190477,
+          41.28819700181044,
+          212.56551292782729
+        ],
+        [
+          41.08218509704897,
+          212.5455129278273,
+          41.18763431579897,
+          304.7719047619046
+        ],
+        [
+          40.56425819972741,
+          304.7519047619046,
+          41.121658218328555,
+          415.2693703497023
+        ],
+        [
+          39.64495248916159,
+          415.2493703497023,
+          40.58425819972741,
+          640.4861904761904
+        ],
+        [
+          111.00638524585814,
+          699.8708361235115,
+          219.35971857919208,
+          700.5814053199404
+        ],
+        [
+          121.839834836632,
+          622.8947502790177,
+          206.26448048395355,
+          624.8670033482142
+        ]
+      ]
+    },
+    "S": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "T": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          251.8395743448391,
+          617.2380719866069
+        ],
+        [
+          336.1604256551609,
+          617.2380719866069
+        ],
+        [
+          334.5300040323391,
+          617.8809756324404
+        ],
+        [
+          253.4699959676609,
+          617.8809756324404
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp two inside stem-to-bar corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          163.9040721126969,
+          617.2280719866069,
+          251.84957434483908,
+          619.3090257626484
+        ],
+        [
+          101.13900514841065,
+          699.3709291294642,
+          471.39710038650605,
+          701.2481417410711
+        ],
+        [
+          334.5200040323391,
+          617.8709756324404,
+          423.1148040695414,
+          619.4834119233631
+        ],
+        [
+          334.1200784371015,
+          497.2053436569938,
+          334.5400040323391,
+          617.8909756324404
+        ],
+        [
+          334.3717757957322,
+          279.45922665550574,
+          335.5014530650776,
+          430.9623809523807
+        ],
+        [
+          335.48145306507763,
+          90.46619047618991,
+          336.88607918114917,
+          279.4792266555057
+        ],
+        [
+          249.45792255912534,
+          72.6090476190477,
+          251.19155723174367,
+          328.5840443638392
+        ],
+        [
+          251.1715572317437,
+          328.56404436383923,
+          253.12433717966064,
+          617.2480719866069
+        ]
+      ]
+    },
+    "U": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "V": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "W": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          473.5741968600869,
+          522.285970052083
+        ],
+        [
+          466.4258031399131,
+          522.285970052083
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp acute inner center junction; these are named corners, not curve-smoothing targets."
+    },
+    "X": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [
+        [
+          312.0082087543724,
+          433.1426711309523
+        ],
+        [
+          307.9917912456276,
+          433.1426711309523
+        ],
+        [
+          312.0082087543724,
+          262.8573288690477
+        ],
+        [
+          307.9917912456276,
+          262.8573288690477
+        ],
+        [
+          303.48450386225977,
+          287.5714983258931
+        ],
+        [
+          316.51549613774023,
+          287.5714983258931
+        ],
+        [
+          303.48450386225977,
+          408.4285016741069
+        ],
+        [
+          316.51549613774023,
+          408.4285016741069
+        ]
+      ],
+      "note": "Exact vertical/horizontal reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside crossing corners; these are named corners, not curve-smoothing targets."
+    },
+    "Y": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          298.55473114366123,
+          377.11879185267844
+        ],
+        [
+          297.44526885633877,
+          377.11879185267844
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside fork; these are named corners, not curve-smoothing targets."
+    },
+    "Z": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          421.9285016741078,
+          607.4997674851193
+        ],
+        [
+          145.76185825892935,
+          87.54766555059541
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp two inside diagonal-to-bar corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          141.03761904761927,
+          607.4897674851193,
+          421.9385016741078,
+          612.5338327752977
+        ],
+        [
+          193.41857142857157,
+          690.8948897879466,
+          463.67666666666696,
+          693.4862137276784
+        ],
+        [
+          145.75185825892936,
+          80.51397228422614,
+          308.9147619047624,
+          87.55766555059542
+        ],
+        [
+          308.8947619047624,
+          77.13262462797614,
+          469.6290476190477,
+          80.53397228422615
+        ],
+        [
+          100.56142857142935,
+          -2.010209263393117,
+          394.6290476190477,
+          0.9621484375
+        ]
+      ]
+    },
+    "a": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          314.4826226066666,
+          272.1668061755954
+        ],
+        [
+          325.3683880456547,
+          56.88069661458303
+        ],
+        [
+          317.4112928540626,
+          193.6668759300601
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp single-storey counter and tail junctions; these are named corners, not curve-smoothing targets."
+    },
+    "b": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.72449381704382,
+          61.78559802827385
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside bowl-to-stem junction; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          41.18827776421653,
+          86.89476190476238,
+          42.09154366823419,
+          491.0389946056546
+        ],
+        [
+          41.07492675975231,
+          522.6090476190477,
+          42.28947196064497,
+          637.5960305059523
+        ],
+        [
+          39.57229934159772,
+          637.5760305059523,
+          41.094926759752305,
+          782.1528571428569
+        ],
+        [
+          117.92865164814496,
+          384.0139025297624,
+          123.06775739591309,
+          728.5814285714284
+        ]
+      ]
+    },
+    "c": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "d": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          389.48734831900674,
+          399.66692243303623
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside bowl-to-ascender junction; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          389.47734831900675,
+          399.65692243303624,
+          392.3067093681145,
+          615.4861904761908
+        ],
+        [
+          390.995670491626,
+          672.6700827752977,
+          392.116337809334,
+          779.7719047619046
+        ],
+        [
+          471.5487071359714,
+          532.2415578497023,
+          472.76644941647714,
+          765.4861904761908
+        ],
+        [
+          470.7630974819533,
+          58.32333333333303,
+          471.6402054618645,
+          501.20047619047614
+        ]
+      ]
+    },
+    "e": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          130.26084582712338,
+          191.3097563244046
+        ],
+        [
+          122.7372455667064,
+          266.83349609375
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp crossbar and counter junctions; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          280.96524779884953,
+          192.2891071428569,
+          363.5803463851587,
+          193.01013950892843
+        ],
+        [
+          130.25084582712338,
+          191.2997563244046,
+          219.89196282861099,
+          192.99560732886926
+        ],
+        [
+          122.7272455667064,
+          264.8471196056546,
+          224.29463209944493,
+          266.84349609375
+        ]
+      ]
+    },
+    "f": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          201.19472812315053,
+          374.3809291294647
+        ],
+        [
+          118.02822421690053,
+          374.9046688988101
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp crossbar-to-stem corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          117.32765502047208,
+          457.84725911458304,
+          119.06187098029365,
+          600.01
+        ],
+        [
+          202.84023407553218,
+          461.2971986607147,
+          205.75330048178216,
+          629.7719047619046
+        ],
+        [
+          201.18472812315053,
+          374.3709291294647,
+          283.58591301898446,
+          375.9144828869046
+        ],
+        [
+          200.74178727493677,
+          227.0547321428569,
+          201.2192603032106,
+          374.39092912946467
+        ],
+        [
+          201.0661455338652,
+          65.46619047619082,
+          201.7214924460675,
+          227.07473214285687
+        ],
+        [
+          118.28794147880602,
+          84.51380952381008,
+          118.73228113654365,
+          252.38397693452384
+        ],
+        [
+          117.97811539993675,
+          252.36397693452386,
+          118.30794147880603,
+          374.9146688988101
+        ]
+      ]
+    },
+    "g": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          398.40209628575394,
+          374.0001860119046
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp upper bowl-to-ear junction; these are named corners, not curve-smoothing targets."
+    },
+    "h": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          367.2478299167683,
+          71.41857142857155,
+          370.53219352353926,
+          255.96238095238164
+        ],
+        [
+          130.5120772660989,
+          124.99,
+          136.78454773670887,
+          259.5338095238101
+        ],
+        [
+          42.42643040970005,
+          98.79952380952385,
+          47.80357326684294,
+          690.4861904761908
+        ],
+        [
+          118.15260344727447,
+          672.6090476190477,
+          119.84874509533985,
+          764.2957142857147
+        ],
+        [
+          119.82874509533984,
+          408.75174200148854,
+          126.87025853470006,
+          672.6290476190477
+        ],
+        [
+          449.89306452428355,
+          65.46619047619082,
+          452.9202085440006,
+          248.79569103422705
+        ]
+      ]
+    },
+    "i": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          127.15625363817229,
+          76.18047619047705,
+          132.17619550945233,
+          352.3909523809532
+        ],
+        [
+          49.58492969844041,
+          67.84714285714311,
+          51.05727577358926,
+          392.8671428571431
+        ]
+      ]
+    },
+    "j": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          285.72450758163745,
+          258.24834728422707,
+          286.07845707940555,
+          402.3909523809532
+        ],
+        [
+          285.85210012256016,
+          111.11699962797705,
+          286.1514086233044,
+          207.15285714285778
+        ],
+        [
+          285.55796879815557,
+          -91.67666666666607,
+          286.7411244901198,
+          111.13699962797706
+        ],
+        [
+          207.7721498807448,
+          -32.15285714285688,
+          209.5540313911613,
+          400.01
+        ]
+      ]
+    },
+    "k": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          126.1673953096606,
+          188.23823474702385
+        ],
+        [
+          126.97712838257667,
+          293.04780505952385
+        ],
+        [
+          228.76284266829134,
+          262.8569103422624
+        ],
+        [
+          163.02449166382667,
+          209.1668991815477
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp diagonal arm-to-upright corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          124.37168102394592,
+          53.56142857142935,
+          126.17739530966061,
+          188.24823474702384
+        ],
+        [
+          41.76088768317208,
+          74.99,
+          42.43628900385716,
+          239.70145275297705
+        ],
+        [
+          42.416289003857166,
+          239.68145275297707,
+          43.03472417870831,
+          384.5338095238101
+        ],
+        [
+          41.50250552171405,
+          384.5138095238101,
+          43.04460606114822,
+          541.1535081845238
+        ],
+        [
+          39.356683814124374,
+          541.1335081845239,
+          41.522505521714045,
+          761.9147619047624
+        ],
+        [
+          119.44323747855945,
+          655.8708826264885,
+          123.0346660499879,
+          760.7242857142862
+        ],
+        [
+          123.18120483346978,
+          293.03780505952386,
+          126.98712838257667,
+          647.6290476190477
+        ]
+      ]
+    },
+    "l": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          120.52195663306269,
+          77.3709523809532,
+          125.97059781609893,
+          741.676666666667
+        ],
+        [
+          43.181113069075074,
+          111.89476190476238,
+          44.08931991431269,
+          347.6150967261908
+        ],
+        [
+          42.85501094853884,
+          347.59509672619083,
+          43.20111306907507,
+          511.9147619047624
+        ],
+        [
+          41.451783641991135,
+          511.8947619047624,
+          42.875010948538836,
+          617.5439471726193
+        ],
+        [
+          39.72012906609893,
+          617.5239471726193,
+          41.47178364199113,
+          767.8671428571431
+        ]
+      ]
+    },
+    "m": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          396.3887688861414,
+          393.7616257440477
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside join of the two arches; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          707.5929615944754,
+          154.05087239583395,
+          713.5025635289992,
+          315.70068545386926
+        ],
+        [
+          630.26258120013,
+          61.89476190476238,
+          631.779977033463,
+          164.09982049851237
+        ],
+        [
+          628.8076193325708,
+          164.0798204985124,
+          630.341872494773,
+          266.67666666666696
+        ],
+        [
+          423.1854095111414,
+          150.63115978422707,
+          424.2557954858446,
+          242.8671428571431
+        ],
+        [
+          336.7363767730469,
+          66.65666666666696,
+          337.56552855876066,
+          172.8359858630954
+        ],
+        [
+          337.0932871153084,
+          172.81598586309542,
+          337.62714500221296,
+          266.67666666666696
+        ],
+        [
+          39.592822085546906,
+          63.08523809523853,
+          42.0176072417969,
+          390.4861904761908
+        ]
+      ]
+    },
+    "n": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          440.0411157526444,
+          82.13285714285779,
+          444.0847857675251,
+          277.3909523809532
+        ],
+        [
+          357.1123583121682,
+          67.84714285714311,
+          360.7991179847875,
+          266.67666666666696
+        ],
+        [
+          39.68362412317969,
+          115.46619047619082,
+          41.03709696544207,
+          394.05761904761926
+        ]
+      ]
+    },
+    "o": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "p": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.73929664590014,
+          421.47623697916606
+        ],
+        [
+          125.28697382223936,
+          57.16668991815459
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp shoulder and baseline bowl-to-stem junctions; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          123.61042341301321,
+          -222.6290476190477,
+          126.13024902685244,
+          17.86714285714312
+        ],
+        [
+          40.91970308191207,
+          -210.72428571428622,
+          43.22561500527514,
+          255.96238095238164
+        ]
+      ]
+    },
+    "q": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          387.50433179887887,
+          49.59542410714312
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside bowl-to-descender corner; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          470.1251795481346,
+          70.71172619047705,
+          472.05645186956303,
+          266.67666666666605
+        ],
+        [
+          472.03645186956305,
+          -38.105238095238526,
+          473.4666546225392,
+          70.73172619047706
+        ],
+        [
+          473.4466546225392,
+          -233.34333333333393,
+          478.2285593844442,
+          -38.08523809523853
+        ],
+        [
+          390.30369284798576,
+          -230.96238095237982,
+          392.49044089486074,
+          -90.46619047619082
+        ],
+        [
+          386.6128097564681,
+          -38.29415643601147,
+          388.80449874456303,
+          49.605424107143115
+        ]
+      ]
+    },
+    "r": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          119.95759260665203,
+          52.370952380952296,
+          123.78705828745548,
+          176.20047619047705
+        ],
+        [
+          39.52895142361671,
+          95.2280952380954,
+          41.929903804569,
+          400.01
+        ]
+      ]
+    },
+    "s": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design."
+    },
+    "t": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          205.51645875413305,
+          476.66655040922706
+        ],
+        [
+          203.61158059193076,
+          394.8096865699408
+        ],
+        [
+          119.92133691633535,
+          394.2144484747023
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp crossbar-to-stem corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          119.12543661871608,
+          475.10916387648854,
+          120.09758505621609,
+          570.2480952380954
+        ],
+        [
+          201.5473116187161,
+          213.31135881696378,
+          203.62158059193075,
+          394.8196865699408
+        ],
+        [
+          119.91133691633534,
+          141.65666666666607,
+          123.76434472883535,
+          394.2244484747023
+        ]
+      ]
+    },
+    "u": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          123.57545833328935,
+          313.96298177083395,
+          124.5173798362655,
+          408.34333333333393
+        ],
+        [
+          122.71805970977788,
+          226.18047619047707,
+          123.59545833328936,
+          313.98298177083393
+        ],
+        [
+          357.07097079608707,
+          263.08523809523854,
+          358.13961290918246,
+          345.8805357142862
+        ],
+        [
+          438.4366469493609,
+          244.03761904762018,
+          441.19450967257467,
+          401.20047619047705
+        ],
+        [
+          441.1745096725747,
+          49.99,
+          445.9802472097779,
+          244.05761904762016
+        ],
+        [
+          39.67478869043247,
+          208.32333333333395,
+          40.912585379420086,
+          364.8153850446431
+        ]
+      ]
+    },
+    "v": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          265.917603074819,
+          137.80924479166606
+        ],
+        [
+          262.082396925181,
+          137.80924479166606
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp acute inner crotch; these are named corners, not curve-smoothing targets."
+    },
+    "w": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          235.14275251116078,
+          144.23828125
+        ],
+        [
+          556.8572474888392,
+          144.23828125
+        ],
+        [
+          556.7858189174108,
+          133.78557477678623
+        ],
+        [
+          235.21418108258922,
+          133.78557477678623
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp acute inside diagonal junctions; these are named corners, not curve-smoothing targets."
+    },
+    "x": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          207.3533942090653,
+          258.47632998511835
+        ],
+        [
+          302.6466057909347,
+          258.47632998511835
+        ],
+        [
+          310.75828399701186,
+          261.1909412202385
+        ],
+        [
+          199.24171600298814,
+          261.1909412202385
+        ],
+        [
+          255.18693680579236,
+          199.0001860119046
+        ],
+        [
+          254.81306319420764,
+          199.0001860119046
+        ]
+      ],
+      "note": "Exact vertical reflection is intended for this balanced rounded form. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside crossing corners; these are named corners, not curve-smoothing targets."
+    },
+    "y": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          270.24294872375776,
+          159.5714750744046
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside fork; these are named corners, not curve-smoothing targets."
+    },
+    "z": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          301.44291328225063,
+          416.47600446428623
+        ],
+        [
+          151.99048582689375,
+          87.90457589285688
+        ]
+      ],
+      "note": "Preserve the intentional asymmetric humanist construction, terminal positions and joins. Rounded medium monoline forms: inspect smooth bowls, round caps, open counters and local optical weight. Preserve genuine diagonals; tall lowercase ascenders are part of the generated design. Enlarged review confirms intentional sharp inside diagonal-to-bar corners; these are named corners, not curve-smoothing targets. Declared narrow regions identify long near-linear upright/arm boundaries; round terminal caps and natural bowls are excluded.",
+      "straight_regions": [
+        [
+          211.77459389981072,
+          416.46600446428624,
+          301.4529132822506,
+          417.71833333333393
+        ],
+        [
+          123.00448136260842,
+          417.65066778273854,
+          211.7945938998107,
+          418.8669568452385
+        ],
+        [
+          143.24257660070384,
+          495.44200892857066,
+          355.1673385054653,
+          496.5571540178569
+        ],
+        [
+          151.98048582689376,
+          82.7280952380954,
+          374.21495755308456,
+          87.91457589285689
+        ],
+        [
+          145.48867035070384,
+          -2.147974330356883,
+          360.0960726944538,
+          5.939129464286234
+        ]
+      ]
+    }
+  }
+}

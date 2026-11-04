@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "glyphs": {
+    "B": {
+      "fingerprint": "f4c42fa9159899a8582d088f04f382746f5cc64860ec1a3ca935a7f5e7ba9741",
+      "note": "Round the two counters and local bowl arcs; remove the tilted top trace and preserve the asymmetric bowl junction, left stem and original bounds.",
+      "contours": {
+        "1": "M225 145 L333 145 C385 145 421 169 421 223 C421 276 385 301 333 301 L225 301 Z",
+        "2": "M225 438 L318 438 C378 438 407 458 407 501 C407 544 378 566 318 566 L225 566 Z",
+        "0": "M50 0 L50 698 L385 698 C520 698 592 640 592 535 C592 460 555 412 491 376 C570 347 613 285 613 205 C613 65 495 0 344 0 Z"
+      }
+    },
+    "D": {
+      "fingerprint": "b612bc64bb1b58bddec3d9276ab6adf66d41488493fe243065b07723f811927a",
+      "note": "Round the named outer and inner right bowl with horizontal extrema tangents; retain stem, bounds and cap/baseline.",
+      "contours": {
+        "0": "M225 162 L310 162 C405 162 452 240 452 347 C452 454 405 532 310 532 L225 532 Z",
+        "1": "M52 0 L52 694 L318 694 C500 694 645 580 645 347 C645 114 500 0 318 0 Z"
+      }
+    },
+    "G": {
+      "fingerprint": "de8854bd353eac5d21f04d0f77359ef8dacd5f1b0c4eeaa61550c01f405039f8",
+      "note": "Correct the horizontal bar and rounded bowl; preserve the diagonal terminal, right wall, opening and asymmetric G skeleton.",
+      "contours": {
+        "0": "M693 407 L377 407 L377 262 L521 262 L521 195 C485 151 444 143 388 143 C274 143 228 228 228 350 C228 477 280 556 389 556 C465 556 510 526 568 480 L676 602 C608 671 514 704 389 704 C177 704 50 620 50 350 C50 112 180 -15 388 -15 C532 -15 637 28 693 127 Z"
+      }
+    },
+    "J": {
+      "fingerprint": "e363161cde0d6ba304638f43ed4c4733b9f6338a782ae293ef8ee6495e0eafc9",
+      "note": "Round only the traced hook while retaining the two upright stem boundaries, terminal height and original bounds.",
+      "contours": {
+        "0": "M48 254 L235 254 C235 185 259 143 311 143 C365 143 389 175 389 254 L389 700 L589 700 L589 254 C589 71 493 -12 313 -12 C136 -12 48 33 48 254 Z"
+      }
+    },
+    "O": {
+      "fingerprint": "63bfb04476fa04c7dd714ff0fa4a366e374eaaa4458390eec65277b769ee5a7c",
+      "note": "Replace faceted oval arcs and counter with four tangent-continuous cubic quarters at the same bounds. This is an explicit unapproved O edit, not universal smoothing.",
+      "contours": {
+        "0": "M 394.0 155 C 480.7087057234346 155 551 242.30447378299527 551 350.0 C 551 457.6955262170047 480.7087057234346 545 394.0 545 C 307.2912942765654 545 237 457.6955262170047 237 350.0 C 237 242.30447378299527 307.2912942765654 155 394.0 155 Z",
+        "1": "M 394.0 -10 C 583.4336691919622 -10 737 151.17749006091432 737 350.0 C 737 548.8225099390856 583.4336691919622 710 394.0 710 C 204.5663308080378 710 51 548.8225099390856 51 350.0 C 51 151.17749006091432 204.5663308080378 -10 394.0 -10 Z"
+      }
+    },
+    "P": {
+      "fingerprint": "91da6d3595581c3c4a253f91cfe3e12e1eae7c6e898de21930b09576352ed376",
+      "note": "Round the upper bowl and counter; preserve the unrounded stem, baseline, counter mouth and original dimensions.",
+      "contours": {
+        "0": "M51 0 L51 698 L400 698 C536 698 605 637 605 503 C605 339 500 255 351 255 L240 255 L240 0 Z",
+        "1": "M233 403 L325 403 C381 403 410 431 410 480 C410 529 381 558 325 558 L233 558 Z"
+      }
+    },
+    "Q": {
+      "fingerprint": "d11a14b49a9d4ba342624f7f7c7193148d09260bc7c66a6b4da8f3385e5a1692",
+      "note": "Smooth the bowl and oval counter locally while preserving the asymmetric tail vertices and their original position.",
+      "contours": {
+        "0": "M482 0 C434 -14 370 -10 350 -10 C150 -10 51 113 51 350 C51 562 182 709 398 709 C600 709 729 592 729 350 C729 243 691 177 639 88 L727 -29 L556 -91 Z",
+        "1": "M 383.0 149 C 466.9472819742806 149 535 239.66233815926432 535 351.5 C 535 463.3376618407357 466.9472819742806 554 383.0 554 C 299.0527180257194 554 231 463.3376618407357 231 351.5 C 231 239.66233815926432 299.0527180257194 149 383.0 149 Z"
+      }
+    },
+    "R": {
+      "fingerprint": "ee91cfeccb8193cdf4fd86f79cd3fe34876fb71e9215c78a31dd1f43f87e8f35",
+      "note": "Round the upper bowl and counter; preserve every named leg vertex and the asymmetric leg join.",
+      "contours": {
+        "0": "M52 0 L52 698 L407 698 C552 698 613 636 613 503 C613 397 564 323 472 280 L637 0 L420 0 L279 257 L236 257 L236 0 Z",
+        "1": "M231 403 L325 403 C383 403 419 429 419 479 C419 529 383 555 325 555 L231 555 Z"
+      }
+    },
+    "S": {
+      "fingerprint": "084e8013d96d347cd6507350945c4adc820dc7c0ae90a2f03833d374a4a30df4",
+      "note": "Replace named trace facets with tangent-continuous local arcs, retaining both diagonal terminals, asymmetric bowls and original bounds.",
+      "contours": {
+        "0": "M50 137 L159 243 C212 177 274 146 350 146 C415 146 448 167 448 205 C448 235 418 250 374 265 L217 320 C126 351 87 417 87 506 C87 631 200 708 370 708 C489 708 580 675 647 618 L539 491 C472 545 419 568 355 568 C307 568 276 548 276 512 C276 484 303 471 348 455 L500 402 C601 365 647 315 647 236 C647 70 497 -13 348 -13 C203 -13 94 85 50 137 Z"
+      }
+    },
+    "U": {
+      "fingerprint": "ce8e43ad89554ddbab266cabec0ffe367722e0c154b3ca6d4fb5239bd698df50",
+      "note": "Round the two lower bowl arcs at their extrema while keeping the four upright edges and counter depth.",
+      "contours": {
+        "0": "M51 700 L240 700 L240 270 C240 189 274 148 354 148 C434 148 468 189 468 270 L468 700 L657 700 L657 240 C657 75 540 -14 354 -14 C168 -14 51 75 51 240 Z"
+      }
+    },
+    "M": {
+      "fingerprint": "96552ee9174d6e23459222324d5039436f52ea4cbd2e38059bda6421f1d894ee",
+      "note": "Remove the mirrored two-point notch at the central diagonal join; retain every other polygon vertex.",
+      "contours": {
+        "0": "M398 366 L560 702 L743 702 L743 2 L571 2 L571 382 L447 123 L398 123 L349 123 L225 382 L225 2 L53 2 L53 702 L236 702 Z"
+      }
+    },
+    "W": {
+      "fingerprint": "00999227bf3bdf8bbae0ae8c6a8d5e1539458453374ea3ec9859103b5043cda8",
+      "note": "Remove the mirrored inward spike at the central upper crotch; retain all remaining diagonal and terminal vertices.",
+      "contours": {
+        "0": "M50 699 L248 699 L348 273 L477 699 L556 699 L635 699 L764 273 L864 699 L1062 699 L895 1 L671 1 L556 387 L441 1 L217 1 Z"
+      }
+    },
+    "X": {
+      "fingerprint": "a52f9f24b9f366e97835811c4fbcd08812e299ee7d6f54738bda55c04034188c",
+      "note": "Replace the mirrored central notches with single intersections of the existing diagonals; preserve weight and four terminals.",
+      "contours": {
+        "0": "M50 1 L280 350 L50 699 L280 699 L414 470 L548 699 L778 699 L548 350 L778 1 L548 1 L414 230 L280 1 Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "before_sha256": "65609cb8013b997d0aa812e947e7b1c32010d30439a3541dbc98e784cfd064a9",
+  "after_sha256": "4abf53450aedeb20403d088c134d265925e891452b7fb476181bde34ea0f6f5d",
+  "layout": {
+    "baseline": 496,
+    "row_height": 666,
+    "font_size": 460
+  },
+  "sheets": [
+    {
+      "path": "group-01.png",
+      "sha256": "b9d607f51ee51257107b87450c066c90acc4fc0704e666e6d5412008d159679c",
+      "glyphs": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "path": "group-02.png",
+      "sha256": "dc8f4849b2471013f02fc34f39cd5bbd905f0aaaf5b579f20621f18d0c315de2",
+      "glyphs": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "path": "group-03.png",
+      "sha256": "165635a0b10af1ee2087a116f2199eea6538d323a994c2aadf48eac8cd4d0b64",
+      "glyphs": [
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "path": "group-04.png",
+      "sha256": "72d02f7d9a962c9fb11c3ff46d6dafdae598d518101587cd104c0e07a2469308",
+      "glyphs": [
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "path": "group-05.png",
+      "sha256": "378ceae7738d88e26501e97726d016a2c80d20f748d9c21ef750d1655e2bd618",
+      "glyphs": [
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "path": "group-06.png",
+      "sha256": "0f08d9095fcf8da1bd283d0028377457d2b9f562466e7437d2ccf1e0da4a0892",
+      "glyphs": [
+        "P",
+        "Q",
+        "R"
+      ]
+    },
+    {
+      "path": "group-07.png",
+      "sha256": "77011e430796c57ccff3625455ba7a25f922242107defd4410e285e13b9efe3a",
+      "glyphs": [
+        "S",
+        "T",
+        "U"
+      ]
+    },
+    {
+      "path": "group-08.png",
+      "sha256": "a748dccdda70175d2d0bb3d12a705bd8af27423b7624fd5b28f4eb0bd9d8df8a",
+      "glyphs": [
+        "V",
+        "W",
+        "X"
+      ]
+    },
+    {
+      "path": "group-09.png",
+      "sha256": "cf035d23b9cbeec7698b09a8875c3b35f5f01313379738821f3a102ed892b706",
+      "glyphs": [
+        "Y",
+        "Z",
+        "a"
+      ]
+    },
+    {
+      "path": "group-10.png",
+      "sha256": "f80bb20133a25843adbf62ed5d642fd7c1ff8cdb11a1be2c81b352500a916039",
+      "glyphs": [
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "path": "group-11.png",
+      "sha256": "76cd293e91553790d02082b9d2b624c8de4fa0bf573dff69a848cac5aaec110a",
+      "glyphs": [
+        "e",
+        "f",
+        "g"
+      ]
+    },
+    {
+      "path": "group-12.png",
+      "sha256": "624b4bb8d9d5c300ea98dbcc2dddc8435a6f368c1300fc907954723ddfb5ce89",
+      "glyphs": [
+        "h",
+        "i",
+        "j"
+      ]
+    },
+    {
+      "path": "group-13.png",
+      "sha256": "5248ccc145136e3e6ca092de8aa58a071cf1d80ffc03f3f56d1f508d294cb641",
+      "glyphs": [
+        "k",
+        "l",
+        "m"
+      ]
+    },
+    {
+      "path": "group-14.png",
+      "sha256": "1d354ae44f6ae4ef09a248bd444f48bb2cad727546f0cac24414b9ff7829e9bc",
+      "glyphs": [
+        "n",
+        "o",
+        "p"
+      ]
+    },
+    {
+      "path": "group-15.png",
+      "sha256": "fd73783f5a429e7b14f30db3de017d40405924c80dc20ad5309c9b3510ae8793",
+      "glyphs": [
+        "q",
+        "r",
+        "s"
+      ]
+    },
+    {
+      "path": "group-16.png",
+      "sha256": "6ae3d573b8d415e6c0e9aaa556bdb487677e2f7048fe0024eb0aba92ef62c619",
+      "glyphs": [
+        "t",
+        "u",
+        "v"
+      ]
+    },
+    {
+      "path": "group-17.png",
+      "sha256": "fdc6c3b995dbb779e3a6420f78f13aa215bdf6f785efb3d6592ed157741adf43",
+      "glyphs": [
+        "w",
+        "x",
+        "y"
+      ]
+    },
+    {
+      "path": "group-18.png",
+      "sha256": "77b8400e3b2a0a37ad42890eeddfea34b722928d407d86d309220889cadafca2",
+      "glyphs": [
+        "z"
+      ]
+    },
+    {
+      "path": "spacing-and-weight.png",
+      "sha256": "aae358358e29850bdc9e44c63b4949a97bcfcd2b046879aa908d2c25d94164e1",
+      "glyphs": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z"
+      ]
+    }
+  ]
+}

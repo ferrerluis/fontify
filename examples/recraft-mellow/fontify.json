@@ -1,0 +1,389 @@
+{
+  "schema": 1,
+  "family": "Fontify Mellow",
+  "style": "Regular",
+  "version": "0.002",
+  "copyright": "Fontify Recraft vector experiment",
+  "license": "Generated with Recraft; see source provenance.",
+  "units_per_em": 1000,
+  "ascender": 950,
+  "descender": -350,
+  "line_gap": 0,
+  "cap_height": 700,
+  "x_height": 450,
+  "svg_baseline": 800,
+  "curve_error": 0.25,
+  "required_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ",
+  "samples": [
+    "Hello there",
+    "Friendly letters for modern days",
+    "The Quick Brown Fox Jumps Over The Lazy Dog",
+    "AVATAR To Wa Yo Type",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "abcdefghijklmnopqrstuvwxyz"
+  ],
+  "kerning": [
+    {
+      "left": "A",
+      "right": "V",
+      "value": -45
+    },
+    {
+      "left": "V",
+      "right": "A",
+      "value": -40
+    },
+    {
+      "left": "T",
+      "right": "A",
+      "value": -30
+    },
+    {
+      "left": "T",
+      "right": "o",
+      "value": -35
+    },
+    {
+      "left": "W",
+      "right": "a",
+      "value": -20
+    },
+    {
+      "left": "Y",
+      "right": "o",
+      "value": -30
+    },
+    {
+      "left": "L",
+      "right": "T",
+      "value": -20
+    },
+    {
+      "left": "T",
+      "right": "y",
+      "value": -35
+    }
+  ],
+  "approval": "approved-v0.002.json",
+  "glyphs": [
+    {
+      "name": "space",
+      "unicode": "U+0020",
+      "source": null,
+      "advance": 280
+    },
+    {
+      "name": "A",
+      "unicode": "U+0041",
+      "source": "glyphs/U0041.svg",
+      "advance": 657
+    },
+    {
+      "name": "B",
+      "unicode": "U+0042",
+      "source": "glyphs/U0042.svg",
+      "advance": 499
+    },
+    {
+      "name": "C",
+      "unicode": "U+0043",
+      "source": "glyphs/U0043.svg",
+      "advance": 614
+    },
+    {
+      "name": "D",
+      "unicode": "U+0044",
+      "source": "glyphs/U0044.svg",
+      "advance": 619
+    },
+    {
+      "name": "E",
+      "unicode": "U+0045",
+      "source": "glyphs/U0045.svg",
+      "advance": 500
+    },
+    {
+      "name": "F",
+      "unicode": "U+0046",
+      "source": "glyphs/U0046.svg",
+      "advance": 479
+    },
+    {
+      "name": "G",
+      "unicode": "U+0047",
+      "source": "glyphs/U0047.svg",
+      "advance": 640
+    },
+    {
+      "name": "H",
+      "unicode": "U+0048",
+      "source": "glyphs/U0048.svg",
+      "advance": 584
+    },
+    {
+      "name": "I",
+      "unicode": "U+0049",
+      "source": "glyphs/U0049.svg",
+      "advance": 161
+    },
+    {
+      "name": "J",
+      "unicode": "U+004A",
+      "source": "glyphs/U004A.svg",
+      "advance": 448
+    },
+    {
+      "name": "K",
+      "unicode": "U+004B",
+      "source": "glyphs/U004B.svg",
+      "advance": 564
+    },
+    {
+      "name": "L",
+      "unicode": "U+004C",
+      "source": "glyphs/U004C.svg",
+      "advance": 463
+    },
+    {
+      "name": "M",
+      "unicode": "U+004D",
+      "source": "glyphs/U004D.svg",
+      "advance": 794
+    },
+    {
+      "name": "N",
+      "unicode": "U+004E",
+      "source": "glyphs/U004E.svg",
+      "advance": 616
+    },
+    {
+      "name": "O",
+      "unicode": "U+004F",
+      "source": "glyphs/U004F.svg",
+      "advance": 740
+    },
+    {
+      "name": "P",
+      "unicode": "U+0050",
+      "source": "glyphs/U0050.svg",
+      "advance": 472
+    },
+    {
+      "name": "Q",
+      "unicode": "U+0051",
+      "source": "glyphs/U0051.svg",
+      "advance": 768
+    },
+    {
+      "name": "R",
+      "unicode": "U+0052",
+      "source": "glyphs/U0052.svg",
+      "advance": 500
+    },
+    {
+      "name": "S",
+      "unicode": "U+0053",
+      "source": "glyphs/U0053.svg",
+      "advance": 486
+    },
+    {
+      "name": "T",
+      "unicode": "U+0054",
+      "source": "glyphs/U0054.svg",
+      "advance": 588
+    },
+    {
+      "name": "U",
+      "unicode": "U+0055",
+      "source": "glyphs/U0055.svg",
+      "advance": 608
+    },
+    {
+      "name": "V",
+      "unicode": "U+0056",
+      "source": "glyphs/U0056.svg",
+      "advance": 643
+    },
+    {
+      "name": "W",
+      "unicode": "U+0057",
+      "source": "glyphs/U0057.svg",
+      "advance": 941
+    },
+    {
+      "name": "X",
+      "unicode": "U+0058",
+      "source": "glyphs/U0058.svg",
+      "advance": 621
+    },
+    {
+      "name": "Y",
+      "unicode": "U+0059",
+      "source": "glyphs/U0059.svg",
+      "advance": 595
+    },
+    {
+      "name": "Z",
+      "unicode": "U+005A",
+      "source": "glyphs/U005A.svg",
+      "advance": 573
+    },
+    {
+      "name": "a",
+      "unicode": "U+0061",
+      "source": "glyphs/U0061.svg",
+      "advance": 470
+    },
+    {
+      "name": "b",
+      "unicode": "U+0062",
+      "source": "glyphs/U0062.svg",
+      "advance": 513
+    },
+    {
+      "name": "c",
+      "unicode": "U+0063",
+      "source": "glyphs/U0063.svg",
+      "advance": 458
+    },
+    {
+      "name": "d",
+      "unicode": "U+0064",
+      "source": "glyphs/U0064.svg",
+      "advance": 512
+    },
+    {
+      "name": "e",
+      "unicode": "U+0065",
+      "source": "glyphs/U0065.svg",
+      "advance": 478
+    },
+    {
+      "name": "f",
+      "unicode": "U+0066",
+      "source": "glyphs/U0066.svg",
+      "advance": 432
+    },
+    {
+      "name": "g",
+      "unicode": "U+0067",
+      "source": "glyphs/U0067.svg",
+      "advance": 525
+    },
+    {
+      "name": "h",
+      "unicode": "U+0068",
+      "source": "glyphs/U0068.svg",
+      "advance": 493
+    },
+    {
+      "name": "i",
+      "unicode": "U+0069",
+      "source": "glyphs/U0069.svg",
+      "advance": 181
+    },
+    {
+      "name": "j",
+      "unicode": "U+006A",
+      "source": "glyphs/U006A.svg",
+      "advance": 332
+    },
+    {
+      "name": "k",
+      "unicode": "U+006B",
+      "source": "glyphs/U006B.svg",
+      "advance": 471
+    },
+    {
+      "name": "l",
+      "unicode": "U+006C",
+      "source": "glyphs/U006C.svg",
+      "advance": 166
+    },
+    {
+      "name": "m",
+      "unicode": "U+006D",
+      "source": "glyphs/U006D.svg",
+      "advance": 755
+    },
+    {
+      "name": "n",
+      "unicode": "U+006E",
+      "source": "glyphs/U006E.svg",
+      "advance": 485
+    },
+    {
+      "name": "o",
+      "unicode": "U+006F",
+      "source": "glyphs/U006F.svg",
+      "advance": 549
+    },
+    {
+      "name": "p",
+      "unicode": "U+0070",
+      "source": "glyphs/U0070.svg",
+      "advance": 522
+    },
+    {
+      "name": "q",
+      "unicode": "U+0071",
+      "source": "glyphs/U0071.svg",
+      "advance": 518
+    },
+    {
+      "name": "r",
+      "unicode": "U+0072",
+      "source": "glyphs/U0072.svg",
+      "advance": 375
+    },
+    {
+      "name": "s",
+      "unicode": "U+0073",
+      "source": "glyphs/U0073.svg",
+      "advance": 409
+    },
+    {
+      "name": "t",
+      "unicode": "U+0074",
+      "source": "glyphs/U0074.svg",
+      "advance": 401
+    },
+    {
+      "name": "u",
+      "unicode": "U+0075",
+      "source": "glyphs/U0075.svg",
+      "advance": 486
+    },
+    {
+      "name": "v",
+      "unicode": "U+0076",
+      "source": "glyphs/U0076.svg",
+      "advance": 529
+    },
+    {
+      "name": "w",
+      "unicode": "U+0077",
+      "source": "glyphs/U0077.svg",
+      "advance": 792
+    },
+    {
+      "name": "x",
+      "unicode": "U+0078",
+      "source": "glyphs/U0078.svg",
+      "advance": 510
+    },
+    {
+      "name": "y",
+      "unicode": "U+0079",
+      "source": "glyphs/U0079.svg",
+      "advance": 527
+    },
+    {
+      "name": "z",
+      "unicode": "U+007A",
+      "source": "glyphs/U007A.svg",
+      "advance": 466
+    }
+  ],
+  "quality": "quality-profile.json"
+}

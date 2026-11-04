@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "symmetry_tolerance": 1e-06,
+  "axis_angle_degrees": 3,
+  "min_axis_length": 30,
+  "max_tangent_degrees": 7,
+  "min_join_length": 3,
+  "max_change_ratio": 0.12,
+  "max_bounds_change": 12,
+  "repair_epsilon": 4,
+  "review": "agent-review.json",
+  "glyphs": {
+    "space": {
+      "construction": "blank",
+      "symmetry": [],
+      "corners": [],
+      "note": "Blank word separator; no outline."
+    },
+    "A": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "B": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          491,
+          376
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          40,
+          0,
+          75,
+          710
+        ]
+      ]
+    },
+    "C": {
+      "construction": "curved",
+      "symmetry": [
+        "horizontal"
+      ],
+      "corners": [
+        [
+          552,
+          231
+        ],
+        [
+          552,
+          469
+        ]
+      ],
+      "note": "Exact horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+    },
+    "D": {
+      "construction": "curved",
+      "symmetry": [
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          40,
+          0,
+          75,
+          710
+        ]
+      ]
+    },
+    "E": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 200,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        },
+        {
+          "at": 500,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        }
+      ]
+    },
+    "F": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 100,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        },
+        {
+          "at": 500,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        }
+      ]
+    },
+    "G": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          568,
+          480
+        ],
+        [
+          676,
+          602
+        ],
+        [
+          521,
+          195
+        ],
+        [
+          693,
+          127
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+    },
+    "H": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 100,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        },
+        {
+          "at": 500,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        }
+      ]
+    },
+    "I": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 100,
+          "index": 0,
+          "width": 192,
+          "anchor": "center",
+          "below": 1000
+        }
+      ]
+    },
+    "J": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          48,
+          254
+        ],
+        [
+          235,
+          254
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          575,
+          220,
+          605,
+          710
+        ]
+      ]
+    },
+    "K": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "L": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 500,
+          "index": 0,
+          "width": 192,
+          "anchor": "left",
+          "below": 1000
+        }
+      ]
+    },
+    "M": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "N": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "O": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+    },
+    "P": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          40,
+          0,
+          75,
+          710
+        ]
+      ]
+    },
+    "Q": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          482,
+          0
+        ],
+        [
+          639,
+          88
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+    },
+    "R": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          472,
+          280
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          40,
+          0,
+          75,
+          710
+        ]
+      ]
+    },
+    "S": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          50,
+          137
+        ],
+        [
+          159,
+          243
+        ],
+        [
+          647,
+          618
+        ],
+        [
+          539,
+          491
+        ]
+      ],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+    },
+    "T": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 100,
+          "index": 0,
+          "width": 192,
+          "anchor": "center",
+          "below": 550
+        }
+      ]
+    },
+    "U": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally.",
+      "straight_regions": [
+        [
+          40,
+          350,
+          75,
+          710
+        ],
+        [
+          635,
+          350,
+          675,
+          710
+        ]
+      ]
+    },
+    "V": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "W": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "X": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical",
+        "horizontal"
+      ],
+      "corners": [],
+      "note": "Exact vertical/horizontal reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+    },
+    "Y": {
+      "construction": "polygon",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [],
+      "note": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width.",
+      "stems": [
+        {
+          "at": 100,
+          "index": 0,
+          "width": 192,
+          "anchor": "center",
+          "below": 400
+        }
+      ]
+    },
+    "Z": {
+      "construction": "polygon",
+      "symmetry": [],
+      "corners": [],
+      "note": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+    }
+  },
+  "min_tangent_length": 12
+}

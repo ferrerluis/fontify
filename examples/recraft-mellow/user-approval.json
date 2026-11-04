@@ -1,0 +1,16 @@
+{
+  "name": "Mellow",
+  "font_family": "Fontify Mellow",
+  "version": "0.002",
+  "approved_by": "Luis Ferrer",
+  "approved_on": "2026-11-03",
+  "decision": "User approved the presented Mellow design, retained its name and requested archiving under Personal Branding / custom-fonts in Google Drive.",
+  "coverage": "A-Z, a-z and space (53 mappings); no digits, punctuation or accents.",
+  "fonts_sha256": {
+    "FontifyMellow-Regular-v0.002.ttf": "4abf53450aedeb20403d088c134d265925e891452b7fb476181bde34ea0f6f5d",
+    "FontifyMellow-Regular-v0.002.woff2": "35d2416c3b24d9c133a89112468f59ea3a9f6b442a48edc7801f2a0e018735ba"
+  },
+  "baseline": "approved-v0.002.json",
+  "baseline_sha256": "ce16c4804d0243e3dedb4f825f778e38e4a313ea95e51faa069e64ce2086a3ae",
+  "approval_binding": "Only the approval path and review project binding were updated; glyphs, metrics, spacing, kerning and font bytes are unchanged."
+}

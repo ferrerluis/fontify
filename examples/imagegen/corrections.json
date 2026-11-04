@@ -1,0 +1,826 @@
+{
+  "status": "draft_requires_recheck_and_visual_review",
+  "glyphs": {
+    "A": {
+      "before": "2c745c5edbce6e1d47986a419d9acc7827111c48959f4d4640fe7ee5d765175d",
+      "after": "46adc53e3f8461f200b48c451b95186c6bf22eaa1fc7f3babd20683515a6b2aa",
+      "changed_area_ratio": 0.02433744766813886,
+      "max_bounds_change": 4.0,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "46adc53e3f8461f200b48c451b95186c6bf22eaa1fc7f3babd20683515a6b2aa",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 8,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          54,
+          4,
+          792,
+          696
+        ],
+        "ink_fraction": 0.522082,
+        "stems": [],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "B": {
+      "before": "c4497053990537198acfe1acedc6cd1cd77f65a996995da3ea83c6e675a4eb8e",
+      "after": "4480a92ca96679e7a6acf07d546b0fc7827c2b64002742eee9790376afb676bc",
+      "changed_area_ratio": 0.01208078574968094,
+      "max_bounds_change": 1.5164961648002873,
+      "local_patch": {
+        "fingerprint": "f4c42fa9159899a8582d088f04f382746f5cc64860ec1a3ca935a7f5e7ba9741",
+        "note": "Round the two counters and local bowl arcs; remove the tilted top trace and preserve the asymmetric bowl junction, left stem and original bounds.",
+        "contours": {
+          "1": "M225 145 L333 145 C385 145 421 169 421 223 C421 276 385 301 333 301 L225 301 Z",
+          "2": "M225 438 L318 438 C378 438 407 458 407 501 C407 544 378 566 318 566 L225 566 Z",
+          "0": "M50 0 L50 698 L385 698 C520 698 592 640 592 535 C592 460 555 412 491 376 C570 347 613 285 613 205 C613 65 495 0 344 0 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "4480a92ca96679e7a6acf07d546b0fc7827c2b64002742eee9790376afb676bc",
+        "curves_checked": 8,
+        "joins_checked": 11,
+        "axis_edges_checked": 9,
+        "symmetry": {},
+        "bounds": [
+          50.0,
+          0.0,
+          613.0,
+          698.0
+        ],
+        "ink_fraction": 0.790489,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "C": {
+      "before": "1767fad8adceb043c16dad5a12b87bdb6dc7242d386687853801adbdcdfebdc5",
+      "after": "387e21783577cbb50abf52a9bdadbfe7d157241c1b3a1e9594d2e84a6f8ec144",
+      "changed_area_ratio": 0.045464636018460035,
+      "max_bounds_change": 0.9952729858424476,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "387e21783577cbb50abf52a9bdadbfe7d157241c1b3a1e9594d2e84a6f8ec144",
+        "curves_checked": 92,
+        "joins_checked": 95,
+        "axis_edges_checked": 0,
+        "symmetry": {
+          "horizontal": 0.0
+        },
+        "bounds": [
+          51.5,
+          -10,
+          663,
+          708
+        ],
+        "ink_fraction": 0.524316,
+        "stems": [],
+        "intent": "Exact horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "D": {
+      "before": "afed5cb217eb85a55ab739eb258139334bf08152bd38873989ee96bdcc198394",
+      "after": "9eaea9321b8e23d6a1669b8859fab03f7dabd156fcbe4d75fb3bb9897452a4ae",
+      "changed_area_ratio": 0.03775332538282367,
+      "max_bounds_change": 1.3266820615095938,
+      "local_patch": {
+        "fingerprint": "b612bc64bb1b58bddec3d9276ab6adf66d41488493fe243065b07723f811927a",
+        "note": "Round the named outer and inner right bowl with horizontal extrema tangents; retain stem, bounds and cap/baseline.",
+        "contours": {
+          "0": "M225 162 L310 162 C405 162 452 240 452 347 C452 454 405 532 310 532 L225 532 Z",
+          "1": "M52 0 L52 694 L318 694 C500 694 645 580 645 347 C645 114 500 0 318 0 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "9eaea9321b8e23d6a1669b8859fab03f7dabd156fcbe4d75fb3bb9897452a4ae",
+        "curves_checked": 14,
+        "joins_checked": 16,
+        "axis_edges_checked": 8,
+        "symmetry": {
+          "horizontal": 0.0
+        },
+        "bounds": [
+          52,
+          0,
+          645,
+          694
+        ],
+        "ink_fraction": 0.716145,
+        "stems": [],
+        "intent": "Exact horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "E": {
+      "before": "51e9961fe509cf6ae101db67b14c31196fc28577c8cad0bc5f47116e63ecc49c",
+      "after": "c7147d02fe0ecbb9c71309c50eac038c411535d273037b6fdc5005eba2dcf8c9",
+      "changed_area_ratio": 0.027594240480026785,
+      "max_bounds_change": 3.20243572317311,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "c7147d02fe0ecbb9c71309c50eac038c411535d273037b6fdc5005eba2dcf8c9",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 12,
+        "symmetry": {},
+        "bounds": [
+          52.0,
+          0,
+          571,
+          696
+        ],
+        "ink_fraction": 0.763576,
+        "stems": [
+          {
+            "at": 200,
+            "width": 192.0,
+            "target": 192
+          },
+          {
+            "at": 500,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "F": {
+      "before": "e3562bbf046f130ae56ef4796cac042b84a20d8e37bd7c43761edb564daf9fa8",
+      "after": "a3968539290421a8f734385e8232ebbf3d0bb5c488eac18dabbed367e53675e1",
+      "changed_area_ratio": 0.025064184511966202,
+      "max_bounds_change": 1.9999999999998863,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "a3968539290421a8f734385e8232ebbf3d0bb5c488eac18dabbed367e53675e1",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 10,
+        "symmetry": {},
+        "bounds": [
+          50.0,
+          0,
+          548,
+          698
+        ],
+        "ink_fraction": 0.629089,
+        "stems": [
+          {
+            "at": 100,
+            "width": 192.0,
+            "target": 192
+          },
+          {
+            "at": 500,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "G": {
+      "before": "1c6fc5d3bfc2157bedbdeb75a30288c8076784b6848dec1fb7f444324a497086",
+      "after": "b7b6b12c3e0e58102dd99ac36ef93b9a19f579b8308a12ab9eb10daa19bf4427",
+      "changed_area_ratio": 0.027070304199974568,
+      "max_bounds_change": 0.9189158695053123,
+      "local_patch": {
+        "fingerprint": "de8854bd353eac5d21f04d0f77359ef8dacd5f1b0c4eeaa61550c01f405039f8",
+        "note": "Correct the horizontal bar and rounded bowl; preserve the diagonal terminal, right wall, opening and asymmetric G skeleton.",
+        "contours": {
+          "0": "M693 407 L377 407 L377 262 L521 262 L521 195 C485 151 444 143 388 143 C274 143 228 228 228 350 C228 477 280 556 389 556 C465 556 510 526 568 480 L676 602 C608 671 514 704 389 704 C177 704 50 620 50 350 C50 112 180 -15 388 -15 C532 -15 637 28 693 127 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "b7b6b12c3e0e58102dd99ac36ef93b9a19f579b8308a12ab9eb10daa19bf4427",
+        "curves_checked": 8,
+        "joins_checked": 10,
+        "axis_edges_checked": 5,
+        "symmetry": {},
+        "bounds": [
+          50.0,
+          -15.0,
+          693.0,
+          704.0
+        ],
+        "ink_fraction": 0.634459,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "H": {
+      "before": "0c09b69f707622b495ec35aa502c80f86a5925896c1a3863545d6106dad6ec6d",
+      "after": "8a9d5dc3209d51c03fbee7b1ff504c343fffb1e299d49f5ffd365a74bedb8d8f",
+      "changed_area_ratio": 0.01863739621816553,
+      "max_bounds_change": 3.0272630144282857,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "8a9d5dc3209d51c03fbee7b1ff504c343fffb1e299d49f5ffd365a74bedb8d8f",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 14,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          53,
+          4,
+          659,
+          700
+        ],
+        "ink_fraction": 0.719984,
+        "stems": [
+          {
+            "at": 100,
+            "width": 192.0,
+            "target": 192
+          },
+          {
+            "at": 500,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "I": {
+      "before": "554d7cef582d809a5b2e9c6b83b6331b2e9873b3ff5f10db3eb863b0abd0ca41",
+      "after": "bd0c5ea057da5b853bee6e35589f3db5f24c8131e77ab4c5e8ed211e1d2fc9b3",
+      "changed_area_ratio": 0.07260056676315702,
+      "max_bounds_change": 10.472782151595311,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "bd0c5ea057da5b853bee6e35589f3db5f24c8131e77ab4c5e8ed211e1d2fc9b3",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 8,
+        "symmetry": {
+          "vertical": 0.0,
+          "horizontal": 0.0
+        },
+        "bounds": [
+          58,
+          4,
+          250,
+          702
+        ],
+        "ink_fraction": 1.0,
+        "stems": [
+          {
+            "at": 100,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Exact vertical/horizontal reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "J": {
+      "before": "3e92f11b47dec55684efab023e92b2e24d5b59d9c1604f21a286f02e4ba81f9a",
+      "after": "293c3256b0e22908b392f303c904ab7168d7e3151ab6634221db7c4c803b6574",
+      "changed_area_ratio": 0.030733806498675968,
+      "max_bounds_change": 2.5719248444501304,
+      "local_patch": {
+        "fingerprint": "e363161cde0d6ba304638f43ed4c4733b9f6338a782ae293ef8ee6495e0eafc9",
+        "note": "Round only the traced hook while retaining the two upright stem boundaries, terminal height and original bounds.",
+        "contours": {
+          "0": "M48 254 L235 254 C235 185 259 143 311 143 C365 143 389 175 389 254 L389 700 L589 700 L589 254 C589 71 493 -12 313 -12 C136 -12 48 33 48 254 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "293c3256b0e22908b392f303c904ab7168d7e3151ab6634221db7c4c803b6574",
+        "curves_checked": 4,
+        "joins_checked": 6,
+        "axis_edges_checked": 4,
+        "symmetry": {},
+        "bounds": [
+          48.0,
+          -12.0,
+          589.0,
+          700.0
+        ],
+        "ink_fraction": 0.512042,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "K": {
+      "before": "5e0247942a855cbd4090c2433747b31074bb40ff79e21b54cd568704492c672a",
+      "after": "0e07780926c9f8fcfbb370ecbf499754595faafe8883501845e8047ac48afc48",
+      "changed_area_ratio": 0.009843803236586542,
+      "max_bounds_change": 1.4693755798912207,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "0e07780926c9f8fcfbb370ecbf499754595faafe8883501845e8047ac48afc48",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 7,
+        "symmetry": {},
+        "bounds": [
+          50,
+          1,
+          689,
+          702
+        ],
+        "ink_fraction": 0.639482,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "L": {
+      "before": "6f3d1cef6f9600f73578ad10ecdf3208068e1899b66e8e9f84cba8d496b49d70",
+      "after": "831dc2c9d1f82eede894747794a580a0b5e61a9014e10078073c3b82657ddb79",
+      "changed_area_ratio": 0.022455853168131045,
+      "max_bounds_change": 3.356760671568054,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "831dc2c9d1f82eede894747794a580a0b5e61a9014e10078073c3b82657ddb79",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 6,
+        "symmetry": {},
+        "bounds": [
+          50.0,
+          0,
+          552,
+          700
+        ],
+        "ink_fraction": 0.52362,
+        "stems": [
+          {
+            "at": 500,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "M": {
+      "before": "13695ed74cf7aaf6b53d456387bb0987880e1a60073c7ba82198f72313a13749",
+      "after": "4e4a76a9df3694034bd78b5a4aba8f90fe55cabd4ecc33e0121933e5795ef12c",
+      "changed_area_ratio": 0.03311077491086324,
+      "max_bounds_change": 3.195652173913004,
+      "local_patch": {
+        "fingerprint": "96552ee9174d6e23459222324d5039436f52ea4cbd2e38059bda6421f1d894ee",
+        "note": "Remove the mirrored two-point notch at the central diagonal join; retain every other polygon vertex.",
+        "contours": {
+          "0": "M398 366 L560 702 L743 702 L743 2 L571 2 L571 382 L447 123 L398 123 L349 123 L225 382 L225 2 L53 2 L53 702 L236 702 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "4e4a76a9df3694034bd78b5a4aba8f90fe55cabd4ecc33e0121933e5795ef12c",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 10,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          53,
+          2,
+          743,
+          702
+        ],
+        "ink_fraction": 0.734133,
+        "stems": [],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "N": {
+      "before": "2bbd6d407b6c41b0d2af42b313e79a009bdff79436372be63fb490b2ca818035",
+      "after": "8a55757408192ddff8ba97414653898e6a26aa94a03c8d453fc79b8224699d14",
+      "changed_area_ratio": 0.014195062484589774,
+      "max_bounds_change": 3.4584679767674515,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "8a55757408192ddff8ba97414653898e6a26aa94a03c8d453fc79b8224699d14",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 9,
+        "symmetry": {},
+        "bounds": [
+          52,
+          2,
+          658,
+          704
+        ],
+        "ink_fraction": 0.782061,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "O": {
+      "before": "83fda42c4269caf222df27cce02f2f69b67d067db0494944f88b9a9fa64743ae",
+      "after": "7a090dba50863274bed94ee25f19793643aa5dd55102dc565d8a3077994f9e67",
+      "changed_area_ratio": 0.07556031384585836,
+      "max_bounds_change": 3.5739865406036415,
+      "local_patch": {
+        "fingerprint": "63bfb04476fa04c7dd714ff0fa4a366e374eaaa4458390eec65277b769ee5a7c",
+        "note": "Replace faceted oval arcs and counter with four tangent-continuous cubic quarters at the same bounds. This is an explicit unapproved O edit, not universal smoothing.",
+        "contours": {
+          "0": "M 394.0 155 C 480.7087057234346 155 551 242.30447378299527 551 350.0 C 551 457.6955262170047 480.7087057234346 545 394.0 545 C 307.2912942765654 545 237 457.6955262170047 237 350.0 C 237 242.30447378299527 307.2912942765654 155 394.0 155 Z",
+          "1": "M 394.0 -10 C 583.4336691919622 -10 737 151.17749006091432 737 350.0 C 737 548.8225099390856 583.4336691919622 710 394.0 710 C 204.5663308080378 710 51 548.8225099390856 51 350.0 C 51 151.17749006091432 204.5663308080378 -10 394.0 -10 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "7a090dba50863274bed94ee25f19793643aa5dd55102dc565d8a3077994f9e67",
+        "curves_checked": 28,
+        "joins_checked": 28,
+        "axis_edges_checked": 0,
+        "symmetry": {
+          "vertical": 0.0,
+          "horizontal": 0.0
+        },
+        "bounds": [
+          51,
+          -10,
+          737,
+          710
+        ],
+        "ink_fraction": 0.590469,
+        "stems": [],
+        "intent": "Exact vertical/horizontal reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "P": {
+      "before": "b52585a52fbc791976cdedc629cf79bc40b164be7e8875fb2ca1e1a0fe688b21",
+      "after": "d816556ef5390f90de98897a0f31ed7f9e5001b9e6a04bba609965e01fc98efc",
+      "changed_area_ratio": 0.012486238915800954,
+      "max_bounds_change": 1.039822468106955,
+      "local_patch": {
+        "fingerprint": "91da6d3595581c3c4a253f91cfe3e12e1eae7c6e898de21930b09576352ed376",
+        "note": "Round the upper bowl and counter; preserve the unrounded stem, baseline, counter mouth and original dimensions.",
+        "contours": {
+          "0": "M51 0 L51 698 L400 698 C536 698 605 637 605 503 C605 339 500 255 351 255 L240 255 L240 0 Z",
+          "1": "M233 403 L325 403 C381 403 410 431 410 480 C410 529 381 558 325 558 L233 558 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "d816556ef5390f90de98897a0f31ed7f9e5001b9e6a04bba609965e01fc98efc",
+        "curves_checked": 4,
+        "joins_checked": 6,
+        "axis_edges_checked": 8,
+        "symmetry": {},
+        "bounds": [
+          51.0,
+          0.0,
+          605.0,
+          698.0
+        ],
+        "ink_fraction": 0.647509,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "Q": {
+      "before": "b7f11041e616648d9dcb3a55b63989b8bdf6247229df2aa7a91c2f96a25097de",
+      "after": "88f2bc7b3c5460ae8066954d61ccd85223dd9c14c0f2ea2904c6786570ae3bab",
+      "changed_area_ratio": 0.041626504864559384,
+      "max_bounds_change": 0.4147422955826414,
+      "local_patch": {
+        "fingerprint": "d11a14b49a9d4ba342624f7f7c7193148d09260bc7c66a6b4da8f3385e5a1692",
+        "note": "Smooth the bowl and oval counter locally while preserving the asymmetric tail vertices and their original position.",
+        "contours": {
+          "0": "M482 0 C434 -14 370 -10 350 -10 C150 -10 51 113 51 350 C51 562 182 709 398 709 C600 709 729 592 729 350 C729 243 691 177 639 88 L727 -29 L556 -91 Z",
+          "1": "M 383.0 149 C 466.9472819742806 149 535 239.66233815926432 535 351.5 C 535 463.3376618407357 466.9472819742806 554 383.0 554 C 299.0527180257194 554 231 463.3376618407357 231 351.5 C 231 239.66233815926432 299.0527180257194 149 383.0 149 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "88f2bc7b3c5460ae8066954d61ccd85223dd9c14c0f2ea2904c6786570ae3bab",
+        "curves_checked": 9,
+        "joins_checked": 10,
+        "axis_edges_checked": 0,
+        "symmetry": {},
+        "bounds": [
+          51.0,
+          -91.0,
+          729.0,
+          709.0
+        ],
+        "ink_fraction": 0.600021,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "R": {
+      "before": "699c258b3522665b4e5f751805f9c8e909fffd41f19496d985c5a1441760e37b",
+      "after": "cefde3fffe66b0a38353f92e1b9973390494bdecf2a28ad97d3d0c10520fb78b",
+      "changed_area_ratio": 0.012765219171232616,
+      "max_bounds_change": 1.3266025520547302,
+      "local_patch": {
+        "fingerprint": "ee91cfeccb8193cdf4fd86f79cd3fe34876fb71e9215c78a31dd1f43f87e8f35",
+        "note": "Round the upper bowl and counter; preserve every named leg vertex and the asymmetric leg join.",
+        "contours": {
+          "0": "M52 0 L52 698 L407 698 C552 698 613 636 613 503 C613 397 564 323 472 280 L637 0 L420 0 L279 257 L236 257 L236 0 Z",
+          "1": "M231 403 L325 403 C383 403 419 429 419 479 C419 529 383 555 325 555 L231 555 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "cefde3fffe66b0a38353f92e1b9973390494bdecf2a28ad97d3d0c10520fb78b",
+        "curves_checked": 4,
+        "joins_checked": 6,
+        "axis_edges_checked": 9,
+        "symmetry": {},
+        "bounds": [
+          52.0,
+          0.0,
+          637.0,
+          698.0
+        ],
+        "ink_fraction": 0.74783,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "S": {
+      "before": "d0286b835b18e089072b29c58b71435527f0bc1044bb5b1f0a893b0738010b2e",
+      "after": "ffd912f90d85cffff0cb01618c0d78b7d2f9479c332643468575886eaee0cbdb",
+      "changed_area_ratio": 0.041673075386616784,
+      "max_bounds_change": 1.1975099205994866,
+      "local_patch": {
+        "fingerprint": "084e8013d96d347cd6507350945c4adc820dc7c0ae90a2f03833d374a4a30df4",
+        "note": "Replace named trace facets with tangent-continuous local arcs, retaining both diagonal terminals, asymmetric bowls and original bounds.",
+        "contours": {
+          "0": "M50 137 L159 243 C212 177 274 146 350 146 C415 146 448 167 448 205 C448 235 418 250 374 265 L217 320 C126 351 87 417 87 506 C87 631 200 708 370 708 C489 708 580 675 647 618 L539 491 C472 545 419 568 355 568 C307 568 276 548 276 512 C276 484 303 471 348 455 L500 402 C601 365 647 315 647 236 C647 70 497 -13 348 -13 C203 -13 94 85 50 137 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "ffd912f90d85cffff0cb01618c0d78b7d2f9479c332643468575886eaee0cbdb",
+        "curves_checked": 12,
+        "joins_checked": 16,
+        "axis_edges_checked": 0,
+        "symmetry": {},
+        "bounds": [
+          50.0,
+          -13.0,
+          647.0,
+          708.0
+        ],
+        "ink_fraction": 0.609645,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "T": {
+      "before": "6ed231d2d62a6efb73da461b9aa619842c92ebd74e353942d3cedf95f1ee5d5a",
+      "after": "b6e7d9cf4df9f61880739164825b77dba864c03c536e56f15ecffde2d91770ed",
+      "changed_area_ratio": 0.05640625120783097,
+      "max_bounds_change": 1.152173913043498,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "b6e7d9cf4df9f61880739164825b77dba864c03c536e56f15ecffde2d91770ed",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 10,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          50,
+          1,
+          618,
+          700
+        ],
+        "ink_fraction": 0.48387,
+        "stems": [
+          {
+            "at": 100,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "U": {
+      "before": "cca468aba4f93b817df23f6392dd9f59fe479e01cd845143cf50e6f3d2b127a0",
+      "after": "017e014bf574d22c69b1ba3ff2de000c3aff741dac2f6ec8309d79fc93430b13",
+      "changed_area_ratio": 0.03835355065879497,
+      "max_bounds_change": 1.3680067099814437,
+      "local_patch": {
+        "fingerprint": "ce8e43ad89554ddbab266cabec0ffe367722e0c154b3ca6d4fb5239bd698df50",
+        "note": "Round the two lower bowl arcs at their extrema while keeping the four upright edges and counter depth.",
+        "contours": {
+          "0": "M51 700 L240 700 L240 270 C240 189 274 148 354 148 C434 148 468 189 468 270 L468 700 L657 700 L657 240 C657 75 540 -14 354 -14 C168 -14 51 75 51 240 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "017e014bf574d22c69b1ba3ff2de000c3aff741dac2f6ec8309d79fc93430b13",
+        "curves_checked": 10,
+        "joins_checked": 12,
+        "axis_edges_checked": 6,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          51,
+          -14,
+          657,
+          700
+        ],
+        "ink_fraction": 0.655193,
+        "stems": [],
+        "intent": "Exact vertical reflection is intended. Preserve smooth bowls, counters and intentional terminals; inspect curvature locally."
+      }
+    },
+    "V": {
+      "before": "6a21c8dfbc6cd304722eed4bcfaa1281bb2ae38c272dc3b9dbb115edf955e84e",
+      "after": "e62e1230ddc7c894905b302ddbf6127dac6b031fe09a13fb2cbc79eea6099f86",
+      "changed_area_ratio": 0.026427720839152555,
+      "max_bounds_change": 4.176954789948695,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "e62e1230ddc7c894905b302ddbf6127dac6b031fe09a13fb2cbc79eea6099f86",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 4,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          50,
+          5,
+          810,
+          696
+        ],
+        "ink_fraction": 0.530414,
+        "stems": [],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "W": {
+      "before": "81fd7ead17095e454ed8ab9ed1fdf89c9407a9bdb351d1b2b570b6577ad455e8",
+      "after": "19b40c958e792051568c61d160bdf407179d3276ee7df5ce6199bc1667187455",
+      "changed_area_ratio": 0.06334543563902591,
+      "max_bounds_change": 1.1863794156951144,
+      "local_patch": {
+        "fingerprint": "00999227bf3bdf8bbae0ae8c6a8d5e1539458453374ea3ec9859103b5043cda8",
+        "note": "Remove the mirrored inward spike at the central upper crotch; retain all remaining diagonal and terminal vertices.",
+        "contours": {
+          "0": "M50 699 L248 699 L348 273 L477 699 L556 699 L635 699 L764 273 L864 699 L1062 699 L895 1 L671 1 L556 387 L441 1 L217 1 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "19b40c958e792051568c61d160bdf407179d3276ee7df5ce6199bc1667187455",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 6,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          50,
+          1,
+          1062,
+          699
+        ],
+        "ink_fraction": 0.634033,
+        "stems": [],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "X": {
+      "before": "97b42c3569d86795caabdf1d3e2ba75359bd01c0f81bd0db91eeb49abace33bf",
+      "after": "c56ed3f66749e1262e359324cd5b1fb47708267b77b35ba94261163e11355265",
+      "changed_area_ratio": 0.09203125215185044,
+      "max_bounds_change": 1.1664501300949723,
+      "local_patch": {
+        "fingerprint": "a52f9f24b9f366e97835811c4fbcd08812e299ee7d6f54738bda55c04034188c",
+        "note": "Replace the mirrored central notches with single intersections of the existing diagonals; preserve weight and four terminals.",
+        "contours": {
+          "0": "M50 1 L280 350 L50 699 L280 699 L414 470 L548 699 L778 699 L548 350 L778 1 L548 1 L414 230 L280 1 Z"
+        }
+      },
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "c56ed3f66749e1262e359324cd5b1fb47708267b77b35ba94261163e11355265",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 4,
+        "symmetry": {
+          "vertical": 0.0,
+          "horizontal": 0.0
+        },
+        "bounds": [
+          50,
+          1,
+          778,
+          699
+        ],
+        "ink_fraction": 0.563289,
+        "stems": [],
+        "intent": "Exact vertical/horizontal reflection is intended. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    },
+    "Y": {
+      "before": "89db2a24a0c3f954b54c1fc406570df65682f7a529edd4f1f7a68b44fa1eeeb1",
+      "after": "3852cdfc3e7364c587c5ec90505ec045e764686383c5edf11b7c4b1fd8fad0ff",
+      "changed_area_ratio": 0.06658304838852988,
+      "max_bounds_change": 1.970842579557143,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "3852cdfc3e7364c587c5ec90505ec045e764686383c5edf11b7c4b1fd8fad0ff",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 6,
+        "symmetry": {
+          "vertical": 0.0
+        },
+        "bounds": [
+          50,
+          0,
+          778,
+          698
+        ],
+        "ink_fraction": 0.425927,
+        "stems": [
+          {
+            "at": 100,
+            "width": 192.0,
+            "target": 192
+          }
+        ],
+        "intent": "Exact vertical reflection is intended. Straight polygon construction with crisp corners; preserve diagonals. Shared upright stem family targets 192 units; adjust only declared parallel boundaries, not overall glyph width."
+      }
+    },
+    "Z": {
+      "before": "f3e163ca27d32901788e08ad8466de94686bdd37a0aa4c364abd2bb98acb37d5",
+      "after": "8209d6f4828412684cfb8484196d6e94952a893de02d9b9730ce0fdfd58b9acb",
+      "changed_area_ratio": 0.009781755204889352,
+      "max_bounds_change": 3.13317125998708,
+      "local_patch": null,
+      "audit": {
+        "status": "passed",
+        "issues": [],
+        "fingerprint": "8209d6f4828412684cfb8484196d6e94952a893de02d9b9730ce0fdfd58b9acb",
+        "curves_checked": 0,
+        "joins_checked": 0,
+        "axis_edges_checked": 8,
+        "symmetry": {},
+        "bounds": [
+          50,
+          1,
+          680,
+          703
+        ],
+        "ink_fraction": 0.671482,
+        "stems": [],
+        "intent": "Intentional asymmetric letter structure; preserve its skeleton. Straight polygon construction with crisp corners; preserve diagonals."
+      }
+    }
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "schema": 1,
+  "review": "agent-review.json",
+  "max_bounds_change": 12,
+  "glyphs": {
+    "space": {
+      "construction": "blank",
+      "symmetry": [],
+      "corners": [],
+      "note": "Explicit blank word advance; reviewed in real mixed-case text.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "A": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          194.4081424726669,
+          210.55007207961307
+        ],
+        [
+          462.83436550094075,
+          209.86662365141365
+        ],
+        [
+          331.55806225503306,
+          564.7856939406622
+        ],
+        [
+          428.4151876735598,
+          296.05712890625
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "B": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          120.5965457239904,
+          314.11903018043154
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "C": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "D": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.43879199274579,
+          609.0595063709077
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "E": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          122.99088605474753,
+          82.18093145461307
+        ],
+        [
+          121.3714199089136,
+          609.9905104864212
+        ],
+        [
+          123.65704118867598,
+          391.35713123139885
+        ],
+        [
+          123.15713419462827,
+          312.58094424293154
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "F": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          125.42932414716506,
+          307.32625325520826
+        ],
+        [
+          124.61959107424809,
+          611.8618919735862
+        ],
+        [
+          125.95306391651047,
+          393.9190819149926
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "G": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          517.6920083031191,
+          273.35713704427076
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "H": {
+      "construction": "curved",
+      "symmetry": [
+        "vertical"
+      ],
+      "corners": [
+        [
+          123.73827136811042,
+          313.52393740699426
+        ],
+        [
+          460.2617286318896,
+          313.52393740699426
+        ],
+        [
+          122.92635846818484,
+          398.59531947544656
+        ],
+        [
+          461.07364153181516,
+          398.59531947544656
+        ],
+        [
+          463.983545503155,
+          399.761962890625
+        ],
+        [
+          120.01645449684497,
+          399.761962890625
+        ],
+        [
+          462.0788126627531,
+          316.16675967261926
+        ],
+        [
+          121.92118733724692,
+          316.16675967261926
+        ]
+      ],
+      "note": "Exact centered upright/reflection is intended here; preserve the rounded caps. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [
+        [
+          122.14339181081867,
+          166.915048828125,
+          123.74827136811042,
+          313.53393740699426
+        ],
+        [
+          121.72588227770846,
+          48.799523809523855,
+          122.5447162155806,
+          166.935048828125
+        ],
+        [
+          40.725835774732325,
+          132.13285714285735,
+          41.47927490233656,
+          309.9104836309523
+        ],
+        [
+          39.44656796409253,
+          309.8904836309523,
+          40.76022263299138,
+          633.3456584821431
+        ],
+        [
+          119.41163260322945,
+          398.58531947544657,
+          122.93635846818485,
+          642.8671428571431
+        ],
+        [
+          462.78074416386926,
+          399.751962890625,
+          463.993545503155,
+          483.4822609747023
+        ],
+        [
+          461.34409284318485,
+          483.4622609747023,
+          462.80074416386924,
+          611.9170870535715
+        ],
+        [
+          541.3473771158781,
+          386.20564592633923,
+          542.6306595284525,
+          622.6290476190477
+        ],
+        [
+          542.6106595284525,
+          65.46619047619082,
+          544.1103261021133,
+          386.2256459263392
+        ],
+        [
+          462.0688126627531,
+          49.99,
+          465.49355712889906,
+          316.17675967261926
+        ]
+      ],
+      "axis_policy": "declared"
+    },
+    "I": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the source\u2019s slight upright curvature and organic rounded caps/dot. Exact mirroring introduced a visible jog or pinched cap in the comparison, so it is not the intended design. Geometry, tangent/cusp and topology checks still apply; visual balance is reviewed without forced reflection.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "J": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "K": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          155.34338419423102,
+          411.38102213541697
+        ],
+        [
+          225.4623155558379,
+          372.7382114955358
+        ],
+        [
+          153.43850603202873,
+          331.07154482886926
+        ],
+        [
+          119.53376737875487,
+          329.09516834077385
+        ],
+        [
+          121.58135154914135,
+          418.28584216889885
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "L": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          121.92217357267964,
+          84.5953078497023
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "M": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          642.34488621533,
+          537.1047247023812
+        ],
+        [
+          152.9400080531277,
+          550.8451915922619
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "N": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          124.25191867746616,
+          558.8618687220983
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "O": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "P": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          122.69727904848514,
+          273.78569103422615
+        ],
+        [
+          120.53053100161014,
+          621.5715680803569
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "Q": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          412.4747458051843,
+          -1.7380487351192642
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "R": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.96862668931044,
+          308.38099888392844
+        ],
+        [
+          303.06408567368544,
+          319.3571544828865
+        ],
+        [
+          210.0162806141616,
+          310.6904529389881
+        ],
+        [
+          121.849834836632,
+          622.9047502790177
+        ],
+        [
+          122.20674517889438,
+          389.7379557291665
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "S": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "T": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          251.8395743448391,
+          617.2380719866069
+        ],
+        [
+          334.5300040323391,
+          617.8809756324404
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "U": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "V": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "W": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          473.5741968600869,
+          522.285970052083
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "X": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          312.0082087543724,
+          433.1426711309523
+        ],
+        [
+          303.48450386225977,
+          287.5714983258931
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "Y": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          298.55473114366123,
+          377.11879185267844
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "Z": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          421.9285016741078,
+          607.4997674851193
+        ],
+        [
+          145.76185825892935,
+          87.54766555059541
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "a": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          314.4826226066666,
+          272.1668061755954
+        ],
+        [
+          325.3683880456547,
+          56.88069661458303
+        ],
+        [
+          317.4112928540626,
+          193.6668759300601
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "b": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.72449381704382,
+          61.78559802827385
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "c": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "d": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          389.48734831900674,
+          399.66692243303623
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "e": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          130.26084582712338,
+          191.3097563244046
+        ],
+        [
+          122.7372455667064,
+          266.83349609375
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "f": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          201.19472812315053,
+          374.3809291294647
+        ],
+        [
+          118.02822421690053,
+          374.9046688988101
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "g": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          398.40209628575394,
+          374.0001860119046
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "h": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "i": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the source\u2019s slight upright curvature and organic rounded caps/dot. Exact mirroring introduced a visible jog or pinched cap in the comparison, so it is not the intended design. Geometry, tangent/cusp and topology checks still apply; visual balance is reviewed without forced reflection.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "j": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "k": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          126.1673953096606,
+          188.23823474702385
+        ],
+        [
+          126.97712838257667,
+          293.04780505952385
+        ],
+        [
+          228.76284266829134,
+          262.8569103422624
+        ],
+        [
+          163.02449166382667,
+          209.1668991815477
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "l": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve the source\u2019s slight upright curvature and organic rounded caps/dot. Exact mirroring introduced a visible jog or pinched cap in the comparison, so it is not the intended design. Geometry, tangent/cusp and topology checks still apply; visual balance is reviewed without forced reflection.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "m": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          396.3887688861414,
+          393.7616257440477
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "n": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "o": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "p": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          123.73929664590014,
+          421.47623697916606
+        ],
+        [
+          125.28697382223936,
+          57.16668991815459
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "q": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          387.50433179887887,
+          49.59542410714312
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "r": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "s": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "t": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          205.51645875413305,
+          476.66655040922706
+        ],
+        [
+          203.61158059193076,
+          394.8096865699408
+        ],
+        [
+          119.92133691633535,
+          394.2144484747023
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "u": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    },
+    "v": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          265.917603074819,
+          137.80924479166606
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "w": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          235.14275251116078,
+          144.23828125
+        ],
+        [
+          556.7858189174108,
+          133.78557477678623
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "x": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          207.3533942090653,
+          258.47632998511835
+        ],
+        [
+          310.75828399701186,
+          261.1909412202385
+        ],
+        [
+          255.18693680579236,
+          199.0001860119046
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "y": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          270.24294872375776,
+          159.5714750744046
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "axis_policy": "declared",
+      "straight_regions": []
+    },
+    "z": {
+      "construction": "curved",
+      "symmetry": [],
+      "corners": [
+        [
+          301.44291328225063,
+          416.47600446428623
+        ],
+        [
+          151.99048582689375,
+          87.90457589285688
+        ]
+      ],
+      "note": "Preserve Recraft\u2019s humanist asymmetry, slight stroke lean and curvature. Reflection differences are measurements for visual review, not a command to mirror. Straight edges are enforced only in explicitly declared regions; natural near-horizontal/vertical curves remain curves. Reviewed stroke/bowl junctions are named intentional corners. Tall ascenders and terminal rhythm are part of this unapproved design.",
+      "straight_regions": [],
+      "axis_policy": "declared"
+    }
+  }
+}

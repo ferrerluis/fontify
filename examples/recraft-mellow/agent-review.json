@@ -1,0 +1,935 @@
+{
+  "schema": 1,
+  "reviewer": "Codex agent: every glyph enlarged and in mixed-case text, 2026-11-03",
+  "project_sha256": "1d8a575ad9e03f7fe1fd446ed1fd62200048b4d2dd9aaa67bbab95d1c307f617",
+  "profile_sha256": "ba0dbff4bae57315793b3e8096ca7006c1fff027b4dd6208cc6c6361a55ac4e6",
+  "font_sha256": "4abf53450aedeb20403d088c134d265925e891452b7fb476181bde34ea0f6f5d",
+  "glyphs": {
+    "space": {
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Explicit blank U+0020 advance 280; word gaps inspected in mixed-case samples and the title-case pangram.",
+      "evidence": [
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "A": {
+      "fingerprint": "3384da9eb02d7ce93b9aa123cc408fcc36788d424a28fe1e0e4d16d424372b88",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded apex and feet with a triangular counter; retain the subtle source asymmetry and curved crossbar rather than enforcing a geometric A.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "B": {
+      "fingerprint": "3078bf65b19cb1ede7b6aca75f3bfea04d348bea123ae9656061544bee504f65",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two distinct open counters and a larger lower bowl; squared inner counter corners are intentional, outer bowls remain smooth.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "C": {
+      "fingerprint": "380335415476422cf7d3d7a868a7cd013e6665967c89f51545ff6dc3d8cbf410",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open bowl and two round terminals flow smoothly. Unequal terminal placement is part of the source character and remains unchanged.",
+      "evidence": [
+        "review-evidence/group-01.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "D": {
+      "fingerprint": "681b881268ed44350ea03df080c829e4883b9aaa7264545a6bef07c766b0d9ac",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Smooth right bowl, softly rounded outer stem corners and squared inner counter mouth retained; no whole-bowl refit.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "E": {
+      "fingerprint": "c8ea0e464ad50ff040faa80796ef482c722d1a84960311bddbf61d6666d76de2",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Gently drawn arms and rounded terminals remain curved. Inner elbows are intended corners; no forced horizontal straightening.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "F": {
+      "fingerprint": "08dd6eafa8f331022df5f2f9c76bcb3f6ebbe9a30c54d4a77863b66ca355910d",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded open two-arm construction retains its slight arm curvature and upright lean; inner elbows are intentional.",
+      "evidence": [
+        "review-evidence/group-02.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "G": {
+      "fingerprint": "1567879b4e3f721bd99da60cc6138649063d28e62182e280e0cc5e4ea8ad74c4",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open rounded bowl and compact crossbar remain distinct from C. The interior bar corner is intentional.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "H": {
+      "fingerprint": "eed60ab1dcc25f1725bd88b79a388675b1544a55193f8a5d16c6d32d99f4f095",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Declared centered upright and crossbar alignment refined locally. Rounded caps and broad stroke proportions preserved; reviewed before/after enlarged.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "I": {
+      "fingerprint": "5db7fd75154f1ffb7d66110395ed10b814f1ad842817bf7985c7e8319913846b",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Original organic rounded upright restored after exact mirroring introduced a visible jog. Final compiled outline matches the initial sample.",
+      "evidence": [
+        "review-evidence/group-03.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "J": {
+      "fingerprint": "41aa8169a84e3d0a673d29238d3afd6075693e943366e30f4da08366e9d267a0",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Long upright and smooth open hook retained. The hook terminal and round upper cap remain continuous.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "K": {
+      "fingerprint": "4fa08281739ab15f8bda79414949c127168a533e13668c66af177d89a1b46bdf",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded diagonal terminals and deliberate sharp inside intersections retained; genuine diagonals are not snapped to axes.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "L": {
+      "fingerprint": "3f8569852fcd383746086f5109b949dfc14c6fd8bbb4c16c8fe9e2b8ec021c84",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded outer elbow, square inner elbow and slightly curved foot retain the drawn source rhythm.",
+      "evidence": [
+        "review-evidence/group-04.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "M": {
+      "fingerprint": "a5fdd173badb741c1a64bab47f9b359917ba341478a8b8a19e9db07d9d35dfb7",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Soft outer peaks, sharp inner upright-to-diagonal junctions and asymmetric stance retained without mirroring.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "N": {
+      "fingerprint": "651ad458cd8d6ad88e8cff0a6e133acb153719a4da695f907967d441e964638d",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded terminals and upright-to-diagonal corners preserve the source lean and weight; no forced symmetry.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "O": {
+      "fingerprint": "5a08e02de1fad46a4b35240a69e6321fd63b6768c4836d9685f082dfe938b78f",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Smooth organic inner/outer bowls retained. Reflection differences were reviewed optically rather than replaced by an ellipse.",
+      "evidence": [
+        "review-evidence/group-05.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "P": {
+      "fingerprint": "3971f23669423fb1fd30cea1fb100c5d6f4fa1a279838e9b22b99c1a967ca87b",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open lower stem, rounded upper bowl and square inner counter mouth retain their original relative weight.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Q": {
+      "fingerprint": "ac786dd6192d7cc62661476980a5c849f082e632ab24ab2439dd3384886fa095",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Original broad flowing tail and sharp tail-to-bowl entry retained; tail remains visibly distinct and unclipped.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "R": {
+      "fingerprint": "331e00090cb1608fe3654304de32a304107220008fe860d4d23858d15ee67ada",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded upper bowl, open counter and diagonal leg retain the source junctions and asymmetry.",
+      "evidence": [
+        "review-evidence/group-06.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "S": {
+      "fingerprint": "39488d7273a2e0d0c7b5ccc4fa3a747a6f1e8fd1e5c29394ed6b4e57bdb076a9",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Both terminals and the asymmetric upper/lower bowls remain flowing; checked enlarged for flat spots and kinks.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "T": {
+      "fingerprint": "918ae7304df0edb28875b572a7b78b66906c8b4a944a384c1e8de4e28f5bc3fb",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Softly curved bar, rounded ends and stem retained; the two inner bar junctions are intentional corners.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "U": {
+      "fingerprint": "e9ee54f0b9375baccfea198b89fecf458c5e6b3d402c3e7ffff33bd182ecfc25",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Smooth lower bowl and softly curved upright boundaries remain as generated, without mechanical reflection.",
+      "evidence": [
+        "review-evidence/group-07.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "V": {
+      "fingerprint": "5b6f8859493a8652b16a02d8da8b7a1a3e4c18f1f408065e88f90785b9c32548",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded outer vertex and sharp inner crotch retained; diagonal balance assessed in AVATAR without forcing mirroring.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "W": {
+      "fingerprint": "bea545660e7cf824588e570a00d7539f9fa6c51e01dcd902ec70c39e685818ae",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Three rounded peaks/valleys and acute inner junctions retain the original stance; no center spike was introduced.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "X": {
+      "fingerprint": "46244eb382092d3d298167dc21d6c87eaddb4cd0f5e710e0084118c7adb36b25",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Original off-center crossing retained. Exact two-axis symmetry would change 24.33 percent of filled area and was rejected.",
+      "evidence": [
+        "review-evidence/group-08.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Y": {
+      "fingerprint": "4a88814cf2888a2065e5a50df36c1085552d8c92f8e10b780f795cf9474b4fcd",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded terminals, inside fork and slightly asymmetric arm stance retained; leg spacing checked in words.",
+      "evidence": [
+        "review-evidence/group-09.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "Z": {
+      "fingerprint": "a24279577cf31a80a73ca172fd1c329e40f444b286cda74a9084360073952f56",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Only the small outer lower-left tangent kink was corrected. Both inside diagonal-to-bar corners and curved arms remain intact.",
+      "evidence": [
+        "review-evidence/group-09.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "a": {
+      "fingerprint": "5535b14414a1087f5b0725c739d874d9b715b0c093c9db5d147c4c7aef102159",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Single-storey bowl, open counter, round entry terminal and small right tail retain the friendly source character.",
+      "evidence": [
+        "review-evidence/group-09.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "b": {
+      "fingerprint": "1427e7993ecc2ce79573d3a224031d35e2428a54a80b741c0840a92c23ae4897",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Tall ascender, rounded bowl and acute lower bowl/stem join retained; counter stays open.",
+      "evidence": [
+        "review-evidence/group-10.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "c": {
+      "fingerprint": "152167e590f8ebe4774f3c9dbc9bd4c79b4346ce010b169fd48f48a1064ad87d",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open round terminals and flowing bowl retained, distinct from e; no ellipse fit or terminal relocation.",
+      "evidence": [
+        "review-evidence/group-10.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "d": {
+      "fingerprint": "18dfc7257be5b9a68d2e21a48450982fae9822af0dcf355e197a3b91090efb31",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Tall ascender and softly rounded bowl preserved, including the deliberate inside stem junction.",
+      "evidence": [
+        "review-evidence/group-10.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "e": {
+      "fingerprint": "b072c460a6727158cd5d1617db2c7113a3beea678d2583b72035777c68904161",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open mouth and gently curved crossbar retained. The squared counter junction is intentional rather than a cusp.",
+      "evidence": [
+        "review-evidence/group-11.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "f": {
+      "fingerprint": "025c10388b25a32bc028255127b92406458c737745905f44b9b84a05bdc38677",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Tall curved hook, round terminals and crossbar junctions preserved; inspected in friendly and fox words.",
+      "evidence": [
+        "review-evidence/group-11.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "g": {
+      "fingerprint": "489b87a15873ffafdd7b32d8e0c6405580967af5944d79b2be041f3ab0b57618",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two-loop source construction retained despite the requested single-storey g. Its wide smooth ear is not a stationary cusp; both counters and descender are visible.",
+      "evidence": [
+        "review-evidence/group-11.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "h": {
+      "fingerprint": "a7e4c7e16c0f2be8638ee2a29dcbbcc8c437d10de10206cf0139c483c56bdbca",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Tall ascender and smooth shoulder retain original curvature; shoulder entry and terminal weight reviewed enlarged.",
+      "evidence": [
+        "review-evidence/group-12.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "i": {
+      "fingerprint": "71b6a4a62d429e4554fefe7e09d78bbe5b6c1205b42f6187b2c11fcd950cec67",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Separate dot and rounded stem preserved. Exact mirroring was reverted because it pinched the organic dot/cap; initial compiled outline retained.",
+      "evidence": [
+        "review-evidence/group-12.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "j": {
+      "fingerprint": "d2be8c39bc4c29c4ee48486f13e4c657546885248b2b542e7091f92ef2e21324",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Separate dot and smooth descending hook preserved and fully visible in both review rows; no source components dropped.",
+      "evidence": [
+        "review-evidence/group-12.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "k": {
+      "fingerprint": "0d19142a32fb213f2655995e89532c43a159be5dbc45241ab9891295d7c48d97",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Tall upright and two rounded diagonal arms retain their intentional inner corners and leg proportions.",
+      "evidence": [
+        "review-evidence/group-13.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "l": {
+      "fingerprint": "2d2e4a86810419c222c1b32ab9e7d6418a2ba8e10eeb0bd47fc7e11c6936cd4a",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Original tall, slightly organic rounded upright restored after the mechanical candidate; no width or cap refit remains.",
+      "evidence": [
+        "review-evidence/group-13.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "m": {
+      "fingerprint": "adaa8ecd268ef49c5459b3569ee9573036fcdfffc418d8a6e86817f6fc9ff984",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Two distinct arches, rounded terminals and sharp inner meeting point retained; spacing checked in modern and jumps.",
+      "evidence": [
+        "review-evidence/group-13.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "n": {
+      "fingerprint": "032d3ea9e85841af592ddc7b0ce18b0d9cbe6684de2e3b43ed77395bab964219",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Smooth single shoulder, rounded terminals and source lean retained; visibly distinct from r and h.",
+      "evidence": [
+        "review-evidence/group-14.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "o": {
+      "fingerprint": "48305dc1da5aabfb350d476c0f79acc15cbd3de7a9a48defaa6b550595eb39d9",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Organic round bowl and counter retained with their source optical balance; no forced circle or mirror.",
+      "evidence": [
+        "review-evidence/group-14.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "p": {
+      "fingerprint": "a442a74ccb069834287789d7c71a6c6ddba574a1fb10532efbde31c59789d90b",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded bowl and full descender retained; acute shoulder and lower bowl junctions are deliberate.",
+      "evidence": [
+        "review-evidence/group-14.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "q": {
+      "fingerprint": "59f70cd299c19405705b15b5e37a3637aa9dc211611364649d83cf0df3a951b5",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Only the pointed upper terminal was rounded locally with two tangent-continuous quarters; original bowl, counter, descender and remaining segments preserved.",
+      "evidence": [
+        "review-evidence/group-15.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "r": {
+      "fingerprint": "7e737190fdc57d8876c8eac19bc6ada87e4daa7c16c24134a471835ae89513a3",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Open shoulder, rounded terminal and natural stem-to-shoulder entry retained; no closing of the opening.",
+      "evidence": [
+        "review-evidence/group-15.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "s": {
+      "fingerprint": "f358593b3cf7b6881e0cf0b2e9b7a07d504a71d7b025709607f12bf916abe534",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Asymmetric bowls and round terminals remain continuous; reviewed at word and enlarged sizes.",
+      "evidence": [
+        "review-evidence/group-15.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "t": {
+      "fingerprint": "eb9a7e1a03715546e5dba9f4082d5618d39adcb6941e8fa75cb456fc91f40c94",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Short ascender, round crossbar ends, inside junctions and hooked foot retain the source rhythm.",
+      "evidence": [
+        "review-evidence/group-16.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "u": {
+      "fingerprint": "f855da217481e0e9ee8eefb3c8acc3857318c67a4e3b41713a342e32f942a106",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded bottom and asymmetric exit stroke retained; it remains a lowercase form rather than a mirrored capital U.",
+      "evidence": [
+        "review-evidence/group-16.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "v": {
+      "fingerprint": "90101d74f38e9d87cc51b8f747eae0a1f62aa8201d71634b4f11f6ec27049ab5",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Round outer vertex and acute inside crotch preserved; original diagonal angles and width retained.",
+      "evidence": [
+        "review-evidence/group-16.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "w": {
+      "fingerprint": "a05f52681849b0a69b44e568f5e864608592ca429ec3f64ef84f37baa7a1fd2e",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Round outer junctions and sharp inside junctions preserve the handwritten stance and width.",
+      "evidence": [
+        "review-evidence/group-17.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "x": {
+      "fingerprint": "9c03f51ca6d049c5fec70c0a460c074c5a4ee21701842ed19521a2d0547cf9c2",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Original off-center crossing and four rounded terminals retained without mechanical mirroring.",
+      "evidence": [
+        "review-evidence/group-17.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "y": {
+      "fingerprint": "d4d17a20ff27e0399c1c969c00374ab3feef06a1e8faf008c51fc8a2b2ea318c",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded upper terminals and descending diagonal retained; inside fork intentional and descender unclipped.",
+      "evidence": [
+        "review-evidence/group-17.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    },
+    "z": {
+      "fingerprint": "5e5b560d229f105988eba605ebc6821c8ff0f3eea300406addc9fa6d6c748764",
+      "checks": {
+        "axes": "passed",
+        "curves": "passed",
+        "optical_weight": "passed",
+        "source_preservation": "passed",
+        "spacing": "passed",
+        "symmetry": "passed"
+      },
+      "notes": "Rounded terminals and slightly curved bars retained with sharp inside diagonal junctions.",
+      "evidence": [
+        "review-evidence/group-18.png",
+        "review-evidence/spacing-and-weight.png"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "path": "review-evidence/group-01.png",
+      "sha256": "b9d607f51ee51257107b87450c066c90acc4fc0704e666e6d5412008d159679c"
+    },
+    {
+      "path": "review-evidence/group-02.png",
+      "sha256": "dc8f4849b2471013f02fc34f39cd5bbd905f0aaaf5b579f20621f18d0c315de2"
+    },
+    {
+      "path": "review-evidence/group-03.png",
+      "sha256": "165635a0b10af1ee2087a116f2199eea6538d323a994c2aadf48eac8cd4d0b64"
+    },
+    {
+      "path": "review-evidence/group-04.png",
+      "sha256": "72d02f7d9a962c9fb11c3ff46d6dafdae598d518101587cd104c0e07a2469308"
+    },
+    {
+      "path": "review-evidence/group-05.png",
+      "sha256": "378ceae7738d88e26501e97726d016a2c80d20f748d9c21ef750d1655e2bd618"
+    },
+    {
+      "path": "review-evidence/group-06.png",
+      "sha256": "0f08d9095fcf8da1bd283d0028377457d2b9f562466e7437d2ccf1e0da4a0892"
+    },
+    {
+      "path": "review-evidence/group-07.png",
+      "sha256": "77011e430796c57ccff3625455ba7a25f922242107defd4410e285e13b9efe3a"
+    },
+    {
+      "path": "review-evidence/group-08.png",
+      "sha256": "a748dccdda70175d2d0bb3d12a705bd8af27423b7624fd5b28f4eb0bd9d8df8a"
+    },
+    {
+      "path": "review-evidence/group-09.png",
+      "sha256": "cf035d23b9cbeec7698b09a8875c3b35f5f01313379738821f3a102ed892b706"
+    },
+    {
+      "path": "review-evidence/group-10.png",
+      "sha256": "f80bb20133a25843adbf62ed5d642fd7c1ff8cdb11a1be2c81b352500a916039"
+    },
+    {
+      "path": "review-evidence/group-11.png",
+      "sha256": "76cd293e91553790d02082b9d2b624c8de4fa0bf573dff69a848cac5aaec110a"
+    },
+    {
+      "path": "review-evidence/group-12.png",
+      "sha256": "624b4bb8d9d5c300ea98dbcc2dddc8435a6f368c1300fc907954723ddfb5ce89"
+    },
+    {
+      "path": "review-evidence/group-13.png",
+      "sha256": "5248ccc145136e3e6ca092de8aa58a071cf1d80ffc03f3f56d1f508d294cb641"
+    },
+    {
+      "path": "review-evidence/group-14.png",
+      "sha256": "1d354ae44f6ae4ef09a248bd444f48bb2cad727546f0cac24414b9ff7829e9bc"
+    },
+    {
+      "path": "review-evidence/group-15.png",
+      "sha256": "fd73783f5a429e7b14f30db3de017d40405924c80dc20ad5309c9b3510ae8793"
+    },
+    {
+      "path": "review-evidence/group-16.png",
+      "sha256": "6ae3d573b8d415e6c0e9aaa556bdb487677e2f7048fe0024eb0aba92ef62c619"
+    },
+    {
+      "path": "review-evidence/group-17.png",
+      "sha256": "fdc6c3b995dbb779e3a6420f78f13aa215bdf6f785efb3d6592ed157741adf43"
+    },
+    {
+      "path": "review-evidence/group-18.png",
+      "sha256": "77b8400e3b2a0a37ad42890eeddfea34b722928d407d86d309220889cadafca2"
+    },
+    {
+      "path": "review-evidence/spacing-and-weight.png",
+      "sha256": "aae358358e29850bdc9e44c63b4949a97bcfcd2b046879aa908d2c25d94164e1"
+    }
+  ],
+  "human_approval": "User approved the design and name Mellow on 2026-11-03; see user-approval.json. Agent preflight alone does not confer this approval."
+}

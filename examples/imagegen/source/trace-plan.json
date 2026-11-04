@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "image": "alphabet-v1.png",
+  "source_sha256": "323d5e739fa8d2a13cfa7eadc188a279caa7a4c52c6f4f4b83a91a13ca387b83",
+  "image_size": [
+    1536,
+    1024
+  ],
+  "threshold": 128,
+  "cap_height": 700,
+  "svg_baseline": 800,
+  "sidebearing": 50,
+  "rows": [
+    {
+      "baseline": 262,
+      "pixels_per_cap": 184
+    },
+    {
+      "baseline": 526,
+      "pixels_per_cap": 184
+    },
+    {
+      "baseline": 786,
+      "pixels_per_cap": 184
+    },
+    {
+      "baseline": 1004,
+      "pixels_per_cap": 151
+    }
+  ],
+  "trace": {
+    "turdsize": 0,
+    "alphamax": 0.7,
+    "opticurve": false,
+    "opttolerance": 0.05
+  },
+  "glyphs": [
+    {
+      "name": "A",
+      "unicode": "U+0041",
+      "box": [
+        54,
+        78,
+        250,
+        262
+      ],
+      "row": 0
+    },
+    {
+      "name": "B",
+      "unicode": "U+0042",
+      "box": [
+        307,
+        78,
+        455,
+        262
+      ],
+      "row": 0
+    },
+    {
+      "name": "C",
+      "unicode": "U+0043",
+      "box": [
+        507,
+        76,
+        668,
+        265
+      ],
+      "row": 0
+    },
+    {
+      "name": "D",
+      "unicode": "U+0044",
+      "box": [
+        716,
+        79,
+        873,
+        262
+      ],
+      "row": 0
+    },
+    {
+      "name": "E",
+      "unicode": "U+0045",
+      "box": [
+        927,
+        78,
+        1064,
+        262
+      ],
+      "row": 0
+    },
+    {
+      "name": "F",
+      "unicode": "U+0046",
+      "box": [
+        1128,
+        78,
+        1259,
+        262
+      ],
+      "row": 0
+    },
+    {
+      "name": "G",
+      "unicode": "U+0047",
+      "box": [
+        1310,
+        77,
+        1479,
+        266
+      ],
+      "row": 0
+    },
+    {
+      "name": "H",
+      "unicode": "U+0048",
+      "box": [
+        61,
+        341,
+        222,
+        525
+      ],
+      "row": 1
+    },
+    {
+      "name": "I",
+      "unicode": "U+0049",
+      "box": [
+        315,
+        341,
+        370,
+        525
+      ],
+      "row": 1
+    },
+    {
+      "name": "J",
+      "unicode": "U+004A",
+      "box": [
+        448,
+        342,
+        590,
+        530
+      ],
+      "row": 1
+    },
+    {
+      "name": "K",
+      "unicode": "U+004B",
+      "box": [
+        662,
+        341,
+        830,
+        526
+      ],
+      "row": 1
+    },
+    {
+      "name": "L",
+      "unicode": "U+004C",
+      "box": [
+        893,
+        341,
+        1025,
+        526
+      ],
+      "row": 1
+    },
+    {
+      "name": "M",
+      "unicode": "U+004D",
+      "box": [
+        1079,
+        341,
+        1262,
+        526
+      ],
+      "row": 1
+    },
+    {
+      "name": "N",
+      "unicode": "U+004E",
+      "box": [
+        1320,
+        341,
+        1481,
+        526
+      ],
+      "row": 1
+    },
+    {
+      "name": "O",
+      "unicode": "U+004F",
+      "box": [
+        53,
+        600,
+        234,
+        788
+      ],
+      "row": 2
+    },
+    {
+      "name": "P",
+      "unicode": "U+0050",
+      "box": [
+        292,
+        602,
+        438,
+        786
+      ],
+      "row": 2
+    },
+    {
+      "name": "Q",
+      "unicode": "U+0051",
+      "box": [
+        482,
+        600,
+        661,
+        810
+      ],
+      "row": 2
+    },
+    {
+      "name": "R",
+      "unicode": "U+0052",
+      "box": [
+        716,
+        602,
+        870,
+        786
+      ],
+      "row": 2
+    },
+    {
+      "name": "S",
+      "unicode": "U+0053",
+      "box": [
+        913,
+        600,
+        1070,
+        790
+      ],
+      "row": 2
+    },
+    {
+      "name": "T",
+      "unicode": "U+0054",
+      "box": [
+        1120,
+        602,
+        1269,
+        786
+      ],
+      "row": 2
+    },
+    {
+      "name": "U",
+      "unicode": "U+0055",
+      "box": [
+        1323,
+        602,
+        1483,
+        790
+      ],
+      "row": 2
+    },
+    {
+      "name": "V",
+      "unicode": "U+0056",
+      "box": [
+        60,
+        853,
+        224,
+        1003
+      ],
+      "row": 3
+    },
+    {
+      "name": "W",
+      "unicode": "U+0057",
+      "box": [
+        271,
+        853,
+        489,
+        1004
+      ],
+      "row": 3
+    },
+    {
+      "name": "X",
+      "unicode": "U+0058",
+      "box": [
+        533,
+        853,
+        690,
+        1004
+      ],
+      "row": 3
+    },
+    {
+      "name": "Y",
+      "unicode": "U+0059",
+      "box": [
+        733,
+        853,
+        890,
+        1004
+      ],
+      "row": 3
+    },
+    {
+      "name": "Z",
+      "unicode": "U+005A",
+      "box": [
+        940,
+        852,
+        1076,
+        1004
+      ],
+      "row": 3
+    }
+  ],
+  "review_notes": [
+    "A-Z labels and component crops manually checked against generated sheet.",
+    "Bottom row was generated smaller; its explicit uniform scale preserves each glyph aspect ratio.",
+    "No generated letterform has user approval. Trace comparison and optical review required."
+  ]
+}

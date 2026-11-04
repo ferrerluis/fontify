@@ -38,8 +38,8 @@ individual curve were not independently revalidated in this task.
 | Ferrer issue | Fontify behavior |
 |---|---|
 | Broad thinning altered character | No thinning/smoothing/auto-fit in the compiler; baseline checks source and compiled outlines. Edit a candidate explicitly. |
-| Exact mirroring looked insufficient | Report symmetry without enforcing it. Review optical weight and curves in context. A deliberate asymmetry may be correct. |
-| Rounded straight edges / angular bowls | Keep cubic/quadratic sources, explicit conversion tolerance, per-glyph close-ups and matched-scale overlays; no automatic "fix all" pass. |
+| Exact mirroring looked insufficient | Enforce only explicitly intended reflections; recheck the exported font. Agent review separately checks optical weight and curves. Intentional asymmetry is declared per glyph. |
+| Rounded straight edges / angular bowls | Audit exact intended 0/90-degree features and curve tangents/cusps. Make bounded local corrections, then inspect every actual glyph at enlarged and normal sizes before release. |
 | Missing or narrowed counters | Closed-contour, nesting, winding, crossing and zero-area checks; inspect counter proportions manually. |
 | Changed wordmark spacing | Explicit advances and GPOS pair kerning; HarfBuzz positions and feature-off comparison from the built font. |
 | Assumed full font coverage | Required coverage is explicit; extra/missing mappings are reported, unsupported preview text is flagged. |
@@ -48,3 +48,12 @@ individual curve were not independently revalidated in this task.
 This is practical evidence for guardrails, not proof that Ferrer was flawless or
 that Fontify can automatically create a visually coherent family. The example
 and tests do not depend on the private Ferrer workspace being available.
+
+The read-only local axis and refinement audits also documented that broad
+whole-contour smoothing regressed b/h/p/y and other letters. Later fixes used
+targeted tangent-constrained patches while preserving stems, shoulders, tails
+and unaffected contours. Small one-unit trace stairs could inflate angle counts;
+numeric severity needed to be checked against the actual shape. Fontify's
+[preflight loop](../references/preflight.md) retains that distinction and requires
+agent correction/review before the user's first font, rather than handing defects
+to the user as a review task. No Ferrer repair code or artwork was reused.

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "family": "Fontify Mellow",
+  "style": "Regular",
+  "version": "0.001",
+  "copyright": "Fontify Recraft vector experiment",
+  "license": "Generated with Recraft; see source provenance.",
+  "units_per_em": 1000,
+  "ascender": 950,
+  "descender": -350,
+  "line_gap": 0,
+  "cap_height": 700,
+  "x_height": 450,
+  "svg_baseline": 800,
+  "curve_error": 0.25,
+  "required_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ",
+  "samples": [
+    "Hello there",
+    "Friendly letters for modern days",
+    "The Quick Brown Fox Jumps Over The Lazy Dog",
+    "AVATAR To Wa Yo Type",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "abcdefghijklmnopqrstuvwxyz"
+  ],
+  "kerning": [
+    {
+      "left": "A",
+      "right": "V",
+      "value": -45
+    },
+    {
+      "left": "V",
+      "right": "A",
+      "value": -40
+    },
+    {
+      "left": "T",
+      "right": "A",
+      "value": -30
+    },
+    {
+      "left": "T",
+      "right": "o",
+      "value": -35
+    },
+    {
+      "left": "W",
+      "right": "a",
+      "value": -20
+    },
+    {
+      "left": "Y",
+      "right": "o",
+      "value": -30
+    },
+    {
+      "left": "L",
+      "right": "T",
+      "value": -20
+    },
+    {
+      "left": "T",
+      "right": "y",
+      "value": -35
+    }
+  ],
+  "approval": null
+}

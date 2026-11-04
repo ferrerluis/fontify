@@ -1,0 +1,910 @@
+{
+  "source_sha256": "7ded43dfc5b7d6431208c972f26642a618fd346bd415e88f90ab4add8e47ea07",
+  "scale": 2.380952380952381,
+  "normalization": "Explicit paint-order union/difference converts white counters to holes; shared scale and declared baselines. Locally join only edges whose controls all round to one integer point. No raster tracing or curve fitting.",
+  "glyphs": [
+    {
+      "name": "A",
+      "unicode": "U+0041",
+      "source": "glyphs/U0041.svg",
+      "advance": 657,
+      "sheet_bounds": [
+        642.8015952981987,
+        383.8631003180035,
+        885.3300683034805,
+        675.6637857674709
+      ],
+      "path_indices": [
+        29,
+        30
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "B",
+      "unicode": "U+0042",
+      "source": "glyphs/U0042.svg",
+      "advance": 499,
+      "sheet_bounds": [
+        1067.429480092799,
+        383.71692510885174,
+        1243.5744351086146,
+        673.6504042071633
+      ],
+      "path_indices": [
+        6,
+        7,
+        8
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "C",
+      "unicode": "U+0043",
+      "source": "glyphs/U0043.svg",
+      "advance": 614,
+      "sheet_bounds": [
+        1417.5799046682396,
+        382.20192489570917,
+        1642.0253092188661,
+        677.1653721026028
+      ],
+      "path_indices": [
+        44
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "D",
+      "unicode": "U+0044",
+      "source": "glyphs/U0044.svg",
+      "advance": 619,
+      "sheet_bounds": [
+        1828.6057317771092,
+        384.1226963492408,
+        2055.1529571274846,
+        674.334023962012
+      ],
+      "path_indices": [
+        4,
+        5
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "E",
+      "unicode": "U+0045",
+      "source": "glyphs/U0045.svg",
+      "advance": 500,
+      "sheet_bounds": [
+        2244.9939255132563,
+        381.5061652731648,
+        2421.4444421071357,
+        674.9387288095924
+      ],
+      "path_indices": [
+        35
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "F",
+      "unicode": "U+0046",
+      "source": "glyphs/U0046.svg",
+      "advance": 479,
+      "sheet_bounds": [
+        2604.589654561316,
+        381.7952253374738,
+        2772.1118940582555,
+        675.4658284939993
+      ],
+      "path_indices": [
+        49
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "G",
+      "unicode": "U+0047",
+      "source": "glyphs/U0047.svg",
+      "advance": 640,
+      "sheet_bounds": [
+        2937.36935651269,
+        380.81438472012087,
+        3172.5650109371304,
+        677.7768281918342
+      ],
+      "path_indices": [
+        31
+      ],
+      "row_baseline": 675,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "H",
+      "unicode": "U+0048",
+      "source": "glyphs/U0048.svg",
+      "advance": 584,
+      "sheet_bounds": [
+        661.7839055175812,
+        928.1267466921414,
+        873.4387461940893,
+        1221.4236098036936
+      ],
+      "path_indices": [
+        34
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "I",
+      "unicode": "U+0049",
+      "source": "glyphs/U0049.svg",
+      "advance": 161,
+      "sheet_bounds": [
+        1103.5483956453922,
+        926.9383074333964,
+        1137.5865565045035,
+        1221.2715672026106
+      ],
+      "path_indices": [
+        66
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "J",
+      "unicode": "U+004A",
+      "source": "glyphs/U004A.svg",
+      "advance": 448,
+      "sheet_bounds": [
+        1330.3450085980364,
+        927.7837305667875,
+        1484.7386916984794,
+        1224.2710090553383
+      ],
+      "path_indices": [
+        59
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "K",
+      "unicode": "U+004B",
+      "source": "glyphs/U004B.svg",
+      "advance": 564,
+      "sheet_bounds": [
+        1687.6857835212354,
+        927.8554491059762,
+        1891.0234541650368,
+        1221.2830117503056
+      ],
+      "path_indices": [
+        38
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "L",
+      "unicode": "U+004C",
+      "source": "glyphs/U004C.svg",
+      "advance": 463,
+      "sheet_bounds": [
+        2081.6627554588495,
+        928.2992617329703,
+        2242.6068503687693,
+        1219.3747247776575
+      ],
+      "path_indices": [
+        60
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "M",
+      "unicode": "U+004D",
+      "source": "glyphs/U004D.svg",
+      "advance": 794,
+      "sheet_bounds": [
+        2422.8051868520615,
+        925.8798649646347,
+        2722.642646036446,
+        1221.7902338443046
+      ],
+      "path_indices": [
+        21
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "N",
+      "unicode": "U+004E",
+      "source": "glyphs/U004E.svg",
+      "advance": 616,
+      "sheet_bounds": [
+        2925.0140964992142,
+        926.959786982094,
+        3150.1291341144956,
+        1221.868151268605
+      ],
+      "path_indices": [
+        28
+      ],
+      "row_baseline": 1222,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "O",
+      "unicode": "U+004F",
+      "source": "glyphs/U004F.svg",
+      "advance": 740,
+      "sheet_bounds": [
+        608.3863297522223,
+        1469.7192018492406,
+        885.5608934185067,
+        1767.8515609035617
+      ],
+      "path_indices": [
+        2,
+        3
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "P",
+      "unicode": "U+0050",
+      "source": "glyphs/U0050.svg",
+      "advance": 472,
+      "sheet_bounds": [
+        1072.0071330340113,
+        1473.8064386517206,
+        1236.611062184668,
+        1765.7307672037596
+      ],
+      "path_indices": [
+        26,
+        27
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "Q",
+      "unicode": "U+0051",
+      "source": "glyphs/U0051.svg",
+      "advance": 768,
+      "sheet_bounds": [
+        1400.0105579336976,
+        1470.5510053124972,
+        1689.07896429026,
+        1847.663908527514
+      ],
+      "path_indices": [
+        0,
+        1
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "R",
+      "unicode": "U+0052",
+      "source": "glyphs/U0052.svg",
+      "advance": 500,
+      "sheet_bounds": [
+        1863.1731181967396,
+        1472.8259624419277,
+        2039.5836359598031,
+        1765.2540129776394
+      ],
+      "path_indices": [
+        22,
+        23
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 2
+    },
+    {
+      "name": "S",
+      "unicode": "U+0053",
+      "source": "glyphs/U0053.svg",
+      "advance": 486,
+      "sheet_bounds": [
+        2216.957428365215,
+        1469.7394226900105,
+        2387.420528089255,
+        1768.02
+      ],
+      "path_indices": [
+        45
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "T",
+      "unicode": "U+0054",
+      "source": "glyphs/U0054.svg",
+      "advance": 588,
+      "sheet_bounds": [
+        2548.8174178376676,
+        1472.6248336029419,
+        2762.0856578337484,
+        1764.9951422642207
+      ],
+      "path_indices": [
+        55
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "U",
+      "unicode": "U+0055",
+      "source": "glyphs/U0055.svg",
+      "advance": 608,
+      "sheet_bounds": [
+        2944.272098765432,
+        1472.8342356483317,
+        3166.132007910603,
+        1768.8221850865755
+      ],
+      "path_indices": [
+        36
+      ],
+      "row_baseline": 1767,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "V",
+      "unicode": "U+0056",
+      "source": "glyphs/U0056.svg",
+      "advance": 643,
+      "sheet_bounds": [
+        938.5031106265917,
+        2016.2712941804748,
+        1174.9935327625556,
+        2310.6577317940682
+      ],
+      "path_indices": [
+        46
+      ],
+      "row_baseline": 2310,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "W",
+      "unicode": "U+0057",
+      "source": "glyphs/U0057.svg",
+      "advance": 941,
+      "sheet_bounds": [
+        1339.4588959125135,
+        2016.8427121617508,
+        1700.9841536488213,
+        2310.2744150872145
+      ],
+      "path_indices": [
+        12
+      ],
+      "row_baseline": 2310,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "X",
+      "unicode": "U+0058",
+      "source": "glyphs/U0058.svg",
+      "advance": 621,
+      "sheet_bounds": [
+        1860.646566971601,
+        2017.3487249573614,
+        2087.9002109678254,
+        2310.470136280947
+      ],
+      "path_indices": [
+        39
+      ],
+      "row_baseline": 2310,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "Y",
+      "unicode": "U+0059",
+      "source": "glyphs/U0059.svg",
+      "advance": 595,
+      "sheet_bounds": [
+        2250.967071513412,
+        2016.737164270389,
+        2467.2939295811957,
+        2310.841789584289
+      ],
+      "path_indices": [
+        54
+      ],
+      "row_baseline": 2310,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "Z",
+      "unicode": "U+005A",
+      "source": "glyphs/U005A.svg",
+      "advance": 573,
+      "sheet_bounds": [
+        2628.56,
+        2018.5061118335418,
+        2835.6266311684208,
+        2310.9358300250587
+      ],
+      "path_indices": [
+        37
+      ],
+      "row_baseline": 2310,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "a",
+      "unicode": "U+0061",
+      "source": "glyphs/U0061.svg",
+      "advance": 470,
+      "sheet_bounds": [
+        793.7622814153563,
+        2711.0826624111346,
+        957.6962427551514,
+        2899.1949478991864
+      ],
+      "path_indices": [
+        47,
+        48
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 2
+    },
+    {
+      "name": "b",
+      "unicode": "U+0062",
+      "source": "glyphs/U0062.svg",
+      "advance": 513,
+      "sheet_bounds": [
+        1137.0857125968416,
+        2545.037157722319,
+        1318.9493122539977,
+        2897.8130337105035
+      ],
+      "path_indices": [
+        19,
+        20
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "c",
+      "unicode": "U+0063",
+      "source": "glyphs/U0063.svg",
+      "advance": 458,
+      "sheet_bounds": [
+        1487.1655483516759,
+        2710.7297038437496,
+        1645.9366278725931,
+        2897.4915665916274
+      ],
+      "path_indices": [
+        63
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "d",
+      "unicode": "U+0064",
+      "source": "glyphs/U0064.svg",
+      "advance": 512,
+      "sheet_bounds": [
+        1815.475323471642,
+        2545.860206312192,
+        1997.0475481248666,
+        2897.205145770638
+      ],
+      "path_indices": [
+        17,
+        18
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 2
+    },
+    {
+      "name": "e",
+      "unicode": "U+0065",
+      "source": "glyphs/U0065.svg",
+      "advance": 478,
+      "sheet_bounds": [
+        2176.100454518233,
+        2709.1792774918454,
+        2343.4177628584666,
+        2896.9455493037653
+      ],
+      "path_indices": [
+        42,
+        43
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "f",
+      "unicode": "U+0066",
+      "source": "glyphs/U0066.svg",
+      "advance": 432,
+      "sheet_bounds": [
+        2510.6981165320267,
+        2551.4611599169366,
+        2658.53300547133,
+        2895.020863823996
+      ],
+      "path_indices": [
+        51
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "g",
+      "unicode": "U+0067",
+      "source": "glyphs/U0067.svg",
+      "advance": 525,
+      "sheet_bounds": [
+        2804.9511000287334,
+        2702.477911360686,
+        2991.988030030224,
+        3019.440484707785
+      ],
+      "path_indices": [
+        9,
+        10,
+        11
+      ],
+      "row_baseline": 2897,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "h",
+      "unicode": "U+0068",
+      "source": "glyphs/U0068.svg",
+      "advance": 493,
+      "sheet_bounds": [
+        815.3697045990198,
+        3112.8992222673455,
+        988.8095193430368,
+        3461.373463340274
+      ],
+      "path_indices": [
+        40
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "i",
+      "unicode": "U+0069",
+      "source": "glyphs/U0069.svg",
+      "advance": 181,
+      "sheet_bounds": [
+        1209.490149057905,
+        3182.655790878665,
+        1251.742696674096,
+        3460.6803482887003
+      ],
+      "path_indices": [
+        68,
+        69
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "j",
+      "unicode": "U+006A",
+      "source": "glyphs/U006A.svg",
+      "advance": 332,
+      "sheet_bounds": [
+        1408.6715116985247,
+        3180.088704484958,
+        1514.3467132699084,
+        3580.8300106357306
+      ],
+      "path_indices": [
+        65,
+        70
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "k",
+      "unicode": "U+006B",
+      "source": "glyphs/U006B.svg",
+      "advance": 471,
+      "sheet_bounds": [
+        1729.6496597902553,
+        3113.36442094369,
+        1894.049403695178,
+        3461.8096033262545
+      ],
+      "path_indices": [
+        41
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "l",
+      "unicode": "U+006C",
+      "source": "glyphs/U006C.svg",
+      "advance": 166,
+      "sheet_bounds": [
+        2082.2166172766138,
+        3111.7399965144773,
+        2118.1348645016537,
+        3461.041361053088
+      ],
+      "path_indices": [
+        64
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "m",
+      "unicode": "U+006D",
+      "source": "glyphs/U006D.svg",
+      "advance": 755,
+      "sheet_bounds": [
+        2318.0667170678203,
+        3263.4579083956055,
+        2601.544134235825,
+        3461.38407239399
+      ],
+      "path_indices": [
+        33
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "n",
+      "unicode": "U+006E",
+      "source": "glyphs/U006E.svg",
+      "advance": 485,
+      "sheet_bounds": [
+        2798.3486485713893,
+        3263.2498689224626,
+        2968.2394760829907,
+        3460.8637055339923
+      ],
+      "path_indices": [
+        53
+      ],
+      "row_baseline": 3461,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "o",
+      "unicode": "U+006F",
+      "source": "glyphs/U006F.svg",
+      "advance": 549,
+      "sheet_bounds": [
+        770.9664354262293,
+        3810.534387437709,
+        967.945022689947,
+        4007.516184872459
+      ],
+      "path_indices": [
+        24,
+        25
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "p",
+      "unicode": "U+0070",
+      "source": "glyphs/U0070.svg",
+      "advance": 522,
+      "sheet_bounds": [
+        1143.2994661118469,
+        3810.07484680922,
+        1329.072966854521,
+        4126.616034269542
+      ],
+      "path_indices": [
+        13,
+        14
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "q",
+      "unicode": "U+0071",
+      "source": "glyphs/U0071.svg",
+      "advance": 518,
+      "sheet_bounds": [
+        1498.578209941346,
+        3810.1434281943766,
+        1682.6347835469282,
+        4132.178159629503
+      ],
+      "path_indices": [
+        15,
+        16
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 1
+    },
+    {
+      "name": "r",
+      "unicode": "U+0072",
+      "source": "glyphs/U0072.svg",
+      "advance": 375,
+      "sheet_bounds": [
+        1874.0836550505187,
+        3809.68982471493,
+        1998.1416303450071,
+        4008.5462266848112
+      ],
+      "path_indices": [
+        67
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "s",
+      "unicode": "U+0073",
+      "source": "glyphs/U0073.svg",
+      "advance": 409,
+      "sheet_bounds": [
+        2181.208331781281,
+        3807.959963650481,
+        2319.5813019050393,
+        4009.8307414719625
+      ],
+      "path_indices": [
+        61
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "t",
+      "unicode": "U+0074",
+      "source": "glyphs/U0074.svg",
+      "advance": 401,
+      "sheet_bounds": [
+        2486.043145917014,
+        3746.536249762793,
+        2620.715774612091,
+        4008.6790248335683
+      ],
+      "path_indices": [
+        62
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "u",
+      "unicode": "U+0075",
+      "source": "glyphs/U0075.svg",
+      "advance": 486,
+      "sheet_bounds": [
+        2810.7224766406434,
+        3811.6837051856437,
+        2981.230544216364,
+        4009.7981555102733
+      ],
+      "path_indices": [
+        52
+      ],
+      "row_baseline": 4009,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "v",
+      "unicode": "U+0076",
+      "source": "glyphs/U0076.svg",
+      "advance": 529,
+      "sheet_bounds": [
+        1025.6945627632635,
+        4347.966894023963,
+        1214.4164759843154,
+        4556.023266928057
+      ],
+      "path_indices": [
+        58
+      ],
+      "row_baseline": 4557,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "w",
+      "unicode": "U+0077",
+      "source": "glyphs/U0077.svg",
+      "advance": 792,
+      "sheet_bounds": [
+        1388.37,
+        4348.281773890989,
+        1687.6104061121248,
+        4556.667413705514
+      ],
+      "path_indices": [
+        32
+      ],
+      "row_baseline": 4557,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "x",
+      "unicode": "U+0078",
+      "source": "glyphs/U0078.svg",
+      "advance": 510,
+      "sheet_bounds": [
+        1869.5315207212548,
+        4348.390930430892,
+        2050.307021104214,
+        4557.37336831579
+      ],
+      "path_indices": [
+        57
+      ],
+      "row_baseline": 4557,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "y",
+      "unicode": "U+0079",
+      "source": "glyphs/U0079.svg",
+      "advance": 527,
+      "sheet_bounds": [
+        2224.697863879772,
+        4348.035484747619,
+        2412.3488961740645,
+        4661.194774333576
+      ],
+      "path_indices": [
+        50
+      ],
+      "row_baseline": 4557,
+      "collapsed_subunit_edges_removed": 0
+    },
+    {
+      "name": "z",
+      "unicode": "U+007A",
+      "source": "glyphs/U007A.svg",
+      "advance": 466,
+      "sheet_bounds": [
+        2588.1339178277044,
+        4348.554057041986,
+        2750.0746314970556,
+        4557.124649999721
+      ],
+      "path_indices": [
+        56
+      ],
+      "row_baseline": 4557,
+      "collapsed_subunit_edges_removed": 0
+    }
+  ]
+}

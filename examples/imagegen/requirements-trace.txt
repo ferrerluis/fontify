@@ -1,0 +1,4 @@
+# Optional authoring tools, not compiler/runtime dependencies.
+Pillow==13.0.0
+numpy==2.5.4
+potracer==0.0.4

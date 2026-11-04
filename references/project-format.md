@@ -1,6 +1,6 @@
 # Project format (schema 1)
 
-Use `examples/offline/fontify.json` as a complete runnable source. Unknown fields
+Use `examples/imagegen/fontify.json` as a complete reviewed runnable source. Unknown fields
 are rejected, so a misspelled setting cannot silently produce the wrong font.
 
 ```json
@@ -86,6 +86,12 @@ Skia PathOps is used for measurements, not outline simplification in the compile
 
 ## Review files
 
+`quality` names a project-local intent profile. It is mandatory for `release`;
+see [preflight.md](preflight.md) for all-glyph intent, exact-axis/curve checks,
+bounded authoring corrections and the required agent visual review receipt.
+The receipt is invalidated by changed project settings, font bytes or proof files.
+Legacy low-level builds without `quality` remain possible and are not preflight-qualified.
+
 `fontify snapshot` writes a fresh baseline with source-byte, normalized-outline,
 compiled-outline, Unicode and advance fingerprints, plus construction settings.
 It does not confer approval. Set `approval` only after reviewing the actual fonts
@@ -95,3 +101,6 @@ and proofs. A baseline can protect a subset; additions remain explicitly unrevie
 actual compiled glyphs in red/blue at a shared baseline and scale. It also reports
 added/removed/changed records, global metrics and kerning changes. An overlay
 cannot infer intent; inspect counters, corners, stems and text before reapproval.
+Source-only record changes are reported separately from exported-outline and
+mapping/advance changes. A reformatted SVG can change a conservative source hash
+while leaving the actual compiled shape identical; both facts should be visible.

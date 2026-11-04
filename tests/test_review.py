@@ -104,7 +104,28 @@ def test_comparison_catches_change_and_tampering(project_dir, tmp_path):
     new = build_font(project_dir / "fontify.json", tmp_path / "out")
     result = compare_releases(old, new, tmp_path / "diff")
     assert result["changed_glyphs"] == ["A"]
+    assert result["outline_changed_glyphs"] == ["A"]
     assert (tmp_path / "diff/comparison.html").is_file()
     (old.parent / "glyph-sheet.svg").write_text("tampered")
     with pytest.raises(FontifyError, match="artifact mismatch"):
         compare_releases(old, new, tmp_path / "bad-diff")
+
+
+def test_comparison_distinguishes_source_format_from_shape(project_dir, tmp_path):
+    old = build_font(project_dir / "fontify.json", tmp_path / "before")
+    d = json.loads((project_dir / "fontify.json").read_text())
+    d.update(version="1.002", approval=None)
+    (project_dir / "fontify.json").write_text(json.dumps(d))
+    svg = project_dir / "glyphs/A.svg"
+    svg.write_text(svg.read_text() + "\n")
+    new = build_font(project_dir / "fontify.json", tmp_path / "after")
+    diff = compare_releases(old, new, tmp_path / "comparison")
+    assert diff["changed_glyphs"] == ["A"] and diff["source_only_changes"] == ["A"]
+    assert (
+        diff["outline_changed_glyphs"] == []
+        and diff["mapping_or_advance_changed_glyphs"] == []
+    )
+    assert (
+        "exported outline identical"
+        in (tmp_path / "comparison/comparison.html").read_text()
+    )

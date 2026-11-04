@@ -1,0 +1,118 @@
+{
+  "before_sha256": "732bc9b32fe92a325b497eff022dc666af66509f2fdf2924128414b12189be1f",
+  "after_sha256": "6ba8ee529cfc389a4ff2d0fdaba7d59d677db89a02069a406032fae0755ac26a",
+  "sheets": [
+    {
+      "path": "group-01.png",
+      "sha256": "330dfe5586cb29b991034b6b006d8fc03e62ffaa76a2d1a29c6065919d4a2d7e",
+      "glyphs": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "path": "group-02.png",
+      "sha256": "ea85d5f7898d353619d931d357963e1811a992e5267ecce0b42687bd3baa031d",
+      "glyphs": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "path": "group-03.png",
+      "sha256": "be2995c17eb0240447476591c9bfb503488f67dd3d63bdfef2fbe370fc6cb4c4",
+      "glyphs": [
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "path": "group-04.png",
+      "sha256": "3657839bfc091342fad65565cd95a3fc83ade3c764cdcd70186f80a293dd3ab0",
+      "glyphs": [
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "path": "group-05.png",
+      "sha256": "5aa8b3cb4abd8af06733594a32aa517c3cf7c2f73e05e4ec3a9288edcee246e2",
+      "glyphs": [
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "path": "group-06.png",
+      "sha256": "3f6970c093aefcbd6d9453170ca9b9a9d058c902630fd3d9fca099b6ceff7f4b",
+      "glyphs": [
+        "P",
+        "Q",
+        "R"
+      ]
+    },
+    {
+      "path": "group-07.png",
+      "sha256": "0ebc1ace8b9ba6af7f45eccb0da13fc2b0efc64079592950499edabdf2671768",
+      "glyphs": [
+        "S",
+        "T",
+        "U"
+      ]
+    },
+    {
+      "path": "group-08.png",
+      "sha256": "32ffbbb67d6d639577a4a3bf349407e8d80b0481b45ccdc289c8a49d7955ac70",
+      "glyphs": [
+        "V",
+        "W",
+        "X"
+      ]
+    },
+    {
+      "path": "group-09.png",
+      "sha256": "c148e9511a050cb42938a3f59f7b1bab00f90a2533d3255047586eb2b0d3d880",
+      "glyphs": [
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "path": "spacing-and-weight.png",
+      "sha256": "ddc601b5d8dd489f64b248823476299e30ba35885451c6761cdabaf9ab18f46f",
+      "glyphs": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  ]
+}

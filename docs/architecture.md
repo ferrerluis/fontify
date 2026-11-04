@@ -4,14 +4,16 @@
 
 ```text
 concept + explicit coverage
-    -> human / local drawing recipe / optional Recraft artwork
-    -> reviewed individual SVGs + fontify.json
+    -> image generation / supplied vectors / optional Recraft artwork
+    -> individual SVGs + fontify.json + explicit per-glyph intent
     -> safe parse + explicit coordinate normalization
-    -> source topology / metrics / approval checks
+    -> source topology / metrics / approval / intent checks
+    -> bounded candidate correction + audit loop (separate authoring step)
     -> fontTools FontBuilder + cubic-to-quadratic conversion + GPOS
     -> TTF -> reopen / compare / shape with HarfBuzz
     -> WOFF2 -> reopen / compare / shape again
-    -> compiled-outline proofs + artifact hashes + current.json
+    -> compiled geometry recheck + all-glyph agent visual review + proofs
+    -> release gate + artifact hashes + current.json
 ```
 
 Creative generation is a separate module and an explicit command. `build_font`
@@ -71,6 +73,17 @@ remains a release-hardening step for a professional font.
 
 ## Visual quality boundary
 
+The primary example now uses a real built-in image generation call. Its frozen
+PNG, exact prompt, explicit crop/normalization plan and traced SVGs are checked
+in under `examples/imagegen/`. The hand-coded `examples/offline/` alphabet remains
+an engineering fixture. The agent workflow starts new concept alphabets with
+image generation or optional Recraft, or accepts the user's own approved vectors.
+
+Raster tracing is a separate optional authoring helper, never an implicit compiler
+operation. Raw/compiled comparison proofs expose approximation. The image model
+made the final row smaller; its explicit uniform row scaling is recorded and
+remains subject to optical review. Structural passes do not validate that design.
+
 Symmetry ratios measure geometric differences between a path and its reflection;
 ink fraction measures filled area within bounds. Neither establishes optical
 balance, perceived stem weight, curve continuity or style consistency. Flattened
@@ -78,3 +91,42 @@ topology checks are diagnostics, not an exact intersection theorem. Inspect
 letters at matched scale and in shaped words, particularly bowls, counters,
 diagonals, terminals and lowercase distinctions. The first demo's visual check
 found cap alignment/vertex spikes that structural tests correctly did not certify.
+
+`quality.py` adds per-glyph construction intent, exact intended axes, selected
+symmetry, explicit stem probes and curve cusp/tangent diagnostics. `repair.py` is
+an optional separate authoring action, refuses approved projects, preserves
+originals and enforces area/bounds/topology budgets. Named fingerprint-bound
+contour patches support deliberate local corrections; there is no universal
+curve fitter or implicit smoothing during compilation.
+
+`release_font` requires passing source/actual-TTF audits and a complete agent
+review receipt bound to project, profile, compiled font and saved proof hashes.
+The skill requires the agent to inspect every glyph, enlarged and in shaped text,
+then correct/recheck before the first user handoff. `build --draft` can expose
+diagnostics internally without updating the release pointer. Legacy low-level
+builds without a quality profile stay supported but are not preflight-qualified.
+The receipt is an integrity record, not independent evidence of taste or proof
+that an agent viewed an image. User aesthetic approval remains separate.
+
+The generated example needed eight internal iterations. Sub-unit implied points
+from quadratic decomposition initially broke symmetry after integer rounding;
+the authoring step now quantizes the master before reflection. Enlarged review
+also caught facets and mirrored notches despite passing numeric checks. Explicit
+named corrections and preserved before/after sheets demonstrate why both stages
+are necessary.
+
+The Recraft Mellow experiment subsequently verified the authenticated remote MCP
+and a native SVG result (one authorized call, 4 Studio credits). Its live tool
+inputs differ from REST; see the saved signatures and setup guide. A frozen
+vector-sheet helper performs explicit paint-order normalization and component
+mapping; it uses no raster tracing or network. Upper/lowercase files use Unicode
+filenames to avoid case-insensitive filesystem collisions.
+
+The same experiment exposed a geometric-profile limitation: intended humanist
+curvature and lean must not be forced to exact axes just because they are close.
+Per-glyph `axis_policy: "declared"` limits corrections to named regions. The
+default remains compatible with the earlier geometric example. A 24.33% X
+reflection was refused, and numerically passing but visually worse I/i/l edits
+were reverted. Only H, Z and q differ in the final compiled outlines. Curve cusp
+checks now test stationary tangent reversals rather than misclassifying smooth
+wide hooks by their chord angle. Human visual review remains necessary.

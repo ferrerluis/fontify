@@ -1,0 +1,11 @@
+Design an ORIGINAL contemporary informal comic typeface alphabet, as actual clean SVG vector artwork. Capture the approachable, rounded, human warmth people seek in Comic Sans, but with mature editorial restraint, calm rhythm, attractive proportions and excellent legibility. A fresh contemporary friendly everyday typeface, not a copy of Comic Sans or another existing font. Medium weight, mostly monoline strokes, softly rounded terminals, generous counters, gently humanist curves, lively but controlled proportions. Upright lettering on steady baselines. Keep optical stem weight consistent. No bouncing letters, random slant, childish doodles, cartoon decoration, shadows, texture, outlines or distressed edges. Intended straight uprights and crossbars should be truly straight; bowls should have smooth flowing curves. Natural asymmetry where it belongs in handwritten humanist forms; calm balanced A H O T U V W X Y. The lowercase is essential: single-storey a and g, clear open e, distinguishable i and l, an unambiguous r and n, generous x-height about 70 percent of uppercase cap height, matching lowercase ascenders and real descenders.
+This is source artwork for building a real font, NOT a poster. Draw all 52 letters once each as isolated black filled glyph silhouettes on pure white. Use eight widely separated rows of seven invisible cells. Last uppercase and lowercase rows have five letters and two empty cells. All four uppercase rows use the SAME cap height, all four lowercase rows the SAME proportional system and x-height. One shared baseline in each row; keep descenders within the cell. Keep each glyph separated from neighboring cells by generous whitespace. Draw separate dots for lowercase i and j. Do not add any visible grid, headings, captions, sample words, numbers, punctuation, logos or decoration. Exactly these rows, with each letter in its own cell:
+A B C D E F G
+H I J K L M N
+O P Q R S T U
+V W X Y Z
+a b c d e f g
+h i j k l m n
+o p q r s t u
+v w x y z
+Letters must remain individual editable vector outlines; preserve open counters. The result should feel friendly, beautifully drawn, current, understated and comfortable in both a product interface and a personal note.

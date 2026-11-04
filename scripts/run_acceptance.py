@@ -22,9 +22,23 @@ CASES = {
     "TC03.1": ("Real shaping and kerning", "test_shaping"),
     "TC04.1": ("Approved glyph preservation", "test_approval"),
     "TC04.2": ("Compiled comparison and integrity", "test_comparison"),
+    "TC04.3": ("Proof reflects protected glyph baseline", "test_approval_proof"),
     "TC05.1": ("Mocked optional provider", "test_adapter"),
     "TC05.2": ("MCP schema discovery protocol", "test_discovery"),
     "TC06.2": ("Proof canvases include overhanging ink", "test_proof_overhang"),
+    "TC07.1": ("Image-generated example builds offline", "test_generated_example"),
+    "TC07.2": ("Generated crop tracing and preservation", "test_generated_trace"),
+    "TC07.3": (
+        "Generated-source / compiled-outline fidelity",
+        "test_generated_fidelity",
+    ),
+    "TC08.1": ("Complete explicit glyph intent", "test_intent"),
+    "TC08.2": ("Bounded exact-axis correction", "test_axes"),
+    "TC08.3": ("Curve and exported-symmetry checks", "test_curves"),
+    "TC08.4": ("Protected correction and preservation", "test_preservation"),
+    "TC08.5": ("Pre-presentation review gate", "test_release_gate"),
+    "TC09.1": ("Recraft vector extraction and guards", "test_recraft_extraction"),
+    "TC09.2": ("Reviewed Recraft example builds offline", "test_recraft_offline"),
 }
 
 
@@ -32,7 +46,11 @@ def source_digest():
     h = hashlib.sha256()
     for base in ("src", "tests", "examples"):
         for p in sorted((ROOT / base).rglob("*")):
-            if p.is_file() and "__pycache__" not in p.parts:
+            if (
+                p.is_file()
+                and "__pycache__" not in p.parts
+                and not any(part.endswith(".egg-info") for part in p.parts)
+            ):
                 h.update(str(p.relative_to(ROOT)).encode() + b"\0" + p.read_bytes())
     for name in ("pyproject.toml", "requirements.lock", "scripts/run_acceptance.py"):
         h.update((ROOT / name).read_bytes())
@@ -90,7 +108,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 2,
+        "catalog_version": 6,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),
@@ -110,9 +128,10 @@ def main():
         "exit_code": run.returncode,
         "results": results,
         "live_recraft": {
-            "status": "unverified",
+            "status": "not_run_by_offline_suite; prior authorized experiment saved separately",
             "paid_calls": 0,
-            "schema_evidence": "docs/research/recraft-mcp-discovery.json",
+            "schema_evidence": "docs/research/recraft-live-tools.json",
+            "prior_experiment_evidence": "examples/recraft-mellow/source/provenance.json",
         },
     }
     (directory / "results.json").write_text(json.dumps(report, indent=2) + "\n")

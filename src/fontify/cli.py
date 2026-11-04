@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 
-from .build import build_font
+from .build import build_font, release_font
 from .model import FontifyError, load_project
 from .outlines import compile_project
 from .review import (
@@ -24,16 +24,31 @@ def main(argv=None):
         description="Build reviewable fonts from vector glyphs; offline first",
     )
     sub = parser.add_subparsers(dest="command", required=True)
-    for name in ("build", "validate", "snapshot"):
+    for name in ("build", "release", "validate", "snapshot"):
         p = sub.add_parser(name)
         p.add_argument("project", type=Path)
-        if name == "build":
+        if name in ("build", "release"):
             p.add_argument("--out", type=Path, default=Path("build"))
+        if name == "build":
+            p.add_argument(
+                "--draft",
+                action="store_true",
+                help="internal audit artifacts; never updates current.json",
+            )
         if name == "snapshot":
             p.add_argument("--output", type=Path, required=True)
     p = sub.add_parser("inspect")
     p.add_argument("font", type=Path)
     p.add_argument("--text")
+    p = sub.add_parser("audit")
+    p.add_argument("project", type=Path)
+    p.add_argument("--font", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p = sub.add_parser("repair")
+    p.add_argument("project", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--version", required=True)
+    p.add_argument("--patches", type=Path)
     p = sub.add_parser("verify-release")
     p.add_argument("manifest", type=Path)
     p = sub.add_parser("compare")
@@ -55,10 +70,18 @@ def main(argv=None):
     p.add_argument("--output", type=Path, required=True)
     args = parser.parse_args(argv)
     try:
-        if args.command in ("build", "validate", "snapshot"):
+        if args.command in ("build", "release", "validate", "snapshot"):
             project = load_project(args.project)
-            if args.command == "build":
-                result = {"manifest": str(build_font(project, args.out))}
+            if args.command in ("build", "release"):
+                draft = getattr(args, "draft", False)
+                result = {
+                    "manifest": str(
+                        release_font(project, args.out)
+                        if args.command == "release"
+                        else build_font(project, args.out, draft=draft)
+                    ),
+                    "draft": draft,
+                }
             else:
                 outlines = compile_project(project)
                 if args.command == "snapshot":
@@ -76,6 +99,39 @@ def main(argv=None):
                         "approval": check_approval(project, outlines),
                         "glyphs": {o.spec["name"]: o.diagnostics for o in outlines},
                     }
+        elif args.command == "audit":
+            from .quality import audit_project
+
+            project = load_project(args.project)
+            result = audit_project(project, compile_project(project), args.font)
+            if result["status"] == "not_configured":
+                raise FontifyError("audit requires a declared quality profile")
+            args.out.mkdir(parents=True, exist_ok=True)
+            (args.out / "audit.json").write_text(json.dumps(result, indent=2) + "\n")
+            print(
+                json.dumps(
+                    {
+                        "status": result["status"],
+                        "report": str(args.out / "audit.json"),
+                        "failed_glyphs": [
+                            n
+                            for n, g in result["glyphs"].items()
+                            if g["status"] == "failed"
+                        ],
+                    },
+                    indent=2,
+                )
+            )
+            return 0 if result["status"] == "passed" else 1
+        elif args.command == "repair":
+            from .repair import repair_project
+
+            result = {
+                "project": str(
+                    repair_project(args.project, args.out, args.version, args.patches)
+                ),
+                "status": "draft_requires_recheck_and_visual_review",
+            }
         elif args.command == "inspect":
             result = inspect_font(args.font, args.text)
         elif args.command == "verify-release":

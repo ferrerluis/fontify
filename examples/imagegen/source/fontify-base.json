@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "family": "Fontify Grotesk",
+  "style": "Regular",
+  "version": "0.001",
+  "copyright": "Fontify image-generated demonstration alphabet",
+  "license": "Example artwork generated with the built-in image_gen tool; see source provenance.",
+  "units_per_em": 1000,
+  "ascender": 900,
+  "descender": -200,
+  "line_gap": 0,
+  "cap_height": 700,
+  "x_height": 500,
+  "svg_baseline": 800,
+  "curve_error": 0.25,
+  "required_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ ",
+  "glyphs": [],
+  "kerning": [
+    {
+      "left": "A",
+      "right": "V",
+      "value": -70
+    },
+    {
+      "left": "V",
+      "right": "A",
+      "value": -65
+    },
+    {
+      "left": "T",
+      "right": "A",
+      "value": -55
+    },
+    {
+      "left": "T",
+      "right": "O",
+      "value": -45
+    },
+    {
+      "left": "W",
+      "right": "A",
+      "value": -45
+    },
+    {
+      "left": "Y",
+      "right": "O",
+      "value": -55
+    }
+  ],
+  "samples": [
+    "AVATAR",
+    "CREATOR OPTIMIST",
+    "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  ],
+  "approval": null
+}
