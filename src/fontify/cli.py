@@ -49,6 +49,16 @@ def main(argv=None):
     p.add_argument("--out", type=Path, required=True)
     p.add_argument("--version", required=True)
     p.add_argument("--patches", type=Path)
+    p = sub.add_parser("rubric-plan")
+    p.add_argument("project", type=Path)
+    p.add_argument("--style", required=True)
+    p.add_argument("--note", required=True)
+    p.add_argument("--output", type=Path, required=True)
+    p = sub.add_parser("preflight")
+    p.add_argument("project", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--repair-version")
+    p.add_argument("--patches", type=Path)
     p = sub.add_parser("verify-release")
     p.add_argument("manifest", type=Path)
     p = sub.add_parser("compare")
@@ -57,7 +67,7 @@ def main(argv=None):
     p.add_argument("--out", type=Path, required=True)
     p = sub.add_parser("recraft-plan")
     p.add_argument("prompt", type=Path)
-    p.add_argument("--model", default="recraftv4_1_vector")
+    p.add_argument("--model", default="recraftv4_1_pro_vector")
     p.add_argument("--size", default="1:1")
     p.add_argument("--style-id")
     p.add_argument("--reference-url", action="append", default=[])
@@ -132,6 +142,41 @@ def main(argv=None):
                 ),
                 "status": "draft_requires_recheck_and_visual_review",
             }
+        elif args.command == "rubric-plan":
+            from .rubrics import plan_profile
+
+            project = load_project(args.project)
+            plan = plan_profile(
+                project, compile_project(project), args.style, args.note
+            )
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            with args.output.open("x") as f:
+                json.dump(plan, f, indent=2)
+                f.write("\n")
+            result = {
+                "profile": str(args.output),
+                "status": "intent_review_required",
+                "style": args.style,
+            }
+        elif args.command == "preflight":
+            from .preflight import preflight
+
+            result = preflight(
+                args.project, args.out, args.repair_version, args.patches
+            )
+            print(
+                json.dumps(
+                    {
+                        k: v
+                        for k, v in result.items()
+                        if k not in ("before", "after", "compiled")
+                    },
+                    indent=2,
+                )
+            )
+            return {"ready_for_release": 0, "needs_visual_review": 2, "blocked": 1}[
+                result["status"]
+            ]
         elif args.command == "inspect":
             result = inspect_font(args.font, args.text)
         elif args.command == "verify-release":

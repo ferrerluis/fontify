@@ -1,4 +1,4 @@
-# Product acceptance catalog · v6
+# Product acceptance catalog · v8
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -17,6 +17,7 @@ The runner records component versions, source digest, timestamp and command.
 | TC04.3 | Reviewed local project | `pytest tests/test_quality.py -k approval_proof` | Adding a matching protection baseline keeps TTF/WOFF2 bytes identical and changes the proof's pending label to baseline matches, without claiming optical-quality approval. |
 | TC05.1 | Recraft extra, mocked transport | `pytest tests/test_recraft.py -k adapter` | Dry request needs no key; paid call requires explicit opt-in; vector payload, errors and saved SVG provenance work through mocks without secrets in records. |
 | TC05.2 | Recraft extra, mocked transport | `pytest tests/test_recraft.py -k discovery` | Initialize and paginated tools/list capture actual schemas without calling tools; auth/block failures are reported, not replaced by assumed schemas. |
+| TC05.3 | Local CLI and mocked provider | `pytest tests/test_recraft.py -k model_selection` | CLI/API plans and the actual mocked POST select Vector Pro by default; an explicit non-Pro selection is preserved. No live request is made and the paid-call gate remains enforced. |
 | TC06.1 | Built example, browser | Open `build/current.json`'s release `proof.html` | Embedded webfont loads, all glyphs and HarfBuzz samples fit, kerning toggle works, unsupported typed characters are identified. Record screenshot and loaded font evidence. |
 | TC06.2 | Local build | `pytest tests/test_review.py -k proof_overhang` | A very wide glyph with negative sidebearing fits both the glyph sheet and shaped-line proof without changing its font outline. |
 | TC07.1 | Checked-in image-generated example | `pytest tests/test_imagegen.py -k generated_example` | Frozen AI artwork builds offline as A–Z + space; actual TTF/WOFF2 names, coverage, kerning and review-required status match the example. |
@@ -29,6 +30,12 @@ The runner records component versions, source digest, timestamp and command.
 | TC08.5 | Internal draft and review receipt | `pytest tests/test_quality.py -k release_gate` | Drafts do not update current.json. Missing/stale/incomplete per-glyph review blocks release; all checks and evidence must match the compiled font. |
 | TC09.1 | Frozen Recraft vector sheet | `pytest tests/test_recraft_example.py -k extraction` | Reproduce all 52 glyph SVGs plus explicit space without network; preserve dots, convert painted white counters into holes, reject changed sources or existing output. |
 | TC09.2 | Frozen reviewed Recraft project | `pytest tests/test_recraft_example.py -k offline` | Build and reopen TTF/WOFF2 offline with 53 exact mappings, intact counters/metrics, current review receipts and real HarfBuzz pairs. |
+| TC10.1 | Local outlines, no credentials | `pytest tests/test_rubrics.py -k plan` | Style plans cover every mapping, explain defaults and leave ink intent unconfirmed; unknown styles and overwrites fail. |
+| TC10.2 | Confirmed style/feature intent | `pytest tests/test_rubrics.py -k routing` | Exact reflection, selected axes and stem probes run only where declared; organic lean and variable weight remain intact; unresolved or contradictory intent blocks release. |
+| TC10.3 | Unapproved candidate | `pytest tests/test_rubrics.py -k permission` | A failed check does not authorize an edit; only allowed repairs run, unchanged SVGs remain byte-identical and approved sources stay protected. |
+| TC10.4 | Candidate with a repairable defect | `pytest tests/test_rubrics.py -k preflight` | Preflight corrects into a fresh candidate, compiles and rechecks both font formats with real shaping, saves actual-font comparisons and requires visual review without updating a release pointer. |
+| TC10.5 | Compiled candidate and review evidence | `pytest tests/test_rubrics.py -k gate` | Missing/unresolved/stale intent or visual receipts prevent presentation; only current complete review permits release. No command creates aesthetic approval. |
+| TC10.6 | Each supported style | `pytest tests/test_rubrics.py -k universal` | Every style still rejects invalid contours/mappings/metrics and preserves the mandatory source/export checks; styles cannot opt out of technical validity. |
 
 Catalog v4 adds TC08.1–TC08.5 for the pre-presentation audit/correction/recheck gate:
 20 required sub-tests, 19 automated plus one browser observation. TC07.3 applies
@@ -46,6 +53,14 @@ Catalog v6 adds TC04.3 for the approval handoff: 23 required sub-tests,
 22 automated plus the browser observation. Mellow's protected baseline follows
 the user's design approval on 2026-11-03; a matching baseline proves preservation,
 not independent style quality.
+
+Catalog v7 adds six style-rubric sub-tests: 29 required, 28 automated plus the
+browser observation. Existing approved example inputs and artifacts are retained;
+schema-1 profiles remain reproducible while new skill work uses schema 2.
+
+Catalog v8 adds TC05.3 for the Pro model preference: 30 required sub-tests,
+29 automated plus the unchanged browser observation. Historic generated artwork
+and its recorded models remain unchanged; model fallback is explicit, not retried.
 
 These checks do not certify visual quality. The image-generated example is an
 unapproved candidate; its creation, normalization and tracing are explicit. A

@@ -185,3 +185,51 @@
 - Affected evidence: dependency installation and all downstream checks in the
   3.11 CI job. Re-run both supported interpreter jobs; keep the failed attempt
   at GitHub Actions run 41768992890. No new product test is needed for CI setup.
+
+## B16 · findings were guidance without executable style routing
+
+- Gap: schema-1 glyph intent could express geometric exceptions, but the skill
+  had no style plan, unresolved-intent state or explicit separation of check and
+  repair permission. A declared straight region could also silently match no
+  edge or skip a small/far-from-axis intended feature.
+- Affected: new TC10.1–TC10.6, plus dependent build/review/repair cases. Catalog
+  v7 has 29 required sub-tests; existing approved examples remain unchanged.
+- Fix: schema-2 inspected decisions, explanatory routed outcomes and per-glyph
+  repair permissions; explicit regions are checked even outside heuristic length/
+  classification thresholds. Automatic edits retain their bounded small-angle
+  limit. The internal preflight pass rechecks actual exports and requires a
+  current visual receipt before release; it never publishes itself.
+- Evidence: `test-runs/rubrics-first.xml` recorded 13 passes and five failed test
+  fixtures. The invalid-metrics fixture used width, which is deliberately allowed
+  to overhang; it now exceeds vertical metrics. A duplicate-mapping assertion was
+  corrected to the existing error text. No validity rule was weakened. An initial
+  sandbox write failure is separate from product results; worktree test commands
+  need explicit write access. Final targeted evidence is `rubrics-passed.xml`.
+- Required checks: all branch/permission/gate scenarios, a full offline suite,
+  frozen-example preservation and a realistic copied-artwork preflight. No new
+  generation or user intervention is part of these checks.
+
+## B17 · permitted repair still rewrote already compliant geometry
+
+- Reproduction: a schema-2 H passed all numeric checks, but merely allowing
+  polygon/reflection repair reordered its outline and added seam points.
+  `rubric-noop-before.xml` records the failing regression under TC10.3.
+- Fix: schema-2 numeric repairs run only for matching current findings; explicit
+  fingerprint-bound editorial patches can still address visual defects. Stop a
+  pass that makes no progress. Schema-1 behavior remains unchanged.
+- Required reruns: correction permissions and preflight, then dependent quality,
+  pipeline and frozen-example tests. Passing allowed features must remain intact.
+
+## Forward check · stale region declarations on copied artwork
+
+- Both real source examples initially blocked under schema 2: Mellow H had ten
+  obsolete pre-correction segment boxes, and Grotesk U's two boxes enclosed only
+  portions of its current complete edges. Schema 1 had silently skipped them.
+- Inspected existing actual-font sheets and current outline segments, then
+  updated only the copied profiles to name complete intended upright features.
+  Mellow's gentle upper crossbar rise and all approved shapes were retained.
+  The original example profiles, review receipts and font bytes stay untouched.
+- Evidence is in `build/rubric-forward-check/`: original blocked reports,
+  per-copy `intent-correction.json`, subsequent pass reports and font-hash checks.
+  This demonstrates why migration requires inspecting intent; a style name or
+  an older all-pass receipt cannot automatically resolve a new rubric profile.

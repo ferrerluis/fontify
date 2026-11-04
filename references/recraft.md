@@ -4,6 +4,22 @@ Fontify is fully usable without Recraft. Generated vectors are **source artwork*
 they have no Unicode map, font metrics, kerning or approved letterform status.
 Consistency remains an experiment to assess, not a promised capability.
 
+## Model selection policy (updated 2026-11-04)
+
+Use **Recraft Vector Pro**, `recraftv4_1_pro_vector`, for new generated glyph
+artwork. Pass it explicitly to the MCP; CLI request plans and `DesignRequest`
+also default to it. Use non-Pro `recraftv4_1_vector` only on the user's explicit
+request or confirmed Pro unavailability, such as its absence from the live schema
+or a clear provider/account model-availability restriction. Record the reason.
+
+Do not downgrade merely for price, speed, missing spend approval, authentication
+errors, rate limits or insufficient credits. Verify custom-style compatibility
+instead of letting a style silently select a non-Pro model. A failed paid request
+does not authorize another attempt: no automatic fallback/retry is added. Ensure
+the applicable spend authorization covers the chosen model and cost; this model
+preference alone is not permission to spend credits. Supplied vectors, offline
+builds and an explicit choice of another artwork provider remain supported.
+
 ## Remote MCP versus REST
 
 | | Official remote MCP | API adapter |
@@ -81,7 +97,7 @@ Generated schemas store tool names and schemas, not auth headers or session IDs.
 Current [V4.1 documentation](https://www.recraft.ai/docs/api-reference/models/recraft-v4-1)
 names `recraftv4_1_vector`, `recraftv4_1_pro_vector`,
 `recraftv4_1_utility_vector` and `recraftv4_1_utility_pro_vector`; all produce SVG.
-The adapter explicitly supports those four, defaults to the first, and fixes
+The adapter explicitly supports those four, defaults to `recraftv4_1_pro_vector`, and fixes
 `n=1`. V4.1's curated `style`, negative prompt and text-layout parameters are
 unsupported, so they are not sent. Other documented model generations require
 their own parameter compatibility; they are not assumed to work through this adapter.
@@ -112,7 +128,7 @@ small ratio subset. SVG has no meaningful fixed "4K" resolution for font quality
 ```sh
 pip install -e '.[recraft]'
 # No key or network: creates a reviewable request.
-fontify recraft-plan examples/recraft/concept.txt --model recraftv4_1_vector > build/recraft-plan.json
+fontify recraft-plan examples/recraft/concept.txt --model recraftv4_1_pro_vector > build/recraft-plan.json
 ```
 
 Review the exact prompt, model, references, count and current cost before

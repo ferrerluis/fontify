@@ -7,7 +7,12 @@ Once `quality` is set, even a normal build enforces the gate unless `draft=True`
 
 ## Intent is explicit
 
-Set `"quality": "quality-profile.json"` in the project. Its schema-1 profile has a
+For new work use the schema-2 [style decision rubrics](style-rubrics.md) and
+`fontify preflight`. They route numeric checks from confirmed glyph intent and
+require explicit per-glyph repair permissions. The schema-1 format below remains
+supported for existing approved examples; it retains its original repair behavior.
+
+Set `"quality": "quality-profile.json"` in the project. Its profile has a
 `review` path and `glyphs` object with **every** mapped name, including space.
 See `examples/imagegen/quality-profile.json` for a complete 27-glyph example.
 

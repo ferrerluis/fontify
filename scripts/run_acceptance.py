@@ -25,6 +25,10 @@ CASES = {
     "TC04.3": ("Proof reflects protected glyph baseline", "test_approval_proof"),
     "TC05.1": ("Mocked optional provider", "test_adapter"),
     "TC05.2": ("MCP schema discovery protocol", "test_discovery"),
+    "TC05.3": (
+        "Vector Pro default and explicit non-Pro choice",
+        "test_model_selection",
+    ),
     "TC06.2": ("Proof canvases include overhanging ink", "test_proof_overhang"),
     "TC07.1": ("Image-generated example builds offline", "test_generated_example"),
     "TC07.2": ("Generated crop tracing and preservation", "test_generated_trace"),
@@ -39,6 +43,12 @@ CASES = {
     "TC08.5": ("Pre-presentation review gate", "test_release_gate"),
     "TC09.1": ("Recraft vector extraction and guards", "test_recraft_extraction"),
     "TC09.2": ("Reviewed Recraft example builds offline", "test_recraft_offline"),
+    "TC10.1": ("Style plans require inspected intent", "test_rubric_plan"),
+    "TC10.2": ("Feature-specific deterministic routing", "test_rubric_routing"),
+    "TC10.3": ("Explicit correction permissions", "test_rubric_permission"),
+    "TC10.4": ("Internal correction and recheck pass", "test_rubric_preflight"),
+    "TC10.5": ("Rubric and visual presentation gate", "test_rubric_gate"),
+    "TC10.6": ("Universal checks for every style", "test_rubric_universal"),
 }
 
 
@@ -108,7 +118,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 6,
+        "catalog_version": 8,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),

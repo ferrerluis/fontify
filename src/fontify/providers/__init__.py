@@ -7,7 +7,7 @@ from typing import Protocol
 @dataclass(frozen=True)
 class DesignRequest:
     prompt: str
-    model: str = "recraftv4_1_vector"
+    model: str = "recraftv4_1_pro_vector"
     size: str = "1:1"
     style_id: str | None = None
     style_reference_urls: tuple[str, ...] = ()

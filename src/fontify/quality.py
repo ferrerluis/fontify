@@ -15,6 +15,7 @@ from fontTools.ttLib import TTFont
 
 from .model import FontifyError, keys, local_path
 from .outlines import FlattenPen, digest, geometry
+from .rubrics import intent_issues, route_glyph, validate_rubrics
 
 
 class SegmentsPen(BasePen):
@@ -136,9 +137,11 @@ def axis_feature(edge, intent):
         all(r[0] <= p[0] <= r[2] and r[1] <= p[1] <= r[3] for p in points)
         for r in intent.get("straight_regions", [])
     )
+    policy = intent.get("decisions", {}).get(
+        "axes", intent.get("axis_policy", "near_axis")
+    )
     return declared or (
-        intent.get("axis_policy", "near_axis") == "near_axis"
-        and (op == "L" or intent["construction"] == "polygon")
+        policy == "near_axis" and (op == "L" or intent["construction"] == "polygon")
     )
 
 
@@ -152,17 +155,17 @@ def load_profile(project):
         raise FontifyError(f"cannot read quality profile: {e}") from e
     keys(
         d,
-        "schema glyphs symmetry_tolerance axis_angle_degrees min_axis_length max_tangent_degrees min_join_length min_tangent_length max_change_ratio max_bounds_change repair_epsilon review",
+        "schema glyphs symmetry_tolerance axis_angle_degrees min_axis_length max_tangent_degrees min_join_length min_tangent_length max_change_ratio max_bounds_change repair_epsilon review style style_note",
         "quality profile",
     )
-    if d.get("schema") != 1 or not isinstance(d.get("glyphs"), dict):
+    if d.get("schema") not in (1, 2) or not isinstance(d.get("glyphs"), dict):
         raise FontifyError("invalid quality profile")
     if set(d["glyphs"]) != {g["name"] for g in project.glyphs}:
         raise FontifyError("quality profile must explicitly cover every mapped glyph")
     for name, g in d["glyphs"].items():
         keys(
             g,
-            "construction symmetry corners straight_regions stems note axis_policy",
+            "construction symmetry corners straight_regions stems note axis_policy decisions",
             "glyph quality intent",
         )
         if g.get("construction") not in ("polygon", "curved", "blank"):
@@ -273,6 +276,7 @@ def load_profile(project):
     if not d.get("review"):
         raise FontifyError("quality profile requires an agent review receipt path")
     local_path(project.root, d["review"])
+    validate_rubrics(d)
     return d
 
 
@@ -290,7 +294,7 @@ def ink_intervals(record, y):
 
 def glyph_audit(record, intent, profile):
     if not record.value:
-        return {
+        result = {
             "status": "passed" if intent["construction"] == "blank" else "failed",
             "issues": []
             if intent["construction"] == "blank"
@@ -300,10 +304,17 @@ def glyph_audit(record, intent, profile):
             "joins_checked": 0,
             "axis_edges_checked": 0,
         }
+        result["issues"].extend(intent_issues(intent, profile))
+        if result["issues"]:
+            result["status"] = "failed"
+        if profile["schema"] == 2:
+            result["rubrics"] = route_glyph(result, intent, profile)
+        return result
     diag, _, _ = geometry(record)
     pen = SegmentsPen()
     record.replay(pen)
-    issues = []
+    issues = intent_issues(intent, profile)
+    matched_regions = set()
     curves = joins = axes = 0
     for symmetry in intent["symmetry"]:
         value = diag[symmetry + "_asymmetry"]
@@ -343,12 +354,19 @@ def glyph_audit(record, intent, profile):
                 if curve_has_cusp(edge):
                     issues.append({"kind": "curve_cusp", "contour": ci, "segment": i})
             straight_intent = axis_feature(edge, intent)
-            if straight_intent and length >= profile["min_axis_length"]:
+            selected = [
+                j
+                for j, r in enumerate(intent.get("straight_regions", []))
+                if all(r[0] <= p[0] <= r[2] and r[1] <= p[1] <= r[3] for p in pts)
+            ]
+            matched_regions.update(selected)
+            explicit = profile["schema"] == 2 and bool(selected)
+            if straight_intent and (explicit or length >= profile["min_axis_length"]):
                 axis = "horizontal" if abs(dy) <= abs(dx) else "vertical"
                 deviation = math.degrees(
                     math.atan2(min(abs(dx), abs(dy)), max(abs(dx), abs(dy)))
                 )
-                if deviation <= profile["axis_angle_degrees"]:
+                if explicit or deviation <= profile["axis_angle_degrees"]:
                     axes += 1
                     normal = 1 if axis == "horizontal" else 0
                     spread = max(p[normal] for p in pts) - min(p[normal] for p in pts)
@@ -392,7 +410,13 @@ def glyph_audit(record, intent, profile):
                             "degrees": round(degrees, 4),
                         }
                     )
-    return {
+    if profile["schema"] == 2:
+        issues.extend(
+            {"kind": "straight_region_unmatched", "region": j}
+            for j in range(len(intent.get("straight_regions", [])))
+            if j not in matched_regions
+        )
+    result = {
         "status": "failed" if issues else "passed",
         "issues": issues,
         "fingerprint": digest(record.value),
@@ -405,6 +429,9 @@ def glyph_audit(record, intent, profile):
         "stems": stem_measurements,
         "intent": intent["note"],
     }
+    if profile["schema"] == 2:
+        result["rubrics"] = route_glyph(result, intent, profile)
+    return result
 
 
 def audit_project(project, outlines, font_path=None):
