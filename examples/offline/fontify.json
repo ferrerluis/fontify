@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "family": "Offline Sans",
+  "style": "Regular",
+  "version": "1.001",
+  "copyright": "Copyright 2026 Fontify contributors",
+  "license": "MIT; original Fontify demonstration artwork.",
+  "units_per_em": 1000,
+  "ascender": 900,
+  "descender": -200,
+  "line_gap": 0,
+  "cap_height": 720,
+  "x_height": 500,
+  "svg_baseline": 820,
+  "curve_error": 0.25,
+  "required_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ ",
+  "glyphs": [
+    {
+      "name": "space",
+      "unicode": "U+0020",
+      "source": null,
+      "advance": 300
+    },
+    {
+      "name": "A",
+      "unicode": "U+0041",
+      "source": "glyphs/A.svg",
+      "advance": 660
+    },
+    {
+      "name": "B",
+      "unicode": "U+0042",
+      "source": "glyphs/B.svg",
+      "advance": 660
+    },
+    {
+      "name": "C",
+      "unicode": "U+0043",
+      "source": "glyphs/C.svg",
+      "advance": 660
+    },
+    {
+      "name": "D",
+      "unicode": "U+0044",
+      "source": "glyphs/D.svg",
+      "advance": 660
+    },
+    {
+      "name": "E",
+      "unicode": "U+0045",
+      "source": "glyphs/E.svg",
+      "advance": 660
+    },
+    {
+      "name": "F",
+      "unicode": "U+0046",
+      "source": "glyphs/F.svg",
+      "advance": 660
+    },
+    {
+      "name": "G",
+      "unicode": "U+0047",
+      "source": "glyphs/G.svg",
+      "advance": 660
+    },
+    {
+      "name": "H",
+      "unicode": "U+0048",
+      "source": "glyphs/H.svg",
+      "advance": 660
+    },
+    {
+      "name": "I",
+      "unicode": "U+0049",
+      "source": "glyphs/I.svg",
+      "advance": 660
+    },
+    {
+      "name": "J",
+      "unicode": "U+004A",
+      "source": "glyphs/J.svg",
+      "advance": 660
+    },
+    {
+      "name": "K",
+      "unicode": "U+004B",
+      "source": "glyphs/K.svg",
+      "advance": 660
+    },
+    {
+      "name": "L",
+      "unicode": "U+004C",
+      "source": "glyphs/L.svg",
+      "advance": 660
+    },
+    {
+      "name": "M",
+      "unicode": "U+004D",
+      "source": "glyphs/M.svg",
+      "advance": 660
+    },
+    {
+      "name": "N",
+      "unicode": "U+004E",
+      "source": "glyphs/N.svg",
+      "advance": 660
+    },
+    {
+      "name": "O",
+      "unicode": "U+004F",
+      "source": "glyphs/O.svg",
+      "advance": 660
+    },
+    {
+      "name": "P",
+      "unicode": "U+0050",
+      "source": "glyphs/P.svg",
+      "advance": 660
+    },
+    {
+      "name": "Q",
+      "unicode": "U+0051",
+      "source": "glyphs/Q.svg",
+      "advance": 660
+    },
+    {
+      "name": "R",
+      "unicode": "U+0052",
+      "source": "glyphs/R.svg",
+      "advance": 660
+    },
+    {
+      "name": "S",
+      "unicode": "U+0053",
+      "source": "glyphs/S.svg",
+      "advance": 660
+    },
+    {
+      "name": "T",
+      "unicode": "U+0054",
+      "source": "glyphs/T.svg",
+      "advance": 660
+    },
+    {
+      "name": "U",
+      "unicode": "U+0055",
+      "source": "glyphs/U.svg",
+      "advance": 660
+    },
+    {
+      "name": "V",
+      "unicode": "U+0056",
+      "source": "glyphs/V.svg",
+      "advance": 660
+    },
+    {
+      "name": "W",
+      "unicode": "U+0057",
+      "source": "glyphs/W.svg",
+      "advance": 660
+    },
+    {
+      "name": "X",
+      "unicode": "U+0058",
+      "source": "glyphs/X.svg",
+      "advance": 660
+    },
+    {
+      "name": "Y",
+      "unicode": "U+0059",
+      "source": "glyphs/Y.svg",
+      "advance": 660
+    },
+    {
+      "name": "Z",
+      "unicode": "U+005A",
+      "source": "glyphs/Z.svg",
+      "advance": 660
+    }
+  ],
+  "kerning": [
+    {
+      "left": "A",
+      "right": "V",
+      "value": -70
+    },
+    {
+      "left": "V",
+      "right": "A",
+      "value": -65
+    },
+    {
+      "left": "T",
+      "right": "A",
+      "value": -55
+    },
+    {
+      "left": "T",
+      "right": "O",
+      "value": -45
+    },
+    {
+      "left": "W",
+      "right": "A",
+      "value": -45
+    },
+    {
+      "left": "Y",
+      "right": "O",
+      "value": -55
+    }
+  ],
+  "samples": [
+    "AVATAR",
+    "CREATOR OPTIMIST",
+    "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  ],
+  "approval": "approved.json"
+}

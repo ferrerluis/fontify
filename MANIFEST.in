@@ -1,0 +1,7 @@
+include SKILL.md requirements.lock
+recursive-include references *.md
+recursive-include docs *.md *.json
+recursive-include scripts *.py
+recursive-include examples *.json *.svg *.txt
+recursive-include tests *.py
+recursive-exclude * __pycache__ *.pyc

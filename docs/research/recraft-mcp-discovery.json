@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-03T23:36:47Z",
+  "endpoint": "https://mcp.recraft.ai/mcp",
+  "configured_recraft_tools": 0,
+  "attempted_method": "initialize",
+  "http_status": 403,
+  "blocking_layer": "Cloudflare error 1010: browser_signature_banned",
+  "schema_verified": false,
+  "tools": null,
+  "paid_tools_called": 0,
+  "note": "No retry or access bypass was attempted. Published tool documentation is not a substitute for tools/list. Run fontify recraft-discover from an authorized OAuth-capable environment, or export tools/list from that client."
+}
