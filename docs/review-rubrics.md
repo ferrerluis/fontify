@@ -1,9 +1,9 @@
-# Review themes and a proposed decision tree
+# Review findings and implemented decision rubrics
 
-Status: findings from the image-generated Grotesk and Recraft-generated Mellow
-experiments, plus a proposal for review. This is **not** an implemented automatic
-style classifier or a new profile schema. The current executable rules are in
-[preflight.md](../references/preflight.md).
+Findings from the image-generated Grotesk and Recraft-generated Mellow experiments
+now drive the schema-2 [style rubrics](../references/style-rubrics.md), `rubric-plan`
+and `preflight` commands. Styles suggest defaults; inspected glyph intent routes
+the checks. This does not automatically classify fonts or judge optical quality.
 
 ## Themes to review
 
@@ -48,7 +48,7 @@ Evidence: [Mellow experiment](../examples/recraft-mellow/README.md),
 the other 49 letter outlines match the initial compiled sample. This is one
 experiment, not proof that these rules generalize to every typeface.
 
-## Proposed routing
+## Routing principles
 
 Font type should supply defaults, not decide every glyph's treatment. Even a
 geometric font can need optical asymmetry, and a handwritten font can contain
@@ -60,7 +60,7 @@ source and comparisons before treating a measurement as a design requirement.
 | Is the input valid for the supported font pipeline? | Always check safe vectors, closed nondegenerate contours, holes, coverage, mappings, metrics, compilation and release integrity. | Any invalid or unsupported input; intentional artwork still needs an explicit supported representation. |
 | Is this an approved glyph? | Always check source, mapping, placement, advance and compiled preservation. | Unapproved changes to a protected glyph; create a separate proposed revision instead of resetting the baseline. |
 | Is exact reflection part of this glyph's design? | Yes: measure declared axes in source and export. No: review optical balance without enforcing reflection. Unknown: review intent first. | A declared exact rule fails, or uncertain intent remains unresolved. |
-| Is this feature intended to be exactly straight? | Yes: check its declared direction; apply 0/90-degree rules only to intended horizontal/vertical features. No: preserve its curve or lean. | Declared straightness fails; a near-axis angle alone does not justify correction. |
+| Is this feature intended to be exactly straight? | Yes: check the selected feature's horizontal/vertical alignment. No: preserve its curve or lean. | Declared straightness fails; a near-axis angle alone does not justify correction. |
 | Is a curve join intentionally sharp? | Declared corner: retain it while checking topology. Otherwise: investigate tangent breaks and stationary reversals; always review curve flow. | An unexplained defect remains; a wide hook alone is insufficient evidence. |
 | Are these stems meant to have a shared width? | Yes: test explicit probes/targets. No: use measurements as diagnostics alongside optical review. | A declared target fails, or visible weight problems remain unresolved. |
 | Did a correction improve the shape? | Check change budgets/topology, recompile, compare every edited glyph and affected shaped samples. | Budget failure, worse appearance, or insufficient evidence; passing the budget never approves the edit. |
@@ -71,23 +71,22 @@ export → recheck → inspect → retain or revert. It runs before presentation
 An inconclusive style decision returns to internal review, rather than silently
 disabling a rule or asking the user to find the first defects.
 
-## Turning this into executable rubrics
+## What is executable now
 
-Each future rubric should record its scope (font/glyph/feature), applicability
-facts, deterministic measurement and units, threshold and rationale, allowed
-correction, evidence and result. Keep **check applicability**, **check result**
-and **permission to edit** separate: a finding does not authorize a repair.
+Schema-2 profiles record the style rationale, confirmed per-glyph decisions,
+features and allowed repairs. Audit reports record numeric applicability,
+findings and edit permission separately. Style defaults do not confirm a drawing,
+and a failed check does not authorize a repair.
 
-Use explicit outcomes such as passed, failed, not applicable with a reason, and
-needs visual review. The current receipt requires each review area to be resolved
-and marked passed with concrete notes; it does not yet implement those richer
-outcomes or automatic routing. Current profiles already support declared symmetry,
-corners, axis regions and stem targets, so reviewed branches can be expressed
-without inventing an entirely new compiler.
+Numeric routes report passed, failed, not applicable with a reason, or needs
+intent. The internal pass returns blocked, needs visual review, or ready for
+release; it creates no aesthetic receipt. Existing receipts still require every
+visual area to be resolved with concrete notes and bound evidence. Schema-1
+profiles retain their frozen behavior, including the approved Mellow example.
 
-Before choosing more thresholds, use the retained accepted/rejected examples as
-regressions: reject true cusps, retain g's smooth hook and organic lean, catch the
-faceted O, and reject the pinched I/i/l results. Later style presets need more
-examples than these two fonts, including serif, italic and high-contrast designs;
-supporting an italic preset would also require lifting the current upright-only
-font metadata limitation. No new preset or universal optical score is claimed here.
+Regressions retain true-cusp detection, g's smooth hook, organic lean and approval
+protection. The faceted O and pinched I/i/l remain evidence that visual review
+must reject edits that numeric checks miss. Geometric, humanist, handwritten,
+serif and display strategies are conservative review defaults; more reviewed
+fonts are needed to calibrate them, especially serif/high-contrast work. Italic
+metadata support and a universal optical-quality score are not implemented.

@@ -102,10 +102,24 @@ Corrections are separate bounded authoring actions; they refuse approved project
 and never overwrite their input. `build_font` remains a lower-level compiler API
 for technical uses; `release_font` always requires complete preflight.
 
-[Review themes and proposed decision trees](docs/review-rubrics.md) collect what
-the two generated examples taught us about restrictive checks. Style and feature
-intent should select geometric rules; technical validity and the review gate
-always apply. Automatic style routing remains proposed work.
+[Style decision rubrics](references/style-rubrics.md) turn the generated-font
+[findings](docs/review-rubrics.md) into executable routing. For new work, choose
+geometric, humanist, handwritten, serif or display defaults, inspect each glyph's
+intent, then run the internal correction/recheck pass:
+
+```sh
+fontify rubric-plan my-font/fontify.json --style handwritten --note 'Deliberate lean and organic comic curves.' --output my-font/quality-v2.json
+# Set quality to quality-v2.json; inspect and confirm each glyph's decisions.
+fontify preflight my-font/fontify.json --out build/pass-01
+# Allow only appropriate repairs in the profile, then revise internally:
+fontify preflight my-font/fontify.json --out build/pass-02 --repair-version 0.002
+```
+
+Preflight saves routed results and actual-font comparisons. Exit 1 means blocked;
+2 means visual review is required; 0 means an existing current complete receipt
+permits release. It never auto-approves appearance, publishes, or updates the
+release pointer. Style defaults can be overridden per feature; technical validity
+and the visual gate always apply. Frozen schema-1 examples remain supported.
 
 Set `approval` to the baseline only after user approval. A source, placement, outline, Unicode or
 advance change to a locked glyph stops the build; new glyphs are listed as
@@ -172,5 +186,6 @@ development toolchain; use it for byte-for-byte reproduction across rebuilds.
 - Geometry checks cannot establish optical weight, smooth curves, rhythm or
   style. Every-glyph agent visual review is required for release; final user
   approval remains a separate decision. Receipts prove integrity, not aesthetics.
-- Next: UFO/designspace exchange for multi-master work, broader font QA, richer
-  optical diagnostics, and style-dependent review rubrics. These are future work.
+- Next: UFO/designspace exchange for multi-master work, broader font QA and richer
+  optical diagnostics. Style rubrics are implemented; more reviewed fonts are
+  needed to calibrate their defaults beyond the two source experiments.

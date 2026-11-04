@@ -130,3 +130,25 @@ reflection was refused, and numerically passing but visually worse I/i/l edits
 were reverted. Only H, Z and q differ in the final compiled outlines. Curve cusp
 checks now test stationary tangent reversals rather than misclassifying smooth
 wide hooks by their chord angle. Human visual review remains necessary.
+
+## Executable style routing
+
+Schema 2 adds a font strategy and confirmed per-glyph balance, axis and weight
+decisions to the existing quality profile. `rubrics.py` supplies five conservative
+style defaults and validates feature/decision consistency. Exact reflection and
+stem targets are explicit exceptions; organic shapes retain their construction.
+Every numeric route reports applicability, result and edit permission separately.
+An unconfirmed recommendation blocks correction and release.
+
+`preflight.py` coordinates one bounded internal pass: audit, optional explicitly
+permitted repair into a fresh candidate, TTF/WOFF2 compilation and HarfBuzz checks,
+export audit and actual-font comparison. It returns blocked, needs visual review,
+or ready for release; it never publishes or writes an aesthetic review. The skill
+agent owns visual inspection and retain/revert decisions between passes.
+
+The repair permission list prevents automatic polygon simplification, mirroring
+or tangent edits merely because a measurement ran. Unchanged schema-2 SVGs are
+copied without rewriting. Source/export validity, approval protection and bounded
+edits still apply to every strategy. Schema-1 behavior is preserved for reproducible
+existing projects. No additional dependencies, paid calls or automatic optical
+classifier are introduced; see [the rubrics](../references/style-rubrics.md).

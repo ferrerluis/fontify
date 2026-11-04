@@ -1,4 +1,4 @@
-# Product acceptance catalog · v6
+# Product acceptance catalog · v7
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -29,6 +29,12 @@ The runner records component versions, source digest, timestamp and command.
 | TC08.5 | Internal draft and review receipt | `pytest tests/test_quality.py -k release_gate` | Drafts do not update current.json. Missing/stale/incomplete per-glyph review blocks release; all checks and evidence must match the compiled font. |
 | TC09.1 | Frozen Recraft vector sheet | `pytest tests/test_recraft_example.py -k extraction` | Reproduce all 52 glyph SVGs plus explicit space without network; preserve dots, convert painted white counters into holes, reject changed sources or existing output. |
 | TC09.2 | Frozen reviewed Recraft project | `pytest tests/test_recraft_example.py -k offline` | Build and reopen TTF/WOFF2 offline with 53 exact mappings, intact counters/metrics, current review receipts and real HarfBuzz pairs. |
+| TC10.1 | Local outlines, no credentials | `pytest tests/test_rubrics.py -k plan` | Style plans cover every mapping, explain defaults and leave ink intent unconfirmed; unknown styles and overwrites fail. |
+| TC10.2 | Confirmed style/feature intent | `pytest tests/test_rubrics.py -k routing` | Exact reflection, selected axes and stem probes run only where declared; organic lean and variable weight remain intact; unresolved or contradictory intent blocks release. |
+| TC10.3 | Unapproved candidate | `pytest tests/test_rubrics.py -k permission` | A failed check does not authorize an edit; only allowed repairs run, unchanged SVGs remain byte-identical and approved sources stay protected. |
+| TC10.4 | Candidate with a repairable defect | `pytest tests/test_rubrics.py -k preflight` | Preflight corrects into a fresh candidate, compiles and rechecks both font formats with real shaping, saves actual-font comparisons and requires visual review without updating a release pointer. |
+| TC10.5 | Compiled candidate and review evidence | `pytest tests/test_rubrics.py -k gate` | Missing/unresolved/stale intent or visual receipts prevent presentation; only current complete review permits release. No command creates aesthetic approval. |
+| TC10.6 | Each supported style | `pytest tests/test_rubrics.py -k universal` | Every style still rejects invalid contours/mappings/metrics and preserves the mandatory source/export checks; styles cannot opt out of technical validity. |
 
 Catalog v4 adds TC08.1–TC08.5 for the pre-presentation audit/correction/recheck gate:
 20 required sub-tests, 19 automated plus one browser observation. TC07.3 applies
@@ -46,6 +52,10 @@ Catalog v6 adds TC04.3 for the approval handoff: 23 required sub-tests,
 22 automated plus the browser observation. Mellow's protected baseline follows
 the user's design approval on 2026-11-03; a matching baseline proves preservation,
 not independent style quality.
+
+Catalog v7 adds six style-rubric sub-tests: 29 required, 28 automated plus the
+browser observation. Existing approved example inputs and artifacts are retained;
+schema-1 profiles remain reproducible while new skill work uses schema 2.
 
 These checks do not certify visual quality. The image-generated example is an
 unapproved candidate; its creation, normalization and tracing are explicit. A

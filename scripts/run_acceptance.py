@@ -39,6 +39,12 @@ CASES = {
     "TC08.5": ("Pre-presentation review gate", "test_release_gate"),
     "TC09.1": ("Recraft vector extraction and guards", "test_recraft_extraction"),
     "TC09.2": ("Reviewed Recraft example builds offline", "test_recraft_offline"),
+    "TC10.1": ("Style plans require inspected intent", "test_rubric_plan"),
+    "TC10.2": ("Feature-specific deterministic routing", "test_rubric_routing"),
+    "TC10.3": ("Explicit correction permissions", "test_rubric_permission"),
+    "TC10.4": ("Internal correction and recheck pass", "test_rubric_preflight"),
+    "TC10.5": ("Rubric and visual presentation gate", "test_rubric_gate"),
+    "TC10.6": ("Universal checks for every style", "test_rubric_universal"),
 }
 
 
@@ -108,7 +114,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 6,
+        "catalog_version": 7,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),

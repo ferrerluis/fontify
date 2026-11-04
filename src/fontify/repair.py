@@ -26,6 +26,7 @@ from .quality import (
     to_record,
     vector,
 )
+from .rubrics import require_resolved
 
 
 def line_distance(p, a, b):
@@ -122,9 +123,15 @@ def straighten(record, profile, intent):
                 dx, dy = vector(pts[0], pts[-1])
                 length = math.hypot(dx, dy)
                 normal, parallel = (dx, dy) if dim == 0 else (dy, dx)
-                if length >= profile["min_axis_length"] and abs(normal) <= abs(
-                    parallel
-                ) * math.tan(math.radians(profile["axis_angle_degrees"])):
+                explicit = profile["schema"] == 2 and any(
+                    all(r[0] <= p[0] <= r[2] and r[1] <= p[1] <= r[3] for p in pts)
+                    for r in intent.get("straight_regions", [])
+                )
+                if (explicit or length >= profile["min_axis_length"]) and abs(
+                    normal
+                ) <= abs(parallel) * math.tan(
+                    math.radians(profile["axis_angle_degrees"])
+                ):
                     parents[find(i)] = find((i + 1) % n)
             groups = defaultdict(list)
             for i in range(n):
@@ -403,23 +410,54 @@ def apply_contour_patch(record, patch):
 
 def correction(record, intent, profile, advance, patch=None):
     before = record
-    if intent["construction"] == "polygon":
+    allowed = (
+        set(intent["decisions"]["repairs"])
+        if profile["schema"] == 2
+        else {"polygonize", "axes", "stems", "tangents", "symmetry", "patches"}
+    )
+    if profile["schema"] == 2:
+        if not intent["decisions"]["confirmed"]:
+            raise FontifyError("resolve glyph intent before correction")
+        if patch and "patches" not in allowed:
+            raise FontifyError("local patch is not allowed by this glyph's rubric")
+
+    def needed(action, kinds):
+        return action in allowed and (
+            profile["schema"] == 1
+            or any(
+                i["kind"] in kinds
+                for i in glyph_audit(record, intent, profile)["issues"]
+            )
+        )
+
+    polygon_edit = intent["construction"] == "polygon" and needed(
+        "polygonize", {"unexpected_curve"}
+    )
+    if polygon_edit:
         record = polygonize(record, profile["repair_epsilon"])
-    if intent["construction"] == "polygon":
+    if polygon_edit:
         rounded = RecordingPen()
         record.replay(RoundingPen(rounded))
         record = rounded
     for _ in range(4):
-        record = straighten(record, profile, intent)
-        record = match_stems(record, intent)
-        record = local_tangents(record, intent, profile)
-        record = symmetric(record, intent["symmetry"], advance)
+        start = record.value
+        if needed("axes", {"axis_alignment"}):
+            record = straighten(record, profile, intent)
+        if needed("stems", {"stem_missing", "stem_width"}):
+            record = match_stems(record, intent)
+        if needed("tangents", {"curve_join", "curve_cusp"}):
+            record = local_tangents(record, intent, profile)
+        if needed("symmetry", {"symmetry"}):
+            record = symmetric(record, intent["symmetry"], advance)
         audit = glyph_audit(record, intent, profile)
         if audit["status"] == "passed":
             break
+        if profile["schema"] == 2 and start == record.value:
+            break
     if patch:
         record = apply_contour_patch(record, patch)
-        record = symmetric(record, intent["symmetry"], advance)
+        if needed("symmetry", {"symmetry"}):
+            record = symmetric(record, intent["symmetry"], advance)
         audit = glyph_audit(record, intent, profile)
     # Compare both at the same 0.2-unit diagnostic subdivision. Mixed-degree
     # coincident Béziers can make a direct cubic/quadratic XOR unreliable.
@@ -430,6 +468,7 @@ def correction(record, intent, profile, advance, patch=None):
         **changes,
         "local_patch": patch,
         "audit": audit,
+        **({"allowed_repairs": sorted(allowed)} if profile["schema"] == 2 else {}),
     }
 
 
@@ -454,6 +493,7 @@ def repair_project(project_path, output, version, patches=None):
         raise FontifyError("invalid local patch plan")
     if profile is None:
         raise FontifyError("declare a quality profile before corrections")
+    require_resolved(profile)
     if project.data.get("approval"):
         raise FontifyError(
             "approved projects are protected; propose corrections in an unapproved candidate copy"
@@ -482,7 +522,8 @@ def repair_project(project_path, output, version, patches=None):
             )
         except FontifyError as e:
             raise FontifyError(f"{o.spec['name']}: {e}") from e
-        corrected[o.spec["name"]] = rec
+        if profile["schema"] == 1 or rec.value != o.record.value:
+            corrected[o.spec["name"]] = rec
         changes[o.spec["name"]] = change
     shutil.copytree(project.root, output)
     for spec in data["glyphs"]:

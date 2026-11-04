@@ -1,6 +1,6 @@
 ---
 name: fontify
-description: Create font files from a typeface concept or supplied vector glyphs with Fontify. Generate source artwork, correct and review every glyph, test shaping, and pass the release gate before presenting the first font. Recraft is optional; the compiler runs offline.
+description: Create fonts from a typeface concept or supplied vectors with Fontify. Choose style-aware decision rubrics, run deterministic checks and bounded corrections, then review every glyph before presenting the first font. Recraft is optional; construction runs offline.
 ---
 
 # Fontify
@@ -52,28 +52,34 @@ font-building approval. No Recraft access is needed for build, tests or preview.
 
 ## Finish preflight before presenting the first font
 
-Read [preflight.md](references/preflight.md) for the implemented profile, correction,
-receipt and release commands. Do this work autonomously; the user should receive
+Read [style-rubrics.md](references/style-rubrics.md) for the executable decision
+trees and internal correction loop. Use schema 2 for new work; existing schema-1
+approved examples keep their frozen profiles. Read [preflight.md](references/preflight.md)
+for detailed receipt fields and local patches. Do this work autonomously; the user should receive
 a corrected, reviewed first candidate, not become the first defect finder.
 
 1. Preserve the original artwork, trace, approved baseline and release. Work in
    a new unapproved candidate (`approval: null`). Never reset a baseline just to
    silence drift. Approved glyphs need separate, explicit proposed edits.
-2. Declare quality intent for **every** mapped glyph: polygon/curved/blank,
-   intended reflection axes, intentional corners, straight regions and any shared
-   stem targets. Inspect intent rather than assuming it from Unicode. Optical
-   balance and exact reflection are separate requirements.
-   For handwritten/organic styles, use declared axis features and preserve intended
-   curvature/lean. A numeric pass that makes the design worse must be rejected;
-   inspect before/after shapes and revert that edit instead of delivering it.
-3. Run `validate` and `audit`, then make bounded corrections with `repair` or
-   deliberate local vector edits. Exact 0/90-degree edges apply to intended
-   horizontal/vertical features; preserve genuine diagonals. Fix curve kinks,
-   flat spots, facets, cusps, counter defects and uneven weight locally. Never
-   smooth, thin or stretch the whole alphabet to improve a score.
-4. Compile with `build --draft`. Drafts are internal and never update `current.json`.
-   Re-run the audit on the actual TTF: rounding can reintroduce asymmetry or
-   curve defects. Reopen both font formats and check real HarfBuzz shaping.
+2. Choose the rubric strategy from the brief: geometric, humanist, handwritten,
+   serif, or display/mixed. Run `fontify rubric-plan` with the style and a concrete
+   rationale. Inspect **every** ink glyph before confirming its decisions; a
+   preset is a recommendation, not inferred intent or approval. Declare exact
+   reflection axes, intentional corners, selected straight features and any
+   measured stem probes. Preserve optical asymmetry and variable strokes where
+   intended. Unresolved intent blocks correction and presentation.
+3. Use `fontify preflight <project> --out <fresh-pass-dir>`. Enable only appropriate
+   per-glyph repairs, then use `--repair-version <new-version>` for a bounded
+   candidate correction; explicit contour patches also need `patches` permission.
+   Numeric findings do not authorize edits by themselves. Exact 0/90-degree checks
+   apply to intended axial features; preserve genuine diagonals, lean and curved
+   uprights. Fix kinks, facets, cusps, counters and weight locally. Never smooth,
+   thin or stretch the alphabet to improve a score.
+4. The pass compiles internal drafts, reopens TTF/WOFF2 and checks real HarfBuzz
+   shaping, then reruns the audit on the actual TTF: export can reintroduce defects.
+   Read `preflight.json` and its routed check reasons/results. `blocked` needs
+   internal correction; `needs_visual_review` is not permission to present a font.
+   Drafts never update `current.json`.
 5. **Inspect every letter visually** at enlarged and normal sizes, at a common
    scale/baseline, plus actual shaped words and pair samples with kerning on/off.
    Check all curves and straight features, symmetry, optical weight, contours,
@@ -81,11 +87,14 @@ a corrected, reviewed first candidate, not become the first defect finder.
    before/after sheets (`scripts/render_quality_review.py`) and overlays; a
    numeric pass or high tracing overlap is insufficient.
 6. Repeat correction, export, audit and visual review until no identified defect
-   remains. Preserve iteration findings and evidence. Do not label a skipped or
-   unresolved check passed. If the design needs regeneration, preserve accepted
-   glyphs and generate only candidate replacements; paid calls still need approval.
+   remains. A numeric pass that looks worse must be rejected and reverted; inspect
+   changes below the budget too. Preserve iteration findings and evidence, and
+   change the approach when a repeated edit fails to improve the result. Do not
+   invent corner exceptions or change intent solely to silence a finding. If the
+   design needs regeneration, preserve accepted glyphs; paid calls still need approval.
 7. Write a per-glyph agent review receipt with concrete findings and saved proof
-   hashes **after** inspection. Use `fontify release`, never an ungated build,
+   hashes **after** inspection, with findings tied to the actual rubric branches.
+   Rerun preflight to reach `ready_for_release`. Use `fontify release`, never an ungated build,
    for the first user-facing font. The release command requires passing source
    and compiled audits plus a current complete receipt. Follow its returned
    manifest and verified pointer; present only that reviewed version.
