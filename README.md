@@ -1,8 +1,8 @@
 # Fontify
 
-Fontify turns letter drawings into font files for your computer (TTF) and website
-(WOFF2). Use it with a coding agent to develop a typeface from an idea, or bring
-your own SVG drawings.
+Fontify turns letter drawings into font files you can install on your computer
+(TTF) or use on a website (WOFF2). Use it with a coding agent to develop a typeface
+from an idea, or bring your own SVG drawings.
 
 ## Why
 
@@ -41,8 +41,7 @@ Try the included examples: [Fontify Grotesk](examples/imagegen/README.md)
 (uppercase, lowercase and space). Both rebuild offline from saved drawings;
 neither includes digits, punctuation or accents.
 
-Currently, Fontify builds a single regular style per project. Variable fonts and
-complex-script text layout aren't supported. [MIT licensed](LICENSE).
+[MIT licensed](LICENSE).
 
 <details>
 <summary>Agent reference: setup, font creation, review, release and tests</summary>
@@ -273,9 +272,15 @@ the development toolchain for byte-for-byte reproduction across rebuilds.
 
 ### Technical limits and next steps
 
-- Static, upright, single-master fonts with pair kerning through GPOS. Complex
-  scripts, mark positioning, ligatures, variable fonts, hinting and CFF/OTF export
-  aren't implemented. TTF is already an OpenType font; WOFF2 wraps the same outlines.
+- Builds static, upright, single-master fonts with pair kerning through GPOS.
+  TTF is already an OpenType font; WOFF2 wraps the same outlines.
+- Can't build variable fonts such as [Inter Variable](https://rsms.me/inter/download/)
+  with adjustable weight and optical size. A fixed-weight design with similar
+  letter shapes is within the compiler's scope.
+- Doesn't generate the context-dependent letter forms and mark positioning
+  needed by fonts such as [Noto Naskh Arabic](https://notofonts.github.io/arabic/).
+  Mapping Arabic characters alone doesn't provide correct joining behavior.
+- Ligatures, hinting and CFF/OTF export aren't implemented.
 - SVG input is limited to paths and affine groups. Expand strokes, remove
   backgrounds and convert other shapes/arcs explicitly. The compiler rejects
   overlaps/intersections instead of silently repairing approved designs.
