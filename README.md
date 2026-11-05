@@ -1,62 +1,213 @@
 # Fontify
 
-Turn a typeface concept and explicit vector glyph designs into usable, reviewable
-font files. **The compiler runs offline and needs no API key.** MIT licensed.
-Recraft is an optional source-artwork provider, never a font compiler.
+Fontify turns letter drawings into font files for your computer (TTF) and website
+(WOFF2). Use it with a coding agent to develop a typeface from an idea, or bring
+your own SVG drawings.
 
-## Offline quickstart
+## Why
 
-Python 3.11+; tested here with Python 3.14. After dependency installation, every
-command below runs locally without a network connection or credentials.
+Letter drawings need spacing and a way for apps to match each drawing to the
+character you type. Fontify puts those pieces together and gives you a browser
+preview; the agent checks every letter, and you approve the design.
+
+## How
+
+Requires Python 3.11+ and an agent that supports local skills.
+
+1. Install the skill by cloning this whole repository into your agent's skills
+   folder. For agents that use `~/.agents/skills`:
+
+   ```sh
+   git clone https://github.com/ferrerluis/fontify.git ~/.agents/skills/fontify
+   ```
+
+2. Ask your agent to use it. For example:
+
+   ```text
+   Use $fontify to make a friendly handwritten font with uppercase and
+   lowercase letters and spaces. Check every letter and show me a preview
+   before I approve the design.
+   ```
+
+3. Review the font files and browser preview. Request changes or approve the
+   design when you're happy with it.
+
+Building fonts runs locally after setup, with no API key needed. Generating new
+artwork may use an online service; Recraft is optional. The agent's setup and
+build commands are below.
+
+Try the included examples: [Fontify Grotesk](examples/imagegen/README.md)
+(uppercase and space) or [Fontify Mellow](examples/recraft-mellow/README.md)
+(uppercase, lowercase and space). Both rebuild offline from saved drawings;
+neither includes digits, punctuation or accents.
+
+Currently, Fontify builds a single regular style per project. Variable fonts and
+complex-script text layout aren't supported. [MIT licensed](LICENSE).
+
+<details>
+<summary>Agent reference: setup, font creation, review, release and tests</summary>
+
+Read [SKILL.md](SKILL.md) before creating or revising a font. It defines the agent
+workflow; the commands and links below support it. Keep the whole repository
+together, with `SKILL.md` at the skill folder's root. Work from the repository
+root and use the existing CLI/library in `src/fontify/`.
+
+### Setup
+
+Python 3.11+ is required; the offline suite runs on Python 3.11 and 3.14. Install
+the package in a virtual environment:
 
 ```sh
+cd ~/.agents/skills/fontify
 python3 -m venv .venv
 . .venv/bin/activate
-pip install -e '.[dev,recraft]'
-# Or omit ,recraft: pip install -e '.[dev]'
+pip install -e '.[dev]'
+# Optional REST artwork provider: pip install -e '.[dev,recraft]'
+```
+
+Use your actual checkout path if you installed elsewhere. The `dev` extra adds
+test tools; `pip install -e .` is enough for the compiler. After dependencies are
+installed, compilation, checks and previews run locally without credentials or a
+network connection. Recraft supplies optional artwork, never font compilation.
+
+### Rebuild and inspect an example
+
+```sh
 fontify release examples/imagegen/fontify.json --out build
 fontify inspect build/FontifyGrotesk-Regular-v0.002/FontifyGrotesk-Regular-v0.002.ttf --text AVATAR
 fontify verify-release build/FontifyGrotesk-Regular-v0.002/release-manifest.json
 ```
 
-Open `build/FontifyGrotesk-Regular-v0.002/proof.html`: a self-contained specimen with
-embedded WOFF2, typed coverage warnings, every glyph, and HarfBuzz-positioned
-samples with kerning on/off. `glyph-sheet.svg` is a portable vector proof.
-For a browser that requires HTTP, serve **only the generated release folder**:
+Open `build/FontifyGrotesk-Regular-v0.002/proof.html`. It embeds WOFF2 and includes
+typed coverage warnings, every glyph and HarfBuzz-positioned samples with kerning
+on/off. `glyph-sheet.svg` is a portable vector proof. If the browser needs HTTP,
+serve only the generated release folder:
 
 ```sh
 python -m http.server 8765 --bind 127.0.0.1 --directory build/FontifyGrotesk-Regular-v0.002
 # Visit http://127.0.0.1:8765/proof.html
 ```
 
-The primary example, **Fontify Grotesk**, was created with the built-in image
-generation tool, then cropped, traced, corrected and reviewed locally. It covers **A–Z and
-space: 27 mappings**, plus `.notdef`; no lowercase, digits, punctuation or accents.
-The raw AI image, exact prompt and tracing provenance are checked in. Rebuilding
-uses frozen corrected SVGs and a per-glyph agent review receipt; no model call is
-needed. The v0.002 preflight passed. Final user design approval is still pending.
+Fontify Grotesk covers **A–Z and space: 27 mappings**, plus `.notdef`. Its original
+AI image, exact prompt, tracing provenance, corrected SVGs and per-glyph agent
+review receipt are checked in. Rebuilding calls no model. Its v0.002 preflight
+passed; final user design approval is pending. See [the image-generated
+example](examples/imagegen/README.md) for reproduction and source comparisons.
 
-See [the image-generated example](examples/imagegen/README.md) for reproduction
-and source-versus-compiled proofs. `examples/offline/` is the older hand-coded
-engineering fixture; it is kept for structural regression tests, not presented
-as the designed typeface. Its geometry recipe remains `scripts/make_demo.py`.
-
-There is also a real [Recraft Vector example, Fontify Mellow](examples/recraft-mellow/README.md):
-a friendly informal alphabet covering A–Z, a–z and space. Its frozen vectors,
-intent-aware checks and proofs rebuild offline with no account or API key:
+Fontify Mellow covers **A–Z, a–z and space: 53 mappings**, plus `.notdef`. It uses
+saved Recraft vectors and has user approval recorded in its project. See [the
+Mellow example](examples/recraft-mellow/README.md) for provenance and corrections.
 
 ```sh
 fontify release examples/recraft-mellow/fontify.json --out build
 # Open build/FontifyMellow-Regular-v0.002/proof.html
 ```
 
-## Bring your own glyphs
+`examples/offline/` is the older hand-coded engineering fixture, kept for
+structural regression tests. Its geometry recipe is `scripts/make_demo.py`.
 
-Copy `examples/imagegen/`, replace its SVGs, set `approval` to `null` while drawing,
-and edit `fontify.json` plus the per-glyph quality intent. Replacing letters or
-spacing invalidates the example's review receipt; review your new design afresh.
-Declare every mapping, advance and required character.
-Use black filled, closed paths and explicit placement; see [the format](references/project-format.md).
+### Create a new font project
+
+Start in a separate project directory. You can copy `examples/imagegen/` as a
+template, replace its SVGs and edit `fontify.json`. Set `approval` to `null` for
+the new design and create fresh quality intent and review evidence. Never reuse
+the example's receipt for changed letters or spacing.
+
+- Declare every character mapping, advance width and required character. A
+  wordmark or alphabet image doesn't supply missing letters automatically.
+- Use black filled, closed SVG paths and explicit placement. Review coordinate
+  conventions, baselines and shared scale; don't fit each letter independently.
+  See [the project and SVG format](references/project-format.md).
+- Generate artwork with image generation or optional Recraft Vector, or use
+  supplied vectors. Keep original artwork and prompts. Raster tracing is a
+  separate optional authoring step whose settings and source comparisons need
+  review.
+- The compiler doesn't trace, smooth, mirror, thin, auto-fit or invent letters.
+  Corrections are separate, bounded authoring actions that preserve their input
+  and refuse approved projects.
+
+### Check, correct and review before presenting a font
+
+Follow [the style decision rubrics](references/style-rubrics.md) for new work.
+Choose geometric, humanist, handwritten, serif or display defaults, then inspect
+and confirm each glyph's intent. Use schema 2 for new profiles; frozen schema-1
+examples remain supported.
+
+```sh
+fontify rubric-plan my-font/fontify.json --style handwritten --note 'Deliberate lean and organic comic curves.' --output my-font/quality-v2.json
+# Set the candidate's quality to quality-v2.json.
+# Inspect every glyph, resolve its decisions and confirm its intent.
+fontify validate my-font/fontify.json
+fontify preflight my-font/fontify.json --out build/pass-01
+# Enable only appropriate repairs in the profile, then revise internally:
+fontify preflight my-font/fontify.json --out build/pass-02 --repair-version 0.002
+```
+
+Read the saved `preflight.json` and follow the returned candidate paths. Exit 1
+means blocked; 2 means visual review is required; 0 means a current complete
+receipt permits release. Preflight saves routed results and actual-font
+comparisons. It never auto-approves appearance, publishes or updates `current.json`.
+
+For separate audit, repair and internal draft commands:
+
+```sh
+fontify audit my-font/fontify.json --out build/audit-before
+fontify repair my-font/fontify.json --out build/candidate-02 --version 0.002
+fontify build build/candidate-02/fontify.json --out build/drafts-02 --draft
+# Audit the actual exported TTF too; substitute the returned TTF path:
+fontify audit build/candidate-02/fontify.json --font path/to/actual-draft.ttf --out build/audit-after
+```
+
+Before presenting the first font, audit, correct, export, recheck and visually
+inspect **every glyph**, including blank space. Inspect actual compiled letters
+at enlarged and normal sizes, plus shaped words and pairs with kerning on/off.
+Check intended symmetry, exact horizontal/vertical features, curves and corners,
+contours, optical weight, spacing and source preservation. Preserve intentional
+asymmetry, corners, diagonals and organic strokes.
+
+Numeric checks alone missed facets in Grotesk's O; enlarged review caught them.
+Reject and revert edits that look worse even if they pass numeric checks. Repeat
+correction and review until no identified defect remains. Unresolved intent
+blocks correction and presentation; don't invent exceptions to silence findings.
+
+After inspection, write a per-glyph agent review receipt with concrete findings
+and saved proof hashes, then rerun preflight. Changes to letters, spacing,
+kerning, project settings, intent or proof bytes require recheck. See
+[preflight commands, profiles and receipt fields](references/preflight.md) and
+[the review findings behind the rubrics](docs/review-rubrics.md).
+
+### Release, compare and record user approval
+
+```sh
+fontify release build/candidate-02/fontify.json --out build
+# Use the manifest path returned by release:
+fontify verify-release path/to/release-manifest.json
+fontify compare path/to/before/release-manifest.json path/to/after/release-manifest.json --out build/comparison
+# Only after user approval, write a NEW baseline (existing files aren't overwritten):
+fontify snapshot build/candidate-02/fontify.json --output build/candidate-02/approved-v2.json
+```
+
+Use `release` for the first user-facing font. It requires passing source and
+compiled checks plus a current complete receipt. Drafts never update
+`current.json`. Agent review and a matching baseline don't establish user design
+approval; receipts establish integrity, not aesthetic quality.
+
+After user approval, point `approval` at the new baseline for the approved
+project. Re-audit and refresh the receipt binding for this metadata change only
+after verifying that the reviewed font and proof bytes still match.
+A source, placement, outline, Unicode or advance change to a locked
+glyph stops the build; additions are listed as unreviewed. Never refresh a
+baseline just to pass a check. Keep approved projects unchanged and propose edits
+in a separate candidate/version. [Ferrer lessons](docs/ferrer-lessons.md) explain
+the failures that motivated these rules.
+
+Each release contains TTF, WOFF2, CSS with exact Unicode coverage, proofs,
+`validation.json`, `quality.json` for gated projects and a hashed
+`release-manifest.json`. `build/current.json` points to the last successful
+release. Different bytes cannot replace an existing version; increase `version`.
+Use the returned manifest or verified pointer instead of guessing a filename.
+
+The same workflow is available in Python:
 
 ```python
 from fontify import release_font, load_project
@@ -67,127 +218,75 @@ release = release_font(project, "build")  # requires current complete preflight
 print(inspect_font(release.parent / f"{project.stem}.ttf", "AVATAR"))
 ```
 
-Design a new alphabet with image generation or optional Recraft Vector, or supply
-your own approved vector outlines. Separate that creative work from compilation. No automatic tracing,
-smoothing, mirroring, thinning, auto-fitting, or inferred missing letters occurs
-in the compiler. Raster tracing is an optional, separate authoring step whose
-settings and source comparisons must be reviewed.
+`build_font` remains a lower-level compiler API for technical uses;
+`release_font` always requires complete preflight. Return exact versioned font
+and proof paths, coverage, checks, corrections and remaining design decisions.
+State whether generation ran and which provider was used. Rebuilding doesn't
+authorize system font installation, publishing or changes to a separate project.
 
-## Review before the first font is presented
-
-The skill must audit, correct, export, recheck and visually inspect **every glyph**
-before presenting a font. Checks cover intended symmetry, exact 0/90-degree edges,
-curve kinks/cusps, topology, shared stem targets, spacing and source preservation.
-Intentional asymmetry, corners and diagonals are explicit. Numeric checks alone
-missed facets in the generated O; enlarged review caught and corrected them.
+### Optional Recraft artwork
 
 ```sh
-fontify validate my-font/fontify.json
-fontify audit my-font/fontify.json --out build/audit-before
-fontify repair my-font/fontify.json --out build/candidate-02 --version 0.002
-fontify build build/candidate-02/fontify.json --out build/drafts-02 --draft
-# Recheck the actual exported TTF, inspect every glyph and shaped words,
-# then record concrete findings and saved proofs in the agent review receipt.
-fontify release build/candidate-02/fontify.json --out build
-# Edit a candidate in another project/version, then compare actual releases:
-fontify compare path/to/before/release-manifest.json path/to/after/release-manifest.json --out build/comparison
-# AFTER reviewing it, capture a NEW baseline file (existing files are never overwritten):
-fontify snapshot my-font/fontify.json --output my-font/approved-v2.json
+fontify recraft-plan examples/recraft/concept.txt
 ```
 
-See [preflight commands, profiles and receipts](references/preflight.md). Drafts
-never update `current.json`; release blocks failed checks and missing/stale review.
-Changes to letters, spacing, kerning, intent or saved proof bytes require recheck.
-Corrections are separate bounded authoring actions; they refuse approved projects
-and never overwrite their input. `build_font` remains a lower-level compiler API
-for technical uses; `release_font` always requires complete preflight.
+This dry request reads no secret and makes no network call. It defaults to
+Vector Pro (`recraftv4_1_pro_vector`). Use non-Pro only when explicitly requested
+or Pro is confirmed unavailable, following `SKILL.md`; pass the model explicitly
+in MCP calls rather than relying on service defaults. Preserve the user's choice
+of another provider or supplied artwork.
 
-[Style decision rubrics](references/style-rubrics.md) turn the generated-font
-[findings](docs/review-rubrics.md) into executable routing. For new work, choose
-geometric, humanist, handwritten, serif or display defaults, inspect each glyph's
-intent, then run the internal correction/recheck pass:
-
-```sh
-fontify rubric-plan my-font/fontify.json --style handwritten --note 'Deliberate lean and organic comic curves.' --output my-font/quality-v2.json
-# Set quality to quality-v2.json; inspect and confirm each glyph's decisions.
-fontify preflight my-font/fontify.json --out build/pass-01
-# Allow only appropriate repairs in the profile, then revise internally:
-fontify preflight my-font/fontify.json --out build/pass-02 --repair-version 0.002
-```
-
-Preflight saves routed results and actual-font comparisons. Exit 1 means blocked;
-2 means visual review is required; 0 means an existing current complete receipt
-permits release. It never auto-approves appearance, publishes, or updates the
-release pointer. Style defaults can be overridden per feature; technical validity
-and the visual gate always apply. Frozen schema-1 examples remain supported.
-
-Set `approval` to the baseline only after user approval. A source, placement, outline, Unicode or
-advance change to a locked glyph stops the build; new glyphs are listed as
-unreviewed. A baseline match proves preservation, not human approval. The bundled
-baseline is a regression fixture for the demo. Do not refresh it merely to pass a check.
-
-Each release contains TTF, WOFF2, CSS with exact Unicode coverage, proofs,
-`validation.json`, `quality.json` for gated projects, and a hashed `release-manifest.json`. `build/current.json`
-points to the last successful build. Different bytes cannot replace an existing
-version; increase `version`. Use the pointer or returned manifest instead of guessing
-the newest filename. [Ferrer evidence](docs/ferrer-lessons.md) motivated these rules.
-
-## Optional Recraft
-
-Use `fontify recraft-plan examples/recraft/concept.txt` for a dry request.
-It defaults to Vector Pro (`recraftv4_1_pro_vector`); select non-Pro explicitly
-only when requested or Pro is confirmed unavailable, following the skill policy.
-It reads no secret and makes no network call. The [setup and research guide](references/recraft.md)
-covers API tokens, remote MCP OAuth, billing, models, candidate review and mock tests.
-API CLI generation requires `--allow-paid`; an agent must also obtain your explicit
-authorization for the specific spend. Keep tokens on the server, out of client code.
+Read [the Recraft setup and research guide](references/recraft.md) for API
+tokens, remote MCP OAuth, billing, models, candidate review and mock tests.
+Discover actual MCP tool schemas; REST and MCP input fields differ.
+`fontify recraft-discover --output schema.json` only initializes and lists tools.
+API CLI generation requires `--allow-paid`; agents also need explicit user
+authorization for the specific spend. Keep tokens on the server, out of client
+code. Generation is never part of the offline suite.
 
 One user-authorized MCP generation produced Mellow with `recraftv4_1_vector`,
-using 4 Studio subscription credits. OAuth account access, the exposed live tool
-signatures and an actual SVG response were verified; the REST adapter is still
-mock-tested rather than tested with a live API token. [Live evidence](docs/research/recraft-live-tools.json)
+using 4 Studio subscription credits. OAuth access, live tool signatures and an
+actual SVG response were verified. The REST adapter remains mock-tested rather
+than tested with a live API token. [Live evidence](docs/research/recraft-live-tools.json)
 supersedes the earlier [unauthenticated 403 attempt](docs/research/recraft-mcp-discovery.json).
-MCP and REST input fields differ. `fontify recraft-discover --output schema.json`
-only initializes and lists tools; generation is never part of the offline suite.
 
-## Architecture and tests
+### Architecture and tests
 
-`src/fontify/` is the local construction library; `providers/` is optional creative
-input. Root `SKILL.md` is the agent entrypoint, with selective `references/`, runnable
-`scripts/`, and `examples/`, inspired by [Anatomy's organization](https://github.com/wheresryan22/anatomy).
-See [architecture and tradeoffs](docs/architecture.md) and [acceptance cases](docs/acceptance.md).
-
-To use the agent skill, clone or symlink this whole repository into
-`~/.agents/skills/fontify`, keeping `SKILL.md` at its root, then invoke `$fontify`.
-Install its Python package in a virtual environment; the skill guides the same
-library and commands.
+`src/fontify/` is the local construction library; `providers/` is optional
+creative input. Root `SKILL.md` is the agent entrypoint, with selective
+`references/`, runnable `scripts/` and `examples/`, inspired by
+[Anatomy's organization](https://github.com/wheresryan22/anatomy). See
+[architecture and tradeoffs](docs/architecture.md) and
+[acceptance cases](docs/acceptance.md).
 
 ```sh
-# To reproduce raster tracing and run its additional checks:
+# With the dev extra installed, add optional raster-tracing dependencies:
 pip install -r examples/imagegen/requirements-trace.txt
 python scripts/run_acceptance.py
 ```
 
-The base checks need the dev dependencies; the three imagegen checks also need
-the optional trace requirements. Checks cover exact coverage, Unicode, topology, metrics, reproducible TTF/WOFF2,
-HarfBuzz kerning, approval drift, release integrity and mocked Recraft requests.
-Acceptance results are written under `test-runs/`. `requirements.lock` pins this
-development toolchain; use it for byte-for-byte reproduction across rebuilds.
+Base checks need the dev dependencies; the three imagegen checks also need the
+trace requirements. Checks cover exact coverage, Unicode, topology, metrics,
+reproducible TTF/WOFF2, HarfBuzz kerning, approval drift, release integrity and
+mocked Recraft requests. Results go under `test-runs/`. `requirements.lock` pins
+the development toolchain for byte-for-byte reproduction across rebuilds.
 
-## Limits and next steps
+### Technical limits and next steps
 
-- Static, upright, single-master fonts; pair kerning through GPOS. Complex-script
-  layout, mark positioning, ligatures, variable fonts, hinting and CFF/OTF export
-  are not implemented. TTF is already an OpenType font; WOFF2 wraps the same outlines.
-- SVG input is intentionally narrow: paths and affine groups. Expand strokes,
-  remove backgrounds and convert other shapes/arcs in your editor. The compiler
-  rejects overlaps/intersections instead of silently repairing approved designs.
-- Cubics become quadratics within the declared error, then integer coordinates;
-  source and compiled fingerprints both matter. No claim of mathematically exact
-  curve preservation or complete font-engine certification.
-- Geometry checks cannot establish optical weight, smooth curves, rhythm or
+- Static, upright, single-master fonts with pair kerning through GPOS. Complex
+  scripts, mark positioning, ligatures, variable fonts, hinting and CFF/OTF export
+  aren't implemented. TTF is already an OpenType font; WOFF2 wraps the same outlines.
+- SVG input is limited to paths and affine groups. Expand strokes, remove
+  backgrounds and convert other shapes/arcs explicitly. The compiler rejects
+  overlaps/intersections instead of silently repairing approved designs.
+- Cubics become quadratics within the declared error, then integer coordinates.
+  Source and compiled fingerprints both matter; mathematically exact curve
+  preservation and complete font-engine certification aren't claimed.
+- Geometry checks can't establish optical weight, curve quality, rhythm or
   style. Every-glyph agent visual review is required for release; final user
-  approval remains a separate decision. Receipts prove integrity, not aesthetics.
-- Next: UFO/designspace exchange for multi-master work, broader font QA and richer
-  optical diagnostics. Style rubrics are implemented; more reviewed fonts are
-  needed to calibrate their defaults beyond the two source experiments.
+  approval remains separate.
+- Future work: UFO/designspace exchange for multi-master work, broader font QA
+  and richer optical diagnostics. More reviewed fonts are needed to calibrate
+  style defaults beyond the two source experiments.
+
+</details>
