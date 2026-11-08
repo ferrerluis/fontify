@@ -48,8 +48,10 @@ coordinate rounding. It is not a pixel error at every display size. Keep sources
 and compiled snapshots; no assertion of exact cubic preservation is made. Native
 CFF/OTF could retain cubics but requires another output/validation path; deferred.
 
-No variable masters, hinting, complex-script substitutions, mark positioning or
-automatically inferred kerning. GPOS stores explicit pairs. The schema accepts
+No variable masters, hinting, complex-script substitutions or mark positioning.
+The optional vector-only spacing authoring pass proposes measured bearings and
+collision-guarded kerning candidates; the compiler still stores only explicit
+reviewed pairs through GPOS. The schema accepts
 Unicode beyond Latin but does not supply script-specific layout behavior.
 Broad platform certification (including OTS/FontBakery and application testing)
 remains a release-hardening step for a professional font.
@@ -152,3 +154,25 @@ copied without rewriting. Source/export validity, approval protection and bounde
 edits still apply to every strategy. Schema-1 behavior is preserved for reproducible
 existing projects. No additional dependencies, paid calls or automatic optical
 classifier are introduced; see [the rubrics](../references/style-rubrics.md).
+
+## Optical authoring and intended-size proofing
+
+The new authoring stages never run implicitly inside outline construction.
+`spacing-plan` samples vector edges in declared reference-height bands, caps the
+white depth into open counters and proposes advances/pairs; `spacing-apply` works
+only in a new candidate and invalidates review. Its algorithm is independent of
+HT Letterspacer code, not a claim of numerical equivalence to that GPL tool.
+
+Bitmap-only `trace-sheet` may use an explicit preparation plan. Original data,
+intermediate masks and component decisions are recorded. Native SVG/Recraft
+source paths never import or run raster preparation or tracing. Historical plans
+without preparation retain their original tracing behavior for reproducibility.
+
+New schema-3 quality profiles declare text/display use and fixed proof sizes.
+The release gate requires size-specific evidence for TTF and browser-loaded
+WOFF2, bound to the font bytes, renderer, size and device scale. Screenshots and
+rasters are final-font QA artifacts, not source conversion. Generated evidence
+is pending review; evidence integrity is not an automatic aesthetic classifier.
+Legacy schema-1/2 profiles remain readable without relabeling old evidence as new
+size-specific approval. See the spacing, raster-preparation and size-proofing
+references for configuration, limits and migration.

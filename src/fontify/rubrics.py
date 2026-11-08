@@ -48,8 +48,19 @@ CHOICES = {
 REPAIRS = {"axes", "symmetry", "stems", "tangents", "polygonize", "patches"}
 
 
-def plan_profile(project, outlines, style, note):
-    """Propose a schema-2 profile without altering input or confirming design intent."""
+def plan_profile(
+    project,
+    outlines,
+    style,
+    note,
+    *,
+    intended_use="text",
+    sizes_ppem=None,
+    min_supported_ppem=None,
+    size_rationale=None,
+):
+    """Propose schema 3 with declared use/sizes and unconfirmed glyph intent."""
+    from .proofing import proofing_plan
     from .quality import load_profile
 
     if not isinstance(style, str) or style not in STYLES:
@@ -58,7 +69,15 @@ def plan_profile(project, outlines, style, note):
         raise FontifyError("describe the font brief and why this review style fits")
     prior = load_profile(project)
     profile = copy.deepcopy(prior) if prior else {"review": "agent-review.json"}
-    profile.update(schema=2, style=style, style_note=note, glyphs={})
+    profile.update(
+        schema=3,
+        style=style,
+        style_note=note,
+        glyphs={},
+        proofing=proofing_plan(
+            intended_use, sizes_ppem, min_supported_ppem, size_rationale
+        ),
+    )
     defaults = STYLES[style]
     for o in outlines:
         name = o.spec["name"]
@@ -115,15 +134,17 @@ def validate_rubrics(profile):
             or "style_note" in profile
             or any("decisions" in g for g in profile["glyphs"].values())
         ):
-            raise FontifyError("style routing requires a schema-2 quality profile")
+            raise FontifyError(
+                "style routing requires a schema-2 or schema-3 quality profile"
+            )
         return
     if not isinstance(profile.get("style"), str) or profile["style"] not in STYLES:
-        raise FontifyError("schema-2 profile requires a supported rubric style")
+        raise FontifyError("routed profile requires a supported rubric style")
     if (
         not isinstance(profile.get("style_note"), str)
         or not profile["style_note"].strip()
     ):
-        raise FontifyError("schema-2 profile needs the style/brief rationale")
+        raise FontifyError("routed profile needs the style/brief rationale")
     for name, g in profile["glyphs"].items():
         d = g.get("decisions")
         keys(d, "confirmed balance axes weight repairs", "glyph rubric decisions")
@@ -309,5 +330,16 @@ def route_glyph(audit, intent, profile):
             ],
             "focus": STYLES[profile["style"]]["reason"],
             "blank": blank,
+            **(
+                {
+                    "size_proofing": {
+                        **profile["proofing"],
+                        "formats": ["ttf", "woff2"],
+                        "real_browser_required": True,
+                    }
+                }
+                if profile["schema"] == 3
+                else {}
+            ),
         },
     }

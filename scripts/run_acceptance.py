@@ -49,6 +49,13 @@ CASES = {
     "TC10.4": ("Internal correction and recheck pass", "test_rubric_preflight"),
     "TC10.5": ("Rubric and visual presentation gate", "test_rubric_gate"),
     "TC10.6": ("Universal checks for every style", "test_rubric_universal"),
+    "TC11.1": ("Vector optical spacing and collision-guarded pairs", "test_spacing_"),
+    "TC12.1": ("Raster-only preparation and preservation", "test_raster_"),
+    "TC13.1": ("Fixed-size proof generation and release gate", "test_size_proof_"),
+    "TC14.1": (
+        "Native vector route excludes raster tools",
+        "test_vector_source_route_",
+    ),
 }
 
 
@@ -118,7 +125,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 8,
+        "catalog_version": 9,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),

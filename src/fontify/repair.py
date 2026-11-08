@@ -123,7 +123,7 @@ def straighten(record, profile, intent):
                 dx, dy = vector(pts[0], pts[-1])
                 length = math.hypot(dx, dy)
                 normal, parallel = (dx, dy) if dim == 0 else (dy, dx)
-                explicit = profile["schema"] == 2 and any(
+                explicit = profile["schema"] >= 2 and any(
                     all(r[0] <= p[0] <= r[2] and r[1] <= p[1] <= r[3] for p in pts)
                     for r in intent.get("straight_regions", [])
                 )
@@ -412,10 +412,10 @@ def correction(record, intent, profile, advance, patch=None):
     before = record
     allowed = (
         set(intent["decisions"]["repairs"])
-        if profile["schema"] == 2
+        if profile["schema"] >= 2
         else {"polygonize", "axes", "stems", "tangents", "symmetry", "patches"}
     )
-    if profile["schema"] == 2:
+    if profile["schema"] >= 2:
         if not intent["decisions"]["confirmed"]:
             raise FontifyError("resolve glyph intent before correction")
         if patch and "patches" not in allowed:
@@ -452,7 +452,7 @@ def correction(record, intent, profile, advance, patch=None):
         audit = glyph_audit(record, intent, profile)
         if audit["status"] == "passed":
             break
-        if profile["schema"] == 2 and start == record.value:
+        if profile["schema"] >= 2 and start == record.value:
             break
     if patch:
         record = apply_contour_patch(record, patch)
@@ -468,7 +468,7 @@ def correction(record, intent, profile, advance, patch=None):
         **changes,
         "local_patch": patch,
         "audit": audit,
-        **({"allowed_repairs": sorted(allowed)} if profile["schema"] == 2 else {}),
+        **({"allowed_repairs": sorted(allowed)} if profile["schema"] >= 2 else {}),
     }
 
 

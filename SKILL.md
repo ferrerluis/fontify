@@ -6,7 +6,7 @@ description: Create fonts from a typeface concept or supplied vectors with Fonti
 # Fontify
 
 This repository is both a Python library and an installable skill folder. Work
-from its root after installing it with `pip install -e '.[dev]'`. Use the actual
+from its root after installing it with `pip install -e '.[dev,proof]'`. Use the actual
 CLI/library in `src/fontify/`; don't replace it with a fresh font-building script.
 Examples and commands are in [README.md](README.md).
 
@@ -42,6 +42,15 @@ optional tracing helper from [the imagegen example](examples/imagegen/README.md)
 Compare the actual compiled font against the generated source; a high pixel
 overlap does not establish visual quality. Never label an unapproved design as approved.
 
+**Keep vector sources vector.** Recraft vector output and supplied SVGs go directly
+through the vector extraction/outline path. Never rasterize them for cleanup or
+tracing. Only bitmap inputs use `fontify trace-sheet`; read
+[raster-preparation.md](references/raster-preparation.md) for opt-in guide masks,
+component decisions and recorded resampling. Preserve dots, accents, punctuation
+and texture deliberately. Inspect original/cleaned/resampled masks before accepting
+a trace. Scaling a bitmap is not recovered detail, and 3x is not a universal rule.
+Final-font raster previews are display QA, not conversion of vector source artwork.
+
 Read [project-format.md](references/project-format.md) when mapping outlines or
 metrics. Set one Unicode scalar and explicit advance for each glyph. Keep space
 blank. Inspect coordinate convention and placement before interpreting clipping
@@ -57,11 +66,26 @@ server-side adapter. First produce a dry request plan. Obtain user authorization
 before a paid call, credential creation or purchase; never infer it from general
 font-building approval. No Recraft access is needed for build, tests or preview.
 
+## Establish spacing before pair kerning
+
+Read [spacing.md](references/spacing.md). Use `fontify spacing-plan` to measure
+vector white areas by declared reference zones and depth limits, then review
+bearings, advances, pair candidates and collision guards. Apply a reviewed plan
+with `fontify spacing-apply` to a fresh versioned candidate. Do not treat a shared
+40/50-unit bearing, crop width, or successful GPOS encoding as optical spacing.
+Resolve group/style overrides and existing pairs explicitly; inspect words and
+pairs with kerning on/off. Spacing never stretches glyphs or rasterizes vectors.
+Retain original and approved sources. Recheck glyph intent and proofs after any
+placement/advance change. Keep GPOS kerning; do not replace it with legacy kern
+merely to reproduce an example pipeline.
+
 ## Finish preflight before presenting the first font
 
 Read [style-rubrics.md](references/style-rubrics.md) for the executable decision
-trees and internal correction loop. Use schema 2 for new work; existing schema-1
-approved examples keep their frozen profiles. Read [preflight.md](references/preflight.md)
+trees and internal correction loop. Use schema 3 for new work; existing schema-1/2
+projects keep their frozen profiles until deliberately migrated. Read
+[size-proofing.md](references/size-proofing.md) and declare text or display use,
+fixed proof sizes, the minimum supported size, and the rationale. Read [preflight.md](references/preflight.md)
 for detailed receipt fields and local patches. Do this work autonomously; the user should receive
 a corrected, reviewed first candidate, not become the first defect finder.
 
@@ -70,7 +94,8 @@ a corrected, reviewed first candidate, not become the first defect finder.
    silence drift. Approved glyphs need separate, explicit proposed edits.
 2. Choose the rubric strategy from the brief: geometric, humanist, handwritten,
    serif, or display/mixed. Run `fontify rubric-plan` with the style and a concrete
-   rationale. Inspect **every** ink glyph before confirming its decisions; a
+   rationale, plus `--intended-use text` or `--intended-use display` and the
+   appropriate size options. Inspect **every** ink glyph before confirming its decisions; a
    preset is a recommendation, not inferred intent or approval. Declare exact
    reflection axes, intentional corners, selected straight features and any
    measured stem probes. Preserve optical asymmetry and variable strokes where
@@ -87,8 +112,15 @@ a corrected, reviewed first candidate, not become the first defect finder.
    Read `preflight.json` and its routed check reasons/results. `blocked` needs
    internal correction; `needs_visual_review` is not permission to present a font.
    Drafts never update `current.json`.
-5. **Inspect every letter visually** at enlarged and normal sizes, at a common
-   scale/baseline, plus actual shaped words and pair samples with kerning on/off.
+5. **Inspect every letter visually** enlarged and at every declared fixed proof
+   size, at a common scale/baseline, plus actual shaped words and pair samples
+   with kerning on/off. For text fonts include 12, 16, 24 and 48 pixels. Display
+   fonts can declare a higher minimum with a concrete rationale. Use actual TTF
+   raster proofs and browser-loaded WOFF2 screenshots, never resized large proofs
+   or fallback fonts. Run `fontify capture-size-proofs` for the generated size
+   proof HTML; record renderer, font/proof hashes, device scale and findings.
+   Inspect covered confusables, detached marks, punctuation and mixed-case words.
+   Generated/captured evidence is pending inspection, not automatically approved.
    Check all curves and straight features, symmetry, optical weight, contours,
    spacing and source preservation. Review blank space too. Use actual-font
    before/after sheets (`scripts/render_quality_review.py`) and overlays; a
@@ -101,6 +133,10 @@ a corrected, reviewed first candidate, not become the first defect finder.
    design needs regeneration, preserve accepted glyphs; paid calls still need approval.
 7. Write a per-glyph agent review receipt with concrete findings and saved proof
    hashes **after** inspection, with findings tied to the actual rubric branches.
+   Schema-3 profiles require a schema-2 receipt with complete `size_reviews` for
+   both formats at every required size; include readability and glyph-distinction
+   findings. Report unsupported sizes honestly. Validate in the intended PDF or
+   desktop application too when that output is requested.
    Rerun preflight to reach `ready_for_release`. Use `fontify release`, never an ungated build,
    for the first user-facing font. The release command requires passing source
    and compiled audits plus a current complete receipt. Follow its returned

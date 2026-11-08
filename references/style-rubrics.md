@@ -1,6 +1,6 @@
 # Style decision trees and the first-font gate
 
-Use this for **new font work**. Schema-1 profiles and the approved examples keep
+Use this for **new font work**. Schema-1/2 profiles and the approved examples keep
 their existing behavior; do not migrate or reapprove them merely to try this workflow.
 The executable rules are `src/fontify/rubrics.py`, the shared audit/repair code,
 and `src/fontify/preflight.py`. All commands run offline.
@@ -10,10 +10,10 @@ and `src/fontify/preflight.py`. All commands run offline.
 ```sh
 fontify rubric-plan work/fontify.json --style handwritten \
   --note 'Friendly contemporary comic lettering, with deliberate lean and bowed strokes.' \
-  --output work/quality-v2.json
+  --intended-use text --output work/quality-v3.json
 ```
 
-The command reads existing outlines and any profile, writes a **new** schema-2
+The command reads existing outlines and any profile, writes a **new** schema-3
 profile, and leaves the project untouched. Set the candidate's `quality` to that
 file. Inspect each ink glyph, replace its placeholder note with a concrete source
 observation, resolve its choices, and only then set `confirmed` to true.
@@ -66,7 +66,7 @@ Keep the existing `construction`, `symmetry`, `corners`, `straight_regions`,
 
 Choices include `unresolved`, which blocks correction and presentation. Blank
 glyphs use `none`; ink glyphs cannot use it. Contradictory choices fail validation.
-For schema 2 use `decisions.axes` as the axis policy; `axis_policy` is the legacy
+For schemas 2 and 3 use `decisions.axes` as the axis policy; `axis_policy` is the legacy
 spelling and cannot contradict it.
 
 Straight regions select edges by enclosing **all their control points** in
@@ -134,3 +134,16 @@ Changed style intent, repair permissions, project settings, glyphs or proof byte
 invalidate the bound receipt. The final release still requires passing source
 and export audits plus complete evidence. User style approval remains separate;
 no numeric score, change budget or stored receipt proves good typography.
+
+## 5. Declare intended sizes and prove the final fonts
+
+Schema 3 retains the schema-2 glyph decisions and adds `proofing`. Choose text
+or display use, fixed pixel sizes, minimum supported size and a rationale.
+Text defaults are 12/16/24/48 px; a display font can explicitly require larger
+sizes. The `style` rubric and `intended_use` are different choices: a humanist or
+handwritten style can be intended for text or for headlines.
+
+Follow [size-proofing.md](size-proofing.md) to inspect native-size TTF rasters and
+actual browser-loaded WOFF2 screenshots, then supply complete size-specific
+findings in the schema-2 review receipt. Generating evidence is not inspecting it.
+Do not relabel historical schema-1/2 receipts as satisfying this new gate.

@@ -7,7 +7,7 @@ Once `quality` is set, even a normal build enforces the gate unless `draft=True`
 
 ## Intent is explicit
 
-For new work use the schema-2 [style decision rubrics](style-rubrics.md) and
+For new work use the schema-3 [style decision rubrics](style-rubrics.md) and
 `fontify preflight`. They route numeric checks from confirmed glyph intent and
 require explicit per-glyph repair permissions. The schema-1 format below remains
 supported for existing approved examples; it retains its original repair behavior.
@@ -122,3 +122,13 @@ Only a passing release updates `current.json`. Drafts have a separate `-draft`
 directory and never change that pointer. Present the released proof/font to the
 user for final style approval. A subsequent human approval snapshot protects
 the reviewed form; it does not replace the per-glyph agent preflight.
+
+## Schema-3 size evidence
+
+New profiles extend schema-2 intent with a declared intended-use proof plan;
+see [size-proofing.md](size-proofing.md). The actual TTF and WOFF2 hashes bind
+the compiled audit. A schema-2 visual receipt must cover both formats at every
+required fixed size, with a renderer, device scale, proof hash and concrete
+inspection findings. Missing, stale, pending or incomplete size evidence blocks
+release. Use `--webfont` alongside `--font` for a separate compiled audit.
+Legacy schema-1/2 profiles and their frozen examples keep the former review gate.

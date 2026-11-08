@@ -27,9 +27,9 @@ def preflight(project_path, output, repair_version=None, patches=None):
     }
     try:
         profile = load_profile(project)
-        if profile is None or profile["schema"] != 2:
+        if profile is None or profile["schema"] < 2:
             raise FontifyError(
-                "preflight routing needs schema 2; use rubric-plan first"
+                "preflight routing needs schema 2 or newer; use rubric-plan first"
             )
         outlines = compile_project(project)
         before = audit_project(project, outlines)
@@ -56,7 +56,10 @@ def preflight(project_path, output, repair_version=None, patches=None):
         draft = build_font(project, output / "draft", draft=True)
         manifest = json.loads(draft.read_text())
         compiled = audit_project(
-            project, compile_project(project), draft.parent / manifest["font"]
+            project,
+            compile_project(project),
+            draft.parent / manifest["font"],
+            webfont_path=draft.parent / manifest["webfont"],
         )
         result["draft_manifest"] = str(draft)
         result["compiled"] = compiled

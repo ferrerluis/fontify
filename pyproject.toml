@@ -18,6 +18,8 @@ dependencies = [
 
 [project.optional-dependencies]
 recraft = ["httpx>=0.28,<1"]
+raster = ["Pillow>=13,<14", "numpy>=2,<3", "potracer==0.0.4"]
+proof = ["Pillow>=13,<14", "playwright>=1.64,<2"]
 dev = ["pytest>=8,<10", "build>=1,<2", "httpx>=0.28,<1", "ruff>=0.14,<1", "PyYAML>=6,<7"]
 
 [project.scripts]

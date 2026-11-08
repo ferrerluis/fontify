@@ -51,6 +51,24 @@ workflow; the commands and links below support it. Keep the whole repository
 together, with `SKILL.md` at the skill folder's root. Work from the repository
 root and use the existing CLI/library in `src/fontify/`.
 
+### Optical spacing, raster input and size proofing
+
+New work separates source preparation, optical spacing and final-font proofing.
+Native Recraft/SVG artwork remains vector throughout extraction and construction.
+Raster cleanup and tracing apply only to bitmap input. Rendering a finished font
+for legibility review does not replace or rasterize its source outlines.
+
+- [Spacing and kerning proposals](references/spacing.md): measured white areas,
+  reference-height/depth controls, collision-guarded pairs, and fresh candidates.
+- [Raster preparation](references/raster-preparation.md): explicit guide masks,
+  component decisions that preserve marks, optional resampling, and saved evidence.
+- [Intended-size proofing](references/size-proofing.md): fixed-size TTF and browser
+  WOFF2 proofs, text/display minimum sizes, and a stricter release receipt.
+
+The new profile schema is 3. Existing schema-1/2 examples keep their frozen
+geometry, profiles and historical evidence. New proof generation and browser
+capture never imply inspection or aesthetic approval.
+
 ### Setup
 
 Python 3.11+ is required; the offline suite runs on Python 3.11 and 3.14. Install
@@ -60,12 +78,17 @@ the package in a virtual environment:
 cd ~/.agents/skills/fontify
 python3 -m venv .venv
 . .venv/bin/activate
-pip install -e '.[dev]'
-# Optional REST artwork provider: pip install -e '.[dev,recraft]'
+pip install -e '.[dev,proof]'
+# Only for bitmap source authoring: pip install -e '.[raster]'
+# Optional REST artwork provider: pip install -e '.[recraft]'
+# Browser capture: python -m playwright install chromium
+# Or pass --browser /path/to/installed/chrome when capturing size proofs.
 ```
 
 Use your actual checkout path if you installed elsewhere. The `dev` extra adds
-test tools; `pip install -e .` is enough for the compiler. After dependencies are
+test tools; `proof` adds fixed-size raster/browser QA and `raster` adds bitmap
+tracing. `pip install -e .` is enough for the compiler and legacy profiles.
+Use `pip install -r requirements.lock` for the complete pinned offline test suite. After dependencies are
 installed, compilation, checks and previews run locally without credentials or a
 network connection. Recraft supplies optional artwork, never font compilation.
 
@@ -129,12 +152,12 @@ the example's receipt for changed letters or spacing.
 
 Follow [the style decision rubrics](references/style-rubrics.md) for new work.
 Choose geometric, humanist, handwritten, serif or display defaults, then inspect
-and confirm each glyph's intent. Use schema 2 for new profiles; frozen schema-1
-examples remain supported.
+and confirm each glyph's intent. Use schema 3 for new profiles; frozen schema-1/2
+projects remain supported without changing their approval evidence.
 
 ```sh
-fontify rubric-plan my-font/fontify.json --style handwritten --note 'Deliberate lean and organic comic curves.' --output my-font/quality-v2.json
-# Set the candidate's quality to quality-v2.json.
+fontify rubric-plan my-font/fontify.json --style handwritten --note 'Deliberate lean and organic comic curves.' --intended-use text --output my-font/quality-v3.json
+# Set the candidate's quality to quality-v3.json.
 # Inspect every glyph, resolve its decisions and confirm its intent.
 fontify validate my-font/fontify.json
 fontify preflight my-font/fontify.json --out build/pass-01
@@ -159,7 +182,10 @@ fontify audit build/candidate-02/fontify.json --font path/to/actual-draft.ttf --
 
 Before presenting the first font, audit, correct, export, recheck and visually
 inspect **every glyph**, including blank space. Inspect actual compiled letters
-at enlarged and normal sizes, plus shaped words and pairs with kerning on/off.
+at enlarged and every declared fixed size, plus shaped words and pairs with kerning
+on/off. Text profiles require 12/16/24/48 px; display profiles record their minimum
+and rationale. See [size-proofing.md](references/size-proofing.md) for TTF and
+actual-browser WOFF2 evidence, pending capture and mandatory `size_reviews`.
 Check intended symmetry, exact horizontal/vertical features, curves and corners,
 contours, optical weight, spacing and source preservation. Preserve intentional
 asymmetry, corners, diagonals and organic strokes.

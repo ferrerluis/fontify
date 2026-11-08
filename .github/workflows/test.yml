@@ -16,6 +16,7 @@ jobs:
       - run: python -m pip install -r requirements.lock
       - run: python -m pip install -r examples/imagegen/requirements-trace.txt
       - run: python -m pip install --no-deps -e .
+      - run: python -m playwright install --with-deps chromium
       - run: python scripts/run_acceptance.py
       - uses: actions/upload-artifact@v4
         if: always()
