@@ -4,16 +4,32 @@ Fontify is fully usable without Recraft. Generated vectors are **source artwork*
 they have no Unicode map, font metrics, kerning or approved letterform status.
 Consistency remains an experiment to assess, not a promised capability.
 
-## Model selection policy (updated 2026-11-04)
+## Generation route, then model selection
 
-Use **Recraft Vector Pro**, `recraftv4_1_pro_vector`, for new generated glyph
-artwork. Pass it explicitly to the MCP; CLI request plans and `DesignRequest`
-also default to it. Use non-Pro `recraftv4_1_vector` only on the user's explicit
+First follow [generation-routing.md](generation-routing.md): inspect the actual
+references and requested style to decide whether a vector model is appropriate
+to try. Prefer image generation directly when it better fits the defining
+letterform qualities. Existing approved or supplied vectors need no new trial.
+
+If trying vector generation, make one pilot iteration with one output (`n=1`),
+even if several options were requested. Review the actual artwork for prompt and
+reference compliance before additional generation or extraction. A compliant
+pilot permits the remaining requested vector options within existing approval
+and budget. A systemically wrong result ends the vector route: preserve it and
+use image generation, subject to explicit source restrictions and permissions.
+Do not try another vector prompt or model to rescue a systemic mismatch.
+
+For a Recraft trial, use **Recraft Vector Pro**, `recraftv4_1_pro_vector`.
+Pass it explicitly to the MCP; CLI request plans and `DesignRequest` also default
+to it. That default does not decide the generation route or certify its result.
+Use non-Pro `recraftv4_1_vector` only on the user's explicit
 request or confirmed Pro unavailability, such as its absence from the live schema
 or a clear provider/account model-availability restriction. Record the reason.
 
 Do not downgrade merely for price, speed, missing spend approval, authentication
-errors, rate limits or insufficient credits. Verify custom-style compatibility
+errors, rate limits or insufficient credits. A prompt-compliance failure is a
+reason to switch source method, not a reason to downgrade the vector model.
+Verify custom-style compatibility
 instead of letting a style silently select a non-Pro model. A failed paid request
 does not authorize another attempt: no automatic fallback/retry is added. Ensure
 the applicable spend authorization covers the chosen model and cost; this model
@@ -154,7 +170,7 @@ hashes, reported credits and review status; no token, reference URL or prompt te
 The local request plan still contains the prompt/references; keep private plans
 out of a public repo. `save_candidate` always creates a fresh review directory.
 
-## One-shot experiment and correction workflow
+## Historical one-shot experiment and correction workflow
 
 The initial ten-letter proposal below was not run. The actual user-authorized
 experiment used a new 52-letter modern comic-inspired brief; see
@@ -164,13 +180,19 @@ guarantee. Extraction produced all 53 mappings including blank space. Enlarged
 review rejected over-rigid symmetry edits, and only H/Z/q were refined. The
 remaining 49 letter outlines match the first compiled sample exactly.
 
+For new work, the current [pilot gate](generation-routing.md) takes precedence
+over this historical experiment outline. Do not replay the frozen experiment or
+generate its proposed extra sheets automatically.
+
 1. Start with the checked-in concept prompt: one sheet of diagnostic letters
    A H O C G D R S V W, one shared style, black silhouettes, no labels/background.
    One image can share context across letters, but may omit, duplicate or merge
    letters. Status: **planned, not run; paid generation not authorized**.
-2. Preserve the raw SVG and provenance. Identify every letter manually; do not
-   infer Unicode or accept the sheet as a finished font. For comparison, optionally
-   plan a later sheet with all A–Z or isolated glyphs using the same style ID.
+2. Preserve the raw SVG and provenance. Inspect prompt/reference compliance before
+   extraction or additional generation. A systemic mismatch switches to image
+   generation; only a passing pilot can proceed to requested later sheets within
+   the approved scope and budget. Identify every letter manually; do not infer
+   Unicode or accept the sheet as a finished font.
    A fixed random seed is an experiment control, not a consistency guarantee.
 3. Use a vector editor to split glyphs, remove backgrounds, expand strokes and
    convert shapes/arcs. Review stems, straight edges, bowl/counter curves,

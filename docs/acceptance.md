@@ -1,4 +1,4 @@
-# Product acceptance catalog · v9
+# Product acceptance catalog · v10
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -41,6 +41,7 @@ The runner records component versions, source digest, timestamp and command.
 | TC12.1 | Raster extra | `pytest tests/test_raster.py` | Explicit masks and component decisions retain dots/accents/punctuation/texture; resampling preserves mapping; empty crop padding does not alter prepared glyphs; malformed/native-vector input is rejected. |
 | TC13.1 | Proof extra and installed Chromium/Chrome | `pytest tests/test_proofing.py` | Fixed-size TTF and genuine browser WOFF2 proofs cover declared sizes; missing/stale/wrong-renderer/incomplete evidence blocks schema-3 release; captured evidence stays unreviewed. |
 | TC14.1 | Vector example, no raster tools imported | `pytest tests/test_source_routing.py` | Native Recraft extraction, optical spacing and TTF/WOFF2 compilation run while PIL/NumPy/Potrace/Playwright/raster-module imports are forbidden. |
+| TC15.1 | Skill and linked workflow references | `pytest tests/test_generation_routing.py` | Entry points retain reference-based route choice, one n=1 pilot before additional vector options, systemic-failure fallback, selection/authorization boundaries, conditional method disclosure and truthful provenance. This is a documentation contract, not automated visual judgment or live generation. |
 
 Catalog v4 adds TC08.1–TC08.5 for the pre-presentation audit/correction/recheck gate:
 20 required sub-tests, 19 automated plus one browser observation. TC07.3 applies
@@ -79,3 +80,10 @@ semantics. Browser capture is automated evidence generation, not aesthetic
 approval; the general TC06.1 interactive browser observation remains separate.
 Set `FONTIFY_BROWSER` to an installed Chrome/Chromium path or install the bundled
 Chromium with `python -m playwright install chromium`.
+
+Catalog v10 adds TC15.1: 35 required sub-tests, 34 automated plus the
+separate interactive browser observation. Routing-contract checks guard the skill
+instructions and links. Existing provider mocks still test the one-output payload,
+explicit model and paid-call opt-in; no test claims to classify prompt compliance,
+enforce cross-call agent history or select a user's design. No live generation is
+run for this policy change.

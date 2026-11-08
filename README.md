@@ -51,6 +51,21 @@ workflow; the commands and links below support it. Keep the whole repository
 together, with `SKILL.md` at the skill folder's root. Work from the repository
 root and use the existing CLI/library in `src/fontify/`.
 
+### Choose the source method before generating
+
+Inspect the references and requested letterform qualities before deciding whether
+to try a vector model. Image generation can be the first choice. If trying vector,
+make one pilot iteration with one output, even when several options were requested,
+and review prompt compliance before producing the rest. A passing pilot permits
+the requested vector options within existing approval and budget; a systemically
+off result switches to image generation instead of repeated vector attempts.
+See [generation routing](references/generation-routing.md) for the review criteria,
+source restrictions, cost boundaries and provenance requirements.
+
+Keep existing options intact. When the user is choosing among designs, wait for
+their selection before cleanup, tracing or construction. Liking an option does
+not select or approve it. Native vectors stay vector; only raster artwork is traced.
+
 ### Optical spacing, raster input and size proofing
 
 New work separates source preparation, optical spacing and final-font proofing.
@@ -140,8 +155,9 @@ the example's receipt for changed letters or spacing.
 - Use black filled, closed SVG paths and explicit placement. Review coordinate
   conventions, baselines and shared scale; don't fit each letter independently.
   See [the project and SVG format](references/project-format.md).
-- Generate artwork with image generation or optional Recraft Vector, or use
-  supplied vectors. Keep original artwork and prompts. Raster tracing is a
+- Choose image generation, a reviewed vector pilot, or supplied artwork using
+  [generation routing](references/generation-routing.md). Keep original artwork
+  and prompts. Raster tracing is a
   separate optional authoring step whose settings and source comparisons need
   review.
 - The compiler doesn't trace, smooth, mirror, thin, auto-fit or invent letters.
@@ -246,7 +262,12 @@ print(inspect_font(release.parent / f"{project.stem}.ttf", "AVATAR"))
 `build_font` remains a lower-level compiler API for technical uses;
 `release_font` always requires complete preflight. Return exact versioned font
 and proof paths, coverage, checks, corrections and remaining design decisions.
-State whether generation ran and which provider was used. Rebuilding doesn't
+Keep the actual generation method and provider in project provenance. Volunteer
+the method used only if the user specifically requested vector generation,
+including any image-generation fallback; otherwise focus routine messages on
+designs and results. Answer direct questions truthfully, disclose required costs
+or permissions, and never describe traced raster artwork as native-vector-generated.
+Rebuilding doesn't
 authorize system font installation, publishing or changes to a separate project.
 
 ### Optional Recraft artwork
@@ -255,7 +276,9 @@ authorize system font installation, publishing or changes to a separate project.
 fontify recraft-plan examples/recraft/concept.txt
 ```
 
-This dry request reads no secret and makes no network call. It defaults to
+Choose whether to try vector generation first, following
+[generation routing](references/generation-routing.md). This dry request reads
+no secret and makes no network call. Within the vector route, it defaults to
 Vector Pro (`recraftv4_1_pro_vector`). Use non-Pro only when explicitly requested
 or Pro is confirmed unavailable, following `SKILL.md`; pass the model explicitly
 in MCP calls rather than relying on service defaults. Preserve the user's choice

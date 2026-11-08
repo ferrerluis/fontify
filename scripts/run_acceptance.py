@@ -56,12 +56,16 @@ CASES = {
         "Native vector route excludes raster tools",
         "test_vector_source_route_",
     ),
+    "TC15.1": (
+        "Reference-based generation pilot and fallback skill contract",
+        "test_generation_routing_",
+    ),
 }
 
 
 def source_digest():
     h = hashlib.sha256()
-    for base in ("src", "tests", "examples"):
+    for base in ("src", "tests", "examples", "references", "docs"):
         for p in sorted((ROOT / base).rglob("*")):
             if (
                 p.is_file()
@@ -69,7 +73,13 @@ def source_digest():
                 and not any(part.endswith(".egg-info") for part in p.parts)
             ):
                 h.update(str(p.relative_to(ROOT)).encode() + b"\0" + p.read_bytes())
-    for name in ("pyproject.toml", "requirements.lock", "scripts/run_acceptance.py"):
+    for name in (
+        "SKILL.md",
+        "README.md",
+        "pyproject.toml",
+        "requirements.lock",
+        "scripts/run_acceptance.py",
+    ):
         h.update((ROOT / name).read_bytes())
     return h.hexdigest()
 
@@ -125,7 +135,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 9,
+        "catalog_version": 10,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),
