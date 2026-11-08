@@ -20,6 +20,14 @@ Creative generation is a separate module and an explicit command. `build_font`
 has no provider imports, tokens or network operations. The local SVG provider and
 checked-in example cover the entire path for users who never use Recraft.
 
+The agent chooses the source method from the actual brief and references using
+[generation-routing.md](../references/generation-routing.md). A vector route starts
+with one output and a prompt-compliance review before additional options. Systemic
+style mismatch triggers an authorized image-generation fallback; a passing pilot
+can proceed within the existing scope and budget. This is a skill-level visual
+decision, not a provider SDK classifier. The adapter's Pro default and `n=1` do
+not enforce the agent's cross-call pilot history or establish design quality.
+
 ## Tool choice
 
 | Tool | Current role / decision |

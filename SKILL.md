@@ -25,22 +25,38 @@ Examples and commands are in [README.md](README.md).
 
 ## Separate drawing from construction
 
-For a new typeface concept, use Recraft Vector Pro (`recraftv4_1_pro_vector`) for
-generated glyph artwork when configured Recraft access is available. Use non-Pro
+Read [generation-routing.md](references/generation-routing.md) before choosing a
+generation method. Inspect the references and requested letterform qualities;
+decide whether a native-vector model is appropriate to try at all. Vector access
+alone is not a reason to use it. Use image generation directly when it better fits
+the brief. Preserve supplied artwork and explicit provider or source restrictions.
+
+If trying vector generation, run **one pilot iteration**, with **one output (`n=1`)**,
+even when several design options were requested. Inspect that output against the
+actual prompt and references before further option work. If it passes, continue
+the requested vector options within the existing approval and budget. If it is
+**systemically off**, preserve the evidence and fall back to image generation
+within the user's authorization; do not spend more vector iterations trying to
+rescue the same brief. A successful SVG response is not prompt compliance.
+
+For a Recraft trial, prefer Vector Pro (`recraftv4_1_pro_vector`). Use non-Pro
 Recraft Vector only when the user explicitly requests it or Pro is confirmed
-unavailable; record the concrete reason before choosing that fallback. Preserve
-an explicit choice of another provider or supplied approved vector artwork.
+unavailable; record the concrete reason before choosing that model. This model
+preference applies only after choosing the vector route, not to every new concept.
 Hand-coded geometric letters are engineering fixtures, not a substitute for this creative
 workflow. The primary runnable example is `examples/imagegen/`; its frozen SVGs
 compile offline. `examples/offline/` remains a synthetic regression fixture.
 
-When Recraft is unavailable or the user chooses image generation, use the
+When the brief favors raster artwork, the vector trial is systemically off,
+Recraft is unavailable, or the user chooses image generation, use the
 built-in image-generation tool for the concept sheet
 without inventing an API key requirement. Preserve its original output and exact
 prompt. Review explicit letter crops, baselines and common scaling, then use the
 optional tracing helper from [the imagegen example](examples/imagegen/README.md).
 Compare the actual compiled font against the generated source; a high pixel
 overlap does not establish visual quality. Never label an unapproved design as approved.
+When the user is choosing among concepts, wait for their selection before cleanup,
+tracing or font construction. Liking an option is not selecting or approving it.
 
 **Keep vector sources vector.** Recraft vector output and supplied SVGs go directly
 through the vector extraction/outline path. Never rasterize them for cleanup or
@@ -130,7 +146,10 @@ a corrected, reviewed first candidate, not become the first defect finder.
    changes below the budget too. Preserve iteration findings and evidence, and
    change the approach when a repeated edit fails to improve the result. Do not
    invent corner exceptions or change intent solely to silence a finding. If the
-   design needs regeneration, preserve accepted glyphs; paid calls still need approval.
+   design needs regeneration, preserve accepted glyphs and follow the pilot
+   generation gate above; this correction loop does not authorize repeated vector
+   attempts after systemic failure. Paid calls still need approval, and a requested
+   concept-selection gate still applies.
 7. Write a per-glyph agent review receipt with concrete findings and saved proof
    hashes **after** inspection, with findings tied to the actual rubric branches.
    Schema-3 profiles require a schema-2 receipt with complete `size_reviews` for
@@ -167,6 +186,12 @@ just the command's exit code. Human visual approval and live provider access
 must be reported separately from automated passes.
 
 Return versioned font/proof paths, exact coverage, corrections/checks performed,
-and remaining design decisions. State whether generation actually ran and which
-provider was used. Rebuilding doesn't authorize system font installation,
+and remaining design decisions. Keep exact method, provider/model, prompt and
+source provenance in project records. Volunteer a generation-method summary
+**only if the user specifically requested vector generation**; then say whether
+native vector generation or image generation followed by tracing was actually
+used. Otherwise keep routine updates focused on designs and results, while still
+answering direct questions truthfully and disclosing necessary costs, permissions
+or blockers. Never claim traced raster artwork is native-vector-generated.
+Rebuilding doesn't authorize system font installation,
 publishing or changing a separate font project.
