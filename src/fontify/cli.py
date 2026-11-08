@@ -43,6 +43,7 @@ def main(argv=None):
     p = sub.add_parser("audit")
     p.add_argument("project", type=Path)
     p.add_argument("--font", type=Path)
+    p.add_argument("--webfont", type=Path)
     p.add_argument("--out", type=Path, required=True)
     p = sub.add_parser("repair")
     p.add_argument("project", type=Path)
@@ -54,6 +55,31 @@ def main(argv=None):
     p.add_argument("--style", required=True)
     p.add_argument("--note", required=True)
     p.add_argument("--output", type=Path, required=True)
+    p.add_argument("--intended-use", choices=("text", "display"), default="text")
+    p.add_argument("--sizes", type=int, nargs="+")
+    p.add_argument("--min-size", type=int)
+    p.add_argument("--size-rationale")
+    p = sub.add_parser("spacing-plan")
+    p.add_argument("project", type=Path)
+    p.add_argument("--config", type=Path)
+    p.add_argument("--output", type=Path, required=True)
+    p = sub.add_parser("spacing-apply")
+    p.add_argument("project", type=Path)
+    p.add_argument("plan", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--version", required=True)
+    p = sub.add_parser("trace-sheet")
+    p.add_argument("plan", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p = sub.add_parser("size-proofs")
+    p.add_argument("project", type=Path)
+    p.add_argument("manifest", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p = sub.add_parser("capture-size-proofs")
+    p.add_argument("html", type=Path)
+    p.add_argument("evidence", type=Path)
+    p.add_argument("--browser", type=Path)
+    p.add_argument("--device-scale", type=float, default=1)
     p = sub.add_parser("preflight")
     p.add_argument("project", type=Path)
     p.add_argument("--out", type=Path, required=True)
@@ -113,7 +139,9 @@ def main(argv=None):
             from .quality import audit_project
 
             project = load_project(args.project)
-            result = audit_project(project, compile_project(project), args.font)
+            result = audit_project(
+                project, compile_project(project), args.font, webfont_path=args.webfont
+            )
             if result["status"] == "not_configured":
                 raise FontifyError("audit requires a declared quality profile")
             args.out.mkdir(parents=True, exist_ok=True)
@@ -147,7 +175,14 @@ def main(argv=None):
 
             project = load_project(args.project)
             plan = plan_profile(
-                project, compile_project(project), args.style, args.note
+                project,
+                compile_project(project),
+                args.style,
+                args.note,
+                intended_use=args.intended_use,
+                sizes_ppem=args.sizes,
+                min_supported_ppem=args.min_size,
+                size_rationale=args.size_rationale,
             )
             args.output.parent.mkdir(parents=True, exist_ok=True)
             with args.output.open("x") as f:
@@ -158,6 +193,57 @@ def main(argv=None):
                 "status": "intent_review_required",
                 "style": args.style,
             }
+        elif args.command == "spacing-plan":
+            from .spacing import save_spacing_plan
+
+            result = {
+                "plan": str(save_spacing_plan(args.project, args.output, args.config)),
+                "status": "spacing_review_required",
+            }
+        elif args.command == "spacing-apply":
+            from .spacing import apply_spacing_plan
+
+            result = {
+                "project": str(
+                    apply_spacing_plan(args.project, args.plan, args.out, args.version)
+                ),
+                "status": "candidate_requires_recheck_and_review",
+            }
+        elif args.command == "trace-sheet":
+            from .raster import trace_sheet
+
+            result = {
+                "project": str(trace_sheet(args.plan, args.out)),
+                "status": "review_required",
+            }
+        elif args.command == "size-proofs":
+            from .outlines import digest
+            from .proofing import write_size_proofs
+            from .quality import load_profile
+
+            project = load_project(args.project)
+            manifest = verified_release(args.manifest)
+            if manifest["project_sha256"] != digest(project.data):
+                raise FontifyError("proof manifest does not match the project")
+            profile = load_profile(project)
+            if profile is None or profile["schema"] < 3:
+                raise FontifyError("size proofs require a schema-3 quality profile")
+            result = write_size_proofs(
+                args.manifest.parent / manifest["font"],
+                args.manifest.parent / manifest["webfont"],
+                args.out,
+                project,
+                profile,
+            )
+        elif args.command == "capture-size-proofs":
+            from .proofing import capture_browser_proofs
+
+            result = capture_browser_proofs(
+                args.html,
+                args.evidence,
+                executable_path=args.browser,
+                device_scale=args.device_scale,
+            )
         elif args.command == "preflight":
             from .preflight import preflight
 

@@ -155,10 +155,10 @@ def load_profile(project):
         raise FontifyError(f"cannot read quality profile: {e}") from e
     keys(
         d,
-        "schema glyphs symmetry_tolerance axis_angle_degrees min_axis_length max_tangent_degrees min_join_length min_tangent_length max_change_ratio max_bounds_change repair_epsilon review style style_note",
+        "schema glyphs symmetry_tolerance axis_angle_degrees min_axis_length max_tangent_degrees min_join_length min_tangent_length max_change_ratio max_bounds_change repair_epsilon review style style_note proofing",
         "quality profile",
     )
-    if d.get("schema") not in (1, 2) or not isinstance(d.get("glyphs"), dict):
+    if d.get("schema") not in (1, 2, 3) or not isinstance(d.get("glyphs"), dict):
         raise FontifyError("invalid quality profile")
     if set(d["glyphs"]) != {g["name"] for g in project.glyphs}:
         raise FontifyError("quality profile must explicitly cover every mapped glyph")
@@ -277,6 +277,12 @@ def load_profile(project):
         raise FontifyError("quality profile requires an agent review receipt path")
     local_path(project.root, d["review"])
     validate_rubrics(d)
+    if d["schema"] == 3:
+        from .proofing import validate_proofing
+
+        validate_proofing(d.get("proofing"))
+    elif "proofing" in d:
+        raise FontifyError("size-specific proofing requires a schema-3 profile")
     return d
 
 
@@ -307,7 +313,7 @@ def glyph_audit(record, intent, profile):
         result["issues"].extend(intent_issues(intent, profile))
         if result["issues"]:
             result["status"] = "failed"
-        if profile["schema"] == 2:
+        if profile["schema"] >= 2:
             result["rubrics"] = route_glyph(result, intent, profile)
         return result
     diag, _, _ = geometry(record)
@@ -360,7 +366,7 @@ def glyph_audit(record, intent, profile):
                 if all(r[0] <= p[0] <= r[2] and r[1] <= p[1] <= r[3] for p in pts)
             ]
             matched_regions.update(selected)
-            explicit = profile["schema"] == 2 and bool(selected)
+            explicit = profile["schema"] >= 2 and bool(selected)
             if straight_intent and (explicit or length >= profile["min_axis_length"]):
                 axis = "horizontal" if abs(dy) <= abs(dx) else "vertical"
                 deviation = math.degrees(
@@ -410,7 +416,7 @@ def glyph_audit(record, intent, profile):
                             "degrees": round(degrees, 4),
                         }
                     )
-    if profile["schema"] == 2:
+    if profile["schema"] >= 2:
         issues.extend(
             {"kind": "straight_region_unmatched", "region": j}
             for j in range(len(intent.get("straight_regions", [])))
@@ -429,12 +435,12 @@ def glyph_audit(record, intent, profile):
         "stems": stem_measurements,
         "intent": intent["note"],
     }
-    if profile["schema"] == 2:
+    if profile["schema"] >= 2:
         result["rubrics"] = route_glyph(result, intent, profile)
     return result
 
 
-def audit_project(project, outlines, font_path=None):
+def audit_project(project, outlines, font_path=None, webfont_path=None):
     profile = load_profile(project)
     if profile is None:
         return {"status": "not_configured", "glyphs": {}, "review": "not_configured"}
@@ -463,6 +469,18 @@ def audit_project(project, outlines, font_path=None):
         "font_sha256": hashlib.sha256(Path(font_path).read_bytes()).hexdigest()
         if font_path
         else None,
+        **(
+            {
+                "webfont_sha256": hashlib.sha256(
+                    Path(webfont_path).read_bytes()
+                ).hexdigest()
+                if webfont_path
+                else None,
+                "size_proofing": {**profile["proofing"], "status": "review_required"},
+            }
+            if profile["schema"] == 3
+            else {}
+        ),
         "limitations": "Numeric geometry checks cannot establish optical quality; per-glyph agent visual review is separately required.",
     }
 
@@ -490,16 +508,16 @@ def check_review(project, report):
         ) from e
     keys(
         receipt,
-        "schema reviewer project_sha256 font_sha256 profile_sha256 glyphs evidence human_approval",
+        "schema reviewer project_sha256 font_sha256 profile_sha256 glyphs evidence human_approval size_reviews",
         "agent review receipt",
     )
     if (
-        receipt.get("schema") != 1
+        receipt.get("schema") != (2 if profile["schema"] == 3 else 1)
         or report.get("stage") != "compiled"
         or not report.get("font_sha256")
     ):
         raise FontifyError(
-            "agent review requires a schema-1 receipt and an actual compiled-font audit"
+            "agent review requires the matching receipt schema (2 for profile 3, otherwise 1) and an actual compiled-font audit"
         )
     if receipt.get("profile_sha256") != report["profile_sha256"]:
         raise FontifyError("agent visual review is stale: quality intent changed")
@@ -550,7 +568,17 @@ def check_review(project, report):
             or not all(isinstance(p, str) and p in evidence_paths for p in refs)
         ):
             raise FontifyError(f"{name}: agent review needs linked visual evidence")
+    size_review = {}
+    if profile["schema"] == 3:
+        from .proofing import check_size_reviews
+
+        size_review["size_proofing"] = check_size_reviews(
+            project, profile, receipt, report
+        )
+    elif "size_reviews" in receipt:
+        raise FontifyError("size review receipts require a schema-3 quality profile")
     return {
+        **size_review,
         "status": "passed",
         "reviewer": receipt["reviewer"],
         "reviewed_glyphs": len(report["glyphs"]),

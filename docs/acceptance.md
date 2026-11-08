@@ -1,4 +1,4 @@
-# Product acceptance catalog · v8
+# Product acceptance catalog · v9
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -37,6 +37,11 @@ The runner records component versions, source digest, timestamp and command.
 | TC10.5 | Compiled candidate and review evidence | `pytest tests/test_rubrics.py -k gate` | Missing/unresolved/stale intent or visual receipts prevent presentation; only current complete review permits release. No command creates aesthetic approval. |
 | TC10.6 | Each supported style | `pytest tests/test_rubrics.py -k universal` | Every style still rejects invalid contours/mappings/metrics and preserves the mandatory source/export checks; styles cannot opt out of technical validity. |
 
+| TC11.1 | Local vector project | `pytest tests/test_spacing.py` | Optical measurements/pairs are deterministic, bounds-padding invariant, collision guarded and reviewable; explicit choices/protected sources survive and candidate intent is invalidated. |
+| TC12.1 | Raster extra | `pytest tests/test_raster.py` | Explicit masks and component decisions retain dots/accents/punctuation/texture; resampling preserves mapping; empty crop padding does not alter prepared glyphs; malformed/native-vector input is rejected. |
+| TC13.1 | Proof extra and installed Chromium/Chrome | `pytest tests/test_proofing.py` | Fixed-size TTF and genuine browser WOFF2 proofs cover declared sizes; missing/stale/wrong-renderer/incomplete evidence blocks schema-3 release; captured evidence stays unreviewed. |
+| TC14.1 | Vector example, no raster tools imported | `pytest tests/test_source_routing.py` | Native Recraft extraction, optical spacing and TTF/WOFF2 compilation run while PIL/NumPy/Potrace/Playwright/raster-module imports are forbidden. |
+
 Catalog v4 adds TC08.1–TC08.5 for the pre-presentation audit/correction/recheck gate:
 20 required sub-tests, 19 automated plus one browser observation. TC07.3 applies
 to the frozen tracing stage; intentional subsequent repairs have separate bounded
@@ -66,3 +71,11 @@ These checks do not certify visual quality. The image-generated example is an
 unapproved candidate; its creation, normalization and tracing are explicit. A
 separate user-authorized Recraft MCP call was verified and recorded; tests use
 its frozen SVG, never the live service. No paid request is part of this suite.
+
+Catalog v9 adds TC11.1–TC14.1: 34 required sub-tests, 33 automated plus
+one separate interactive browser observation. New schema-3 work has explicit text/display
+size requirements; historical schema-1/2 examples retain their existing receipt
+semantics. Browser capture is automated evidence generation, not aesthetic
+approval; the general TC06.1 interactive browser observation remains separate.
+Set `FONTIFY_BROWSER` to an installed Chrome/Chromium path or install the bundled
+Chromium with `python -m playwright install chromium`.

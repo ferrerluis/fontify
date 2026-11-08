@@ -11,7 +11,13 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 def render(
-    before, after, out, before_label="RAW TRACE", after_label="CORRECTED", samples=None
+    before,
+    after,
+    out,
+    before_label="RAW TRACE",
+    after_label="CORRECTED",
+    samples=None,
+    sizes_ppem=(12, 16, 24, 48),
 ):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
@@ -62,22 +68,39 @@ def render(
                 "glyphs": group,
             }
         )
-    sheet = Image.new("RGB", (1800, 800), "#faf9f6")
+    # Actual final-font pixels at each declared size, never fit text to a width.
+    if not sizes_ppem or any(
+        type(size) is not int or not 6 <= size <= 512 for size in sizes_ppem
+    ):
+        raise ValueError("sizes_ppem must contain integers from 6 to 512")
+    sample_texts = samples or ["TEHY  EFHILTY", "AVATAR  CREATOR  OPTIMIST"]
+    lines = []
+    for size in sizes_ppem:
+        for source, title in [(before, before_label), (after, after_label)]:
+            face = ImageFont.truetype(str(source), size)
+            for sample in sample_texts:
+                bounds = face.getbbox(sample, anchor="ls")
+                lines.append((face, title, size, sample, bounds))
+    width = max(800, max(b[2] - min(0, b[0]) for _, _, _, _, b in lines) + 50)
+    height = sum(max(1, b[3] - b[1]) + 70 for _, _, _, _, b in lines)
+    sheet = Image.new("RGB", (width, height), "#faf9f6")
     d = ImageDraw.Draw(sheet)
-    for row, (font, title) in enumerate([(old, before_label), (new, after_label)]):
-        y = row * 390
-        d.text((25, y + 15), title, font=label, fill="#555")
-        for i, text in enumerate(
-            samples or ["TEHY  EFHILTY", "AVATAR  CREATOR  OPTIMIST"]
-        ):
-            size = 120 if i == 0 else 90
-            width = max(
-                ImageFont.truetype(str(p), size).getlength(text)
-                for p in (before, after)
-            )
-            size = max(12, min(size, int(size * 1750 / max(width, 1))))
-            sized = ImageFont.truetype(str(before if row == 0 else after), size)
-            d.text((25, y + 90 + i * 150), text, font=sized, fill="#111")
+    y = 0
+    for face, title, size, sample, bounds in lines:
+        d.text(
+            (25, y + 10),
+            f"{title} / {size} ppem / scale 1 / unreviewed",
+            font=label,
+            fill="#555",
+        )
+        d.text(
+            (25 - min(0, bounds[0]), y + 45 - bounds[1]),
+            sample,
+            font=face,
+            fill="#111",
+            anchor="ls",
+        )
+        y += max(1, bounds[3] - bounds[1]) + 70
     path = out / "spacing-and-weight.png"
     sheet.save(path)
     records.append(
@@ -96,6 +119,9 @@ def render(
                     "baseline": baseline,
                     "row_height": row_height,
                     "font_size": 460,
+                    "sample_sizes_ppem": list(sizes_ppem),
+                    "device_scale": 1,
+                    "review_status": "unreviewed",
                 },
                 "sheets": records,
             },
@@ -114,10 +140,19 @@ if __name__ == "__main__":
     p.add_argument("--before-label", default="RAW TRACE")
     p.add_argument("--after-label", default="CORRECTED")
     p.add_argument("--sample", action="append")
+    p.add_argument("--sizes", nargs="+", type=int, default=[12, 16, 24, 48])
     a = p.parse_args()
     print(
         json.dumps(
-            render(a.before, a.after, a.out, a.before_label, a.after_label, a.sample),
+            render(
+                a.before,
+                a.after,
+                a.out,
+                a.before_label,
+                a.after_label,
+                a.sample,
+                a.sizes,
+            ),
             indent=2,
         )
     )

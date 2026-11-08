@@ -49,6 +49,9 @@ def routed(tmp_path):
         "geometric",
         "Precise upright test construction.",
     )
+    # Preserve explicit schema-2 regression coverage for legacy routed receipts.
+    profile["schema"] = 2
+    profile.pop("proofing")
     profile["glyphs"]["H"]["decisions"]["confirmed"] = True
     profile["glyphs"]["H"]["note"] = (
         "The H uses precise horizontal and vertical polygon edges; reflection is reviewed optically."

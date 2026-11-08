@@ -189,7 +189,7 @@ def build_font(project, output_dir, *, draft=False):
         f.save(woff)
         f.close()
         verify_compiled(woff, project, outlines)
-        compiled_quality = audit_project(project, outlines, ttf)
+        compiled_quality = audit_project(project, outlines, ttf, webfont_path=woff)
         review = {"status": "pending"}
         if gated and not draft:
             if compiled_quality["status"] != "passed":

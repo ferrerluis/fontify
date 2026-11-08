@@ -255,6 +255,14 @@ def write_proofs(font_path, woff_path, directory, project, outlines, approval):
     )
     (directory / "proof.html").write_text(html)
     font.close()
+    # Historical schema-1/2 releases remain byte-for-byte reproducible.
+    from .quality import load_profile
+
+    profile = load_profile(project)
+    if profile and profile["schema"] == 3:
+        from .proofing import write_size_proofs
+
+        write_size_proofs(font_path, woff_path, directory, project, profile)
 
 
 def verified_release(manifest_path):
