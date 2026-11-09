@@ -1,4 +1,4 @@
-# Product acceptance catalog · v10
+# Product acceptance catalog · v11
 
 Each test runs without credentials or network unless explicitly marked live. Run
 `python scripts/run_acceptance.py`; results and JUnit evidence go to `test-runs/`.
@@ -87,3 +87,15 @@ instructions and links. Existing provider mocks still test the one-output payloa
 explicit model and paid-call opt-in; no test claims to classify prompt compliance,
 enforce cross-call agent history or select a user's design. No live generation is
 run for this policy change.
+
+Catalog v11 adds TC16.1–TC16.4: 39 required sub-tests, 38 automated plus
+the separate interactive browser observation. The four new automated cases cover bounded
+language generation/verification. Historical frozen examples retain their
+subset contracts; no live generation is required by these checks.
+
+| ID | Prerequisites | Repeatable action | Expected observable result / evidence |
+|---|---|---|---|
+| TC16.1 | Installed local dependencies, no network | `pytest tests/test_coverage.py -k inventory` | Default plan is exactly 160 mappings with the enumerated 32 symbols, both letter cases and correct language mappings; generated skill table matches runtime catalog. |
+| TC16.2 | Same | `pytest tests/test_coverage.py -k extension` | Only explicitly requested profiles/characters expand targets; every catalog specimen is mapped; unknown languages, missing request evidence and unsupported standalone marks fail. |
+| TC16.3 | Synthetic SVG project, no provider | `pytest tests/test_coverage.py -k contract` | Profiled projects cannot shrink the baseline; blank spaces remain blank; source-only checks disclose unrun compiled checks; subset examples fail the new coverage check. |
+| TC16.4 | Same plus actual TTF/WOFF2 | `pytest tests/test_coverage.py -k compiled` | Both exported cmaps and ink match requirements; raw NFC/NFD texts shape without fallback to identical glyph positions with kerning on/off; corrupted maps, blank ink and bad spacing fail. Per-language proof text is retained. |

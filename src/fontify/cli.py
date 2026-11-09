@@ -37,6 +37,15 @@ def main(argv=None):
             )
         if name == "snapshot":
             p.add_argument("--output", type=Path, required=True)
+    p = sub.add_parser("coverage-plan")
+    p.add_argument("--language", action="append", default=[])
+    p.add_argument("--additional-characters", default="")
+    p.add_argument("--request-note", default="")
+    p.add_argument("--output", type=Path)
+    p = sub.add_parser("coverage-check")
+    p.add_argument("project", type=Path)
+    p.add_argument("--font", type=Path)
+    p.add_argument("--webfont", type=Path)
     p = sub.add_parser("inspect")
     p.add_argument("font", type=Path)
     p.add_argument("--text")
@@ -135,6 +144,23 @@ def main(argv=None):
                         "approval": check_approval(project, outlines),
                         "glyphs": {o.spec["name"]: o.diagnostics for o in outlines},
                     }
+        elif args.command == "coverage-plan":
+            from .coverage import coverage_plan
+
+            result = coverage_plan(
+                args.language, args.additional_characters, args.request_note
+            )
+            if args.output:
+                args.output.parent.mkdir(parents=True, exist_ok=True)
+                with args.output.open("x") as f:
+                    json.dump(result, f, ensure_ascii=False, indent=2)
+                    f.write("\n")
+        elif args.command == "coverage-check":
+            from .coverage import coverage_check
+
+            result = coverage_check(load_project(args.project), args.font, args.webfont)
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0 if result["status"] == "passed" else 1
         elif args.command == "audit":
             from .quality import audit_project
 

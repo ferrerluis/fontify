@@ -3,6 +3,7 @@
 import base64
 import hashlib
 import json
+import unicodedata
 from html import escape
 from pathlib import Path
 
@@ -84,6 +85,9 @@ def shape_font(path, text, kern=True):
     cmap = font.getBestCmap()
     missing = sorted(set(map(ord, text)) - set(cmap))
     if missing:
+        missing = sorted(set(map(ord, unicodedata.normalize("NFC", text))) - set(cmap))
+    if missing:
+        font.close()
         raise FontifyError(
             "text contains unmapped characters: "
             + ", ".join(f"U+{cp:04X}" for cp in missing)
@@ -253,6 +257,10 @@ def write_proofs(font_path, woff_path, directory, project, outlines, approval):
         .replace("CONTENT", content)
         .replace("COVERAGE", json.dumps(sorted(font.getBestCmap())))
     )
+    if d.get("coverage") is not None:
+        html = html.replace(
+            "[...input.value].filter", "[...input.value.normalize('NFC')].filter"
+        )
     (directory / "proof.html").write_text(html)
     font.close()
     # Historical schema-1/2 releases remain byte-for-byte reproducible.

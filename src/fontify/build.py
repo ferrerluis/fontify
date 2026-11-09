@@ -140,7 +140,14 @@ def verify_compiled(path, project, outlines):
     samples = [shape_font(path, t) for t in project.data["samples"]]
     if any(g["gid"] == 0 for s in samples for g in s["glyphs"]):
         raise FontifyError("sample shapes to .notdef")
-    return {"kerning_pairs": pair_checks, "samples": samples}
+    result = {"kerning_pairs": pair_checks, "samples": samples}
+    if project.data.get("coverage") is not None:
+        from .coverage import check_font_coverage
+
+        result["language_coverage"] = check_font_coverage(
+            path, project.data["coverage"]
+        )
+    return result
 
 
 def release_font(project, output_dir):
