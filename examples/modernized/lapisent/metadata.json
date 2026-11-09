@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "Lapisent",
+  "style": "Regular",
+  "version": "1.003",
+  "title": "Inscriptional display with lowercase",
+  "inspiration": "Trajan",
+  "description": "An inscriptional serif display face with a ceremonial rhythm and true lowercase. Suitable for cultural identities, editorial titles and carefully spaced display settings.",
+  "story": "Trajan is the historical inspiration. The chosen A alphabet consists of original native Recraft vectors, retained through vector extraction and documented seam repairs rather than raster tracing. The original generation prompt used an anatomy brief without naming a source font. Authored native-vector companions, optical spacing and an explicit artifact layout step extend the design. Version 1.003 corrects mixed above/below contexts while retaining every existing 1.002 contour and advance.",
+  "minimum_display_px": 32,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 32px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Strict typed-hyphen golden pixels differ from the discretionary wrap; real native-font semantics pass.",
+    "Synthetic j+cedilla/ogonek forms are technical tests, not native-language convention claims."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Lapisent-Regular-v1.003.ttf",
+      "sha256": "b10b7c48e043b49fe19ad0d4a44d620166b2baa5ba005b44e889757a20896dfa",
+      "bytes": 93912,
+      "package_path": "fonts/Lapisent-Regular-v1.003.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Lapisent-Regular-v1.003.woff2",
+      "sha256": "3e5e99431b3f72ee06010618f2d7494e68ceb492db3fee7938c8bf1f3a8149d3",
+      "bytes": 25496,
+      "package_path": "fonts/Lapisent-Regular-v1.003.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "f001ebb3fa5b6d91111aa2e55b560cd7ebb535506fa740771ce717cf0728cf7e",
+      "bytes": 70091,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "b2221833f335fa03ffc789e037adeb0336e4792a3cb2d99e9f823ba9b8e7c28a",
+      "bytes": 25374,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "d6d7e1c75580928ad34bd5a785e9273a40ba85756749b3ef04a199a124f0caeb",
+      "bytes": 275,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "40669175db16c0cded8bad41461390733ed99ac0077651023e81d597376fd757",
+      "bytes": 16721,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 32,
+    "resized": false
+  }
+}

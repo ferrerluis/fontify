@@ -1,0 +1,9 @@
+Start with DELIVERY_NOTES.md and Semiloft-private-review.pdf.
+
+Reviewed TTF/WOFF2: font-release/. Editable complete project: project/fontify.json. The full354-codepoint union plus explicit dotless j totals355 mappings. Original339 requirements remain. Separate Latin and focused language proofs are included.
+
+Rebuild using the pinned installed environment: python scripts/union_compatibility.py release project/fontify.json new-private-output . Plain pinned CLI cannot load zero marks/NBSP. This strict adapter preserves ordinary validation and actual release gates. No shared source changes are required. Historical authoring scripts contain old paths and are provenance, not portable commands to run blindly.
+
+project/glyph-provenance.json and AUTHORING_NOTES.md describe earlier authoring stages; current-glyph-inventory.json, union-authoring-journal.json and current receipts bind final geometry. quality-v3.json is the active profile. The raw profile SHA and exact canonical semantic-hash bytes are included. current.json derives its version from the verified release manifest.
+
+Minimum32px. Arbitrary long mark stacks unsupported; read KNOWN_LIMITATIONS.json. This private review package does not grant publication or assert MIT.

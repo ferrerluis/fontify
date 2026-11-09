@@ -1,0 +1,15 @@
+# Lapisent / Trajan A / Regular 1.003
+
+Private corrected review build. Install only the TTF or WOFF2 in `fonts/`. Both retain the exact354-codepoint expanded-Latin union, with no missing or extra scalars. Earlier1.001/1.002 packages remain preserved.
+
+This focused revision fixes mixed below/above marks on i/j. In `j + U+0326 + U+0301` and `i + U+0326 + U+030B`, including reversed mark orders, the original dot is removed and the upper accent sits at the same height as its top-only control. A demonstrated comma/j-descender collision is also removed by shifting only the comma anchors on j, its dotless alternate and ĵ. Canonical i-ogonek receives one unencoded dotless alternate, derived by omitting its original detached dot, so composition cannot bypass contextual dot removal.
+
+**Every existing glyph contour and advance is identical to v1.002**, including ordinary i/j, the selected52 letters and10 digits, all correct extensions and the accepted ß/ẞ forms. No style redesign, paid generation, shared checkout update or publication occurred.
+
+Review `specimens/actual-size-language-and-semantics/` for current32/64 native TTF and real Chrome WOFF2 proofs, both orderings, ordinary and top-only controls, Latvian/Slovak samples and updated browser semantics. `specimens/mixed-mark-matrix-64.png` displays all132 ordering cases as66 paired cells. Separate core, expanded-Latin and combining-mark inventory sheets were regenerated from the current font. Exact per-scalar provenance remains in `coverage-and-provenance.json`.
+
+The final TTF/WOFF2 pass all500 kerning pairs,173 canonical decomposition equivalents,728 base/mark cases and113,569 ordinary visible-glyph pairs per format with zero collisions above the recorded threshold. All132 i/j mixed-mark ordering cases pass contextual dot removal and ordering equality. The requested comma-below cases have zero outline overlap with their bases. NBSP, soft-hyphen hiding/wrapping and NFC/NFD browser checks pass. The previously disclosed strict typed-hyphen golden pixel comparison remains false; actual native-font semantic checks pass.
+
+Fontify remains pinned at249bf421e4be58bac8b42024fb42af264bd39838. The unchanged338-record ordinary source and its verified gated base remain v1.002. The explicit fontTools artifact step produces v1.003 with real zero-advance marks and corrected OpenType layout. It is not a claim that the pinned compiler directly accepts the354-character mark/blank source. See BUILD.md and FINAL_QA_SUMMARY.json.
+
+Display minimum remains32px. Arbitrary repeated accent stacks and all outside-union codepoints are not certified. Synthetic j+cedilla/ogonek matrix forms are not claims of native-language convention. Other rendering engines, body-text hinting, CFF OTF, additional weights/italics and unrestricted language coverage remain outside this review. User final approval and distribution terms are pending; no MIT assertion is made. Total generation spend remains60 credits, with0 for this correction.

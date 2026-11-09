@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "name": "Tessaplay",
+  "style": "Regular",
+  "version": "0.024",
+  "title": "Angular lettering and ornament",
+  "inspiration": "Jokerman",
+  "description": "A narrow decorative display face with angular flared terminals and a dot-and-wedge rhythm. Its energetic pen-drawn voice suits cultural programs, editorial titles and event identities.",
+  "story": "Jokerman inspired the interplay of lettering and ornament. The selected original OpenAI B alphabet was traced with protected details and optically spaced. Explicitly authored companions extend its repertoire. Version 0.024 corrects mixed-mark contextual dot removal, including an exact native-contour dotless-ogonek alternate. The selected alphabet and ordinary i/j remain intact.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "j + U+0326 + U+0301 reaches y=-363: 13 units below the typographic descender of -350.",
+    "Q + two U+0326 marks reaches -428: 78 units below the descender; this stress case has no supported-fit claim.",
+    "Keep adequate line height and avoid clipping containers. Numerals 2–5 and signs are simpler companions and remain an aesthetic choice."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Tessaplay-Regular-v0.024.ttf",
+      "sha256": "bc35b10eda5e2295100302e49f533ed03247e7c9298bbaf31ecb89f06b13bc1e",
+      "bytes": 177260,
+      "package_path": "fonts/Tessaplay-Regular-v0.024.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Tessaplay-Regular-v0.024.woff2",
+      "sha256": "8cafc48b2535f2c0025ed11b867427082937b8c12f38b19adbcc342857d2c45b",
+      "bytes": 34916,
+      "package_path": "fonts/Tessaplay-Regular-v0.024.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "f5482e7a4b73d10616fc9d322167581b16e0d7d57ced621dab2dd7e79755032b",
+      "bytes": 103472,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "2df196c55b91db9f110cd5c59289d57535abcf7e70b8b55e1b83b8fdc43b2426",
+      "bytes": 25422,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "342644e6791150843db43ccfd86ae3d03f3e986ec184564324db75712d16f366",
+      "bytes": 278,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "b67d28d750b39dd63b106b50952c5e8618c376752be903016d9aef93dde54c20",
+      "bytes": 17376,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}

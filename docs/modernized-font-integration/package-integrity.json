@@ -1,0 +1,62 @@
+{
+  "reedmere": {
+    "manifest": "PACKAGE_MANIFEST.json",
+    "manifest_sha256": "bfba689e16a2842e4f281162fbbfe9beec36ca5ee6c3490ac19d501dddf2b3b4",
+    "entries_checked": 712,
+    "errors": []
+  },
+  "presswake": {
+    "manifest": "SHA256SUMS",
+    "manifest_sha256": "99bd7867ca99e3133ce5d235ea8483af7d8da269d03d9b43d76a443f677c4129",
+    "entries_checked": 690,
+    "errors": []
+  },
+  "bunvale": {
+    "manifest": "PACKAGE_CONTENTS.json",
+    "manifest_sha256": "ce930de478e3de15c4dde6bc9b53b4cd460496bf6f577e7a696b890f48a24557",
+    "entries_checked": 511,
+    "errors": []
+  },
+  "lapisent": {
+    "manifest": "SHA256SUMS",
+    "manifest_sha256": "f3bdc50642d0b4091a809baf23c0b04fc85b2127035aab3d381ca95754f2cd88",
+    "entries_checked": 527,
+    "errors": []
+  },
+  "liltvale": {
+    "manifest": "FILES.sha256.json",
+    "manifest_sha256": "deb0f48e67e57f0dbfcbb74cecd90dad05213da0348680ba9fab9cc76163fe95",
+    "entries_checked": 670,
+    "errors": []
+  },
+  "tessaplay": {
+    "manifest": "package-manifest.json",
+    "manifest_sha256": "1489f4022782699ba261fb8cfb20bab283d3d637987f8faa449d4953914cf2e9",
+    "entries_checked": 772,
+    "errors": []
+  },
+  "riftstave": {
+    "manifest": "SHA256SUMS.json",
+    "manifest_sha256": "1e002061f3b25dcf6b60c9b6f2ca0c9a3a0bab21463feacb0d21111bf2c7e141",
+    "entries_checked": 659,
+    "errors": []
+  },
+  "semiloft": {
+    "manifest": "PACKAGE_SHA256.json",
+    "manifest_sha256": "f838046ce0144ed5dedfc90f7df82d00fd5ff712dc703afc4a73afe805e1f196",
+    "entries_checked": 1348,
+    "errors": []
+  },
+  "marqevra": {
+    "manifest": "CONTENTS_SHA256.json",
+    "manifest_sha256": "0095cda90e26d7d289e8d6ea7109f616a4b6a3926583f5a64d2e79ff29122712",
+    "entries_checked": 681,
+    "errors": []
+  },
+  "charterquill": {
+    "manifest": "PACKAGE_MANIFEST.json",
+    "manifest_sha256": "255a5680fba326e72e84cdf9b61d562b12f94b7fee81a187a956e39bcf266941",
+    "entries_checked": 466,
+    "errors": []
+  }
+}

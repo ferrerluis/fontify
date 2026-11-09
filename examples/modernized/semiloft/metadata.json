@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "name": "Semiloft",
+  "style": "Regular",
+  "version": "0.019",
+  "title": "Architectural flat and round",
+  "inspiration": "Bauhaus 93",
+  "description": "A heavy architectural display face balancing planar cuts and flat stems with circular bowls. Compact lowercase and deep counters suit short headings, identities and editorial display.",
+  "story": "Bauhaus 93 inspired the modular mass. The selected architectural-flat-round-v3 B is OpenAI raster artwork, including its expressly selected, separately generated M patch. Both originals and patch provenance are retained. Tracing and bounded cleanup preserve that choice; authored companions, optical spacing and explicit layout support extend it to the agreed union plus dotless j.",
+  "minimum_display_px": 32,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "Documented project-local compatibility adapter runs the pinned Fontify compiler and gated review; plain JSON CLI cannot directly admit blank NBSP/zero-advance marks. Producer source-stage, compiled and release records are distinct from the integration binary checks.",
+  "limitations": [
+    "Display use from 32px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Chrome discretionary-hyphen pixels differ positionally from the forced-hyphen reference; native-font semantics pass.",
+    "Spacing used bounded plans and inheritance; a full all-pair optical solver was not run."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Semiloft-Regular-v0.019.ttf",
+      "sha256": "4d0b75790cdbd566ce80c5648b178a194798f3a22f82ae43aa5614718e11a53c",
+      "bytes": 266412,
+      "package_path": "font-release/Semiloft-Regular-v0.019.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Semiloft-Regular-v0.019.woff2",
+      "sha256": "3db1a9fb3bd78bce76b05d03ef725457855f9fd2e8ed809d350854d8c7e09f85",
+      "bytes": 51232,
+      "package_path": "font-release/Semiloft-Regular-v0.019.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "b432ff6d835799dd6815f2de92058b17f7d0e4fd989707bed47a93a1ed73a683",
+      "bytes": 59990,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "e4ba228fe2e39abac5c8e84563933630859a6c735ade0491945254e719d5d73c",
+      "bytes": 25345,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "cc6eb17840618cecb64bfa7e1154eddb40b40b5105c33561d9970fb806aa9d55",
+      "bytes": 275,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "c20ec9565939018e58d5627d7f61cd4f0a73ea62bdd365b7d1ef23cdba04b201",
+      "bytes": 17441,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 355,
+  "extra_codepoints": [
+    "U+0237"
+  ],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 32,
+    "resized": false
+  }
+}

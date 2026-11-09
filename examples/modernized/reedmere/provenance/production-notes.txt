@@ -1,0 +1,37 @@
+Reedmere0.025 — private display-font review
+
+DESCRIPTION
+Reedmere is a broad, heavy hand-ink display face for expressive headlines, packaging and identity lettering. Blunt nib endings, softly squared bowls and an uneven written rhythm give its forms a tactile presence. Papyrus supplies the calligraphic and material ancestry; Reedmere takes the substantially broader, bolder direction in the exact selected raster. Original supporting numerals, punctuation and expanded Latin follow its written weight and terminals. This private review build provides354 mapped codepoints, optical core spacing,56 explicit kerning pairs and tested mark positioning, with fixed-size proofs for display use at48pixels and above.
+
+STORY
+The user chose study01/current raster v2 optionA after its uppercaseI whole-sheet correction. That image, including disclosed collateral changes and its heavier-than-planned broad hand-ink weight, is the sole selected alphabet source. The52 letters were traced with explicit protected counters/components and minimal recorded topology/export repairs. Supporting glyphs and marks are original authored or same-family composites; no system-font or commercial-font outlines were used.
+
+SCOPE AND STATUS
+All354 agreed codepoints are mapped, preserving the original327. There are two genuinely blank spacing mappings,352 nonempty outline mappings (including14 zero-advance combining marks and conditional soft hyphen), plus two unencoded contextual helpers. The exact names/codepoints are in source/inputs/union-target.json. Final human approval is pending; no publication, repository integration or blanket MIT license is asserted.
+
+Selected input SHA256:4ed2ff2989547200feffff3ec3ebf3fb0e14024e4fb7362d4de8bda97505743b. Its corrected whole-sheet provenance,52 original forms, trace plan, protected counters/components and masks are retained. No new generation/spending occurred; previous Recraft total remains72.
+
+WHAT CHANGED AFTER THE PROVISIONAL0.019 BUILD
+Supporting numerals, punctuation and sharpS were strengthened and optically balanced.0/1/8 use selected O/l components. Accentedĵ has no redundant dot; ď/ľ/ť/Ľ use side-carons. Latvian comma marks and proper Ç/ç cedillas remain distinct. Additional Welsh forms, punctuation and14 combining marks complete the354 union. NBSP is genuinely blank/nonbreaking; soft hyphen is hidden unbroken and visible at an actual wrap. Mixed i/j below+above marks work in either input order. Plainį/i+ogonek retains its dot; an above mark triggers a separate dotless-ogonek context. Ordinary selectedi/j and the52 approved outlines/advances are unchanged.
+
+FILES TO REVIEW
+fonts/: actual TTF, WOFF2 and immutable gated build/verification artifacts.
+source/evidence/specimens/: core alphabet/pangram/number/symbol and separate expanded-Latin specimens.
+source/evidence/size-v025/: actual48/72/120 TTF and Chromium WOFF2 proofs plus embedded live WOFF2 HTML. Generator records intentionally remain unreviewed; completed current-byte findings are in source/agent-review.json.
+source/evidence/unicode/, mixed-marks/, ogonek-regression/, control-layout/: actual language, mark and control tests/proofs. Narrow-box NBSP screenshots demonstrate no wrapping and can clip overflow inside the deliberate test box; full-page evidence preserves context.
+source/: editable SVG project, decisions/provenance, protected raster/masks and review receipt. qa/: scoped acceptance and immutable release verification.
+
+LIMITS
+Display use at48pixels and above, proofed at48/72/120. Below48 and small text are not approved.56 explicit core kerning pairs are verified; extended bearings are manually reviewed, with no exhaustive extended kerning claim. Standard OpenType shaping is required for combining/context behavior. Tested normalization and specified mixed stacks work; universal Latin-language/script support and arbitrary unlimited stacks are not promised. Monochrome outlines retain edge personality, not grayscale ink shading. OTF/CFF is not supplied by this pinned toolchain.
+
+REBUILDING
+Use existing Fontify249bf421e4be58bac8b42024fb42af264bd39838 and installed dependencies. Do not upgrade shared sources. The included project-local compatibility_runner_025.py is required because the unmodified pinned JSON loader rejects blank NBSP and zero-advance marks. It strictly admits those declared15 exceptions and uses actual Fontify construction, source/compiled audits, shaping, fixed-size review and gated release; fontTools adds explicit layout before final verification. No shared code was changed.
+
+From package root with that environment:
+    python compatibility_runner_025.py draft
+    python compatibility_runner_025.py proofs
+Actual browser capture, inspection and updated receipt are needed if bytes, spacing, profile or project change. The included acceptance belongs only to the exact supplied current hashes. Rebuilding an identical unchanged release can use:
+    python compatibility_runner_025.py release
+    fontify verify-release fonts/release-manifest.json
+
+This is agent technical/visual acceptance for private finished-font review, distinct from user taste approval.

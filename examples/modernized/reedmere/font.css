@@ -1,0 +1,2 @@
+@font-face { font-family: "Reedmere"; src: url("fonts/Reedmere-Regular-v0.025.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; }
+.sample { font-family: "Reedmere", sans-serif; font-synthesis: none; font-kerning: normal; line-height: 1.9; }

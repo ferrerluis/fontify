@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Liltvale",
+  "style": "Regular",
+  "version": "0.048",
+  "title": "Light ribbon curls",
+  "inspiration": "Curlz MT",
+  "description": "A light decorative serif with loose ribbon curls, expressive Q/J, open bowls and a single-storey a. Intended for short headlines, community identities and editorial accents.",
+  "story": "Curlz MT inspired the playful motion. The selected OpenAI A raster replaces earlier vector explorations. Protected tracing preserves 54 original components across the 52 uncropped letter masks at a common scale, including dots, curls and descenders. The selected single-storey a takes precedence over the prompt. Optical spacing and explicitly authored companions extend the source. The independent final review has cleared v0.048.",
+  "minimum_display_px": 32,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 32px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Use high contrast, especially for hairlines and fractions at 32px; keep generous line height."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Liltvale-Regular-v0.048.ttf",
+      "sha256": "bf4de894521eddf45981ebae12b0f01e74def57d4688e1e724661c3b63dc925d",
+      "bytes": 189964,
+      "package_path": "fonts/Liltvale-Regular-v0.048.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Liltvale-Regular-v0.048.woff2",
+      "sha256": "4a73ded0a34aa54c431a5be87770c85e9b25d4195367e92af2822260b35f6354",
+      "bytes": 45468,
+      "package_path": "fonts/Liltvale-Regular-v0.048.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "cf8979df634291a2cc2612a23a2d600d36e3d2830ec264ebe044c2faf699865d",
+      "bytes": 74935,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "c7bbcd3f5436c4199e6a2f05aba8d3d24d306db5f290fa69b945fa43315bcc39",
+      "bytes": 25189,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "8f77bdc4bab9cd7229ccd1424f6b9b8c612e5cbf3eeeee3643088f07ac8a0ccf",
+      "bytes": 275,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "3d5a29662e6d09f1b51b5ad774081a48d7d3bf7325c3611b11466629a2071035",
+      "bytes": 17376,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 32,
+    "resized": false
+  }
+}

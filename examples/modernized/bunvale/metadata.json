@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "name": "Bunvale",
+  "style": "Regular",
+  "version": "0.016",
+  "title": "Warm, buoyant heavy serif",
+  "inspiration": "Cooper Black",
+  "description": "A soft-serif display face with swelling strokes, gently cupped feet and lively oval counters. Made for welcoming brands, food, hospitality and expressive commerce headlines.",
+  "story": "Cooper Black inspired the warm mass, soft bracketed serifs and buoyant rhythm. The chosen B alphabet is new native Recraft vector artwork, prepared without tracing previews. Native preparation, disclosed local repairs and optical spacing preserve that source. Figures, punctuation and Latin companions are authored extensions. This selected v0.016 is retained; the unadopted v0.017 experiment is excluded.",
+  "minimum_display_px": 32,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 32px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Figures 2/3/4/5/7 and ß/ẞ are deliberately quieter companions; their final family style remains a taste decision.",
+    "Ordinary į is correct. Precomposed į plus an additional above accent is convention-unreviewed."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Bunvale-Regular-v0.016.ttf",
+      "sha256": "d0cf8baa9937c98c4c2010b901a8b5dfcf391c79190b276f29caa87ccba22e2b",
+      "bytes": 138008,
+      "package_path": "compatibility-v016/final/Bunvale-Regular-v0.016.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Bunvale-Regular-v0.016.woff2",
+      "sha256": "a0920ace48023db711dac9fb619f9517dfdf9e71d2af7dc4697096c012a62e2f",
+      "bytes": 33688,
+      "package_path": "compatibility-v016/final/Bunvale-Regular-v0.016.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "00f2d6001c4fc972c37500895f8f6b7da28a1bfcc56f8e1c2d07bdea68a9e644",
+      "bytes": 70892,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "8fe2385ca6cb1a47d74050cade82046b0cdc488f5373d654c10efe2c4c5b80c1",
+      "bytes": 25538,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "a1b0d7bb034539b0f4ff9f3b4ed0a69ec7b5e3bd9d857ee097ac0d624357e41e",
+      "bytes": 272,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "b108b25d889514ef7f2d483d18c46d284ae7b7753162fee81f35785a9da9e018",
+      "bytes": 17778,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 358,
+  "extra_codepoints": [
+    "U+201A",
+    "U+201E",
+    "U+2039",
+    "U+203A"
+  ],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 32,
+    "resized": false
+  }
+}

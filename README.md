@@ -41,7 +41,14 @@ Try the included examples: [Fontify Grotesk](examples/imagegen/README.md)
 (uppercase, lowercase and space). Both rebuild offline from saved drawings;
 neither includes digits, punctuation or accents.
 
-[MIT licensed](LICENSE).
+Explore [ten modernized display-font samples](examples/modernized/README.md),
+with final TTF/WOFF2 files, live specimens, stories and exact expanded-Latin
+coverage. These frozen final-artifact samples have their own documented build
+boundaries, display minima and pending distribution terms.
+
+The compiler and code are [MIT licensed](LICENSE). Distribution terms for the
+[new modernized font assets](examples/modernized/README.md) remain pending owner review;
+no new license grant is made for those assets.
 
 <details>
 <summary>Agent reference: setup, font creation, review, release and tests</summary>

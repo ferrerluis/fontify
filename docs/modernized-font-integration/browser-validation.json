@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "browser": "156.0.8078.47",
+  "dpr": 1,
+  "samples": [
+    {
+      "slug": "reedmere",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Reedmere",
+          "postScriptName": "Reedmere-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Reedmere v0.025 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "reedmere-woff2-minimum.png"
+    },
+    {
+      "slug": "presswake",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Presswake",
+          "postScriptName": "Presswake-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Presswake v1.011 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "presswake-woff2-minimum.png"
+    },
+    {
+      "slug": "bunvale",
+      "status": "passed",
+      "minimum_css_px": 32,
+      "platform_fonts": [
+        {
+          "familyName": "Bunvale",
+          "postScriptName": "Bunvale-Regular",
+          "isCustomFont": true,
+          "glyphCount": 164
+        }
+      ],
+      "inventory_cells": 355,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Bunvale v0.016 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "bunvale-woff2-minimum.png"
+    },
+    {
+      "slug": "lapisent",
+      "status": "passed",
+      "minimum_css_px": 32,
+      "platform_fonts": [
+        {
+          "familyName": "Lapisent",
+          "postScriptName": "Lapisent-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Lapisent v1.003 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "lapisent-woff2-minimum.png"
+    },
+    {
+      "slug": "liltvale",
+      "status": "passed",
+      "minimum_css_px": 32,
+      "platform_fonts": [
+        {
+          "familyName": "Liltvale",
+          "postScriptName": "Liltvale-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Liltvale v0.048 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "liltvale-woff2-minimum.png"
+    },
+    {
+      "slug": "tessaplay",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Tessaplay",
+          "postScriptName": "Tessaplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Tessaplay v0.024 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "tessaplay-woff2-minimum.png"
+    },
+    {
+      "slug": "riftstave",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Riftstave",
+          "postScriptName": "Riftstave-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Riftstave v0.018 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "riftstave-woff2-minimum.png"
+    },
+    {
+      "slug": "semiloft",
+      "status": "passed",
+      "minimum_css_px": 32,
+      "platform_fonts": [
+        {
+          "familyName": "Semiloft",
+          "postScriptName": "Semiloft-Regular",
+          "isCustomFont": true,
+          "glyphCount": 166
+        }
+      ],
+      "inventory_cells": 352,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Semiloft v0.019 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "semiloft-woff2-minimum.png"
+    },
+    {
+      "slug": "marqevra",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Marqevra",
+          "postScriptName": "Marqevra-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Marqevra v0.021 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "marqevra-woff2-minimum.png"
+    },
+    {
+      "slug": "charterquill",
+      "status": "passed",
+      "minimum_css_px": 48,
+      "platform_fonts": [
+        {
+          "familyName": "Charterquill",
+          "postScriptName": "Charterquill-Regular",
+          "isCustomFont": true,
+          "glyphCount": 165
+        }
+      ],
+      "inventory_cells": 351,
+      "desktop_layout": {
+        "width": 1500,
+        "scrollWidth": 1500,
+        "loaded": "Loaded Charterquill v0.216 from the supplied local WOFF2."
+      },
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "screenshot": "charterquill-woff2-minimum.png"
+    }
+  ]
+}

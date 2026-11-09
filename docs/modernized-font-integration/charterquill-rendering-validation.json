@@ -1,0 +1,686 @@
+{
+  "status": "passed",
+  "ttf_sha256": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94",
+  "woff2_sha256": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8",
+  "native_renderer": "Pillow 13.0.0 / FreeType / RAQM",
+  "raqm": true,
+  "native": [
+    {
+      "size_ppem": 48,
+      "language_groups_nfc_nfd_pixels_equal": 21,
+      "ttf_woff2_rendering_equal": true,
+      "focused_equivalent_pairs": 5,
+      "image": "actual-ttf-48.png"
+    },
+    {
+      "size_ppem": 72,
+      "language_groups_nfc_nfd_pixels_equal": 21,
+      "ttf_woff2_rendering_equal": true,
+      "focused_equivalent_pairs": 5,
+      "image": "actual-ttf-72.png"
+    },
+    {
+      "size_ppem": 96,
+      "language_groups_nfc_nfd_pixels_equal": 21,
+      "ttf_woff2_rendering_equal": true,
+      "focused_equivalent_pairs": 5,
+      "image": "actual-ttf-96.png"
+    }
+  ],
+  "browser": "156.0.8078.47",
+  "dpr": 1,
+  "browser_results": [
+    {
+      "size": 48,
+      "normalization": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "formats": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "focused": [
+        {
+          "a": "j̦́",
+          "b": "j̦́",
+          "equal": true
+        },
+        {
+          "a": "i̦̋",
+          "b": "i̦̋",
+          "equal": true
+        },
+        {
+          "a": "į",
+          "b": "į",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        }
+      ],
+      "space_wraps": true,
+      "nbsp_stays_together": true,
+      "soft_wraps": true,
+      "soft_visible_advance": 25.875,
+      "own_hyphen_advance": 25.872055053710938,
+      "standalone_soft_advance": 0,
+      "standalone_soft_has_ink": false,
+      "unbroken_soft_word_width": 234.91253662109375,
+      "removed_soft_word_width": 231.45654296875
+    },
+    {
+      "size": 72,
+      "normalization": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "formats": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "focused": [
+        {
+          "a": "j̦́",
+          "b": "j̦́",
+          "equal": true
+        },
+        {
+          "a": "i̦̋",
+          "b": "i̦̋",
+          "equal": true
+        },
+        {
+          "a": "į",
+          "b": "į",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        }
+      ],
+      "space_wraps": true,
+      "nbsp_stays_together": true,
+      "soft_wraps": true,
+      "soft_visible_advance": 38.8125,
+      "own_hyphen_advance": 38.808013916015625,
+      "standalone_soft_advance": 0,
+      "standalone_soft_has_ink": false,
+      "unbroken_soft_word_width": 352.3681640625,
+      "removed_soft_word_width": 347.18414306640625
+    },
+    {
+      "size": 96,
+      "normalization": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "formats": [
+        {
+          "name": "Spanish",
+          "equal": true
+        },
+        {
+          "name": "French",
+          "equal": true
+        },
+        {
+          "name": "Portuguese",
+          "equal": true
+        },
+        {
+          "name": "German",
+          "equal": true
+        },
+        {
+          "name": "Italian",
+          "equal": true
+        },
+        {
+          "name": "Dutch",
+          "equal": true
+        },
+        {
+          "name": "Danish_Norwegian",
+          "equal": true
+        },
+        {
+          "name": "Swedish_Finnish",
+          "equal": true
+        },
+        {
+          "name": "Icelandic",
+          "equal": true
+        },
+        {
+          "name": "Polish",
+          "equal": true
+        },
+        {
+          "name": "Czech_Slovak",
+          "equal": true
+        },
+        {
+          "name": "Hungarian",
+          "equal": true
+        },
+        {
+          "name": "Romanian",
+          "equal": true
+        },
+        {
+          "name": "Turkish",
+          "equal": true
+        },
+        {
+          "name": "Lithuanian",
+          "equal": true
+        },
+        {
+          "name": "Latvian",
+          "equal": true
+        },
+        {
+          "name": "Estonian",
+          "equal": true
+        },
+        {
+          "name": "Welsh",
+          "equal": true
+        },
+        {
+          "name": "Welsh_added",
+          "equal": true
+        },
+        {
+          "name": "Latvian_marks",
+          "equal": true
+        },
+        {
+          "name": "Slovak_marks",
+          "equal": true
+        }
+      ],
+      "focused": [
+        {
+          "a": "j̦́",
+          "b": "j̦́",
+          "equal": true
+        },
+        {
+          "a": "i̦̋",
+          "b": "i̦̋",
+          "equal": true
+        },
+        {
+          "a": "į",
+          "b": "į",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        },
+        {
+          "a": "į́",
+          "b": "į́",
+          "equal": true
+        }
+      ],
+      "space_wraps": true,
+      "nbsp_stays_together": true,
+      "soft_wraps": true,
+      "soft_visible_advance": 51.75,
+      "own_hyphen_advance": 51.74397277832031,
+      "standalone_soft_advance": 0,
+      "standalone_soft_has_ink": false,
+      "unbroken_soft_word_width": 469.82379150390625,
+      "removed_soft_word_width": 462.91180419921875
+    }
+  ],
+  "actual_platform_fonts": {
+    "soft": [
+      {
+        "familyName": "Charterquill",
+        "postScriptName": "Charterquill-Regular",
+        "isCustomFont": true,
+        "glyphCount": 12
+      }
+    ],
+    "nbsp": [
+      {
+        "familyName": "Charterquill",
+        "postScriptName": "Charterquill-Regular",
+        "isCustomFont": true,
+        "glyphCount": 8
+      }
+    ]
+  },
+  "scope": "Current final bytes; exactly listed language and focused contexts, actual fixed sizes. Discretionary versus forced-reference pixels are not asserted equal. Other browser engines and unlimited stacks remain untested."
+}

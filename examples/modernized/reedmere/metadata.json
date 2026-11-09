@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "Reedmere",
+  "style": "Regular",
+  "version": "0.025",
+  "title": "Broad hand-ink headlines",
+  "inspiration": "Papyrus",
+  "description": "A broad, heavy hand-ink display face with blunt nib endings, softly squared bowls and an uneven written rhythm. Suited to expressive headlines, packaging and identity lettering.",
+  "story": "Papyrus supplies the calligraphic and material ancestry. The selected current A raster, after its uppercase I whole-sheet correction, takes a broader and bolder direction. Its 52 letters were traced with protected counters and components; recorded cleanup, optical spacing and authored Latin companions turn the selected drawing into a usable display font. The whole-sheet edit and its collateral changes remain disclosed.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "Documented project-local compatibility adapter runs the pinned Fontify compiler and gated review; plain JSON CLI cannot directly admit blank NBSP/zero-advance marks. Producer source-stage, compiled and release records are distinct from the integration binary checks.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Monochrome outlines retain edge personality, not grayscale ink shading.",
+    "56 explicit core kerning pairs; extended spacing is reviewed without an exhaustive extended-pair claim."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Reedmere-Regular-v0.025.ttf",
+      "sha256": "e3e46c305e11c9042102749279086f1c42f281c5c411b193c051b860c3aab388",
+      "bytes": 269376,
+      "package_path": "fonts/Reedmere-Regular-v0.025.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Reedmere-Regular-v0.025.woff2",
+      "sha256": "e7ce54def97c6ad26965218bea758823be1528a22e8701e96ecb032cb80632f8",
+      "bytes": 54892,
+      "package_path": "fonts/Reedmere-Regular-v0.025.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "94f2af195e4cee814d43965bc85dabd33cda96ff36ac4432b882db36abfdbd54",
+      "bytes": 106654,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "0cd6fb153c1ab0964193a708368fa0e43e60bae28bbb3dc26793106f7016869f",
+      "bytes": 25284,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "0a01af643c0bde49c6c829588c14176620a22425bffa913c784112c0825045fc",
+      "bytes": 275,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "3ea58767e442da3245ee263d2729462eb5c899797fcea11009830ebfe30e1520",
+      "bytes": 17379,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}

@@ -1,0 +1,3410 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6108,
+      "sha256": "9430b58c38f79d92c9d4d94a15a335cf5737b6262c928ca37a5e5acc47859420"
+    },
+    {
+      "path": "browser_compatibility_test_v021.py",
+      "bytes": 4073,
+      "sha256": "54d6c5a580e039630972d92c6539ec05a450edf56e7a90e7488d1586539400b1"
+    },
+    {
+      "path": "browser_focus_union_v021.py",
+      "bytes": 2412,
+      "sha256": "c51b605ffe47578dda17c31448182707af04d91f9277015f1456580574123d32"
+    },
+    {
+      "path": "browser_language_qa_v021.py",
+      "bytes": 3054,
+      "sha256": "12e9bd783dfc8b10fdef3f52e331b4936ec293c645e04c1253b50a52dcac7ac2"
+    },
+    {
+      "path": "build_union_binary_v021.py",
+      "bytes": 8567,
+      "sha256": "7171296fd2eb85ddbd27df1e42bb54d6a09dc981de38fdbaa65351ffb1d4db6f"
+    },
+    {
+      "path": "check_final_geometry_spacing_v021.py",
+      "bytes": 3710,
+      "sha256": "d7b9924a5de6bd68c63b31a79460179b2cc367f11f2cb3100b6a275d4ec4aa65"
+    },
+    {
+      "path": "complete-v021/Marqevra-Regular-v0.021.ttf",
+      "bytes": 111632,
+      "sha256": "4aed6a2c1a6233b5eb5683dd23f4cf471d5fe9d1c262931c240996ad8beed71e"
+    },
+    {
+      "path": "complete-v021/Marqevra-Regular-v0.021.woff2",
+      "bytes": 25752,
+      "sha256": "75b4a734d18e41cf8cf998b0747eae6282306a29274d2bcf2f9948047c2fe589"
+    },
+    {
+      "path": "complete-v021/compatibility-build.json",
+      "bytes": 189893,
+      "sha256": "6388e49a63cfd425d6e76f66566f019f2d8134dc66d45af3531b9999fe8b6ea4"
+    },
+    {
+      "path": "complete-v021/coverage-report.json",
+      "bytes": 569389,
+      "sha256": "b6cbc0b26a9bba7c1394148c2aef1935871a4ef46cdb644adcd134ca2827f8e5"
+    },
+    {
+      "path": "complete-v021/evidence/focused/browser-render.json",
+      "bytes": 15551,
+      "sha256": "e699904309ca140cf1476c65239a8c3d68a6d80cdd2ec2a1f15609d814a7d02b"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-ttf-48.png",
+      "bytes": 122721,
+      "sha256": "822f8e90a1ff29834a2e77f4d68bc67b157375227583bd3db5046ecffe1d0ecb"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-ttf-72.png",
+      "bytes": 189288,
+      "sha256": "6462249f68253da37cafa40ae066055842f3d5cd4a110dc2d53449729cfae719"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-ttf-96.png",
+      "bytes": 259639,
+      "sha256": "ed64b1ee3a4be55698392eabe00128296d1fd5e63c2f042b136ff4a35f65391d"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-woff2-48.png",
+      "bytes": 137503,
+      "sha256": "b91aea1ce786ab5d2b8915159d8ec29ce5650b0fa0e201c87a31a614e558b61a"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-woff2-72.png",
+      "bytes": 208296,
+      "sha256": "559566ae5745d0790446c8a0c40ff168362049d3668f129c92cfc411538d8173"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-woff2-96.png",
+      "bytes": 285903,
+      "sha256": "5b8494a3d423551e9e2809279c79019d858d73de28bbab8e81c979b40f502404"
+    },
+    {
+      "path": "complete-v021/evidence/focused/focused-woff2.html",
+      "bytes": 41179,
+      "sha256": "a12392b0a41af0c1f333a3df7ee0d1e7365d370a0200a81d51a6e8eb5ed56d44"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-ttf-48.png",
+      "bytes": 2344,
+      "sha256": "b590e8e95cb23737cb7776ca0c8bb46dbea3a692b90e09923bf07b68add1e0f0"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-ttf-72.png",
+      "bytes": 3457,
+      "sha256": "0012f0fde5c0fc27c80c256b7d4da1774f0865d64f628ce932329dd76c2138ab"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-ttf-96.png",
+      "bytes": 4890,
+      "sha256": "6108c80111d45959d15ea755f6657c5d5a24d50da5556a68afb39f47c318f63b"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-woff2-48.png",
+      "bytes": 10041,
+      "sha256": "f810aa5a175e7efd950e19da56ca54b722e0f9ae368cd52b9464e2598a128a33"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-woff2-72.png",
+      "bytes": 15027,
+      "sha256": "d1ca7342a6d459992190445b9ffe116d2f9466f8c403e37b4d12cb852b12b6e0"
+    },
+    {
+      "path": "complete-v021/evidence/focused/iogonek-woff2-96.png",
+      "bytes": 22135,
+      "sha256": "245654389986010c017843a3e5fa856d37fd7edee57ca5e1b2135c8b182f5373"
+    },
+    {
+      "path": "complete-v021/evidence/language-shaping/results.json",
+      "bytes": 38037,
+      "sha256": "69a92292dd1fd7fbb83eee9faa0b276188f4f81974c2f01a2c8ad04bb894d6b6"
+    },
+    {
+      "path": "complete-v021/evidence/language-shaping/test.html",
+      "bytes": 34541,
+      "sha256": "049e804fe4c32d70b9ab01260418b62e2f4f8233648eff838d72ea0a4be6e4bb"
+    },
+    {
+      "path": "complete-v021/evidence/layout/layout-overview.png",
+      "bytes": 82616,
+      "sha256": "e46030a973a9a873e6490a47ebe0d4b6c5e54ae859d5ced00fc49a360dde8e16"
+    },
+    {
+      "path": "complete-v021/evidence/layout/layout-test-results.json",
+      "bytes": 1715,
+      "sha256": "c9783a206a3d75479208a1cef61121164018185436db665c7921e082f0783881"
+    },
+    {
+      "path": "complete-v021/evidence/layout/layout-tests.html",
+      "bytes": 35466,
+      "sha256": "f361f05958992891d4f46266516c333457cd8048cf0e7d86b4403e75c6b3bee5"
+    },
+    {
+      "path": "complete-v021/evidence/layout/nbsp.png",
+      "bytes": 7887,
+      "sha256": "acbb31e536f19146a92072650dd03a9d79c5419ab7125360efccd1f0f01284cd"
+    },
+    {
+      "path": "complete-v021/evidence/layout/normalspace.png",
+      "bytes": 11556,
+      "sha256": "57ed2a985be6e3a7bca97f49dd3ade8b63f163ea6f38d2d737f02882784893c5"
+    },
+    {
+      "path": "complete-v021/evidence/layout/nowrap.png",
+      "bytes": 4640,
+      "sha256": "52792a487dd6afb5a45cedb6f347a3028c282babbe424ef754d41ef99d263163"
+    },
+    {
+      "path": "complete-v021/evidence/layout/plain.png",
+      "bytes": 6064,
+      "sha256": "c9ed0dc10ac27b89e72b132333ec9a2815dc206b4a095c2e80ae5695385da74d"
+    },
+    {
+      "path": "complete-v021/evidence/layout/soft.png",
+      "bytes": 6064,
+      "sha256": "c9ed0dc10ac27b89e72b132333ec9a2815dc206b4a095c2e80ae5695385da74d"
+    },
+    {
+      "path": "complete-v021/evidence/layout/softwrap.png",
+      "bytes": 6938,
+      "sha256": "56caff3175bebd98e5436d5224b1db9ab910af3f96cecf20ef24f5249caea4a2"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-proof-evidence.json",
+      "bytes": 47387,
+      "sha256": "4646857f94ca5e607a3a1d7cacf8e3a9db77bf48f0a4a9b851e157b72e99a7fe"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-proof.html",
+      "bytes": 67955,
+      "sha256": "1daa34b08bd74e32a6333db59f1b3175629214fd021fb760c0bdc81f2fb23231"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-ttf-48.png",
+      "bytes": 565027,
+      "sha256": "88343879d980db92b8b2b68ab9993de0e4797d8f43b7525707e5c02bd9bc71d2"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-ttf-72.png",
+      "bytes": 897049,
+      "sha256": "3cf0b02af3045753cddadf2545616a0e1b8d83136eb511cdf19f3bb9a4a26ea7"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-ttf-96.png",
+      "bytes": 1248024,
+      "sha256": "ae6a4e277ddb06156ba9863bfdc89a7958a74d722e0568f17825e877285f2d64"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-woff2-48-dpr1.png",
+      "bytes": 625750,
+      "sha256": "2866cbf3c64742b45316b26c72d4570c59d2e20a1266a2ed21107c2c16ffc15b"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-woff2-72-dpr1.png",
+      "bytes": 962049,
+      "sha256": "531d7676880ac92649c846b581c35df6504773905be110b56229e9425a77ed65"
+    },
+    {
+      "path": "complete-v021/evidence/sizes-v021/size-woff2-96-dpr1.png",
+      "bytes": 1364405,
+      "sha256": "cfe336191369cf228e56c2aec224684c06b990f78fd8d103ed958edacb1c0dba"
+    },
+    {
+      "path": "complete-v021/final-binary-qa.json",
+      "bytes": 47535,
+      "sha256": "752e002af1a24b65b3eef9811a44428f7b1bdc56dde4f2fdf4a2965a688d6647"
+    },
+    {
+      "path": "complete-v021/final-visual-review.json",
+      "bytes": 608880,
+      "sha256": "4401739cbf6bba4faa0d49999446fcdc22fcf7acb023f7a007f259f73e74ca1f"
+    },
+    {
+      "path": "complete-v021/geometry-spacing-preservation.json",
+      "bytes": 97148,
+      "sha256": "a3497386535d91b9f79621f1e0af4e299418e3f34fbab41499febd4b2a0207cf"
+    },
+    {
+      "path": "complete-v021/iogonek-regression.json",
+      "bytes": 14011,
+      "sha256": "9f91379f0a7761ab26eb01c9058faef9d81d23ad307beb36564101de35ce0b46"
+    },
+    {
+      "path": "complete-v021/layout-features.fea",
+      "bytes": 77875,
+      "sha256": "8d240c9caa9fd64111080a8d62573718b58e4a482f0d58dbeeca7b167491e062"
+    },
+    {
+      "path": "complete-v021/mixed-mark-regression.json",
+      "bytes": 5991,
+      "sha256": "534acaaab9e3b92936c6c1b0cdc2d56246ff5ae187d7935e32b35f70552a843d"
+    },
+    {
+      "path": "complete-v021/package-rebuild-qa.json",
+      "bytes": 1163,
+      "sha256": "d33e84d39009e5588efb5737f54e8cc9533d038815c9a198a97e694007ff1806"
+    },
+    {
+      "path": "complete-v021/production-manifest.json",
+      "bytes": 5591,
+      "sha256": "98e212243a1e85ed841374129f27b432e2e3fca18e910bc16caf6b5a14f08d70"
+    },
+    {
+      "path": "complete-v021/proof-adapter.json",
+      "bytes": 4429,
+      "sha256": "fd00fdb99615d4e3b63e1a0531d73c00ab2aabddbdc510a3c85908898ec56d2a"
+    },
+    {
+      "path": "complete-v021/specimens/Marqevra-v0.021-core-and-expanded-Latin.html",
+      "bytes": 43262,
+      "sha256": "a08eb408eb9037689fd6a45b5fc81db7f6e16d39a248f7f4f95b3c3f1426a272"
+    },
+    {
+      "path": "complete-v021/specimens/Marqevra-v0.021-core-and-expanded-Latin.pdf",
+      "bytes": 77518,
+      "sha256": "f0b78db29efbb42df547ba37dffab8eeb84fe33198cef679a85685ec080a06a9"
+    },
+    {
+      "path": "complete-v021/specimens/browser-render.json",
+      "bytes": 247,
+      "sha256": "d2f1e34d9a7219bdddceca52597c45c5059fc1cb0aef12d950fdf83b53cef0a2"
+    },
+    {
+      "path": "complete-v021/specimens/pdf-actual-09.png",
+      "bytes": 91056,
+      "sha256": "ad15816d694f351d66c6312a3d63b5a9ae62d30e8d8b4a3ffcf323b6fe82e7e1"
+    },
+    {
+      "path": "complete-v021/specimens/specimen-page-1.png",
+      "bytes": 104155,
+      "sha256": "deae7abcfb40c4d64b1c293a85f0617c1aa0cedd5e1b84f3edab9ae3c93efbd8"
+    },
+    {
+      "path": "complete-v021/specimens/specimen-page-10.png",
+      "bytes": 79423,
+      "sha256": "2f7c834f3fb1fd3081622225328b3b9452efd449638d9812e6cdfec6c031434f"
+    },
+    {
+      "path": "complete-v021/specimens/specimen-page-8.png",
+      "bytes": 100103,
+      "sha256": "3433b158ec92200ec0b67ebd9bb1184a9b9e34c3f8d0fdb35773e1bfbb6a597a"
+    },
+    {
+      "path": "complete-v021/specimens/specimen-page-9.png",
+      "bytes": 90101,
+      "sha256": "6675fd2d1b667a42d7af553a6cec4f62daf20223b3fe143ac95e4e6796e6f12b"
+    },
+    {
+      "path": "complete-v021/v020-to-v021-preservation.json",
+      "bytes": 484,
+      "sha256": "3856412b01468b75b71d83a9f888165d60c9ece95bce1ddece77528929154c65"
+    },
+    {
+      "path": "internal-probes-v021/Marqevra-Regular-v0.021.ttf",
+      "bytes": 104184,
+      "sha256": "39de4a401cf749fcc15510d39369a9cd628d59d83d372cd71f5f8ec96f682465"
+    },
+    {
+      "path": "iogonek_qa_v021.py",
+      "bytes": 2622,
+      "sha256": "f3914dc3f14de8efceb7c05253d7caa2c87cf2cc977c100cac1490225024be1a"
+    },
+    {
+      "path": "mixed_mark_qa_v021.py",
+      "bytes": 2347,
+      "sha256": "222e0162d081f1de92cd8565bc9710e7ef19d351cce11d2e0e0f60a92938c558"
+    },
+    {
+      "path": "proof_union_v021.py",
+      "bytes": 3979,
+      "sha256": "5cf11bcc0f4d552db25b9176542216f7a985a652a6211cfbd388e1c1f5a49d84"
+    },
+    {
+      "path": "provenance/HISTORY-NOTE.md",
+      "bytes": 459,
+      "sha256": "16cf3e1be2d46233b24ce6d4901027eea218a96ca10d3829f6a24fa530b7080e"
+    },
+    {
+      "path": "provenance/INITIAL_PROCESSING_GATE.json",
+      "bytes": 529,
+      "sha256": "ada1c2e359bd926a41b3e9411843f4f5d278f370d9509d3f94442b68b697f9fe"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/browser-render.json",
+      "bytes": 12371,
+      "sha256": "b74de556915e9dada10fafda195ea0391ab6e1f0ced9c63a4255cf060b8c9e2f"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-ttf-48.png",
+      "bytes": 108982,
+      "sha256": "16dc95390b7be337a6f9fda91828ce681ee50957fa68c344c30172c74d38ca83"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-ttf-72.png",
+      "bytes": 168273,
+      "sha256": "b271ae217affc1662d730bf90fe414bb8f675f1720a6385f1d6b6afa7b9c2e7b"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-ttf-96.png",
+      "bytes": 230452,
+      "sha256": "667fb580999ed6e1908723e60cffc21b6c70113e1138cb677c998ada6e301313"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-woff2-48.png",
+      "bytes": 122034,
+      "sha256": "305b881e704dd97d5b23f81a7a61e003edf668f9a1aa0aac28bb9ad0847717c3"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-woff2-72.png",
+      "bytes": 186651,
+      "sha256": "ceabefeea186968dd89bad86681998aad05b9d0cfcff95b39b5987d84503cd46"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-woff2-96.png",
+      "bytes": 254951,
+      "sha256": "4466f4e72bf49d87821c4575927eac6f136f4f750f10943d283b9edaed829382"
+    },
+    {
+      "path": "provenance/directly-inspected-v018-focused/focused-woff2.html",
+      "bytes": 39871,
+      "sha256": "c1cc33ab5abf178a34154c67fb171a4b9173f22232a3fa1f865912a93c45ef57"
+    },
+    {
+      "path": "provenance/export-corrections.json",
+      "bytes": 4409,
+      "sha256": "aaf400ab73b40482cd3002d718548e42e4dd7caaa4cbc5032b085ea9bc7382ed"
+    },
+    {
+      "path": "provenance/family-before-after-72.png",
+      "bytes": 56440,
+      "sha256": "d511b0b61fb01432df41ce967cbe3c9c28e0885c33cd7b77c57281cbf57dbc6a"
+    },
+    {
+      "path": "provenance/family-style-corrections.json",
+      "bytes": 4377,
+      "sha256": "5246f3b798c6b38422e48617dcfae8be9173ef4a127ab1d3297c9d8f8eb83b49"
+    },
+    {
+      "path": "provenance/glyph-provenance.json",
+      "bytes": 93583,
+      "sha256": "67e6e3b66ef27be9d541f42010e285d50b4c765a57553b2148ad582255f79582"
+    },
+    {
+      "path": "provenance/historical-POST_IMAGE_SKILL_GATE.md",
+      "bytes": 4548,
+      "sha256": "24a93b4d79cdcf1fe55bc3bd5f43be9a82e311059be826657d8c2e26175977b2"
+    },
+    {
+      "path": "provenance/historical-authoring-scripts/author_extensions.py",
+      "bytes": 17663,
+      "sha256": "d8580d9041d3ba635f2148c9138130a027bbe6e0082d080b4f9ec7d2abbd9f2b"
+    },
+    {
+      "path": "provenance/historical-authoring-scripts/expand_union.py",
+      "bytes": 9237,
+      "sha256": "fe6188b6efca1a0319966f720775f3f1a1ae9213fe7d1f06f7462b3d7128ee4f"
+    },
+    {
+      "path": "provenance/historical-authoring-scripts/manual_spacing.py",
+      "bytes": 4105,
+      "sha256": "3be95170e291bcdc7faa90641bd183331bc3a8aef18417d498704740641464f7"
+    },
+    {
+      "path": "provenance/historical-authoring-scripts/style_corrections.py",
+      "bytes": 5410,
+      "sha256": "f4659ad9073965d7a8756edbd3266608ac63b49ec55054605fb266b843417b49"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/binding.json",
+      "bytes": 399,
+      "sha256": "604aafdbfc663963140ced55255a8344d96e5ea505c0c974255525b70d7e0653"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-1.png",
+      "bytes": 89590,
+      "sha256": "1e3ed628ec920fdf6d9248f10628aa9ddee7334eed8cb1677c104a3ef1cb6157"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-2.png",
+      "bytes": 84469,
+      "sha256": "d19a6ba3b4f92d9d99468cb30331b8b645af3c7622a0abdd4a9a349cd5c107a0"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-3.png",
+      "bytes": 85329,
+      "sha256": "eda355bd0d871f0908e0e808c8910b8dc6bed9b5ce11c493cd50b7e9edd722a4"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-4.png",
+      "bytes": 92998,
+      "sha256": "ab6c62669b84d8d880bd639a10e2f5acd800384488ed2146a65eb9ac7c85230c"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-5.png",
+      "bytes": 84397,
+      "sha256": "3bea678e2b3fc9eb4b83ef56325cb65ed680835891eefdbfb728b3d5df6ecfe0"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-6.png",
+      "bytes": 86491,
+      "sha256": "5219739e75c16a0aad3a48b38d28cb0965e9c742ba87f3ade22df33fd57fa137"
+    },
+    {
+      "path": "provenance/historical-enlarged-review/page-7.png",
+      "bytes": 70333,
+      "sha256": "80ad11cdb979263359c709406ffb01429933f4cec4375958c559bb35a0c067a9"
+    },
+    {
+      "path": "provenance/historical-v013-agent-review.json",
+      "bytes": 488218,
+      "sha256": "2670371aad5ccf78fe0fd76e384211aacb4f1e20c6787cb7c40b016550bf39b3"
+    },
+    {
+      "path": "provenance/historical-v013-preflight.json",
+      "bytes": 3909006,
+      "sha256": "bcb4501cff21ce4a3ef147dbbf3032e489af3f1d038d30f365935d9d5778a726"
+    },
+    {
+      "path": "provenance/historical-v013.ttf",
+      "bytes": 100628,
+      "sha256": "bd786a2656ce0f0a58c0960ff5f64d8f78f6efd1d4e09e47cd3c4bd6d70c1af0"
+    },
+    {
+      "path": "provenance/historical-v019-mixed-mark-failure.json",
+      "bytes": 2124,
+      "sha256": "568d13c3c33a023162a1cc9c77839c117882b9cccd9b02e433a85ea4eb1ce55b"
+    },
+    {
+      "path": "provenance/intentional-feature-register.json",
+      "bytes": 62386,
+      "sha256": "6b9909069034cca00e6a6f40c894ae3bef392eae52af12c51365ea421e04ef82"
+    },
+    {
+      "path": "provenance/manual-spacing-plan.json",
+      "bytes": 848135,
+      "sha256": "72c1077cc882dfeac621d8cf296407fad053f418280d51cee187099150b25252"
+    },
+    {
+      "path": "provenance/raster-preparation-review.png",
+      "bytes": 42148,
+      "sha256": "b3221c6987717a1adbf9c7eb55215348a9c51604d8c91e2ae32e46a6154f8d3f"
+    },
+    {
+      "path": "provenance/trace-plan.json",
+      "bytes": 47814,
+      "sha256": "d473e944be28221531eb994a443d10ff579d96950ad73846b5b5aa4ac4d94468"
+    },
+    {
+      "path": "provenance/trace-v001/fontify.json",
+      "bytes": 6637,
+      "sha256": "321c326a93fe65626e2767dc63da138b0be346ecf48dcfda1da8da1e4b640a87"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/A.svg",
+      "bytes": 2897,
+      "sha256": "c63698e1b8bf7e6b522668072579da28a546084c84db822ab327b0c62d13e0c5"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/B.svg",
+      "bytes": 4898,
+      "sha256": "c02b762c9d89c0ad7a17f3960979b43327763e58819ddeb4226fbe7d09b7da19"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/C.svg",
+      "bytes": 4688,
+      "sha256": "b4714ad59c6f8f7ee82a075e9988ba5f91ea7abca60bcdcffea12b53fdc0118b"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/D.svg",
+      "bytes": 2764,
+      "sha256": "b75024ec2e27f082717a081f66ea480edaa5e5640e31c0c1415cb688e50977da"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/E.svg",
+      "bytes": 1325,
+      "sha256": "ab4006071fbf1b320cab15218c414756d7e8dfa71ccb2ed6a70edc165ae38f82"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/F.svg",
+      "bytes": 1178,
+      "sha256": "ea2a92be16de2dfe81a82fca43b4e9e6947910ad546ef81033ef04264832f339"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/G.svg",
+      "bytes": 4666,
+      "sha256": "53809900af668090564eb845d92b8b00a7caea49344558ceaccecfeb17dd0cc7"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/H.svg",
+      "bytes": 1370,
+      "sha256": "61db0a66a46d66540a90b08082e9c6f40a8e8e849f6386aad78e25634688aec7"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/I.svg",
+      "bytes": 1302,
+      "sha256": "10da1d13ed64f977e52c87b2e17b7f332dd3c58f66fbe36fe6c4a8baa90877e0"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/J.svg",
+      "bytes": 3308,
+      "sha256": "e1b19ed0fd34807930f7d0d042fc8c5e699265cf3fa3e7c314f860a7ad05f453"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/K.svg",
+      "bytes": 2306,
+      "sha256": "cd49f0bd7c1b17b9d03ea9e60e93e29cacb305bfff3e7c89e1bf923fdcee9a82"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/L.svg",
+      "bytes": 762,
+      "sha256": "fc1dec92d0538e865ecea2602a9096ff171eef8ea66cf2e76ff18569c91d2791"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/M.svg",
+      "bytes": 3124,
+      "sha256": "1bfeb0679e8d0b5f05ad2f93e5ed3325fc35103b101a8212352076ce8aae8075"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/N.svg",
+      "bytes": 2067,
+      "sha256": "4bb596dee9226f29825d590bbfbaa87449742e534692fab5a3e87f14d8ce5e73"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/O.svg",
+      "bytes": 5092,
+      "sha256": "8dd1e39d896543cb315109fd44213b8f54b9573a18f15694e26f1120fed33c65"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/P.svg",
+      "bytes": 2973,
+      "sha256": "8260abcfdffa1fbaf16c1daef6dba4986de1ebdcabe65d21e78e3a9223819620"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/Q.svg",
+      "bytes": 6439,
+      "sha256": "c25d4405b066d15a4e02e46cad98ff51e076d631f63cb4aa141dba2e3bf6eb60"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/R.svg",
+      "bytes": 3131,
+      "sha256": "b1db4706aeee7d3d8a2fd2e5d6eeea11179a77ef94fc78298ad30c0975a42289"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/S.svg",
+      "bytes": 5545,
+      "sha256": "fcf0b52cf1c199ac48839960af5b65587e3526698791382e20664a407f746afc"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/T.svg",
+      "bytes": 961,
+      "sha256": "524067ee7a5c79ecf0de8a381699af1674d833d7894ae49863bc71c8f0c59d99"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/U.svg",
+      "bytes": 2984,
+      "sha256": "720b39bcf5c6f5e7c3bffda24bab1c96d879a118a7ba1483425b3256bbbe959c"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/V.svg",
+      "bytes": 1864,
+      "sha256": "577427c79adbaf957c8696a83277c7f3a29cb0b3f3f837e6f7bc8050116215d8"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/W.svg",
+      "bytes": 3356,
+      "sha256": "bd8d9b8e0c23d6749cb22455259e90dc6a5df25e8560ef42c3b2d5957d72f2ed"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/X.svg",
+      "bytes": 2766,
+      "sha256": "68d575e9692e955d001c23dc9b6ff80515e04e344e8ab4e2803663895c9fee22"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/Y.svg",
+      "bytes": 2090,
+      "sha256": "af813a7ee3abcbef984d02a2f831d114dec4664cfb0c594d517902622a5add4f"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/Z.svg",
+      "bytes": 2246,
+      "sha256": "bc7b5715288e100e8f6a7358a6880baa4ee0c4785af816ae18126175ba4ce9d6"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/a.svg",
+      "bytes": 6013,
+      "sha256": "3d9f0fc001270c7d19d4acee2459d58791ca0105b4d43d1be413fe4a00e45751"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/b.svg",
+      "bytes": 3627,
+      "sha256": "e5b91885b9df3c71003fa4a3cf25a714638c92b32bfd32cc2d72c628133e87e2"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/c.svg",
+      "bytes": 5030,
+      "sha256": "eaff8bfaaa891a56492d34911d51f615bfec9bc3fbd94a1e0c1a16af709f4932"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/d.svg",
+      "bytes": 4099,
+      "sha256": "0341c7283fc88346de82df2bc5015e355aa324728585a6314f47779330fa2a47"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/e.svg",
+      "bytes": 4250,
+      "sha256": "e46759bc7787b1f5afcdaf017ffa8e385f06627eae6784a22615f3a0a418a4ef"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/f.svg",
+      "bytes": 3307,
+      "sha256": "121fd8f0a48d299120ed7328954dceb2884ebaa04dd65700d12d3e1a59b40ac6"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/g.svg",
+      "bytes": 9080,
+      "sha256": "9de136976bdf336d62cbcf010b377e2f8cd319ae1075b2b07e1f21999a505790"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/h.svg",
+      "bytes": 2742,
+      "sha256": "507b6f61cacc35364eb6235be42d1cb6aed4a87c2d9c4013fd4200efef2b548e"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/i.svg",
+      "bytes": 2808,
+      "sha256": "5e79c89a72c16ce298e91cfa821e0064d17a4c7d2e14eb7b0eb5fd375d0d6882"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/j.svg",
+      "bytes": 5014,
+      "sha256": "30800580a05a094696e32a14cb295ed74e7db450eea4571fd95bbc299d881446"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/k.svg",
+      "bytes": 2683,
+      "sha256": "d6f941cc51db9e5b9cf5da9d14ce095e278748333c694af80b13f948f6856be7"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/l.svg",
+      "bytes": 1136,
+      "sha256": "58e41ff1ba7b4d8e2b3054039fc8479aa8dc74111dc437ca6a5798a40b88b377"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/m.svg",
+      "bytes": 3491,
+      "sha256": "1e403bbb6444123c0556dd839e54d03711a69b24acc778d647670bf1f3ad8c66"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/n.svg",
+      "bytes": 2862,
+      "sha256": "94d245d3364c26980a2d4658e47a4aeec6eff676e80b257b2869e363b4121194"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/o.svg",
+      "bytes": 3840,
+      "sha256": "935c111a8b66eabab29d341769c60c23fd5c650aec86032f5c4bfc95e8320109"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/p.svg",
+      "bytes": 3607,
+      "sha256": "5990e9ed188880fafd3630fba96d17f80747733cb0c4e8ae41210fd9e4db2d49"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/q.svg",
+      "bytes": 4993,
+      "sha256": "17e19c68bcb04b29a6ce14075a9329227773230ef9ef427b994feb3fbcf9a4aa"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/r.svg",
+      "bytes": 3240,
+      "sha256": "c55a81379edfd74df3fae53669ccea48fb938646bef25e3c5b3f365221edac62"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/s.svg",
+      "bytes": 4347,
+      "sha256": "35d048a033d5e7992d4df7aeb6a599b54a5b8503ddac072c07c5447f975656c9"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/t.svg",
+      "bytes": 2762,
+      "sha256": "c29e31699507aa9154b052fc5b0c3df21e9a6936a89f51a4aa2a3c2f10120bcd"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/u.svg",
+      "bytes": 2619,
+      "sha256": "55ce20a410c6462e0693f09de88cf476e4fd83fb58acaaaacd367178ebf816ae"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/v.svg",
+      "bytes": 1925,
+      "sha256": "d703a9d36afcb1f18a3c3017daa534d578857c261cab164f2e0785636fcc94f2"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/w.svg",
+      "bytes": 2918,
+      "sha256": "5a7c8cbad9bdbd3804db2dace464faf527ba2c2d023b2348472c065415c42bb8"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/x.svg",
+      "bytes": 3439,
+      "sha256": "4ba8c8ba42a6709212012b269cdae4bde960a1478082bc293422da2062072375"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/y.svg",
+      "bytes": 4329,
+      "sha256": "7cf8acee5b5372ee6a0dab80c67bf16f6a4aa8309daa573afc634658e5c9507c"
+    },
+    {
+      "path": "provenance/trace-v001/glyphs/z.svg",
+      "bytes": 2371,
+      "sha256": "70e1d53aaf9585d6b0c44ed568f0e683384e2bc06c82141cd5c9625c32f07312"
+    },
+    {
+      "path": "provenance/trace-v001/masks/A/cleaned.png",
+      "bytes": 921,
+      "sha256": "528a9a84a271ce0e1bed5f6b8d194f9d1eb25aeea31e96f4cf4eed4996578cb9"
+    },
+    {
+      "path": "provenance/trace-v001/masks/A/raw.png",
+      "bytes": 921,
+      "sha256": "528a9a84a271ce0e1bed5f6b8d194f9d1eb25aeea31e96f4cf4eed4996578cb9"
+    },
+    {
+      "path": "provenance/trace-v001/masks/A/resampled.png",
+      "bytes": 912,
+      "sha256": "2ba52859d3d3b925cd3539f8ac3496fe722a5919a59b9e33f4050e616b3512f9"
+    },
+    {
+      "path": "provenance/trace-v001/masks/B/cleaned.png",
+      "bytes": 681,
+      "sha256": "15727514165234dd75bafc462ba0136f37c83b64a5bb5c0da450f5ffa51d49f2"
+    },
+    {
+      "path": "provenance/trace-v001/masks/B/raw.png",
+      "bytes": 681,
+      "sha256": "15727514165234dd75bafc462ba0136f37c83b64a5bb5c0da450f5ffa51d49f2"
+    },
+    {
+      "path": "provenance/trace-v001/masks/B/resampled.png",
+      "bytes": 699,
+      "sha256": "ba84c913046429a5da357623b1da87cd36d8f2033ab44f15ffc09f2704e1ed4b"
+    },
+    {
+      "path": "provenance/trace-v001/masks/C/cleaned.png",
+      "bytes": 846,
+      "sha256": "a1ef26403266d5ff77041fab14fafa55e6e876ebc470f16f315a88082c2626e8"
+    },
+    {
+      "path": "provenance/trace-v001/masks/C/raw.png",
+      "bytes": 846,
+      "sha256": "a1ef26403266d5ff77041fab14fafa55e6e876ebc470f16f315a88082c2626e8"
+    },
+    {
+      "path": "provenance/trace-v001/masks/C/resampled.png",
+      "bytes": 840,
+      "sha256": "4ce97d276f18bf369fb0ce00ebb2338c4214c56f9af5279ceead08ae58a5f263"
+    },
+    {
+      "path": "provenance/trace-v001/masks/D/cleaned.png",
+      "bytes": 647,
+      "sha256": "321f63bf2e7c436fbc11f6e9fc17ca5d227b03d645a3c2812fdbae2863ef5073"
+    },
+    {
+      "path": "provenance/trace-v001/masks/D/raw.png",
+      "bytes": 647,
+      "sha256": "321f63bf2e7c436fbc11f6e9fc17ca5d227b03d645a3c2812fdbae2863ef5073"
+    },
+    {
+      "path": "provenance/trace-v001/masks/D/resampled.png",
+      "bytes": 680,
+      "sha256": "a8188f1f7822dabe7edfc493158cec13774a2585f8f5f9c2c92ed55f4fcd04d6"
+    },
+    {
+      "path": "provenance/trace-v001/masks/E/cleaned.png",
+      "bytes": 326,
+      "sha256": "24027950eb2b1f6e47be4767175acdcf649aaddf7c2e781659467baa562b7b34"
+    },
+    {
+      "path": "provenance/trace-v001/masks/E/raw.png",
+      "bytes": 326,
+      "sha256": "24027950eb2b1f6e47be4767175acdcf649aaddf7c2e781659467baa562b7b34"
+    },
+    {
+      "path": "provenance/trace-v001/masks/E/resampled.png",
+      "bytes": 323,
+      "sha256": "91d61550cd12e889fcd3c5c34e93eb02c0550e3ce9f295a78255b41e71497e9a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/F/cleaned.png",
+      "bytes": 248,
+      "sha256": "59f9bb1ecdde8032a86869e425c14667a9192db1c10f64f4ff1e8e9f388ffb42"
+    },
+    {
+      "path": "provenance/trace-v001/masks/F/raw.png",
+      "bytes": 257,
+      "sha256": "42785fe7a536264b2ad226c64adb25b1709407b594d9227f07a45362975ad649"
+    },
+    {
+      "path": "provenance/trace-v001/masks/F/resampled.png",
+      "bytes": 253,
+      "sha256": "4a1abdd7bd304fce52e571a86e3e28cb826abe65139351596b6f70654283c93d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/G/cleaned.png",
+      "bytes": 904,
+      "sha256": "fce04b9abf3925419df1a9a3bd0e786c0108f82fd239841e3a1d4f6fd2e3303a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/G/raw.png",
+      "bytes": 904,
+      "sha256": "04537ed1e6e633285198be9dad6e4b3ff7f15a413dec39d947cdc9dc3faffdf9"
+    },
+    {
+      "path": "provenance/trace-v001/masks/G/resampled.png",
+      "bytes": 898,
+      "sha256": "0ea1a8b98d8545ca6b5f33dcc5d635408947619b3702ce30d508f334a60a5b0a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/H/cleaned.png",
+      "bytes": 295,
+      "sha256": "509f49fd5e34e8e5d83f8dbcadcde64d909085511369c2dbfc984971c4d1cbb4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/H/raw.png",
+      "bytes": 295,
+      "sha256": "509f49fd5e34e8e5d83f8dbcadcde64d909085511369c2dbfc984971c4d1cbb4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/H/resampled.png",
+      "bytes": 297,
+      "sha256": "23cc78d7cfb47981d45568c9251aba3b3f4b70c5db7027eb6e2146c37201131a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/I/cleaned.png",
+      "bytes": 285,
+      "sha256": "5768c15056f2ad90d00a3b42acf0d941e6d5512ef266c6da76ecef251a7062e8"
+    },
+    {
+      "path": "provenance/trace-v001/masks/I/raw.png",
+      "bytes": 285,
+      "sha256": "5768c15056f2ad90d00a3b42acf0d941e6d5512ef266c6da76ecef251a7062e8"
+    },
+    {
+      "path": "provenance/trace-v001/masks/I/resampled.png",
+      "bytes": 289,
+      "sha256": "74ddaeb477f05ae465f01edd44d40a676e375afdfaf316069c6c7a3a9ef77a4b"
+    },
+    {
+      "path": "provenance/trace-v001/masks/J/cleaned.png",
+      "bytes": 467,
+      "sha256": "57807b2aa45c9c927c943bbe73772988fcd0c6fe00deb0be533cfd431f9ec2a4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/J/raw.png",
+      "bytes": 467,
+      "sha256": "57807b2aa45c9c927c943bbe73772988fcd0c6fe00deb0be533cfd431f9ec2a4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/J/resampled.png",
+      "bytes": 473,
+      "sha256": "e0c1fbac95dea47a768de2c1960f1f6417695cbc5071a7321ef354435a12e8a1"
+    },
+    {
+      "path": "provenance/trace-v001/masks/K/cleaned.png",
+      "bytes": 674,
+      "sha256": "0d90231db35b7594bab3ced39d844630fb89a5fcde4e9d0937a437f60367d19e"
+    },
+    {
+      "path": "provenance/trace-v001/masks/K/raw.png",
+      "bytes": 674,
+      "sha256": "0d90231db35b7594bab3ced39d844630fb89a5fcde4e9d0937a437f60367d19e"
+    },
+    {
+      "path": "provenance/trace-v001/masks/K/resampled.png",
+      "bytes": 689,
+      "sha256": "77b2615c8e7a44325216bc40f1be83c4cfb1f8d4edb157744d18169f93111e73"
+    },
+    {
+      "path": "provenance/trace-v001/masks/L/cleaned.png",
+      "bytes": 235,
+      "sha256": "a48c382d6da1ce78e7d2b04106ac1a4e547a043bfe465e26e56b2f3b90de4e5e"
+    },
+    {
+      "path": "provenance/trace-v001/masks/L/raw.png",
+      "bytes": 235,
+      "sha256": "a48c382d6da1ce78e7d2b04106ac1a4e547a043bfe465e26e56b2f3b90de4e5e"
+    },
+    {
+      "path": "provenance/trace-v001/masks/L/resampled.png",
+      "bytes": 232,
+      "sha256": "39ede8ac6217750705e4c5c129952a74f759ccfb60065ffe5844f396e6f58762"
+    },
+    {
+      "path": "provenance/trace-v001/masks/M/cleaned.png",
+      "bytes": 1001,
+      "sha256": "ed9f591ab9a491dd8b3c5af5d33c7ab606c418f022aa3b092833efa1c4520815"
+    },
+    {
+      "path": "provenance/trace-v001/masks/M/raw.png",
+      "bytes": 1001,
+      "sha256": "ed9f591ab9a491dd8b3c5af5d33c7ab606c418f022aa3b092833efa1c4520815"
+    },
+    {
+      "path": "provenance/trace-v001/masks/M/resampled.png",
+      "bytes": 990,
+      "sha256": "1e016b9eafe84416fef82486ca6f3420579a5c178c0df4bb0615e95fbbb2d7b4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/N/cleaned.png",
+      "bytes": 764,
+      "sha256": "c22b90ea633fd78716f33ed551511d5583bdc27502094833ad58c3b18914dba4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/N/raw.png",
+      "bytes": 764,
+      "sha256": "c22b90ea633fd78716f33ed551511d5583bdc27502094833ad58c3b18914dba4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/N/resampled.png",
+      "bytes": 734,
+      "sha256": "96c435402f5e71d7154c9effcbb10983298748d0c5689b1299eb3be092e43fb0"
+    },
+    {
+      "path": "provenance/trace-v001/masks/O/cleaned.png",
+      "bytes": 946,
+      "sha256": "354628b6052b34767991ce0f1f75acf183df7d98a8dbf13a0eaa17ad44a9107c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/O/raw.png",
+      "bytes": 946,
+      "sha256": "354628b6052b34767991ce0f1f75acf183df7d98a8dbf13a0eaa17ad44a9107c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/O/resampled.png",
+      "bytes": 909,
+      "sha256": "5f45f2a904b87efe8c01eb55f5bd00c8072fb72723d7396600e4fce7451a557a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/P/cleaned.png",
+      "bytes": 484,
+      "sha256": "f745d892b42121be3c167057cf0b6052a867f9ace71d7c0c32345944e40e1d82"
+    },
+    {
+      "path": "provenance/trace-v001/masks/P/raw.png",
+      "bytes": 484,
+      "sha256": "f745d892b42121be3c167057cf0b6052a867f9ace71d7c0c32345944e40e1d82"
+    },
+    {
+      "path": "provenance/trace-v001/masks/P/resampled.png",
+      "bytes": 471,
+      "sha256": "3562ad19a793b9b1b4c7e38bacaaadb49aa32f1b9abcd4b023a7807ed0ad30a2"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Q/cleaned.png",
+      "bytes": 1156,
+      "sha256": "e961545ae9d1cce33300925f4efd1faa95028f572d663505195e4f2a6c8e2d71"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Q/raw.png",
+      "bytes": 1177,
+      "sha256": "d56eee91417266713c200561607fdc58aec5fddc28ae841aafc507733be1d695"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Q/resampled.png",
+      "bytes": 1149,
+      "sha256": "292f14f169e321788d7f11b87e235f1a033838aff40c6c9f1003144000f5aa99"
+    },
+    {
+      "path": "provenance/trace-v001/masks/R/cleaned.png",
+      "bytes": 722,
+      "sha256": "ac9999ac65713f111aded41455a08ef72fc76828474a191ca9a80784cb8d0681"
+    },
+    {
+      "path": "provenance/trace-v001/masks/R/raw.png",
+      "bytes": 796,
+      "sha256": "0a31d66bda533d6f5a29a2943ff62173e4be00091c193537cbf4cb65bdca09db"
+    },
+    {
+      "path": "provenance/trace-v001/masks/R/resampled.png",
+      "bytes": 702,
+      "sha256": "c1c40c55a70139aa30b815efe8babee46795c6637c74c0ca133e5fac5217d5ea"
+    },
+    {
+      "path": "provenance/trace-v001/masks/S/cleaned.png",
+      "bytes": 876,
+      "sha256": "8570c6dee85536b2f3a0bebd55e20298a4bc705ddc1a091521052a949a342523"
+    },
+    {
+      "path": "provenance/trace-v001/masks/S/raw.png",
+      "bytes": 876,
+      "sha256": "8570c6dee85536b2f3a0bebd55e20298a4bc705ddc1a091521052a949a342523"
+    },
+    {
+      "path": "provenance/trace-v001/masks/S/resampled.png",
+      "bytes": 863,
+      "sha256": "837e47f13f6202ee01cfe532db292d1300d18d6c8e750b14c311e51a8efc5e75"
+    },
+    {
+      "path": "provenance/trace-v001/masks/T/cleaned.png",
+      "bytes": 279,
+      "sha256": "a79c7ab0baa60b1f4a50bef3493081bb55c00406e39db671b7bc77a38918c866"
+    },
+    {
+      "path": "provenance/trace-v001/masks/T/raw.png",
+      "bytes": 279,
+      "sha256": "a79c7ab0baa60b1f4a50bef3493081bb55c00406e39db671b7bc77a38918c866"
+    },
+    {
+      "path": "provenance/trace-v001/masks/T/resampled.png",
+      "bytes": 265,
+      "sha256": "777d1302520670dd34b5cb5cd8bc920a17cc658f47f435d726d21039de14a7a7"
+    },
+    {
+      "path": "provenance/trace-v001/masks/U/cleaned.png",
+      "bytes": 507,
+      "sha256": "067bb0cdd51e479792c5e418772400d0be02db81e46690f1ce7c10660c9e0617"
+    },
+    {
+      "path": "provenance/trace-v001/masks/U/raw.png",
+      "bytes": 507,
+      "sha256": "067bb0cdd51e479792c5e418772400d0be02db81e46690f1ce7c10660c9e0617"
+    },
+    {
+      "path": "provenance/trace-v001/masks/U/resampled.png",
+      "bytes": 496,
+      "sha256": "c7c275a408d4eaadf24d6677c0ed603ab011af4dd048db72ad4ba5a5ea9293e4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/V/cleaned.png",
+      "bytes": 729,
+      "sha256": "60802eb56c6a45c078548d97da72cc7b3591f35e9b4100623a40c54c490c3855"
+    },
+    {
+      "path": "provenance/trace-v001/masks/V/raw.png",
+      "bytes": 729,
+      "sha256": "60802eb56c6a45c078548d97da72cc7b3591f35e9b4100623a40c54c490c3855"
+    },
+    {
+      "path": "provenance/trace-v001/masks/V/resampled.png",
+      "bytes": 709,
+      "sha256": "ae26d456809c1eaa3b32c1f8b151eee33ac1a5c25705e63575d907ef7d15db26"
+    },
+    {
+      "path": "provenance/trace-v001/masks/W/cleaned.png",
+      "bytes": 1091,
+      "sha256": "f6adbaba8d50b14e5a610358d7607ad510164fd1a41010a50cfd2a6ce404f4eb"
+    },
+    {
+      "path": "provenance/trace-v001/masks/W/raw.png",
+      "bytes": 1091,
+      "sha256": "f6adbaba8d50b14e5a610358d7607ad510164fd1a41010a50cfd2a6ce404f4eb"
+    },
+    {
+      "path": "provenance/trace-v001/masks/W/resampled.png",
+      "bytes": 1030,
+      "sha256": "b76451ca16d81d2cdbbb62a269e39d7a2c27e85aaa930729e72ea44e6d15637d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/X/cleaned.png",
+      "bytes": 959,
+      "sha256": "cf0d9928c70ed2ada83ac502ef93a9dff50292126b13f6d261751a06732e952d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/X/raw.png",
+      "bytes": 962,
+      "sha256": "993e434e8fa9bb5e5d9ed05a8df10dcee1eefe12ab43169fa23fedae68cb1d07"
+    },
+    {
+      "path": "provenance/trace-v001/masks/X/resampled.png",
+      "bytes": 898,
+      "sha256": "468d806d4dab40448b0a61d19df43f8ff9c0de71a12bb89597c8970a5f4c4d6a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Y/cleaned.png",
+      "bytes": 600,
+      "sha256": "f902869694f0a533adea834762484afee8e2da3c9181b74c0b1d74011ffc5c65"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Y/raw.png",
+      "bytes": 615,
+      "sha256": "ed38962691db106b3465c843dc66f6512a953f6b2f4a34f0a46e35435f0305a3"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Y/resampled.png",
+      "bytes": 592,
+      "sha256": "37999b4e711705878e98d6d4693b50ba47059bceab68a47a195be59751cd85d7"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Z/cleaned.png",
+      "bytes": 649,
+      "sha256": "42d967102e7480bc924fefe0c90af951f87df2ad8d43a176641d9a0ccb2ee73d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Z/raw.png",
+      "bytes": 663,
+      "sha256": "898b6dd3048bd91d089a251fa7b79dd8561ca39fd0b20918e7929915758d7b53"
+    },
+    {
+      "path": "provenance/trace-v001/masks/Z/resampled.png",
+      "bytes": 626,
+      "sha256": "d24e17ecdcb2a43861cf5c78f01109948e99b96e80d9c164324d4ba911fb4aa4"
+    },
+    {
+      "path": "provenance/trace-v001/masks/a/cleaned.png",
+      "bytes": 853,
+      "sha256": "87756f056de450474bf3b645fce1e311271dac0fbb4b70adad82c78f7b926262"
+    },
+    {
+      "path": "provenance/trace-v001/masks/a/raw.png",
+      "bytes": 853,
+      "sha256": "87756f056de450474bf3b645fce1e311271dac0fbb4b70adad82c78f7b926262"
+    },
+    {
+      "path": "provenance/trace-v001/masks/a/resampled.png",
+      "bytes": 749,
+      "sha256": "889d35251a7bf113d654c9742487a121c9174d20834c5daea720b3c076ef3e91"
+    },
+    {
+      "path": "provenance/trace-v001/masks/b/cleaned.png",
+      "bytes": 588,
+      "sha256": "7aed5432bf4f7c36288dd6fda901daa653465210d268406a57af1eb11c799b97"
+    },
+    {
+      "path": "provenance/trace-v001/masks/b/raw.png",
+      "bytes": 588,
+      "sha256": "7aed5432bf4f7c36288dd6fda901daa653465210d268406a57af1eb11c799b97"
+    },
+    {
+      "path": "provenance/trace-v001/masks/b/resampled.png",
+      "bytes": 601,
+      "sha256": "a63d5b7577c64a2c81aa46b931c9d30290c853aa3b9d8fda474bfd4b7dc5f8a8"
+    },
+    {
+      "path": "provenance/trace-v001/masks/c/cleaned.png",
+      "bytes": 706,
+      "sha256": "dc955be1bb3ec63e3307f7f10ecd03c7afd77ab57fdc26ab60e9257c46152578"
+    },
+    {
+      "path": "provenance/trace-v001/masks/c/raw.png",
+      "bytes": 706,
+      "sha256": "dc955be1bb3ec63e3307f7f10ecd03c7afd77ab57fdc26ab60e9257c46152578"
+    },
+    {
+      "path": "provenance/trace-v001/masks/c/resampled.png",
+      "bytes": 653,
+      "sha256": "e640614ba639187f9eb23470d55c2d1e67389d528a7c82fb3334a0a32242345a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/d/cleaned.png",
+      "bytes": 733,
+      "sha256": "4132afe4c47bf3e8d2f6e1818c7efe237fecb96097fbcb0aacdba6df97d5dd8c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/d/raw.png",
+      "bytes": 733,
+      "sha256": "4132afe4c47bf3e8d2f6e1818c7efe237fecb96097fbcb0aacdba6df97d5dd8c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/d/resampled.png",
+      "bytes": 680,
+      "sha256": "69f1ecca2fc1371404b9bb85c6dfd15196641e51949ea0043bd323da77562d6d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/e/cleaned.png",
+      "bytes": 648,
+      "sha256": "2b9ecdaadb7dd2dcf1df4134360c669c369d1766145bb8f037667f59d86b02a3"
+    },
+    {
+      "path": "provenance/trace-v001/masks/e/raw.png",
+      "bytes": 648,
+      "sha256": "2b9ecdaadb7dd2dcf1df4134360c669c369d1766145bb8f037667f59d86b02a3"
+    },
+    {
+      "path": "provenance/trace-v001/masks/e/resampled.png",
+      "bytes": 596,
+      "sha256": "c9b77ea56d7c5447cc8cfb97a14e5046f595a085438cd1671de68ba8521ef543"
+    },
+    {
+      "path": "provenance/trace-v001/masks/f/cleaned.png",
+      "bytes": 498,
+      "sha256": "ad59838458a5a458b7d520ac08fac480ab2abdb33e3bbc0dd8ad82259071e83b"
+    },
+    {
+      "path": "provenance/trace-v001/masks/f/raw.png",
+      "bytes": 622,
+      "sha256": "f4421e77b65a29613286040f9cdfe246cdf63f9d55f80f390f70a9a2538b5ff6"
+    },
+    {
+      "path": "provenance/trace-v001/masks/f/resampled.png",
+      "bytes": 477,
+      "sha256": "936ddb0ac4c41c8e06956f032d43f8a16de2851289147176c657cd24c3d3c05d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/g/cleaned.png",
+      "bytes": 1074,
+      "sha256": "64047e349389981c7afc47bde1de67c49a19653596113bb20d5416aa84f0d36c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/g/raw.png",
+      "bytes": 1132,
+      "sha256": "95e1c8d3b3ba2ef7eb02a36649c6db4d5d0abbbdfc0187f3de65b81f8919ae23"
+    },
+    {
+      "path": "provenance/trace-v001/masks/g/resampled.png",
+      "bytes": 999,
+      "sha256": "15b4e374a705e635813567af4d24ad0140e7b11afa9301212e97b74e86e37dbc"
+    },
+    {
+      "path": "provenance/trace-v001/masks/h/cleaned.png",
+      "bytes": 545,
+      "sha256": "299f6092f77c880fd40e66df590086d34fc02122addbfe18ed78a8c59f97034d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/h/raw.png",
+      "bytes": 545,
+      "sha256": "299f6092f77c880fd40e66df590086d34fc02122addbfe18ed78a8c59f97034d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/h/resampled.png",
+      "bytes": 507,
+      "sha256": "24e8ed765b7bbfc96a8722dc9eddb2b6c7f56a2a543b86d19ea9815471d601bc"
+    },
+    {
+      "path": "provenance/trace-v001/masks/i/cleaned.png",
+      "bytes": 350,
+      "sha256": "e01eab2f058a4e4956f321e5a72cdfb140d744306a4b8117a92981820bdcd8b0"
+    },
+    {
+      "path": "provenance/trace-v001/masks/i/raw.png",
+      "bytes": 350,
+      "sha256": "e01eab2f058a4e4956f321e5a72cdfb140d744306a4b8117a92981820bdcd8b0"
+    },
+    {
+      "path": "provenance/trace-v001/masks/i/resampled.png",
+      "bytes": 347,
+      "sha256": "5b4056fe1ff6eac89a6d9fc5727165ff8deb7cd529170c3ccc9e90a8d4f20484"
+    },
+    {
+      "path": "provenance/trace-v001/masks/j/cleaned.png",
+      "bytes": 647,
+      "sha256": "28d7b1df088531d7c214c676eb11985d0d8840d81a3e7b565d3c928b219587ed"
+    },
+    {
+      "path": "provenance/trace-v001/masks/j/raw.png",
+      "bytes": 647,
+      "sha256": "28d7b1df088531d7c214c676eb11985d0d8840d81a3e7b565d3c928b219587ed"
+    },
+    {
+      "path": "provenance/trace-v001/masks/j/resampled.png",
+      "bytes": 641,
+      "sha256": "d0898ce5658ebe317e7c95209d632201512deeecc8c28164d4e212359849ba1c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/k/cleaned.png",
+      "bytes": 764,
+      "sha256": "fa7e12c5b41a25b2dada62a13f5079fbb6fd4620b95e515244602e8532ae56e1"
+    },
+    {
+      "path": "provenance/trace-v001/masks/k/raw.png",
+      "bytes": 764,
+      "sha256": "fa7e12c5b41a25b2dada62a13f5079fbb6fd4620b95e515244602e8532ae56e1"
+    },
+    {
+      "path": "provenance/trace-v001/masks/k/resampled.png",
+      "bytes": 731,
+      "sha256": "e86dfb2a50e7bcd2bd2504f77b552f2e568ed2c8f29590d54787bc7f76b6043c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/l/cleaned.png",
+      "bytes": 210,
+      "sha256": "52398e5718770f7af95623f4e53f7d57d08fa4fe730b3ae01a23d7a1591934b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/l/raw.png",
+      "bytes": 210,
+      "sha256": "52398e5718770f7af95623f4e53f7d57d08fa4fe730b3ae01a23d7a1591934b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/l/resampled.png",
+      "bytes": 216,
+      "sha256": "ad3754739d3bf6dce7792f58b10822964f06af5c4c646826580032c881c2841f"
+    },
+    {
+      "path": "provenance/trace-v001/masks/m/cleaned.png",
+      "bytes": 646,
+      "sha256": "fb37b5de1b09e39aa9f5ba5d27edc1f91f1cbbea7201c8f124c563ecbbc0f0d0"
+    },
+    {
+      "path": "provenance/trace-v001/masks/m/raw.png",
+      "bytes": 646,
+      "sha256": "fb37b5de1b09e39aa9f5ba5d27edc1f91f1cbbea7201c8f124c563ecbbc0f0d0"
+    },
+    {
+      "path": "provenance/trace-v001/masks/m/resampled.png",
+      "bytes": 527,
+      "sha256": "6fee4c919a658068df0f7b86fa3bc6aef9c0c8e3d865f61392ac75f10fdb23a3"
+    },
+    {
+      "path": "provenance/trace-v001/masks/n/cleaned.png",
+      "bytes": 446,
+      "sha256": "5f7d9da41a046766c434411957ff227627184ebd37eda5fd091b9d6242f5b69d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/n/raw.png",
+      "bytes": 446,
+      "sha256": "5f7d9da41a046766c434411957ff227627184ebd37eda5fd091b9d6242f5b69d"
+    },
+    {
+      "path": "provenance/trace-v001/masks/n/resampled.png",
+      "bytes": 435,
+      "sha256": "630fc4d84dc00a8442c798b5e448ced2588c63e5a75c505f8e10fec4e686d55b"
+    },
+    {
+      "path": "provenance/trace-v001/masks/o/cleaned.png",
+      "bytes": 659,
+      "sha256": "6dabd7218f69b38dd8d83c4a5e80119869a8f7fa50c50b6c27b2a44c1f2f1437"
+    },
+    {
+      "path": "provenance/trace-v001/masks/o/raw.png",
+      "bytes": 659,
+      "sha256": "6dabd7218f69b38dd8d83c4a5e80119869a8f7fa50c50b6c27b2a44c1f2f1437"
+    },
+    {
+      "path": "provenance/trace-v001/masks/o/resampled.png",
+      "bytes": 622,
+      "sha256": "a2799e5f96f228416d1d3547d6a7cbcf9f98e6c367f49c9f1307478d9eef6a0e"
+    },
+    {
+      "path": "provenance/trace-v001/masks/p/cleaned.png",
+      "bytes": 586,
+      "sha256": "ca6cf2957663b3ba077e9fb812642efd10a1dd305f8c9b92db528eb2aa5036b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/p/raw.png",
+      "bytes": 586,
+      "sha256": "ca6cf2957663b3ba077e9fb812642efd10a1dd305f8c9b92db528eb2aa5036b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/p/resampled.png",
+      "bytes": 591,
+      "sha256": "89d2a682c5c7208c606bd46acc9ab735961d451c67bdffcc9004fcc698a0dc51"
+    },
+    {
+      "path": "provenance/trace-v001/masks/q/cleaned.png",
+      "bytes": 774,
+      "sha256": "cfcc8d12cef71b11b048bb3d59135e8a0e098eba086b715017da042b12cd687f"
+    },
+    {
+      "path": "provenance/trace-v001/masks/q/raw.png",
+      "bytes": 774,
+      "sha256": "cfcc8d12cef71b11b048bb3d59135e8a0e098eba086b715017da042b12cd687f"
+    },
+    {
+      "path": "provenance/trace-v001/masks/q/resampled.png",
+      "bytes": 739,
+      "sha256": "b4396b20d4ee4ada9572576c7960b4908d878c411dfb2e94756dba0682bfb0a7"
+    },
+    {
+      "path": "provenance/trace-v001/masks/r/cleaned.png",
+      "bytes": 432,
+      "sha256": "dccbe11f74e913234588e0fc62fc7384c46e541ea731cfe6de42050a968af2fe"
+    },
+    {
+      "path": "provenance/trace-v001/masks/r/raw.png",
+      "bytes": 432,
+      "sha256": "dccbe11f74e913234588e0fc62fc7384c46e541ea731cfe6de42050a968af2fe"
+    },
+    {
+      "path": "provenance/trace-v001/masks/r/resampled.png",
+      "bytes": 404,
+      "sha256": "7df69b41a84dba99252ec1278dbc57b3723857ec80f59bdba9b99cc7405e36c3"
+    },
+    {
+      "path": "provenance/trace-v001/masks/s/cleaned.png",
+      "bytes": 740,
+      "sha256": "7fd2dd7a40ee88b397abb1410a6d89445908b99a2f75bd8bb035b31c53048f7a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/s/raw.png",
+      "bytes": 740,
+      "sha256": "7fd2dd7a40ee88b397abb1410a6d89445908b99a2f75bd8bb035b31c53048f7a"
+    },
+    {
+      "path": "provenance/trace-v001/masks/s/resampled.png",
+      "bytes": 711,
+      "sha256": "514c880d868e079571e12a111c3eae7467aa65a3a83859484c1b9f653b8eb03f"
+    },
+    {
+      "path": "provenance/trace-v001/masks/t/cleaned.png",
+      "bytes": 499,
+      "sha256": "f2ce712693fa929ed04fcb527a636ecf0ed4c172ca53c44bb5c7a25d7fa34821"
+    },
+    {
+      "path": "provenance/trace-v001/masks/t/raw.png",
+      "bytes": 499,
+      "sha256": "f2ce712693fa929ed04fcb527a636ecf0ed4c172ca53c44bb5c7a25d7fa34821"
+    },
+    {
+      "path": "provenance/trace-v001/masks/t/resampled.png",
+      "bytes": 488,
+      "sha256": "4b203fb61ab573435343a285584663fcb1de8d41eb3c418a6017e9455fbd7c89"
+    },
+    {
+      "path": "provenance/trace-v001/masks/u/cleaned.png",
+      "bytes": 445,
+      "sha256": "fdd15aac4848a589b2cb5df6c14f8eb9228c848e2bb6a455c8ca50d57437f7b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/u/raw.png",
+      "bytes": 445,
+      "sha256": "fdd15aac4848a589b2cb5df6c14f8eb9228c848e2bb6a455c8ca50d57437f7b5"
+    },
+    {
+      "path": "provenance/trace-v001/masks/u/resampled.png",
+      "bytes": 440,
+      "sha256": "51783f10068aa7aa31bd755de14c042e4644b1358c6c8f6ac7cf1bb9f4db25d2"
+    },
+    {
+      "path": "provenance/trace-v001/masks/v/cleaned.png",
+      "bytes": 621,
+      "sha256": "073e52d6d2b4a21d492b3057b1123ccee3cef78b3e8fcc11f8fb52d123aff944"
+    },
+    {
+      "path": "provenance/trace-v001/masks/v/raw.png",
+      "bytes": 621,
+      "sha256": "073e52d6d2b4a21d492b3057b1123ccee3cef78b3e8fcc11f8fb52d123aff944"
+    },
+    {
+      "path": "provenance/trace-v001/masks/v/resampled.png",
+      "bytes": 568,
+      "sha256": "6ee68b7b675a63cfa2220253af95ed2f3211d97608fd14427c50898262ee88d7"
+    },
+    {
+      "path": "provenance/trace-v001/masks/w/cleaned.png",
+      "bytes": 956,
+      "sha256": "48bfb5003602ad81e00b4dc764440df7ab038edc1a0c104b2f1b60d1493a776c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/w/raw.png",
+      "bytes": 956,
+      "sha256": "48bfb5003602ad81e00b4dc764440df7ab038edc1a0c104b2f1b60d1493a776c"
+    },
+    {
+      "path": "provenance/trace-v001/masks/w/resampled.png",
+      "bytes": 839,
+      "sha256": "37bff5e929d1c2387e4f495dd1f4be890463d2b253eaabbd36884586ddc34773"
+    },
+    {
+      "path": "provenance/trace-v001/masks/x/cleaned.png",
+      "bytes": 783,
+      "sha256": "9122e32e94ece1226a6fd2f29061527feb558efc4e2eb447959df27a4199fbaf"
+    },
+    {
+      "path": "provenance/trace-v001/masks/x/raw.png",
+      "bytes": 783,
+      "sha256": "9122e32e94ece1226a6fd2f29061527feb558efc4e2eb447959df27a4199fbaf"
+    },
+    {
+      "path": "provenance/trace-v001/masks/x/resampled.png",
+      "bytes": 746,
+      "sha256": "841a6e4c545573d427c0e2c49e2ecbde29395457261e48de94335e3e9e531637"
+    },
+    {
+      "path": "provenance/trace-v001/masks/y/cleaned.png",
+      "bytes": 972,
+      "sha256": "c15cb8f9ae264abf2173920617d1bddd3bce1d951e45b2228af8f5aee9372bc7"
+    },
+    {
+      "path": "provenance/trace-v001/masks/y/raw.png",
+      "bytes": 1011,
+      "sha256": "831a9b2d41cd16e084357908a888aadaa535d86e586b21858f3ec4aab495de45"
+    },
+    {
+      "path": "provenance/trace-v001/masks/y/resampled.png",
+      "bytes": 898,
+      "sha256": "8d963bd428427b085bc866be87f06d6a9b6ce39cb3088825ede85b06f6ebbbec"
+    },
+    {
+      "path": "provenance/trace-v001/masks/z/cleaned.png",
+      "bytes": 613,
+      "sha256": "e4d22a893c779bb88958e4e1a7cad908ab7b8b2dc1ab5017c44b32ccb10090be"
+    },
+    {
+      "path": "provenance/trace-v001/masks/z/raw.png",
+      "bytes": 627,
+      "sha256": "8dbcf45364a30652464db8fc7ccbc0989c4597731aac61258939a1ba05b6b367"
+    },
+    {
+      "path": "provenance/trace-v001/masks/z/resampled.png",
+      "bytes": 565,
+      "sha256": "78f2e8caa2fab699ac512963e1c62d623032cd5e37e071f25612e9dd432c54c9"
+    },
+    {
+      "path": "provenance/trace-v001/quality-plan.json",
+      "bytes": 18065,
+      "sha256": "55401e0454bf57bc2c7fea331677b2061f60c49dc5de7b59c4c54186bbb8e176"
+    },
+    {
+      "path": "provenance/trace-v001/source/fontify-base.json",
+      "bytes": 704,
+      "sha256": "10cdfb1d7a6f6c6346c75195f1f83464e5c74afc1239f1553171acc321c5d9ef"
+    },
+    {
+      "path": "provenance/trace-v001/source/original.png",
+      "bytes": 1197694,
+      "sha256": "fae8aff70fb20bb519a5c8e3cace82b5140d4f6b38d1f7ad2a828c65fdc2f887"
+    },
+    {
+      "path": "provenance/trace-v001/source/trace-plan.json",
+      "bytes": 47814,
+      "sha256": "d473e944be28221531eb994a443d10ff579d96950ad73846b5b5aa4ac4d94468"
+    },
+    {
+      "path": "provenance/trace-v001/trace-record.json",
+      "bytes": 162184,
+      "sha256": "514bb1ab38316ce67c2dd749e07e0ecffc2cc339a076f6eb31e00c15f468f906"
+    },
+    {
+      "path": "qa_union_v021.py",
+      "bytes": 4992,
+      "sha256": "45839eab39ba19e30cbdcd8ca800e26167623c728b8ebcdd3bd81ddd2bf326e1"
+    },
+    {
+      "path": "rebuild_and_qa_v021.py",
+      "bytes": 3247,
+      "sha256": "1bc690ce87de7322a2251b618886e1b84533401d51a97e824377d1206e4a7bb5"
+    },
+    {
+      "path": "resources/specimen-template.html",
+      "bytes": 6517,
+      "sha256": "aa4283fd4d9104e1d1bdc085b48d3abb095ac523beafe15881adaa1216299ba0"
+    },
+    {
+      "path": "selected-input/OpenAI-request-A.json",
+      "bytes": 2770,
+      "sha256": "b1f613b7e75452ef3df59ec1ab644bada1d17ca2e70000f276c55e9a6f83bf75"
+    },
+    {
+      "path": "selected-input/initial-A-letter-inventory.json",
+      "bytes": 58377,
+      "sha256": "e55a70a9c5d228da7c35baceff62ea39ad9b556090a5674420d73bc1f03a3736"
+    },
+    {
+      "path": "selected-input/original-review-v2-manifest.json",
+      "bytes": 5807,
+      "sha256": "3e0cfe6048aaf241d8b822978d4617cdec67468d2135c9a7c3c13c2a09df3c58"
+    },
+    {
+      "path": "selected-input/raw-A.png",
+      "bytes": 1197694,
+      "sha256": "fae8aff70fb20bb519a5c8e3cace82b5140d4f6b38d1f7ad2a828c65fdc2f887"
+    },
+    {
+      "path": "shared-union-354.json",
+      "bytes": 42806,
+      "sha256": "86256de39e24c5725ad2ce3c7ca50a0d7d4e1d641af799a3233c761006feee28"
+    },
+    {
+      "path": "specimen_union_v021.py",
+      "bytes": 4584,
+      "sha256": "304dba08e58ee4d8b09281c4bd6949996efcf10f364c1fbc6f895cc2be42187d"
+    },
+    {
+      "path": "union-v021/compiled-review-audit.json",
+      "bytes": 1279923,
+      "sha256": "d2fe0e96946b6f20409800f1ed5e38692dad902e8f8f2f5411b73a1931f2e85b"
+    },
+    {
+      "path": "union-v021/context-artwork/iogonek-dotless.svg",
+      "bytes": 1159,
+      "sha256": "c6aba624ceda1f3a5e4aafce6e20cdcbf979b4360f4344dad4621125ac7b91e2"
+    },
+    {
+      "path": "union-v021/fontify.json",
+      "bytes": 178110,
+      "sha256": "97d6e9c30e68bee8b29e4f0d9ca31ca30e05286c85cb4a8685bbaba103c50500"
+    },
+    {
+      "path": "union-v021/glyphs/A.svg",
+      "bytes": 2818,
+      "sha256": "e19ab8d19b59dd3b865946f0ff7bfeba4494c02a75ce7fa6e7e47152e0434f1e"
+    },
+    {
+      "path": "union-v021/glyphs/B.svg",
+      "bytes": 4474,
+      "sha256": "efedcfd065b2fbc288e0aaa55472c1d6261fa24319968cb2dea7d0a912f89cd7"
+    },
+    {
+      "path": "union-v021/glyphs/C.svg",
+      "bytes": 4688,
+      "sha256": "b4714ad59c6f8f7ee82a075e9988ba5f91ea7abca60bcdcffea12b53fdc0118b"
+    },
+    {
+      "path": "union-v021/glyphs/D.svg",
+      "bytes": 2594,
+      "sha256": "69fb056b8759e2e340abc5fa21b5b95c5275a822e3c21bf6707b61cdc1323a79"
+    },
+    {
+      "path": "union-v021/glyphs/E.svg",
+      "bytes": 1056,
+      "sha256": "855472f1f0128262449d2e032fb665e948e31b33613412145cd87dc394a3656e"
+    },
+    {
+      "path": "union-v021/glyphs/F.svg",
+      "bytes": 950,
+      "sha256": "12fb2d5e2385976c4f2e252c073acc372fd9970325d63444c037b170832e61da"
+    },
+    {
+      "path": "union-v021/glyphs/G.svg",
+      "bytes": 4537,
+      "sha256": "f7a0ecedb4b5aed733e3cb7cd21fd207cc651be61a8bb10a894d0cdbc9a6217a"
+    },
+    {
+      "path": "union-v021/glyphs/H.svg",
+      "bytes": 1167,
+      "sha256": "4a6ba521703eb98a5c45bc42efbbde05d212d50b840fdfd2fd3183329462f23b"
+    },
+    {
+      "path": "union-v021/glyphs/I.svg",
+      "bytes": 1216,
+      "sha256": "b7a2122eabafabb24113b37923323f8a7d5026c821989bad8bcc54ca76496c11"
+    },
+    {
+      "path": "union-v021/glyphs/J.svg",
+      "bytes": 3258,
+      "sha256": "30d0fa816eafd4c233597e13bb636384753f84a9ffc48cbf9f27ac06a8f87e95"
+    },
+    {
+      "path": "union-v021/glyphs/K.svg",
+      "bytes": 2212,
+      "sha256": "04b21e71c46796e8286969204a183f2014ac5cd38ad5789fb00e1c388e446406"
+    },
+    {
+      "path": "union-v021/glyphs/L.svg",
+      "bytes": 618,
+      "sha256": "1726b19f5feb039534845d4235e25e62243d2d5ac89d4471622e632f4f72e3f5"
+    },
+    {
+      "path": "union-v021/glyphs/M.svg",
+      "bytes": 3090,
+      "sha256": "740665ac6ecd0b03244cbd9f5e06ed4fc6540e21365840aa079753966e0d7f96"
+    },
+    {
+      "path": "union-v021/glyphs/N.svg",
+      "bytes": 1804,
+      "sha256": "58c59e452e1a6383206df7caad9b1c6e33a280f0ed1e96f06d376b1630a34540"
+    },
+    {
+      "path": "union-v021/glyphs/O.svg",
+      "bytes": 5013,
+      "sha256": "a598279421e2d0c56ad15acba099a88823c4d9a49b1dc3c501dfc13a092fb8cc"
+    },
+    {
+      "path": "union-v021/glyphs/P.svg",
+      "bytes": 2786,
+      "sha256": "8a13e29e4cc04f3ec60cf9b961c678d270c98ed9ca09c0858d661a51a1965c08"
+    },
+    {
+      "path": "union-v021/glyphs/Q.svg",
+      "bytes": 6207,
+      "sha256": "b39778e402e65943b674889f61490b6d9fc6c2fe319ab9bcc87d955b5dd0c8ae"
+    },
+    {
+      "path": "union-v021/glyphs/R.svg",
+      "bytes": 2936,
+      "sha256": "1dea5391cebb6b8e47c2363695a57a501ff88a9c01456a384676cd4ba8756b5e"
+    },
+    {
+      "path": "union-v021/glyphs/S.svg",
+      "bytes": 5545,
+      "sha256": "fcf0b52cf1c199ac48839960af5b65587e3526698791382e20664a407f746afc"
+    },
+    {
+      "path": "union-v021/glyphs/T.svg",
+      "bytes": 796,
+      "sha256": "d92d6b5e6c40713e0e1c056333a04d854a64bc839c8cf78d7d6484123d270f82"
+    },
+    {
+      "path": "union-v021/glyphs/U.svg",
+      "bytes": 2818,
+      "sha256": "ed9f46ebf706c1e7fcd73e2054b3f7130a43e7d2f88d135346c7fe8b8ff2c6a9"
+    },
+    {
+      "path": "union-v021/glyphs/V.svg",
+      "bytes": 1814,
+      "sha256": "ea1ebcefd785b8dc2631a4d97e75fccd0c7d58ff4a542fb377bb5bfe69d760e5"
+    },
+    {
+      "path": "union-v021/glyphs/W.svg",
+      "bytes": 3356,
+      "sha256": "bd8d9b8e0c23d6749cb22455259e90dc6a5df25e8560ef42c3b2d5957d72f2ed"
+    },
+    {
+      "path": "union-v021/glyphs/X.svg",
+      "bytes": 2766,
+      "sha256": "68d575e9692e955d001c23dc9b6ff80515e04e344e8ab4e2803663895c9fee22"
+    },
+    {
+      "path": "union-v021/glyphs/Y.svg",
+      "bytes": 1898,
+      "sha256": "ad0108e031a0e0da58cdcbdc9dfd02cc9b9484855011496fd2d5af460856a904"
+    },
+    {
+      "path": "union-v021/glyphs/Z.svg",
+      "bytes": 2185,
+      "sha256": "a6f61381aeaafcbc384752e89881ee8e94cf1ef56e4978201cd4a295bd724579"
+    },
+    {
+      "path": "union-v021/glyphs/a.svg",
+      "bytes": 5753,
+      "sha256": "7a15c36b18f31ec81cd988dfb45dde6ae7d315bb87ef180b47485ab2591a6ee9"
+    },
+    {
+      "path": "union-v021/glyphs/b.svg",
+      "bytes": 3407,
+      "sha256": "c5ce8b13c945fa6744bccd10fb09f93e8bc581391f6de3e618c34851f2c3e488"
+    },
+    {
+      "path": "union-v021/glyphs/c.svg",
+      "bytes": 4967,
+      "sha256": "1aad9e19b61fc2b8ca4de92a7106f008ec49677e1b14e41bcfd6d626fb822d5e"
+    },
+    {
+      "path": "union-v021/glyphs/d.svg",
+      "bytes": 3897,
+      "sha256": "cbf21179c47ea65f58292ed9425b5c1121dcc51a27a8b89813f4a9c8b148066a"
+    },
+    {
+      "path": "union-v021/glyphs/e.svg",
+      "bytes": 4081,
+      "sha256": "f2f49b13a4cc9e5aa3babb014f037453b0711a1304372c82cfc3c8f067220acb"
+    },
+    {
+      "path": "union-v021/glyphs/f.svg",
+      "bytes": 3134,
+      "sha256": "f054ad2987258b56f6f1a009855574540584c6a06d856297379f1e48776fa3e9"
+    },
+    {
+      "path": "union-v021/glyphs/g.svg",
+      "bytes": 8875,
+      "sha256": "be58664db4f07b19056aa7aaef315697897c8fa43cee6170188b843fe393ec33"
+    },
+    {
+      "path": "union-v021/glyphs/h.svg",
+      "bytes": 2423,
+      "sha256": "4f0c756356dbbaf97caec2bcaaf3ce8608b50abd16064db762dc79bff5b2dd8f"
+    },
+    {
+      "path": "union-v021/glyphs/i.svg",
+      "bytes": 2693,
+      "sha256": "465a29857268a8dbd3fdc9cfdc32c3f09f9be944f43b92d76ea6bea3fe81cd57"
+    },
+    {
+      "path": "union-v021/glyphs/j.svg",
+      "bytes": 4874,
+      "sha256": "af992779b5c31ac1c675819a059c9e7e6ac9c72a812be278e79e8b68e3787925"
+    },
+    {
+      "path": "union-v021/glyphs/k.svg",
+      "bytes": 2425,
+      "sha256": "e6be7b087cdad0aafd36d395954c9f7dd8c7557554ed3e355aa9e08e7bd95340"
+    },
+    {
+      "path": "union-v021/glyphs/l.svg",
+      "bytes": 986,
+      "sha256": "c9c95061026af48c7625204bc1073b53164611b64f857bdbe167d5a126716e35"
+    },
+    {
+      "path": "union-v021/glyphs/m.svg",
+      "bytes": 3089,
+      "sha256": "b77d42c80f51cba7888b9ac27cd694d7df61cfd261d8bf64f5adf1ae47f59570"
+    },
+    {
+      "path": "union-v021/glyphs/n.svg",
+      "bytes": 2522,
+      "sha256": "13fa5f2a241c0a43a1658dcb3ba656c46482ebec17f2b01312567a93f230aec4"
+    },
+    {
+      "path": "union-v021/glyphs/o.svg",
+      "bytes": 3778,
+      "sha256": "7e13b2e25b87a4075e0e7ab7552d16f38c44f54ff57bff87db12805cc5bb0904"
+    },
+    {
+      "path": "union-v021/glyphs/p.svg",
+      "bytes": 3373,
+      "sha256": "d1cef520035bdd3d584afd6f22b11192772aa539ddbf8359db5b75dc62125386"
+    },
+    {
+      "path": "union-v021/glyphs/q.svg",
+      "bytes": 4789,
+      "sha256": "eb5a56f5adea87caab93cebcc4eec88619cd66f7d2d8a44e1a6dd13150fc1dbb"
+    },
+    {
+      "path": "union-v021/glyphs/r.svg",
+      "bytes": 3132,
+      "sha256": "d45fe19da6851077341bd09df933b1d911a87287d6395454d2047da08b15486b"
+    },
+    {
+      "path": "union-v021/glyphs/s.svg",
+      "bytes": 4347,
+      "sha256": "35d048a033d5e7992d4df7aeb6a599b54a5b8503ddac072c07c5447f975656c9"
+    },
+    {
+      "path": "union-v021/glyphs/t.svg",
+      "bytes": 2627,
+      "sha256": "254ee9e343f958d07017ae1a252bd484ed4fa694f29b198f7e7d68e9be1537f8"
+    },
+    {
+      "path": "union-v021/glyphs/u.svg",
+      "bytes": 2381,
+      "sha256": "25af069220dcf22d0f3d5f73ca89cd8ee7ca445734ac6f315e20546cc8957d03"
+    },
+    {
+      "path": "union-v021/glyphs/uni0021.svg",
+      "bytes": 381,
+      "sha256": "b898b32d62a7a1438b9a7f6ac4b4164e675d43084cf4aaa4e80d2a0219bd560c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0022.svg",
+      "bytes": 165,
+      "sha256": "79b45649d083ae748d308ecb70905e871a5f2960825226ba1656a56598a70b08"
+    },
+    {
+      "path": "union-v021/glyphs/uni0023.svg",
+      "bytes": 777,
+      "sha256": "2c4f603a02567dccd0874db80f14458d96bd7ba47b644f789584429e107ae407"
+    },
+    {
+      "path": "union-v021/glyphs/uni0024.svg",
+      "bytes": 5413,
+      "sha256": "394a7031c202e2add37d1cbfc2e2e47708abc440b7418c164636328a9ccce93b"
+    },
+    {
+      "path": "union-v021/glyphs/uni0025.svg",
+      "bytes": 1676,
+      "sha256": "38c7288b27252a5e5ca2b4f61576f5cd7ecc1e2cad7f478ebdead144cb14603c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0026.svg",
+      "bytes": 1679,
+      "sha256": "6c897459e223962e663eda09bc04d93a66342ad58c8cf68195b5c77bf22007e6"
+    },
+    {
+      "path": "union-v021/glyphs/uni0027.svg",
+      "bytes": 127,
+      "sha256": "10985dff666e700e1b7591f2dea529678d0fdee72de672903f860f2e6bb480c7"
+    },
+    {
+      "path": "union-v021/glyphs/uni0028.svg",
+      "bytes": 189,
+      "sha256": "5e620543f10c10f1c12d458c97dd26a85700e05abaa5a506f61a48520f77e0d5"
+    },
+    {
+      "path": "union-v021/glyphs/uni0029.svg",
+      "bytes": 188,
+      "sha256": "71169259d69e304dc603603861b5490726979a380efacceea43f07754dd24544"
+    },
+    {
+      "path": "union-v021/glyphs/uni002A.svg",
+      "bytes": 551,
+      "sha256": "3f4cd50e1ed3451aaa49ac6c91e013df065b824e832eda7581a861b02b33c7a3"
+    },
+    {
+      "path": "union-v021/glyphs/uni002B.svg",
+      "bytes": 160,
+      "sha256": "241e83f642c3a2dfc0e9390a28c2ec85029a6b92d410405b412a05755a280c47"
+    },
+    {
+      "path": "union-v021/glyphs/uni002C.svg",
+      "bytes": 559,
+      "sha256": "8e90885e471b6a2bebe74ab69ef7a40e3dd1d5d9512924751455e3666372dd7f"
+    },
+    {
+      "path": "union-v021/glyphs/uni002D.svg",
+      "bytes": 118,
+      "sha256": "cb7ca881e2ef6db341c0d62e32d69ec7aec4b2d5b556b32f087a3bf6c252559f"
+    },
+    {
+      "path": "union-v021/glyphs/uni002E.svg",
+      "bytes": 336,
+      "sha256": "04f172784491a1304725c06e0b01c218303086039d12c89a1006051096e1c500"
+    },
+    {
+      "path": "union-v021/glyphs/uni002F.svg",
+      "bytes": 224,
+      "sha256": "9c3890590ae68664038c45a9364350f11abeee0565febebd1677da9bf8d84e4f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0030.svg",
+      "bytes": 5604,
+      "sha256": "6a677f6791871ebf99c66755486ffd179c31ed0e7558e04a27fdd299a2ceefa2"
+    },
+    {
+      "path": "union-v021/glyphs/uni0031.svg",
+      "bytes": 161,
+      "sha256": "d8cf6ab2488c3165962df1f7c9d500667034b086a2a88629761f97de6564d789"
+    },
+    {
+      "path": "union-v021/glyphs/uni0032.svg",
+      "bytes": 283,
+      "sha256": "d894c8ff18c6cb5482c578f4679201729dea61282492469119678e9cdf7d2cb7"
+    },
+    {
+      "path": "union-v021/glyphs/uni0033.svg",
+      "bytes": 413,
+      "sha256": "93f3cc757afe3737446986a0ca2d6caa73e01caa380c994aaaa42b5258f69df1"
+    },
+    {
+      "path": "union-v021/glyphs/uni0034.svg",
+      "bytes": 288,
+      "sha256": "aefc4d189f56754ae8ba09379722acd4e40bccabb49d82c1db9698b1108c9264"
+    },
+    {
+      "path": "union-v021/glyphs/uni0035.svg",
+      "bytes": 299,
+      "sha256": "56ec07e84d429676aa44cc1900ff9a4f7b03d41568b79468033010241cd100bb"
+    },
+    {
+      "path": "union-v021/glyphs/uni0036.svg",
+      "bytes": 400,
+      "sha256": "728f7da4fc8ea95341019c32bd3d26ac4a1ab599f9c488fa2e54127e07d47b96"
+    },
+    {
+      "path": "union-v021/glyphs/uni0037.svg",
+      "bytes": 143,
+      "sha256": "0f467e01c9cccf45143c0a125df8e94a27f316f11547441b25fb95b68cebb6eb"
+    },
+    {
+      "path": "union-v021/glyphs/uni0038.svg",
+      "bytes": 760,
+      "sha256": "0f963b2914c1708f7a0730c1fce42d7b8f1908d6fba0dc8c67bf7ed9579ad684"
+    },
+    {
+      "path": "union-v021/glyphs/uni0039.svg",
+      "bytes": 692,
+      "sha256": "44d19a817fc9244d7cfb08b3036d0b0aa7777c9895ed1c19e31ddd291d46ef3c"
+    },
+    {
+      "path": "union-v021/glyphs/uni003A.svg",
+      "bytes": 584,
+      "sha256": "ac3704375fd1b148b823a9cad88114426c844cec56ed96762b31bac9737cb0a5"
+    },
+    {
+      "path": "union-v021/glyphs/uni003B.svg",
+      "bytes": 811,
+      "sha256": "9845031a43e86273947b4121b51dd3212d02a737485770cf4419530400df8448"
+    },
+    {
+      "path": "union-v021/glyphs/uni003C.svg",
+      "bytes": 154,
+      "sha256": "9440b0857f593441a4643c6c63b984dfd7764abf624c50b1d5a8011ebb145a02"
+    },
+    {
+      "path": "union-v021/glyphs/uni003D.svg",
+      "bytes": 141,
+      "sha256": "1f51369eda9a10edfddae2b927af3c8e6c60a027a060cc061c4d421c402e0c94"
+    },
+    {
+      "path": "union-v021/glyphs/uni003E.svg",
+      "bytes": 151,
+      "sha256": "2b3670220450ae23786079d2637d65ffdb4f8d83525751fadd90e5c7757d734d"
+    },
+    {
+      "path": "union-v021/glyphs/uni003F.svg",
+      "bytes": 822,
+      "sha256": "84c5672f1fcf77dce52da181f08d2095ad6aaad92f32edfe9eb41a7f459d7fbc"
+    },
+    {
+      "path": "union-v021/glyphs/uni0040.svg",
+      "bytes": 581,
+      "sha256": "7b0a5f7d0bbc98a6f902a5b0e5168953968d5d5f997d0676a3c3b1dd1d110ea5"
+    },
+    {
+      "path": "union-v021/glyphs/uni005B.svg",
+      "bytes": 136,
+      "sha256": "e19d9faafb55c04c38adb1e5890c8a167b181f9ee50a4be818edcd2462068055"
+    },
+    {
+      "path": "union-v021/glyphs/uni005C.svg",
+      "bytes": 236,
+      "sha256": "d5c0531cdf02c10adcb2130451f9428565a9f854e0d6b4056e5c703f2eac7762"
+    },
+    {
+      "path": "union-v021/glyphs/uni005D.svg",
+      "bytes": 136,
+      "sha256": "965c78c2f69cb487979c6a7369da609aaa69174da5234f6de44767cd70c340b1"
+    },
+    {
+      "path": "union-v021/glyphs/uni005E.svg",
+      "bytes": 141,
+      "sha256": "0c2459f626bea2f7c0c44becf345aca17f5e0cb53b2d7f0c1af213055a96eb53"
+    },
+    {
+      "path": "union-v021/glyphs/uni005F.svg",
+      "bytes": 120,
+      "sha256": "a84d3861c29482addf93ef9a1a7a65c5ed1d2f6563f29df011b68c85e76e58c5"
+    },
+    {
+      "path": "union-v021/glyphs/uni0060.svg",
+      "bytes": 129,
+      "sha256": "7d85f94b2622fccec27793da249ccc7d8cc0dba8f889073654147b94fbd048be"
+    },
+    {
+      "path": "union-v021/glyphs/uni007B.svg",
+      "bytes": 929,
+      "sha256": "f9140d6ec622ca0a7c6ff75d90761ec26bbd2db1875bc00745ff84d6f94f5af2"
+    },
+    {
+      "path": "union-v021/glyphs/uni007C.svg",
+      "bytes": 118,
+      "sha256": "eaabfaf95976242e9129de02f031c45851f1ee1cca4ff06b3bcf80c9e280869f"
+    },
+    {
+      "path": "union-v021/glyphs/uni007D.svg",
+      "bytes": 933,
+      "sha256": "442766bb4221dc8c9c792a4e37d1876022d91a7e39434621331910b856359f6f"
+    },
+    {
+      "path": "union-v021/glyphs/uni007E.svg",
+      "bytes": 504,
+      "sha256": "476e7c61e44f439fe884b7e0a8ad262eb9e6e6a582b99c53edd6e4b74102d538"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A1.svg",
+      "bytes": 374,
+      "sha256": "b12bbd3ba3052cbeaea94ff595005f01a689b6deeafe2e37579be0e0e18be3df"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A2.svg",
+      "bytes": 5014,
+      "sha256": "8e87873ce3ba2517f78d0d576495d316846e6bc4892194a0ef661a0e5f3b5eed"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A3.svg",
+      "bytes": 2825,
+      "sha256": "2c0fddcf5a8e6272f56555dba5f179ba365c7eb9354bdee3e6828528fdbca4d3"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A4.svg",
+      "bytes": 1622,
+      "sha256": "5cdbf594595022f0ae68ae8ae972cf71bbcd746e359cd9374adcbbe3d7b76f07"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A5.svg",
+      "bytes": 2094,
+      "sha256": "81aa5fa8339bef8be121327afb2eacf75a0c48a46bfec1234be00b2f7ac4608d"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A6.svg",
+      "bytes": 139,
+      "sha256": "222368e9c7921cf164cf005d932987dab11232abf17d77b64f2fccb52c77a02b"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A7.svg",
+      "bytes": 7398,
+      "sha256": "b3e8b3fe378e6b754bd5aa15bbe063ba0b2b8bb76b1514b43b1e5e48b4b00b64"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A8.svg",
+      "bytes": 595,
+      "sha256": "b8e0f532636f99c5ca1232ca075e45c104466ecd2899018c8e880e521394ad8f"
+    },
+    {
+      "path": "union-v021/glyphs/uni00A9.svg",
+      "bytes": 5043,
+      "sha256": "e70e65447ce1fdb62f55b4551465e2a52d94ccadcae5802ff9e5d76e10805548"
+    },
+    {
+      "path": "union-v021/glyphs/uni00AA.svg",
+      "bytes": 5729,
+      "sha256": "c1d6a91881fdb30594b3cd272e2608c85909b83fba996baeec21e6282be127fb"
+    },
+    {
+      "path": "union-v021/glyphs/uni00AB.svg",
+      "bytes": 284,
+      "sha256": "2a491d945e15e8bbd3ef1edf1ba745be9e0ac452a22681c350b15e5544f05dab"
+    },
+    {
+      "path": "union-v021/glyphs/uni00AC.svg",
+      "bytes": 123,
+      "sha256": "1ce714d0286df50c893a7369f4cd8b06d5d5ac15ae5c6f8f817d005af3814985"
+    },
+    {
+      "path": "union-v021/glyphs/uni00AE.svg",
+      "bytes": 3387,
+      "sha256": "fe258eac5830881054cb8012eb46fc95bb21adb3377bde96a59998cb89f1c68b"
+    },
+    {
+      "path": "union-v021/glyphs/uni00AF.svg",
+      "bytes": 117,
+      "sha256": "3db45d7db2946db520f68c7782f913a54209808f9127488d93792aa304cd54c6"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B0.svg",
+      "bytes": 588,
+      "sha256": "78d36e199ad06e8b93e06de209d8819058799d79c182339788c213bd1439a306"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B1.svg",
+      "bytes": 189,
+      "sha256": "d890efa3eb59e6245d914cf927aa3593ad0b2b62d3ccfb7aa2553f9764898107"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B2.svg",
+      "bytes": 606,
+      "sha256": "71700442e67081c30f0c5381f7da359c1c4dafe3efa63aadcbe30c5ac5151186"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B3.svg",
+      "bytes": 1051,
+      "sha256": "53d036cfb2506af80acb9f1cfe1dcbfaf75a85582a530127b58aaa916d6f5e7b"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B4.svg",
+      "bytes": 128,
+      "sha256": "d12feb03931093a9ba2bc125a143855c8ebc462e6ecc01bdf1cbb3b5e745f0c7"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B5.svg",
+      "bytes": 2096,
+      "sha256": "074d3d7d1509c437db2d576465b663d878c1b5e8d5569b9236f2b3804f8e3e8e"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B6.svg",
+      "bytes": 267,
+      "sha256": "76bea39259055eb25a4ba5fe27b023012f094e5929f6cf097d6ed942b1f03f91"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B7.svg",
+      "bytes": 330,
+      "sha256": "b7fbd326ed1c546e2227253430e11936f1365f57d9fe4e4a9b92a4aee5fa8afa"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B8.svg",
+      "bytes": 298,
+      "sha256": "e556e9017ea3b71128ed116bcb0443681b8f4ec0656b715598c7a075a4c5b554"
+    },
+    {
+      "path": "union-v021/glyphs/uni00B9.svg",
+      "bytes": 259,
+      "sha256": "d759a704f1bcc4f2d66c4cd4f8223fd5aed0dab8c13076a26ac524714dea11f3"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BA.svg",
+      "bytes": 3725,
+      "sha256": "83ca99e1705fddd5fd288ee5e38c954c0ac843c0adca9467c2f660284e462026"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BB.svg",
+      "bytes": 331,
+      "sha256": "27a1ce0c81010e7e147067404f5aaebe088dd762ebb0772d74648a89e0695cf9"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BC.svg",
+      "bytes": 551,
+      "sha256": "2fad35c1f29b6d6f7bf6b4452f6315923d36534fca52f02c863195ae22a853c4"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BD.svg",
+      "bytes": 558,
+      "sha256": "4c4505741ff213e01ec8ce33398280c5aee88c1002432c14fd2bbb10a3aa72da"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BE.svg",
+      "bytes": 800,
+      "sha256": "b48cbcc9ba70525d150f360953cdb56387532158bf15c1843664c179052f1e40"
+    },
+    {
+      "path": "union-v021/glyphs/uni00BF.svg",
+      "bytes": 1086,
+      "sha256": "2fa1c7db2d7b402da2fa194e9a657a5cdda86280f58bf7ae3a80c7ce98fcf60a"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C0.svg",
+      "bytes": 2906,
+      "sha256": "b003db9ea5de96095cfb2146d680c954d0bd5fbeb5b602ace4cbc835089ae46f"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C1.svg",
+      "bytes": 2906,
+      "sha256": "3a60c9efef0f19a9e3a35d434c0fd4241a2c06577749277c010d664e081f53a8"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C2.svg",
+      "bytes": 2985,
+      "sha256": "f30b9f420d04bb2ecee2caecb14b3bfd087f65c623c5f23d77c9a63227155ca3"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C3.svg",
+      "bytes": 3332,
+      "sha256": "aba1944a08323991887d94aeafc6b672648b7774e2e1fa19a77eedfed4d73212"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C4.svg",
+      "bytes": 3753,
+      "sha256": "284e545e5077df2e2f652f7cb89cc08a19afedacbd7e8666530201aa7e53d337"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C5.svg",
+      "bytes": 3755,
+      "sha256": "cc54521df25380b83d00e7d029fd2c3a61ae9217270bf5d8fb6a3beec0090fe8"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C6.svg",
+      "bytes": 3275,
+      "sha256": "095db707eb6f46049aee78c7eaa0161f8a93187518e780ccd4b33de3e6ef6af3"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C7.svg",
+      "bytes": 5166,
+      "sha256": "60ef959fc2bc7e4ec9c1b3ac411868e07b08393e87d26f0ba93c23faf40dccb1"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C8.svg",
+      "bytes": 968,
+      "sha256": "e288445b574a7ddb20e38e7faf3ead8b48893cfe65ec2977bbaaa156d4a68f5c"
+    },
+    {
+      "path": "union-v021/glyphs/uni00C9.svg",
+      "bytes": 968,
+      "sha256": "c68554090cff2bd3d8b077cad2ab7a7f2bd6c2b94e6be91df0a905de9dcd7b7e"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CA.svg",
+      "bytes": 1037,
+      "sha256": "34faf7f3befd670880d66b969c15f5558f79947ec3f70601d0186b8de255a731"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CB.svg",
+      "bytes": 1598,
+      "sha256": "7345ac965c4536ef3512a57cab359ae25d93106ef593635d4f1b83587f89510a"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CC.svg",
+      "bytes": 1255,
+      "sha256": "0f46cce7430a5de1268e67a15a51f79beff153d95f77f3ac6e82d01e2121930e"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CD.svg",
+      "bytes": 1256,
+      "sha256": "8becf1d334f1f286a92e6ba0a706b5b49529858e7d959227498897401b82f2f4"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CE.svg",
+      "bytes": 1322,
+      "sha256": "c445e57c20711498e8fce6607825708188191aa06d7746856e6b4fc3c79a055c"
+    },
+    {
+      "path": "union-v021/glyphs/uni00CF.svg",
+      "bytes": 1887,
+      "sha256": "b1f219414d440ca83a94c85d04a7861cd9237072a4a14f5801bc7b70a208f761"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D0.svg",
+      "bytes": 2678,
+      "sha256": "7095115f59e955da789b36fe91fc07368dc72e402d078c8c333874f305a32b11"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D1.svg",
+      "bytes": 2188,
+      "sha256": "51b1e16af035704de0d8d9cd0691908c10debf3651b786328d37fab3eef8c0f6"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D2.svg",
+      "bytes": 5062,
+      "sha256": "e6ae22f09939e162585567102070fdb526c80721f2d330e76c3a09930aadb411"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D3.svg",
+      "bytes": 5062,
+      "sha256": "4d7481fb56661b90bf478e776c46a9b0de2c0f281cd9b61f2e44246cd0f568d5"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D4.svg",
+      "bytes": 5140,
+      "sha256": "b95c4ff2a109e658a63c10ab69575b803fa02ed31e9fa5e5147e371f18278239"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D5.svg",
+      "bytes": 5482,
+      "sha256": "5bf767d7c709dba5d6736ff0ac2fc7f1b71f7b1622a2f76d948559c80e8ab5ff"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D6.svg",
+      "bytes": 5854,
+      "sha256": "a7fae2d527915f3a3b04c7e9d6872339474081c5f1d443027f121350baab3ff0"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D7.svg",
+      "bytes": 486,
+      "sha256": "b518ab64a926615c07b285a4ac8a866fc0590a88e648fd09ba9a7792496cb22f"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D8.svg",
+      "bytes": 5466,
+      "sha256": "2e2fc5580fc9f4f0e8be9b41ea38c1bfcca1ce7e57a8ebf6eae67b8b9af19692"
+    },
+    {
+      "path": "union-v021/glyphs/uni00D9.svg",
+      "bytes": 2875,
+      "sha256": "91ae2a91b9cdfadcdbf39ba0001b8303f4da80c1035c7ebe7ba7eddf5fca0fb7"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DA.svg",
+      "bytes": 2875,
+      "sha256": "1cd1b8c34af5534c71d30d75faceba8039fe4759e7d5bf371a2970e21f670000"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DB.svg",
+      "bytes": 2944,
+      "sha256": "39718d21701df94115e705e7e1128eac2e163a108039952475c46cd3b6a2d233"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DC.svg",
+      "bytes": 3493,
+      "sha256": "4262420e95f89f747608c37cf6a2b34f2570a4fc8d81ae8073cac7a0198b5b23"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DD.svg",
+      "bytes": 1854,
+      "sha256": "09f5fb8f3affd2cef83d73c8ecd725bb0bfe0d39a560b6c007b7e1822ae4f30b"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DE.svg",
+      "bytes": 2666,
+      "sha256": "5ed710fcca8c304b9ed7b12c4a2e172572205f2055cbdde3e3bec623c9e04eb1"
+    },
+    {
+      "path": "union-v021/glyphs/uni00DF.svg",
+      "bytes": 356,
+      "sha256": "5bc65fd5667b0dcdeb73468d2407885a4a51c4141fb20a6b3797b9846d13bcf1"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E0.svg",
+      "bytes": 5709,
+      "sha256": "eb3040612214afb13139596b7b8700146a9b188c2632e69a7cdce1ce62daef98"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E1.svg",
+      "bytes": 5709,
+      "sha256": "97985ebdfe4a3b83d1eb3150e589733cd188eaaedb975935650f66717ac54021"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E2.svg",
+      "bytes": 5785,
+      "sha256": "36284adc22f1c0ab040f2b168a7306ad7bdd9344b129a01743799a5e1ff8cf27"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E3.svg",
+      "bytes": 6132,
+      "sha256": "3eee9fb03bcbec9557e50f96038a4ccfa74de601205754641576f4b75bb3d134"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E4.svg",
+      "bytes": 6513,
+      "sha256": "794a1e314f231b704d3b0fdaf0732da6402cf667713b08b84c791be4b60c1a07"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E5.svg",
+      "bytes": 6508,
+      "sha256": "db942792be081bdb20ca0f2a3a096a7fd8e9c8617f8a90da5e60c4a2d90f6bc9"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E6.svg",
+      "bytes": 9323,
+      "sha256": "fc900cec20e84c358c11b4cc911d2e9a5627518a948c70411a2997ca99e4d5d8"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E7.svg",
+      "bytes": 5494,
+      "sha256": "b4e04af0bb5dbe426ecdf2d36d809ac4429130898b04136e6ed5275207be4198"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E8.svg",
+      "bytes": 4131,
+      "sha256": "547e88544b09b03d1747d28dfc3438f532c4c336b495b195596de76339e8a6e4"
+    },
+    {
+      "path": "union-v021/glyphs/uni00E9.svg",
+      "bytes": 4131,
+      "sha256": "58a90678670537ff37069841cb096d0f9507b062a264f67f5cc7e7c4f080aa18"
+    },
+    {
+      "path": "union-v021/glyphs/uni00EA.svg",
+      "bytes": 4208,
+      "sha256": "b29ac10c7e4e9f9508303524c533fc5c3f9aa36627a8d95ecb2815c67dcb4c46"
+    },
+    {
+      "path": "union-v021/glyphs/uni00EB.svg",
+      "bytes": 4958,
+      "sha256": "c180b2d4b28a5601fd3c975ce21860dffa62cc8aa108a987b92ec87fdbdc5d8d"
+    },
+    {
+      "path": "union-v021/glyphs/uni00EC.svg",
+      "bytes": 981,
+      "sha256": "43e7a12adc865b65e67bc8ed5cb9cbc43829606c864dae2b3e898e2ad9ac8dae"
+    },
+    {
+      "path": "union-v021/glyphs/uni00ED.svg",
+      "bytes": 981,
+      "sha256": "e9c91fe70600492dd8db2c11764c402d3643721f1eb5634cf8c7c826f0102356"
+    },
+    {
+      "path": "union-v021/glyphs/uni00EE.svg",
+      "bytes": 1058,
+      "sha256": "51d0e455d0683fcdac70253478b09239d5174f877b4c47913619261c419fbb25"
+    },
+    {
+      "path": "union-v021/glyphs/uni00EF.svg",
+      "bytes": 1799,
+      "sha256": "da1c0331d57eeba89e73acd9b862e182a878889da6589f1b5613eaaced9ec47c"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F0.svg",
+      "bytes": 4337,
+      "sha256": "e82153d0e3591659cdc94c6a150da2a59314bbb33518a42dc9c639226a10257a"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F1.svg",
+      "bytes": 3010,
+      "sha256": "a7c551491ac83fcfedaff62f015d798b84b1d60a20de66ea26204a2916157b97"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F2.svg",
+      "bytes": 3854,
+      "sha256": "95418c6ee74ef735bca9a342c28b40865564879cebcaac6e218df1af5d26ac14"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F3.svg",
+      "bytes": 3854,
+      "sha256": "672a010f0e539d2471ce7e8791679f422d4be1940d5cccb55fd1b86dd7cca24e"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F4.svg",
+      "bytes": 3935,
+      "sha256": "5da6d4b10b3147956840a1cbaac35e69cde4acb5d2db371b147348182988ec7e"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F5.svg",
+      "bytes": 4290,
+      "sha256": "f1c793a01441631048895f3f384ac49d29c4c21205606498bab0a70add5423d3"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F6.svg",
+      "bytes": 4688,
+      "sha256": "67a0c36dd4f81df5a7e1a98915ee8453140aae220323e7450e77aebc96e87743"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F7.svg",
+      "bytes": 621,
+      "sha256": "8e6d897722b7e62bd203f32d044f15fe39d0d4e785af61a1ab7c73622ade4de9"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F8.svg",
+      "bytes": 4151,
+      "sha256": "042973fee6acf18fe4b2c98114a3dce23d6e877c4a2f963f6a3169582f59d194"
+    },
+    {
+      "path": "union-v021/glyphs/uni00F9.svg",
+      "bytes": 2411,
+      "sha256": "e0cd31238cce6002617c82aed1c9c2644c7e9e5bc09fed6919e4ee97234e1519"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FA.svg",
+      "bytes": 2411,
+      "sha256": "99f7ce661005832b18fca0222323f3435cfdc9777dc4f4ff0b896f4a301600a5"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FB.svg",
+      "bytes": 2489,
+      "sha256": "61cf95c6d48e228b28215cfb3bc63a893c66793ff63b4ab872bad02432e5a126"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FC.svg",
+      "bytes": 3251,
+      "sha256": "197bd2d83b359f2d6a9df047f7ef508f7b7e2ee0f553878b4b2dbbc9479dc0d5"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FD.svg",
+      "bytes": 4364,
+      "sha256": "0ccbf66cd11dcf5a95ed4ec15dc70fe77437371f9ef86a4b6268bebe5843acba"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FE.svg",
+      "bytes": 3155,
+      "sha256": "1c3038e4a1a9dcba3419c18e839f7cfd6ab1a2a68e6a083a88073c66c87313c9"
+    },
+    {
+      "path": "union-v021/glyphs/uni00FF.svg",
+      "bytes": 5183,
+      "sha256": "5b72fe62410c229c1d3c16522d3d95408b910aa574d525f127612ee922f09c5b"
+    },
+    {
+      "path": "union-v021/glyphs/uni0100.svg",
+      "bytes": 2870,
+      "sha256": "860de6962775c0b55a0d12de729dc94d019fa05d6d186ec29c8eaee1b8d91df6"
+    },
+    {
+      "path": "union-v021/glyphs/uni0101.svg",
+      "bytes": 5673,
+      "sha256": "d0b8c420996e6da91794f9a401aa08c93688d0149bb0a16bbcc988dc3f14dd4c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0102.svg",
+      "bytes": 3093,
+      "sha256": "0efbff7a17749afce76629ff68740987822a3b1efac8bf0cf7e5abc4e8611328"
+    },
+    {
+      "path": "union-v021/glyphs/uni0103.svg",
+      "bytes": 5877,
+      "sha256": "97bd49053a434f2af0fbc070c95580a054b68481f1419b60bb96f98fc5860268"
+    },
+    {
+      "path": "union-v021/glyphs/uni0104.svg",
+      "bytes": 3136,
+      "sha256": "62901de7fbf31cac06c88a43fcd915df5765381f07ef4ca0e3f37798014f8738"
+    },
+    {
+      "path": "union-v021/glyphs/uni0105.svg",
+      "bytes": 5972,
+      "sha256": "effc07c944d031be153fbeca542bbb200b1f2cb7fb146f884d3f58132256225a"
+    },
+    {
+      "path": "union-v021/glyphs/uni0106.svg",
+      "bytes": 4686,
+      "sha256": "fa89b79e5e88885ff044acd0d3d80adf9f7ceae80d54e5f74bb617b837f527e2"
+    },
+    {
+      "path": "union-v021/glyphs/uni0107.svg",
+      "bytes": 5030,
+      "sha256": "48525933faa9d1c1d8fddc971b7fc4f7a24dd898158c9aa2b4f58f6bee0a321e"
+    },
+    {
+      "path": "union-v021/glyphs/uni0108.svg",
+      "bytes": 4779,
+      "sha256": "d91f33e857470c45cdf15cd21e32006f517b46112f133c116678d4727d8c9241"
+    },
+    {
+      "path": "union-v021/glyphs/uni0109.svg",
+      "bytes": 5106,
+      "sha256": "7b964913b4283247a94e300dfec896638a04b30d58609395164189fd4e7de5fc"
+    },
+    {
+      "path": "union-v021/glyphs/uni010A.svg",
+      "bytes": 5059,
+      "sha256": "9180c3f9c1c3af3e168d7aa6c4db39e1b22ded8c980f841d31bacd0c697801ce"
+    },
+    {
+      "path": "union-v021/glyphs/uni010B.svg",
+      "bytes": 5399,
+      "sha256": "bf77f32dd81f32cc59d0fdc3b75acdae269f64284b4d7501f5b7bf525593a952"
+    },
+    {
+      "path": "union-v021/glyphs/uni010C.svg",
+      "bytes": 4798,
+      "sha256": "410712d3654f9004b282e3e19d0623120d99e6c523301901d335cd3a632e7673"
+    },
+    {
+      "path": "union-v021/glyphs/uni010D.svg",
+      "bytes": 5106,
+      "sha256": "a4911240cd2667d5d9d4d0303f567366418ae78e8848d2ff7a4d89c160e80cd2"
+    },
+    {
+      "path": "union-v021/glyphs/uni010E.svg",
+      "bytes": 2681,
+      "sha256": "2e8093c49f6ab73cac221029413e82abf3eb9f3bd198eaaa14f39320b0c7031b"
+    },
+    {
+      "path": "union-v021/glyphs/uni010F.svg",
+      "bytes": 3925,
+      "sha256": "bc2146b948d7607af07ad9e62a8bc538c8e2679abf0712ef7ee3fb320ac7d938"
+    },
+    {
+      "path": "union-v021/glyphs/uni0110.svg",
+      "bytes": 2678,
+      "sha256": "7095115f59e955da789b36fe91fc07368dc72e402d078c8c333874f305a32b11"
+    },
+    {
+      "path": "union-v021/glyphs/uni0111.svg",
+      "bytes": 4057,
+      "sha256": "31f7544912e3cec211f6f1b498fbf4de4e199e33abbc166624e6c1436d3193ab"
+    },
+    {
+      "path": "union-v021/glyphs/uni0112.svg",
+      "bytes": 930,
+      "sha256": "d5be1dfc16c1617f0c94bb16309491220a334691d9e78da2f07f8907ed6ba768"
+    },
+    {
+      "path": "union-v021/glyphs/uni0113.svg",
+      "bytes": 4095,
+      "sha256": "49e02ef87339e0054fda954327b776804d3d8c7888c024ec2f9d5b78660da63f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0114.svg",
+      "bytes": 1068,
+      "sha256": "44a45be7164511f885fcf9a1fb845df4e15fe19aee24715fc356321c60e03703"
+    },
+    {
+      "path": "union-v021/glyphs/uni0115.svg",
+      "bytes": 4304,
+      "sha256": "728c6afd6caeb6a5af036ccfd5c72f766d0d81815b53d3f456fe0c56c31c9400"
+    },
+    {
+      "path": "union-v021/glyphs/uni0116.svg",
+      "bytes": 1220,
+      "sha256": "ede5ad783ffb2c3127932f1484b682769258d405ba93a2f3aaadea5220f65b5c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0117.svg",
+      "bytes": 4470,
+      "sha256": "da5f831f7272e3beb63931e12faee9f02f1df27360a80e788f87b8055bdcc535"
+    },
+    {
+      "path": "union-v021/glyphs/uni0118.svg",
+      "bytes": 1214,
+      "sha256": "33009db69017224eed5e3f3be9c3fe059dab6e04806d2ffbde6f241fc9a12b48"
+    },
+    {
+      "path": "union-v021/glyphs/uni0119.svg",
+      "bytes": 4313,
+      "sha256": "9941f942048c4a2f92f188e6065d51411e01ab8e584300aea42fd6aae79b98f2"
+    },
+    {
+      "path": "union-v021/glyphs/uni011A.svg",
+      "bytes": 1037,
+      "sha256": "c517a75b0b58e46079c8b6bebd61f1b8401a2b204095aa54d6f5daf7b70b7886"
+    },
+    {
+      "path": "union-v021/glyphs/uni011B.svg",
+      "bytes": 4208,
+      "sha256": "75c56c3058fa7f79554ec7265ee6c99477a5db229e361a74fd4c23ff8e4681ea"
+    },
+    {
+      "path": "union-v021/glyphs/uni011C.svg",
+      "bytes": 4566,
+      "sha256": "1eeb5d2da06ac36509264aa7e86f1b5cb42153f0efe5ab79c7d4db33fd9d4e9a"
+    },
+    {
+      "path": "union-v021/glyphs/uni011D.svg",
+      "bytes": 8900,
+      "sha256": "70caaa673e5ab139fc431133bad7e1b80714c79c7275ae87a2e538b454d05591"
+    },
+    {
+      "path": "union-v021/glyphs/uni011E.svg",
+      "bytes": 4674,
+      "sha256": "4329736aa629d0ace9d431837e17cc8aab226d29fa87aa1c67b1f79c1f86fa57"
+    },
+    {
+      "path": "union-v021/glyphs/uni011F.svg",
+      "bytes": 9007,
+      "sha256": "e00c4858871d199498833d0e39550ed11b7caad2befc982eb020afe59038e727"
+    },
+    {
+      "path": "union-v021/glyphs/uni0120.svg",
+      "bytes": 4862,
+      "sha256": "85adceed66dfda7dadad408b8ef5d0b11372d189773c31b7e02bdd17b0842d7f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0121.svg",
+      "bytes": 9198,
+      "sha256": "5b790f2683f2ea6e87dbef3e066ed7cad4bab2a6d6ddba59f13bbfe46ec667c1"
+    },
+    {
+      "path": "union-v021/glyphs/uni0122.svg",
+      "bytes": 4827,
+      "sha256": "c7d5282a589f1ba085e11328806c0c768cf5b9d112ba25f5e9d15a0d8b9a7b74"
+    },
+    {
+      "path": "union-v021/glyphs/uni0123.svg",
+      "bytes": 8959,
+      "sha256": "00c1660e008726dbce3c9084453c5c61d4139ba8bc2046812ad0249d057f93ff"
+    },
+    {
+      "path": "union-v021/glyphs/uni0124.svg",
+      "bytes": 1162,
+      "sha256": "7f83b12413d36c80faa1739ddd6f3f6d2a163e84cef6294121fe70b298c4caf3"
+    },
+    {
+      "path": "union-v021/glyphs/uni0125.svg",
+      "bytes": 2529,
+      "sha256": "613612e0cc61981d9346e06391a3ef7d896e27fe1080856b630cc31594bd1d7f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0126.svg",
+      "bytes": 1182,
+      "sha256": "856205a9f3716a011fc74a3657a6f79a9c7b02a980423f546d7b050e4f87f845"
+    },
+    {
+      "path": "union-v021/glyphs/uni0127.svg",
+      "bytes": 2544,
+      "sha256": "92bdeeb3536e7687bf8e90ee0f29e6e7720418d553935d4623d4edb0464b448d"
+    },
+    {
+      "path": "union-v021/glyphs/uni0128.svg",
+      "bytes": 1631,
+      "sha256": "56be04b7697782fc8185a63d84bcc8015daaa0404982106dbb177feb31940e0b"
+    },
+    {
+      "path": "union-v021/glyphs/uni0129.svg",
+      "bytes": 1409,
+      "sha256": "88f23f5190de6f902d45cddd40df56f19d7076df912a1b7c1de0663dce8a4ec9"
+    },
+    {
+      "path": "union-v021/glyphs/uni012A.svg",
+      "bytes": 1216,
+      "sha256": "6566ab0e92578cb5233fe93571a907c2c5938a2d6d3e4d863bd0e57f090514ec"
+    },
+    {
+      "path": "union-v021/glyphs/uni012B.svg",
+      "bytes": 945,
+      "sha256": "d9d31b089425cb27bef374a6e818b0e1183515346a2db3ea0aa71e79cdf5edb7"
+    },
+    {
+      "path": "union-v021/glyphs/uni012C.svg",
+      "bytes": 1351,
+      "sha256": "25994f8fe365dece950a03bf311cdce0d49f71399f0c6e759e7c28e93a587e3f"
+    },
+    {
+      "path": "union-v021/glyphs/uni012D.svg",
+      "bytes": 1152,
+      "sha256": "b7843fb9d80f4eca9434b2b2c1847e54503516da150e6a96ea729ebc4b54826b"
+    },
+    {
+      "path": "union-v021/glyphs/uni012E.svg",
+      "bytes": 1400,
+      "sha256": "074802588579623c0d474285483ff57763548041d4c876ec308afb53da611b17"
+    },
+    {
+      "path": "union-v021/glyphs/uni012F.svg",
+      "bytes": 2968,
+      "sha256": "ee1e67ad7a657fe19b94585bbedd63aaea7f133ea3e968c0869497b1ed40b1a7"
+    },
+    {
+      "path": "union-v021/glyphs/uni0130.svg",
+      "bytes": 1505,
+      "sha256": "da9daa50e4593b237c3d3dd5ebaed36912f519ca373cfaf948959eba289bdf10"
+    },
+    {
+      "path": "union-v021/glyphs/uni0131.svg",
+      "bytes": 874,
+      "sha256": "4fab1c7e623a614f8dcf9ffc426a18b24f639a8478c74f7bdaccfb031ddfce48"
+    },
+    {
+      "path": "union-v021/glyphs/uni0132.svg",
+      "bytes": 4199,
+      "sha256": "9ee481044a87262e53b064cbd343f15ffbe5b56f98e220e8fe15962bfc9acaad"
+    },
+    {
+      "path": "union-v021/glyphs/uni0133.svg",
+      "bytes": 7224,
+      "sha256": "dc33ad32f0bcbee7883dcf0c5d9d68c5fa09148cb5766cd3e1837cc23f07ef72"
+    },
+    {
+      "path": "union-v021/glyphs/uni0134.svg",
+      "bytes": 3407,
+      "sha256": "b5bc40be73c189ebc46780e9ee129b0720e2ce35a09398220789618d4f43a7ad"
+    },
+    {
+      "path": "union-v021/glyphs/uni0135.svg",
+      "bytes": 3266,
+      "sha256": "6c7f97e443042dc96996763209a499d46c10d3f0dd676061f008563a64040a89"
+    },
+    {
+      "path": "union-v021/glyphs/uni0136.svg",
+      "bytes": 2400,
+      "sha256": "a260fe10d6ab451317ce42a777169b19fb32430aa9d682c5e93a729001193924"
+    },
+    {
+      "path": "union-v021/glyphs/uni0137.svg",
+      "bytes": 2617,
+      "sha256": "e66801714ad19bd232b2c9b081a50d4c1da42502203a371ad6c231df8703daea"
+    },
+    {
+      "path": "union-v021/glyphs/uni0138.svg",
+      "bytes": 1571,
+      "sha256": "b1530c6a0d8c894e2175a58af0894141f1f9e02d18e820ca591f47b4e2e7156a"
+    },
+    {
+      "path": "union-v021/glyphs/uni0139.svg",
+      "bytes": 663,
+      "sha256": "ffd66640a753f902a379b5a0aa629b6a8a7456a11b556465a231ef620d667221"
+    },
+    {
+      "path": "union-v021/glyphs/uni013A.svg",
+      "bytes": 1082,
+      "sha256": "0bf47c4b5b29abffb85cfa870b8ee3a256ce85ba531b073f7c77b546c12db488"
+    },
+    {
+      "path": "union-v021/glyphs/uni013B.svg",
+      "bytes": 726,
+      "sha256": "e214a81c5a122ac0079435a696a8ea2ab597c90ebba6a2d01fa9cbe6b5f67f17"
+    },
+    {
+      "path": "union-v021/glyphs/uni013C.svg",
+      "bytes": 1182,
+      "sha256": "2fb6fe3afead0f64427773e15b796c8b0fde4b69580dac8f534c6cd8ff218b0b"
+    },
+    {
+      "path": "union-v021/glyphs/uni013D.svg",
+      "bytes": 665,
+      "sha256": "68a9952d3ba92ec2af91115a8172cde0bf546aecbe1bbab85739c895a9f6f5d7"
+    },
+    {
+      "path": "union-v021/glyphs/uni013E.svg",
+      "bytes": 1080,
+      "sha256": "9ea8f5cf3c047bc6d0fe75eb51eeb69743fddc484723486aadb913e7c350c7e1"
+    },
+    {
+      "path": "union-v021/glyphs/uni013F.svg",
+      "bytes": 902,
+      "sha256": "da121c52a7ffcd79cb786e2df2bd5298346f03d0feb110d409a081eb3cfcfd17"
+    },
+    {
+      "path": "union-v021/glyphs/uni0140.svg",
+      "bytes": 1324,
+      "sha256": "730397a32c2f92e452a7808061ed298a2093710aa91c4b46341e0e24b8676125"
+    },
+    {
+      "path": "union-v021/glyphs/uni0141.svg",
+      "bytes": 756,
+      "sha256": "363cfd77e6acdb93dd9b03374bacf7275d79c2464d0d4c073f1ed669a28aa3be"
+    },
+    {
+      "path": "union-v021/glyphs/uni0142.svg",
+      "bytes": 1195,
+      "sha256": "71bab1198bf880178bf8201945b9483de067c3e0276fad7c61496376fc07e120"
+    },
+    {
+      "path": "union-v021/glyphs/uni0143.svg",
+      "bytes": 1805,
+      "sha256": "bc61ea43e641f5c05fdd4e8f477e79018a137e27e6a731c776e606e5e640562f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0144.svg",
+      "bytes": 2581,
+      "sha256": "93dc8d0667826a6a155a255d16ae65959df04d4e93401c0b6a33064c31cdf964"
+    },
+    {
+      "path": "union-v021/glyphs/uni0145.svg",
+      "bytes": 1983,
+      "sha256": "2a4047a2b6bd01cb40b0ed4730dd2e833439b926903bad67dab930e04f59afd3"
+    },
+    {
+      "path": "union-v021/glyphs/uni0146.svg",
+      "bytes": 2726,
+      "sha256": "d6711c478e533d3778a5892bcbefe867f51999381323132c258dd2b13a0cad4a"
+    },
+    {
+      "path": "union-v021/glyphs/uni0147.svg",
+      "bytes": 1871,
+      "sha256": "26da961d3e4dc93deac1a60b346b7652dc97dc0e5326a5e489e47029d59cc003"
+    },
+    {
+      "path": "union-v021/glyphs/uni0148.svg",
+      "bytes": 2658,
+      "sha256": "71aa58ba58cc84079cef4f8e26d5f4b8d8152c3578b927f80edd5fd49fc565b5"
+    },
+    {
+      "path": "union-v021/glyphs/uni0149.svg",
+      "bytes": 2479,
+      "sha256": "78928270f6834c904cb43687e119817f9a959b71e6456732f5cef6809b520bf3"
+    },
+    {
+      "path": "union-v021/glyphs/uni014A.svg",
+      "bytes": 1854,
+      "sha256": "1665bf2ba59c68e8f9c7aeb233a69315920025ed3fafdf5b3d9e25a3285c531c"
+    },
+    {
+      "path": "union-v021/glyphs/uni014B.svg",
+      "bytes": 2634,
+      "sha256": "dfd42e96bba79d0b79861538ee15ecdfa6133e2e9ad02fea849c3e7c18986050"
+    },
+    {
+      "path": "union-v021/glyphs/uni014C.svg",
+      "bytes": 5024,
+      "sha256": "d3843e4b0dc5dde42cdac84a05103027e618943be8c0626d6ee71be535f3b2d6"
+    },
+    {
+      "path": "union-v021/glyphs/uni014D.svg",
+      "bytes": 3816,
+      "sha256": "2145d57c16ffd2a0f6b9796fcc3198ef72005823b06d38ddfc7e5f0f199a8c84"
+    },
+    {
+      "path": "union-v021/glyphs/uni014E.svg",
+      "bytes": 5225,
+      "sha256": "19fe41947943995bea948dc404428e8560faa70199b83773bf91f57b0a99fb19"
+    },
+    {
+      "path": "union-v021/glyphs/uni014F.svg",
+      "bytes": 4038,
+      "sha256": "2b9955bd9034e4395855a1b33b01bf84ad0d015dde1a46e8e7f45451e973d0fa"
+    },
+    {
+      "path": "union-v021/glyphs/uni0150.svg",
+      "bytes": 5175,
+      "sha256": "31bbbe665dca8507da92a4d0ea32fafeda3f1dcfff348625eafb9420dc06016a"
+    },
+    {
+      "path": "union-v021/glyphs/uni0151.svg",
+      "bytes": 3968,
+      "sha256": "0adcbeb961111eb6c0e2dfa97442ca716992680cf03b3d435e9d16e26e42580b"
+    },
+    {
+      "path": "union-v021/glyphs/uni0152.svg",
+      "bytes": 5264,
+      "sha256": "091e50e3cbf904beb5a2a0cc2293dd149fc1b49fb53e0f9519ae94d196f84648"
+    },
+    {
+      "path": "union-v021/glyphs/uni0153.svg",
+      "bytes": 7196,
+      "sha256": "b0e745059fd2f69f0dcefc04944ee012b5646f3538628662d9f60c1fd74ed6f3"
+    },
+    {
+      "path": "union-v021/glyphs/uni0154.svg",
+      "bytes": 2918,
+      "sha256": "342a2631d587cb97e821b6c2d02bb3ae0e2ecd2837fff94b359fc750c2ae99d7"
+    },
+    {
+      "path": "union-v021/glyphs/uni0155.svg",
+      "bytes": 3107,
+      "sha256": "e4fa2a241e21a86b55fed9b6fd04f778046cbeedca81db05fe62908ab5801577"
+    },
+    {
+      "path": "union-v021/glyphs/uni0156.svg",
+      "bytes": 3125,
+      "sha256": "11753153d1c814f4a8f525c1b2ee531076f37fc55f35a44a1404cbe5a27a5d17"
+    },
+    {
+      "path": "union-v021/glyphs/uni0157.svg",
+      "bytes": 3320,
+      "sha256": "cea3e673a98ee5de2ef7c1d90d006e9f435c3c67065b63a26bb9717e263f27f9"
+    },
+    {
+      "path": "union-v021/glyphs/uni0158.svg",
+      "bytes": 2995,
+      "sha256": "21c76d642c10f5cea3e2665fb8bdedb47595e9f190b0412895c3ea964b5d8c04"
+    },
+    {
+      "path": "union-v021/glyphs/uni0159.svg",
+      "bytes": 3181,
+      "sha256": "144691e3348a0aa49b761ded41a62af7f74c47142ff697d96e6827f084f30516"
+    },
+    {
+      "path": "union-v021/glyphs/uni015A.svg",
+      "bytes": 5578,
+      "sha256": "76a62fc7ffbeaa53664934f16ee763e35ba35da7bd9a92282a149a23656684f5"
+    },
+    {
+      "path": "union-v021/glyphs/uni015B.svg",
+      "bytes": 4351,
+      "sha256": "660d2cdb6e05d537e3f5b12d5650e93d616ef2293b9c259e33caea74661bb533"
+    },
+    {
+      "path": "union-v021/glyphs/uni015C.svg",
+      "bytes": 5668,
+      "sha256": "0d9a432a74c0c01a257f7de1abc10eb537f5729c2ff352fd5d1a5a7e4d93a49d"
+    },
+    {
+      "path": "union-v021/glyphs/uni015D.svg",
+      "bytes": 4444,
+      "sha256": "d257f822471c6ed7837f46069400f1d07ba3f383611a7786f6a3f766772c077a"
+    },
+    {
+      "path": "union-v021/glyphs/uni015E.svg",
+      "bytes": 6167,
+      "sha256": "8a550ed5a46ae1d3f6cbe035e3f6e632c81060a6b971938f676913d59afbb4cf"
+    },
+    {
+      "path": "union-v021/glyphs/uni015F.svg",
+      "bytes": 4821,
+      "sha256": "545082d0bf300ffa2c321636df2f71b390e67a84ce34e2154441f47b8e157d05"
+    },
+    {
+      "path": "union-v021/glyphs/uni0160.svg",
+      "bytes": 5686,
+      "sha256": "e6010ec354876ea256e1a21f9707b5092e7ef5806bb8fab1b8344e414912c455"
+    },
+    {
+      "path": "union-v021/glyphs/uni0161.svg",
+      "bytes": 4462,
+      "sha256": "cb9c1e08f86029209d2bf88a8c3aeaa6be3cfaf50e108d8f77b29bb0b4e9ab68"
+    },
+    {
+      "path": "union-v021/glyphs/uni0162.svg",
+      "bytes": 1280,
+      "sha256": "f60d8af2c8b6a1ed68295a35167c71d2390d5826d7d2722f62fef52587cbf506"
+    },
+    {
+      "path": "union-v021/glyphs/uni0163.svg",
+      "bytes": 3155,
+      "sha256": "d52c587494f96f83d85171cc824ca8809baffb8ee4106b3ce65c244e2d036b41"
+    },
+    {
+      "path": "union-v021/glyphs/uni0164.svg",
+      "bytes": 843,
+      "sha256": "a128bb22e76972a9a512a4ba0c2e4ac5806124359bd8683187bf7dd2e4076aa5"
+    },
+    {
+      "path": "union-v021/glyphs/uni0165.svg",
+      "bytes": 2635,
+      "sha256": "69add10efdb390344c7c5d4a3d291373a27ee00d61e5afdedc71b4b261c8b173"
+    },
+    {
+      "path": "union-v021/glyphs/uni0166.svg",
+      "bytes": 717,
+      "sha256": "eec62b99786886dea4d520f7cee3c8ee2eeaf11b03cb736dd494071a32c99d1e"
+    },
+    {
+      "path": "union-v021/glyphs/uni0167.svg",
+      "bytes": 2793,
+      "sha256": "5b499296968f5887cfdfb47af7c6a33f384b13774a2b598e8e459753a79c3a2e"
+    },
+    {
+      "path": "union-v021/glyphs/uni0168.svg",
+      "bytes": 3256,
+      "sha256": "36cefbff181bd0de3fa61add84b85638f1d2a242affed4ba4277fb371b879f7c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0169.svg",
+      "bytes": 2848,
+      "sha256": "9b4b385d29e2c9399525343b2feec7418f6355c23a8d1b83a88d11143b9de0af"
+    },
+    {
+      "path": "union-v021/glyphs/uni016A.svg",
+      "bytes": 2837,
+      "sha256": "f755ffbec7b7296f347abdb42249098c4b882848a832bc80ee7b50ec4ce1d4ee"
+    },
+    {
+      "path": "union-v021/glyphs/uni016B.svg",
+      "bytes": 2375,
+      "sha256": "45deb315e1f34e9803a95abbee4803ac242ba5711884a47191fc80d62dc3d860"
+    },
+    {
+      "path": "union-v021/glyphs/uni016C.svg",
+      "bytes": 2975,
+      "sha256": "8aafbda8049620653b93776e13be150bf88f7f21e87e667d2869e182f547b3db"
+    },
+    {
+      "path": "union-v021/glyphs/uni016D.svg",
+      "bytes": 2593,
+      "sha256": "1bc2b6d8ce3918423cc819bb1c1991fae63bd7088b3d1c98e1371bc926826e00"
+    },
+    {
+      "path": "union-v021/glyphs/uni016E.svg",
+      "bytes": 3499,
+      "sha256": "aa02a2ca9e32e542d78314aaf1562184fa1a09144f4109ad5fbd074164a5d60e"
+    },
+    {
+      "path": "union-v021/glyphs/uni016F.svg",
+      "bytes": 3246,
+      "sha256": "a54427ef2a090c82e464ea1f8eac79154eadd4384588e843b8f8382396d38252"
+    },
+    {
+      "path": "union-v021/glyphs/uni0170.svg",
+      "bytes": 2989,
+      "sha256": "0fb09803deca44410c40fbef5e40ba54e94b7534c2462a6bc5adee5bc1f6ea28"
+    },
+    {
+      "path": "union-v021/glyphs/uni0171.svg",
+      "bytes": 2520,
+      "sha256": "ca3926e028503bd25ec45175d40136e17dc402475b18a27610119f25ce75a84f"
+    },
+    {
+      "path": "union-v021/glyphs/uni0172.svg",
+      "bytes": 3052,
+      "sha256": "ca19b7b9880787c1724b7fe07531bf78e81f7f4d77151ee3c115f2f3c40fd7d4"
+    },
+    {
+      "path": "union-v021/glyphs/uni0173.svg",
+      "bytes": 2566,
+      "sha256": "39dba9ec555bc62f0faf7707e057a948ee1e070928943242a9ef387bffdae67d"
+    },
+    {
+      "path": "union-v021/glyphs/uni0174.svg",
+      "bytes": 3450,
+      "sha256": "b6da7dac9850b7d00f48c316bc24c73638143810c6e7070ceef1a5131636a61c"
+    },
+    {
+      "path": "union-v021/glyphs/uni0175.svg",
+      "bytes": 2812,
+      "sha256": "8d0349095001b6995f839a76018721e78321a11ef6bedbc39953af74427e1175"
+    },
+    {
+      "path": "union-v021/glyphs/uni0176.svg",
+      "bytes": 1929,
+      "sha256": "c3e9ee4a2ecfd01cde73be38ba8fdd6bd6298e5ddd6b95ac49808abccf9351fe"
+    },
+    {
+      "path": "union-v021/glyphs/uni0177.svg",
+      "bytes": 4436,
+      "sha256": "960297b6b02e0422a38355ad6ba2d9f4c3f63521cd7d5b662db0afa60d100f39"
+    },
+    {
+      "path": "union-v021/glyphs/uni0178.svg",
+      "bytes": 2645,
+      "sha256": "36c0a763ff9cfcdb2e853cf1b3ce483d12953d2bae06de622c6273645d77f1e9"
+    },
+    {
+      "path": "union-v021/glyphs/uni0179.svg",
+      "bytes": 2235,
+      "sha256": "9c91be45c4f398c6d9445d10f17732e4ee413b59d1f1c0b9f946b42afe2d7ed3"
+    },
+    {
+      "path": "union-v021/glyphs/uni017A.svg",
+      "bytes": 2331,
+      "sha256": "ab5aed411c62ec422cb6593cd5309b948a117bc760ed9bc7ce936fa76cb46dcf"
+    },
+    {
+      "path": "union-v021/glyphs/uni017B.svg",
+      "bytes": 2487,
+      "sha256": "8ee14d8197b0389bc36ce652d8b983a7e60e0ad7332b075e132d50c4d8cce519"
+    },
+    {
+      "path": "union-v021/glyphs/uni017C.svg",
+      "bytes": 2667,
+      "sha256": "29a8d7301e08f5d87457e7ec608f0ac2a396c1f06f95a7265e201b4e09f6b690"
+    },
+    {
+      "path": "union-v021/glyphs/uni017D.svg",
+      "bytes": 2304,
+      "sha256": "f7382add56b5b4d1fda115089ea899aef3c063fb2470fe96ea36da543263540f"
+    },
+    {
+      "path": "union-v021/glyphs/uni017E.svg",
+      "bytes": 2408,
+      "sha256": "d71830baf6e4829b642a07be2de972425231ab3807c6983999c84a4df552a2f4"
+    },
+    {
+      "path": "union-v021/glyphs/uni017F.svg",
+      "bytes": 2952,
+      "sha256": "0f36644576628cfe0bc02a906a4f87bd2910a812a27afe9bafb66be406ead817"
+    },
+    {
+      "path": "union-v021/glyphs/uni0218.svg",
+      "bytes": 5745,
+      "sha256": "bf59d3ead4b93e35e66cfedcdc478c8c2448c375ff697e83351f858d115d5f91"
+    },
+    {
+      "path": "union-v021/glyphs/uni0219.svg",
+      "bytes": 4524,
+      "sha256": "8077f173f2f5c1d5806438a4d167cc776e355450e6eaa92371a0dc715f77bd46"
+    },
+    {
+      "path": "union-v021/glyphs/uni021A.svg",
+      "bytes": 939,
+      "sha256": "0e5e208bad9d654287dd5a930e91cd1c673611b551bbd1ee5692b0a14fb34b4e"
+    },
+    {
+      "path": "union-v021/glyphs/uni021B.svg",
+      "bytes": 2788,
+      "sha256": "ce079c8e57fab590bf3d250d047aee78b3ca92efaf75e3f422a16b0f000071a0"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E80.svg",
+      "bytes": 3491,
+      "sha256": "679bf02c467ab6e45a2aad371d911ce3fbcb9249ea154c5abd619a60d0e8f74f"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E81.svg",
+      "bytes": 2903,
+      "sha256": "165bfb0a2599dad11989bbe549d0677abab9867ec180cc8d39c4a38bc1ec5332"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E82.svg",
+      "bytes": 3491,
+      "sha256": "fb3e07bcdf7bc2ae22b96f230cc3976b87a828fed4afd85ee11cbaa275a08bd4"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E83.svg",
+      "bytes": 2902,
+      "sha256": "ded4855070c99d6daebe5225fd3b3dbd19108fca2436f41eab53d7bb0eae6e28"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E84.svg",
+      "bytes": 4247,
+      "sha256": "4ba21c29d17a2896613ad9bc5e06e30b084e7158fb7f729d89f1d625fe49b47b"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E85.svg",
+      "bytes": 3704,
+      "sha256": "36a47de4f73cfe81a504f5069510626d3a284d019cf1a9bf7db61859f481d08f"
+    },
+    {
+      "path": "union-v021/glyphs/uni1E9E.svg",
+      "bytes": 266,
+      "sha256": "b7bc102a5cb72af496b00da0c006897327e400061d344d85a3f31a8b1b04c825"
+    },
+    {
+      "path": "union-v021/glyphs/uni1EF2.svg",
+      "bytes": 2012,
+      "sha256": "33d11469579b1c4432769ca7e6e4488782a7aca7d24506848ad773961a2db8a3"
+    },
+    {
+      "path": "union-v021/glyphs/uni1EF3.svg",
+      "bytes": 4458,
+      "sha256": "fd07020168242d6e07a6358a64522227f1399b9ac642a539bd146e6482000eb4"
+    },
+    {
+      "path": "union-v021/glyphs/uni2013.svg",
+      "bytes": 118,
+      "sha256": "408dc28c9cdf260c8f2dd78792a8e46ec276d57f705a4a3733afa58a1a87d76c"
+    },
+    {
+      "path": "union-v021/glyphs/uni2014.svg",
+      "bytes": 118,
+      "sha256": "1a80fd4c735a8a57a434d877ad6f372901b800a0a3be430952b93ee792ccbedf"
+    },
+    {
+      "path": "union-v021/glyphs/uni2018.svg",
+      "bytes": 546,
+      "sha256": "8771648b7737855c73238a0e9647c3c48972cf21f5cbed7e4b540d9656dd720c"
+    },
+    {
+      "path": "union-v021/glyphs/uni2019.svg",
+      "bytes": 548,
+      "sha256": "7c1f26bdcb5357f0a8ae003b142b2f072e138f9831c41c630188e23e76ffe40d"
+    },
+    {
+      "path": "union-v021/glyphs/uni201C.svg",
+      "bytes": 1024,
+      "sha256": "ddf073e0f964428caff700e52027c6786556e5db16d92725da534ed0c54bda9f"
+    },
+    {
+      "path": "union-v021/glyphs/uni201D.svg",
+      "bytes": 1023,
+      "sha256": "3f84505ffbae6d499869bd5daea7c5df67e6a229930cb3bdfa5cf8f308e35eb7"
+    },
+    {
+      "path": "union-v021/glyphs/uni2026.svg",
+      "bytes": 863,
+      "sha256": "e623228f10a95966b8b73c38f36ad93fbf753f21824f74195ca3a3d65c6f3744"
+    },
+    {
+      "path": "union-v021/glyphs/uni20AC.svg",
+      "bytes": 4925,
+      "sha256": "fda2dc6fdd5189adde82ffbb48b83aaa472721783f6da4f651cd9ad8478a5942"
+    },
+    {
+      "path": "union-v021/glyphs/v.svg",
+      "bytes": 1823,
+      "sha256": "a9ca39955454b9f4ac52d8ab502bc271c565f22eb5da9dfa861bc7f66582de55"
+    },
+    {
+      "path": "union-v021/glyphs/w.svg",
+      "bytes": 2755,
+      "sha256": "cb58b5476ffbd8c05d0ad25391fdf6a92f09b1b52f3e3eeb1875e315084b6938"
+    },
+    {
+      "path": "union-v021/glyphs/x.svg",
+      "bytes": 3355,
+      "sha256": "7ff7790b144cb343b646f067c2b96fa13d371896223762a8b028e32971f0b74e"
+    },
+    {
+      "path": "union-v021/glyphs/y.svg",
+      "bytes": 4299,
+      "sha256": "429fa569ca07ed286de9a9d143069ef886cff3b7ecc65d6707a0ccf3d3d885ce"
+    },
+    {
+      "path": "union-v021/glyphs/z.svg",
+      "bytes": 2286,
+      "sha256": "33c116912e05068b3523956ea76951bbb0fb1f9c963bfba33e5869554437aede"
+    },
+    {
+      "path": "union-v021/iogonek-correction.json",
+      "bytes": 1023,
+      "sha256": "a5a410178e2b402338cb25cc7096ca325b27b88cce2a67306bd32af7ecc420eb"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0300.svg",
+      "bytes": 136,
+      "sha256": "7552733b60e6e1a72a25bb9484c044bfe132ddfa39d0f940736b2840f47f980f"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0301.svg",
+      "bytes": 136,
+      "sha256": "d49bbca5fad1046a0ee8c8ddffa04f03d64248d9ccae00bb614a5f4cf213ff86"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0302.svg",
+      "bytes": 152,
+      "sha256": "9c17ab6d5bf7fb0cdb5cca716d4ee910db42e5ec165b79ef8719fd4bab3b7659"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0303.svg",
+      "bytes": 527,
+      "sha256": "8c312f29d025aec26cc545672abc9825e7845f71f8ac77fa3d54a935bb4d0659"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0304.svg",
+      "bytes": 127,
+      "sha256": "5435dc555a9857bfde8766d7799164c24a0d76143f618cc2b2d36919c9c57388"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0306.svg",
+      "bytes": 179,
+      "sha256": "528fd1135794f174629c09a4ea30a78514452a096341923e75f747526c534653"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0307.svg",
+      "bytes": 345,
+      "sha256": "d933345314a52ce14a1fc341194b20e2e4383d69a0c017ae8541fe09082b9905"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0308.svg",
+      "bytes": 610,
+      "sha256": "391d2ad94a0cdcf7e04b25425a698443b17d9c8a53f8728b4df7ba36edba67ea"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni030A.svg",
+      "bytes": 590,
+      "sha256": "ccf10e4bf3a84f1b459224fe6ddc5dd7c687547adbd5255edeac74dc39a2674b"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni030B.svg",
+      "bytes": 158,
+      "sha256": "0dc4a67e623af45c6c1a7828a2679f87d31b5f9991a0d2bc99bfcacc8a8153bb"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni030C.svg",
+      "bytes": 157,
+      "sha256": "ecefa0010a2dd0b652efbc2c3da6530c951e05138f8a55e46aea4ef6377b3fe2"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0326.svg",
+      "bytes": 181,
+      "sha256": "827867377c4bb52af7dca08b9621a970ca69cd3a568bf6b3b53298562a28a6f5"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0327.svg",
+      "bytes": 302,
+      "sha256": "323d1546d5f31daf5df2d1969cec4cfaae9bdd1db5eb7db6e3479572e48ecaf7"
+    },
+    {
+      "path": "union-v021/mark-artwork/uni0328.svg",
+      "bytes": 190,
+      "sha256": "78020d81a2367fe3c908a96ba999c954cff9919f327d82abf0204110fa0c01ad"
+    },
+    {
+      "path": "union-v021/quality-v021.json",
+      "bytes": 236611,
+      "sha256": "6e3fdb7581284c58acc336b7ff6222854a886574ec92cf5ab9f56d1edc5a8e55"
+    },
+    {
+      "path": "union-v021/source-review-audit.json",
+      "bytes": 1288960,
+      "sha256": "f4fb3d7a34f87c1c1250932dcf0d7128ea79fa024d8e1638bc722eccddfedf4b"
+    },
+    {
+      "path": "union-v021/union-and-locale-provenance.json",
+      "bytes": 12638,
+      "sha256": "4a8645e1c54b665298756df8d8885bf733c05f121b086684d1364e03735c0e26"
+    }
+  ],
+  "note": "This checksum inventory excludes itself. Current production identity is complete-v021/production-manifest.json."
+}

@@ -1,0 +1,283 @@
+{
+  "status": "passed",
+  "scope": "Frozen final artifacts only; source-stage release and aesthetic approval are separate.",
+  "samples": [
+    {
+      "name": "Reedmere",
+      "version": "0.025",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 357,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "e3e46c305e11c9042102749279086f1c42f281c5c411b193c051b860c3aab388",
+        "woff2": "e7ce54def97c6ad26965218bea758823be1528a22e8701e96ecb032cb80632f8"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Presswake",
+      "version": "1.011",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 356,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "54bb682407dbc77883db810062674e678bcfb0f1798f6e580a231598dd61bca9",
+        "woff2": "10c1cdded1ce566a3f159c459405d386f5fc407aa1ba970a3147b3320d4fb64a"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Bunvale",
+      "version": "0.016",
+      "status": "passed",
+      "coverage": 358,
+      "extras": [
+        "U+201A",
+        "U+201E",
+        "U+2039",
+        "U+203A"
+      ],
+      "glyphs": 360,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "d0cf8baa9937c98c4c2010b901a8b5dfcf391c79190b276f29caa87ccba22e2b",
+        "woff2": "a0920ace48023db711dac9fb619f9517dfdf9e71d2af7dc4697096c012a62e2f"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Lapisent",
+      "version": "1.003",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 355,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "b10b7c48e043b49fe19ad0d4a44d620166b2baa5ba005b44e889757a20896dfa",
+        "woff2": "3e5e99431b3f72ee06010618f2d7494e68ceb492db3fee7938c8bf1f3a8149d3"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Liltvale",
+      "version": "0.048",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 355,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "bf4de894521eddf45981ebae12b0f01e74def57d4688e1e724661c3b63dc925d",
+        "woff2": "4a73ded0a34aa54c431a5be87770c85e9b25d4195367e92af2822260b35f6354"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Tessaplay",
+      "version": "0.024",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 356,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "bc35b10eda5e2295100302e49f533ed03247e7c9298bbaf31ecb89f06b13bc1e",
+        "woff2": "8cafc48b2535f2c0025ed11b867427082937b8c12f38b19adbcc342857d2c45b"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Riftstave",
+      "version": "0.018",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 358,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "520019f030d8f4f7a00b42c273642fc8eb455f62ba49e472ebf4c4d157e346aa",
+        "woff2": "40e99b7729c9ac7b05799ef715ea475c09cc68612a385bd5787449f40cc6b6cd"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Semiloft",
+      "version": "0.019",
+      "status": "passed",
+      "coverage": 355,
+      "extras": [
+        "U+0237"
+      ],
+      "glyphs": 356,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "4d0b75790cdbd566ce80c5648b178a194798f3a22f82ae43aa5614718e11a53c",
+        "woff2": "3db1a9fb3bd78bce76b05d03ef725457855f9fd2e8ed809d350854d8c7e09f85"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Marqevra",
+      "version": "0.021",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 355,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "4aed6a2c1a6233b5eb5683dd23f4cf471d5fe9d1c262931c240996ad8beed71e",
+        "woff2": "75b4a734d18e41cf8cf998b0747eae6282306a29274d2bcf2f9948047c2fe589"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    },
+    {
+      "name": "Charterquill",
+      "version": "0.216",
+      "status": "passed",
+      "coverage": 354,
+      "extras": [],
+      "glyphs": 358,
+      "canonical_pairs_per_format": [
+        173,
+        173
+      ],
+      "font_hashes": {
+        "ttf": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94",
+        "woff2": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8"
+      },
+      "checks": [
+        "exact artifact hashes",
+        "all outlines and metrics in both formats",
+        "exact layout and naming tables",
+        "all scalars shape without .notdef",
+        "canonical shaping",
+        "14 zero-advance classified/attached marks",
+        "mixed mark ordering/context and below-only dot retention",
+        "space/NBSP blanks",
+        "native soft-hyphen hiding"
+      ]
+    }
+  ]
+}

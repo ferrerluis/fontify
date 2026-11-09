@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "status": "integration_preview_inspected",
+  "scope": "Fresh final-TTF preview and actual Chrome WOFF2 minimum-size sample rows; not a new every-glyph optical certification or human aesthetic approval.",
+  "font_hashes": {
+    "ttf": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94",
+    "woff2": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8"
+  },
+  "renderer": {
+    "native": "Pillow 13.0.0 / FreeType / RAQM",
+    "browser": "Chrome 156.0.8078.47",
+    "device_scale": 1
+  },
+  "findings": "Selected uppercase/lowercase, figures, punctuation, accented sample forms and focused mixed contexts are visible without clipping in these specimen rows. Display minimum retained; family-specific limitations remain in metadata and README.",
+  "evidence": [
+    {
+      "path": "preview.png",
+      "sha256": "96f3ec53d9b14922a2132bc1b731cb1570a00e2bcddb840c0542e5384a6435e5",
+      "bytes": 116744
+    },
+    {
+      "path": "review-evidence/woff2-minimum.png",
+      "sha256": "56a66990c640c2deabf2eb3789bd2f501d4b8d2c4da04394a172b5dae0508758",
+      "bytes": 105975
+    }
+  ],
+  "additional_current_version_review": {
+    "status": "inspected",
+    "sizes_px": [
+      48,
+      72,
+      96
+    ],
+    "formats": [
+      "native TTF",
+      "Chrome WOFF2"
+    ],
+    "scope": "Selected core rows, figures/sharp-s, Latvian/cedilla, Slovak side-carons, dotted ordinary į, specific mixed marks, above-ogonek equivalents, symbols and Welsh forms. No new every-glyph optical certification.",
+    "findings": "Dots remain visible in ordinary i/j/į. Tested above contexts remove only contextual dots; above and below marks remain separate and ordered. Accents/descenders fit the fresh proof sheets; pen-cut companion forms are legible at declared display sizes. The documented discretionary-hyphen kerning difference remains.",
+    "evidence": [
+      {
+        "path": "actual-ttf-48.png",
+        "sha256": "e4ef949d7f4e4dcd5e1afab5a4f828ab64ca1b0baccb3313ec8cc04f0e6ca4ad"
+      },
+      {
+        "path": "actual-ttf-72.png",
+        "sha256": "866a1cd1e2310d653a36152d90b778343b43b6f1a9e88e3b7a7d484c12dc5602"
+      },
+      {
+        "path": "actual-ttf-96.png",
+        "sha256": "2b7362bbf96acc380adefc66c9af8bdecfa4c36dc6328aa61aa7e8bfa030f08f"
+      },
+      {
+        "path": "actual-woff2-48.png",
+        "sha256": "058410074db7c46393babb7bae238f0ed80dc670e20ef0166e3266da1e3eceaa"
+      },
+      {
+        "path": "actual-woff2-72.png",
+        "sha256": "a338e2da66d37531498dc721084c2a2b5b1794a265401132e703d2219a7b44e7"
+      },
+      {
+        "path": "actual-woff2-96.png",
+        "sha256": "7190c2f81b0b9c9339b239fbd595f73524e0fb6ad8a1753ae71910260b9b483b"
+      }
+    ]
+  }
+}

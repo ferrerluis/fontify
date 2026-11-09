@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Charterquill",
+  "style": "Regular",
+  "version": "0.216",
+  "title": "Contemporary ceremonial blackletter",
+  "inspiration": "Old English Text MT",
+  "description": "A contemporary blackletter display face with angular bowls, forked pen strokes, diamond terminals and individual capital flourishes. Intended for cultural identities, editorial titles and distinctive short headings.",
+  "story": "Old English Text MT is the historical inspiration for independent new artwork. The user selected the fresh OpenAI replacement A in the current ABCv2 review. Protected tracing at a shared scale preserves the 52 source SVGs, and optical spacing moves them horizontally. Authored figures, symbols, composites and Latin forms follow the pen-cut source. Version 0.216 refines companion figures, sharp-s forms and symbols while retaining selected letters. Current-version local verification supplements the earlier remote review.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current 0.216 receives local verification; earlier build reviewed remotely",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "Documented project-local compatibility adapter runs the pinned Fontify compiler and gated review; plain JSON CLI cannot directly admit blank NBSP/zero-advance marks. Producer source-stage, compiled and release records are distinct from the integration binary checks.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Chrome may change kerning across a discretionary-hyphen boundary. At 48px the documented example measures 234.9125px versus 231.4565px with the control removed; forced-reference pixel identity is not claimed."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Charterquill-Regular-v0.216.ttf",
+      "sha256": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94",
+      "bytes": 203860,
+      "package_path": "fonts/Charterquill-Regular-v0.216.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Charterquill-Regular-v0.216.woff2",
+      "sha256": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8",
+      "bytes": 50544,
+      "package_path": "fonts/Charterquill-Regular-v0.216.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "96f3ec53d9b14922a2132bc1b731cb1570a00e2bcddb840c0542e5384a6435e5",
+      "bytes": 116744,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "b879c19b4960a5ce6695c563d217df2b58448847d67ad73caf3d2ddafa616c7c",
+      "bytes": 25495,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "488abacb05fd6c000efafee0a13e7383e09852b0bb7f226e1792f58314095b97",
+      "bytes": 287,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "10cf40be47955767d9f792501fbb91bfb4ab7a92d822e42b91435b540779ee06",
+      "bytes": 17069,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}

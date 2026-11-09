@@ -1,0 +1,21 @@
+{
+  "method": "native Recraft vector",
+  "selected_option": "A",
+  "selected_original": {
+    "package_path": "immutable-selected-A/raw-source.svg",
+    "sha256": "715e75e972334a3a1d7c363cf8d09142e369d69f32da5c4c1bc1aa04a5de0959",
+    "bytes": 242394
+  },
+  "authorship": "Selected alphabet from independent generated artwork; extension glyphs are explicitly authored or source-derived composites. No legacy commercial-font software or outlines are included.",
+  "full_evidence_input": "/home/ferrerluis/Documents/Codex/2026-11-08/task-4/lapisent-final/Lapisent-Trajan-A-v1.003-Latin354-mixed-mark-fix-private-review.zip",
+  "package_sha256": "8d5b159081c5fedddc9c4e6fe631ac2ba1d3e0356ca83038433e6f8af7a5ce8b",
+  "manifest_verification": {
+    "manifest": "SHA256SUMS",
+    "manifest_sha256": "f3bdc50642d0b4091a809baf23c0b04fc85b2127035aab3d381ca95754f2cd88",
+    "entries_checked": 527,
+    "errors": []
+  },
+  "fontify_production_commit": "249bf421e4be58bac8b42024fb42af264bd39838",
+  "integration_copy_preserves_final_font_bytes": true,
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged."
+}

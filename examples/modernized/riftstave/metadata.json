@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Riftstave",
+  "style": "Regular",
+  "version": "0.018",
+  "title": "Pointed, urgent brush display",
+  "inspiration": "Chiller",
+  "description": "A pointed brush display face with open angular counters, torn stroke endings and substantial uneven cores. Built for genre-film headings, cultural posters and expressive commercial titles.",
+  "story": "Chiller inspired the uneasy handwritten character. The chosen current OpenAI A raster supplies the alphabet; protected tracing, optical spacing and recorded cleanup preserve its distinctive forms. New digits, punctuation, symbols and Latin companions are authored additions. The 52 selected source SVGs, compiled contours and advances retain the reviewed production baseline.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "Documented project-local compatibility adapter runs the pinned Fontify compiler and gated review; plain JSON CLI cannot directly admit blank NBSP/zero-advance marks. Producer source-stage, compiled and release records are distinct from the integration binary checks.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "Distress is intentional; authored additions are cleaner. Copyright/registered rings are lighter to preserve open interiors."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Riftstave-Regular-v0.018.ttf",
+      "sha256": "520019f030d8f4f7a00b42c273642fc8eb455f62ba49e472ebf4c4d157e346aa",
+      "bytes": 178112,
+      "package_path": "font-build/Riftstave-Regular-v0.018.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Riftstave-Regular-v0.018.woff2",
+      "sha256": "40e99b7729c9ac7b05799ef715ea475c09cc68612a385bd5787449f40cc6b6cd",
+      "bytes": 39624,
+      "package_path": "font-build/Riftstave-Regular-v0.018.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "c1831fab99ab6ff0724df1e09d684fd919cd8f187e3c74857523461236f88df0",
+      "bytes": 92464,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "02a98e7752e0f548dafca417062d81dcb51cb030572a8d8a625e1a815e2290fb",
+      "bytes": 25199,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "bf2c014d0a24953824b4d3673e006a4b9702e6a0877a142108eefc42e529b31e",
+      "bytes": 278,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "8f33971a6a1a90ad6b0fae9451a794802859c78f3f553a272b1100cc76cc1486",
+      "bytes": 17379,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}

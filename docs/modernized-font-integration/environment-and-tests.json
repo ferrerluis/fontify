@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "integration_branch": "integration/modernized-font-samples-20261109",
+  "integration_base_commit": "a09832297ebc887bb64d61a687ec177f7fd59010",
+  "production_commit": "249bf421e4be58bac8b42024fb42af264bd39838",
+  "worktree": "/home/ferrerluis/Documents/Codex/2026-11-09/task-2/fontify-integration",
+  "python": "3.14.4",
+  "toolchain": {
+    "fonttools": "4.68.0",
+    "uharfbuzz": "0.57.0",
+    "Pillow": "13.0.0",
+    "playwright": "1.64.1",
+    "pytest": "9.2.0",
+    "ruff": "0.17.3"
+  },
+  "source_gate_claim": "No new full-source CLI release is claimed by this integration. Frozen artifact checks are distinct.",
+  "repository_tests": {
+    "initial": "174 passed; 1 failed solely because sandbox denied Chrome socket initialization",
+    "initial_evidence": "test-runs/20261109T035512Z",
+    "failed_test_rerun": "tests/test_proofing.py::test_size_proof_browser_capture_uses_real_woff2_and_remains_unreviewed",
+    "rerun_result": "1 passed in 4.32s outside the socket-restricted sandbox",
+    "rerun_evidence": "test-runs/modernized/browser-rerun.xml",
+    "aggregate": "All 175 existing test cases pass across initial run and targeted browser rerun."
+  },
+  "no_generation_spend_install_credentials_upload_push_pr_deploy": true,
+  "charterquill_upload_hold": "Unchanged; no transfer attempted",
+  "shamber": "Absent from pinned checkout, local refs and fetched current main; no substitute source was invented.",
+  "local_commit": {
+    "status": "preparation_complete",
+    "author": {
+      "name": "ferrerluis",
+      "email": "ferrerluis97@gmail.com"
+    },
+    "identity_scope": "Integration worktree only: /home/ferrerluis/repos/fontify/.git/worktrees/fontify-integration/config.worktree",
+    "supporting_config_change": "Common repository config enables extensions.worktreeConfig=true; user.name and user.email are not set globally or in shared repository config.",
+    "commit_hash_record": "Omitted intentionally to avoid a self-referential commit hash; available from Git and the final handoff.",
+    "precommit_verification": {
+      "expected_staged_file_count": 152,
+      "indexed_deliverable_hashes": 151,
+      "no_unrelated_changes": true,
+      "fresh_all_ten_binary_validation": "passed; test-runs/modernized/precommit-binary-validation.json",
+      "recorded_existing_suite_and_targeted_browser_rerun": "verified unchanged and passing across 175 cases",
+      "ruff": "passed",
+      "staged_whitespace": "passed"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "reedmere": {
+    "member": "fonts/release-manifest.json",
+    "version": "0.025",
+    "status": "verified",
+    "artifact_count": 12,
+    "scope": "final producer release artifacts"
+  },
+  "presswake": {
+    "member": "gated-source338-build/release-manifest.json",
+    "version": "1.008",
+    "status": "verified",
+    "artifact_count": 12,
+    "scope": "historical compiler-valid base only; final compatibility binary checked separately"
+  },
+  "lapisent": {
+    "member": "qa/fontify-base-release/release-manifest.json",
+    "version": "1.002",
+    "status": "verified",
+    "artifact_count": 11,
+    "scope": "historical compiler-valid base only; final compatibility binary checked separately"
+  },
+  "riftstave": {
+    "member": "font-build/release-manifest.json",
+    "version": "0.018",
+    "status": "verified",
+    "artifact_count": 12,
+    "scope": "final producer release artifacts"
+  },
+  "semiloft": {
+    "member": "font-release/release-manifest.json",
+    "version": "0.019",
+    "status": "verified",
+    "artifact_count": 12,
+    "scope": "final producer release artifacts"
+  },
+  "charterquill": {
+    "member": "fonts/release-manifest.json",
+    "version": "0.216",
+    "status": "verified",
+    "artifact_count": 12,
+    "scope": "final producer release artifacts"
+  }
+}

@@ -1,0 +1,13 @@
+# Liltvale Regular — private review build 0.048
+
+A contemporary, light decorative serif inspired by Curlz MT. Loose ribbon curls, an expressive Q/J, open bowls and the selected single-storey a keep its playful identity. Intended for short headlines, cultural/community branding and editorial accents.
+
+354 mapped Unicode scalars, true upper/lowercase, lining figures, US symbols and expanded Latin. Use fonts/Liltvale-Regular-v0.048.ttf for desktop review and the WOFF2/CSS pair for web review. Core and expanded-Latin PDF specimens are separate. Editable SVGs, source manifests, exact selected raster/prompt and authored-extension provenance are included.
+
+The selected 52 alphabet SVGs remain byte-identical to the reviewed common-scale trace. New figures, punctuation, Latin variants and accents are explicitly authored/source-derived, not system-font substitutes. The selected raster's single-storey a takes precedence over its original double-storey prompt instruction.
+
+QA: source and actual-final Fontify numeric audits pass; all 354 atlas cells and real TTF/browser proofs inspected at 32/48/72/96. Both formats pass 173 canonical NFC/NFD equivalence cases, context-sensitive dot removal, ogonek and mixed below/above mark regressions. Actual Chromium NBSP/soft-hyphen wrap tests pass all four sizes. Optical spacing preserves 76 reviewed ASCII pairs; final 2218 encoded pairs verified per format, with 8090 focused vector clearance checks. See qa/FINAL_REVIEW.json and BUILD_NOTES.md for exact scope.
+
+Limits: display use from 32 px; no body-text guarantee. Fine hairlines/fractions at 32 need high contrast. Keep generous line height for accents. The exact 354-scalar inventory is in coverage.json; this is not all Latin-script orthographies or Vietnamese coverage. Tests cover listed one/two-mark sequences; arbitrary deep stacks and every desktop/browser engine are not guaranteed. No hinting or cross-platform screen calibration claim. OTF/CFF is not emitted by the pinned compiler; TTF/WOFF2 are provided.
+
+Private ready-to-review delivery only. Final compiled-font aesthetic approval remains with Luis. No public release, repository integration, MIT assertion or license grant is made in this package.

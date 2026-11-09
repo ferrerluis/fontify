@@ -1,0 +1,2337 @@
+{
+  "files": [
+    {
+      "path": "QA_RESULT.json",
+      "size": 40394,
+      "sha256": "d1214e42dd69d6120d2c6d6e005d05279d24cb65d7a90139bc3a2b20c40669a9"
+    },
+    {
+      "path": "README.txt",
+      "size": 2765,
+      "sha256": "2b1ffbf44147f13e94457a56a798a11724260166934f7ad23905b59f49a7511e"
+    },
+    {
+      "path": "construction-evidence/all-size-pair-screen-0215.json",
+      "size": 2595,
+      "sha256": "ec21570e9dd25b875472ccb0cdcb16a9eab7d1cc80b6b5ce31a9a72e2b4a6f9c"
+    },
+    {
+      "path": "construction-evidence/all-size-pair-screen-0216.json",
+      "size": 955,
+      "sha256": "95c50987d2d3938416e76beecf29e24f5aa0b27298ecbf27e511dfcc939de6d2"
+    },
+    {
+      "path": "construction-evidence/union-compiled-initial-audit.json",
+      "size": 1364026,
+      "sha256": "cd87d01ae4921bbcb69253507516bc07fd548da974ac0abd15fbd76f68c08f5b"
+    },
+    {
+      "path": "construction-evidence/union-corner-review/corners-1.png",
+      "size": 73171,
+      "sha256": "6fd05568cd724b9652817ac3f6af3c5891a0dfcb905b028f5a78ec4db5ad5335"
+    },
+    {
+      "path": "construction-evidence/union-corner-review/corners-2.png",
+      "size": 56508,
+      "sha256": "0d9d063fd8d97ebb097ed30577dddc5e2ab791b6466619ebbe4de1b4615af630"
+    },
+    {
+      "path": "construction-evidence/union-corner-review/corners-3.png",
+      "size": 24349,
+      "sha256": "c55e4c32f93bbb62fd66f46c41187e06395f1d775316be727d5dc8b1af886f0d"
+    },
+    {
+      "path": "construction-evidence/union-optical-plan.json",
+      "size": 10071264,
+      "sha256": "b0a1d87032af8aa070e0b03f7a7a5ea3d6a9abe479533df5fa8fc49b323716c2"
+    },
+    {
+      "path": "construction-evidence/union-source-initial-audit.json",
+      "size": 1378773,
+      "sha256": "defeefc3f846ff0ef435ebc137fce045252ca8dd6c8670271fc039fcdaa00a80"
+    },
+    {
+      "path": "coverage.csv",
+      "size": 20760,
+      "sha256": "f92045c06def4f2cc788321ebe4bcf3ca46db6cc24939999c731a5e0b6a786e6"
+    },
+    {
+      "path": "editable/QA_RESULT.json",
+      "size": 40394,
+      "sha256": "d1214e42dd69d6120d2c6d6e005d05279d24cb65d7a90139bc3a2b20c40669a9"
+    },
+    {
+      "path": "editable/agent-review.json",
+      "size": 405953,
+      "sha256": "acb15eb0b2d9b644fc59cbd2559991d4a9259a8ecb14f8457b5464d790a7cb30"
+    },
+    {
+      "path": "editable/coherence-changes.json",
+      "size": 14640,
+      "sha256": "073f5485ac97eca7c1e246fa11590ef8c21511dec540270ce32475fc298151b4"
+    },
+    {
+      "path": "editable/corner-intent-review.json",
+      "size": 18508,
+      "sha256": "e8224d8331d6a0388626ae9d66b16f448732469cafb8377bb35beb51d037be4d"
+    },
+    {
+      "path": "editable/coverage-final.csv",
+      "size": 20760,
+      "sha256": "f92045c06def4f2cc788321ebe4bcf3ca46db6cc24939999c731a5e0b6a786e6"
+    },
+    {
+      "path": "editable/coverage-final.json",
+      "size": 123954,
+      "sha256": "95fd688597e9fe0906c3dd250fbb227f21160b0e181e385018731176697fa6e1"
+    },
+    {
+      "path": "editable/evidence/core-specimen.png",
+      "size": 149559,
+      "sha256": "2125d4fa29d45f23c6d3410496ac69d9119eb91f19556db2565ba6574ef1cee9"
+    },
+    {
+      "path": "editable/evidence/expanded-latin-specimen.png",
+      "size": 384749,
+      "sha256": "161d4d574443924d41e2c11027c62b2b317a064e24a7c1f080e5742f444959ef"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-1.png",
+      "size": 147479,
+      "sha256": "6d191b3a1c748d25f8b95cb00647a406e0d0ded2caa683c71173ca9d1b8947ab"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-2.png",
+      "size": 128575,
+      "sha256": "ffd83004ed84db3c425be0eabe72441c5c8c9b88d4e2619f27e08ef2b038dfd2"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-3.png",
+      "size": 139026,
+      "sha256": "69639804563996134afb25c41af6c433de797d7d35f9a769db75ff41ff66c549"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-4.png",
+      "size": 152895,
+      "sha256": "b0d9a91927e08227594b64c7b3e72e2080ac8d9785c8d215694e326aa99d5290"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-5.png",
+      "size": 162279,
+      "sha256": "0c2b9906a4a55346203ac221eee4760fe20256b933ad086b001f03a82faadd85"
+    },
+    {
+      "path": "editable/evidence/final-inventory/inventory-6.png",
+      "size": 66286,
+      "sha256": "5ffe8a8f8fa41d829301581c341bea52289e8cde29fbd6a1d83160cb733224a3"
+    },
+    {
+      "path": "editable/evidence/focused-ttf-48.png",
+      "size": 86675,
+      "sha256": "cb682b1b08306898fc7bb92c27241c1bfb79f13c8801870551a6cf3a8ef0651c"
+    },
+    {
+      "path": "editable/evidence/focused-ttf-72.png",
+      "size": 119944,
+      "sha256": "5e40297452efbcac35f535cbb62055c79b107c5abee5055ffbbcb0e421e6f1e9"
+    },
+    {
+      "path": "editable/evidence/focused-ttf-96.png",
+      "size": 152496,
+      "sha256": "1478d7e343dab5e8827c2509de5921faa6627f1eab7a06d916056a13960468fa"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/ttf-48-bottom.png",
+      "size": 208395,
+      "sha256": "3966aa21ec86c828d31a4fce4bcbc4aece6b2899bbf0acc91dcfb3dd0374cbd3"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/ttf-72-bottom.png",
+      "size": 268004,
+      "sha256": "d9f63ab4599be0b84252b9d49f518ec5613ec9b682051e362b380afd53e8ab37"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/ttf-96-bottom.png",
+      "size": 280489,
+      "sha256": "32259355ea9d419f6888e97b179a6cf0228047e08b8f3de1f1c220891437136c"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/woff2-48-bottom.png",
+      "size": 197151,
+      "sha256": "4b77ee9f1b0f1e3d55e99b889a0824d31e9230e2736e29b1fb48cb9e0b40f05f"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/woff2-72-bottom.png",
+      "size": 278071,
+      "sha256": "a6bbe4be08f87523815ed00ec0a87b91922ca7f3144401d13208df30eb54a735"
+    },
+    {
+      "path": "editable/evidence/size-review-crops/woff2-96-bottom.png",
+      "size": 12832,
+      "sha256": "4fc0cce4648e1012364a873f1a9eda2053254f6c1bee6fabd7f17a88ac16623d"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-proof-evidence.json",
+      "size": 66017,
+      "sha256": "12a77e411e54a29960b5d75e41888bb4552f2f37dd8556eedb511dc2f1d4f13d"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-proof.html",
+      "size": 113624,
+      "sha256": "7d11d6a49f6bc557443600a169b90a2bc2586816968700b837a1d9aac1cc4705"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-ttf-48.png",
+      "size": 1111846,
+      "sha256": "954d6ac0faf99bb95854201fe351e0fbe329c90da13016f027c78bccc21b4d8a"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-ttf-72.png",
+      "size": 1778567,
+      "sha256": "e1816ef62142c57c614afbc3629f83878711e97d04cbebfe347466ecbe38eea9"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-ttf-96.png",
+      "size": 2454609,
+      "sha256": "edb625108be1632f8932842d1dec54fb343eb2984bc0b57123ca3b6ac870e500"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-woff2-48-dpr1.png",
+      "size": 1328123,
+      "sha256": "7903d08a0af86eeef9bf7befe705183663ed8cd21bb5a568044688eb0f095fe1"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-woff2-72-dpr1.png",
+      "size": 2100065,
+      "sha256": "866b54dbc6fc626a2216ee363f14403e7de8227bea2c7d5ab54704d925da7b9b"
+    },
+    {
+      "path": "editable/evidence/size-v1/size-woff2-96-dpr1.png",
+      "size": 2401611,
+      "sha256": "8f337daacace0e6783920d0bb1e7c2107bcfce7efbf814500792d1ad0551d8db"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/browser-checks-interim.json",
+      "size": 5024,
+      "sha256": "fa1d179a02e39dea45ab78ab2fc015f7745746c303f21c1e979d2b95c688e748"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/focused-woff2-48.png",
+      "size": 88662,
+      "sha256": "ee2c7a346cb6bbaaa5a7bbf3f475844c793c97c9fe30567dcd7e9034c0e283f8"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/focused-woff2-72.png",
+      "size": 130496,
+      "sha256": "3433890bf77f0b6d70d0111d0900cc8bd3330e5b4b765e0eb94e35a5ac9dad41"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/focused-woff2-96.png",
+      "size": 166335,
+      "sha256": "6918d5609bf769ff02732191e16adde42af4c040faa831c6fe58be1fede391fc"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/mixed-marks-regression.json",
+      "size": 4707,
+      "sha256": "0d2877dd505b56841a956d287c60b44783497dced34f96a4170f9caa9e29703c"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/mixed-marks-ttf.png",
+      "size": 50592,
+      "sha256": "e8aad81340d47e21af09639bdf3a8163ea5897e61e632408ae44b43137de9fb5"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/mixed-marks-woff2.png",
+      "size": 47446,
+      "sha256": "c2ff31ae02b073282186f1cda8182c6d178172bd564173c684f87c21acdd70f0"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/mixed-marks.html",
+      "size": 68177,
+      "sha256": "d3347ce02f0d9bd25366d8fd1971c583ced0976c29d8ed1739b3676a940fec51"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/plain.png",
+      "size": 7312,
+      "sha256": "f54a4c751a8161dabd8e24aa77da2b363ec3ecdc023143b5c0fa53b62517436c"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/ref.png",
+      "size": 6309,
+      "sha256": "9cd7211426c61acc0ab7304fb32f25dd19f7084ba4042d07cb5e6d2753715912"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/soft.png",
+      "size": 6308,
+      "sha256": "0d12fe901390f76ba670c8d8eefd4d4686fe41116116a04adcd78b62aa4356c5"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/unbroken.png",
+      "size": 7323,
+      "sha256": "27e1787211a7d1487636d14066f8144d9175beb0993217e01ea35ff7a7c0a911"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/unicode-behavior-chrome.png",
+      "size": 436714,
+      "sha256": "7f466cc46055a941f16db63a9955f0a2d39be0d1d3179f4e402e88e166bf851d"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/unicode-behavior.html",
+      "size": 70960,
+      "sha256": "6b88793994bf39dcc2b8c51ea25e63f797dbdbd9daee9ffa085a3aa2babc9990"
+    },
+    {
+      "path": "editable/evidence/unicode-semantics/unicode-semantics.json",
+      "size": 20306,
+      "sha256": "5a29d077d9ed85b3a2cf6f6b90e547713223c5142c90191f574b89e7b74ec157"
+    },
+    {
+      "path": "editable/fontify-cli-validation.json",
+      "size": 1092391,
+      "sha256": "fa368ff3be5ea89db966dbc0dd2c9876b57b4d93fec4522c86b6987faf2c9fca"
+    },
+    {
+      "path": "editable/fontify.json",
+      "size": 1092503,
+      "sha256": "a56025161e114e9ce72c0ea093f4cd375df9387f5cf82852ae7ac4e3f00527eb"
+    },
+    {
+      "path": "editable/glyph-provenance.json",
+      "size": 173716,
+      "sha256": "3a34bb6fd60c901e46e2540b255aea60cf2cdd21118fcd16448c774ba5e717a8"
+    },
+    {
+      "path": "editable/glyphs/A.svg",
+      "size": 6328,
+      "sha256": "b9019b0cd17402a6176958df1b436de39da60263f623875f68d30d13b47fcd48"
+    },
+    {
+      "path": "editable/glyphs/B.svg",
+      "size": 8064,
+      "sha256": "59d0e7d257fdaab13ea1d29d422cc19babf72ce1b9e36c92ab12ad1e1be2907d"
+    },
+    {
+      "path": "editable/glyphs/C.svg",
+      "size": 4229,
+      "sha256": "74f33f954d1744643c0c3a1e4175debb2a601c389b97dc2fd177bbc7fe093fc5"
+    },
+    {
+      "path": "editable/glyphs/D.svg",
+      "size": 6619,
+      "sha256": "2df71518a106d052da937db39be24c526dc06c7ed093ccf80172ddf98562edfe"
+    },
+    {
+      "path": "editable/glyphs/E.svg",
+      "size": 7185,
+      "sha256": "9e9cd7170e976c7e45909b808f53abc942367a4bfdd272e7054536e908d985fe"
+    },
+    {
+      "path": "editable/glyphs/F.svg",
+      "size": 5484,
+      "sha256": "ba36b70ab13b13998fd65d10bb91eb1c097ca6808e56ca8f360acf97aa350e5a"
+    },
+    {
+      "path": "editable/glyphs/G.svg",
+      "size": 6014,
+      "sha256": "4a999ba824ff32ef71d223a5f3f8ec1ccb78560f9cfbeaaa5eecbce1c385c863"
+    },
+    {
+      "path": "editable/glyphs/H.svg",
+      "size": 6970,
+      "sha256": "f324997d393a2a4c1ccc2ede78c902918b4a126948645d7d537f7d9304376493"
+    },
+    {
+      "path": "editable/glyphs/I.svg",
+      "size": 4312,
+      "sha256": "0d7f8bec571d2d2af5da11680d39409c0f22e2173fd60e7d2000aa6eb01961f8"
+    },
+    {
+      "path": "editable/glyphs/J.svg",
+      "size": 6085,
+      "sha256": "eb1c3bb30c386ef7b6632bb71b4b4435e44c623398d7d3d0f95bba8cadbafa51"
+    },
+    {
+      "path": "editable/glyphs/K.svg",
+      "size": 7163,
+      "sha256": "e8a4482fd1d7debc850af3e027ce839e889c1b3fa52c3b2419291ce6c13d7f7f"
+    },
+    {
+      "path": "editable/glyphs/L.svg",
+      "size": 4481,
+      "sha256": "b0af3724fb34cb0c4f6dc5ca2862ee628c8046e7e956ff928517f9d90a5b537a"
+    },
+    {
+      "path": "editable/glyphs/M.svg",
+      "size": 7235,
+      "sha256": "1c725edad494454bfd6f3ad34f1c4d70339f00df7e15fdea775d858dd5d3ce57"
+    },
+    {
+      "path": "editable/glyphs/N.svg",
+      "size": 6638,
+      "sha256": "df0d103b997c6ce198f1ead62e5f6c2dc95111d084ad5e6e67260aed63a057a8"
+    },
+    {
+      "path": "editable/glyphs/O.svg",
+      "size": 4418,
+      "sha256": "7d6caca0131a1274b4378779a9adcd6fee32f254dab1a1a00bd1adf951764594"
+    },
+    {
+      "path": "editable/glyphs/P.svg",
+      "size": 7093,
+      "sha256": "4309dc238c411223e8f997a5d5b12734acee3421ae88bf3e3e76cde177630c1e"
+    },
+    {
+      "path": "editable/glyphs/Q.svg",
+      "size": 6598,
+      "sha256": "c92ad20ce22bf6fde4d1956801d28b1777ce1e2805ac2f4e1cc61b3fd6981ffa"
+    },
+    {
+      "path": "editable/glyphs/R.svg",
+      "size": 7351,
+      "sha256": "37bfef8d5fa47a51bac9353ddace583b55db2e66ad6a9918d43d4f12356bc990"
+    },
+    {
+      "path": "editable/glyphs/S.svg",
+      "size": 5491,
+      "sha256": "670b96826b260f8624611f047b74f529d2db570a3ff4f436532eb50da7efbb56"
+    },
+    {
+      "path": "editable/glyphs/T.svg",
+      "size": 5129,
+      "sha256": "d1e4331e0f6ae83acb9e06405737b962be4440aac089e29c265acb479eaa7eef"
+    },
+    {
+      "path": "editable/glyphs/U.svg",
+      "size": 5484,
+      "sha256": "8ceeecb3e524128c0153928e51243cce346d322255194c78b7288efd7518e4ad"
+    },
+    {
+      "path": "editable/glyphs/V.svg",
+      "size": 4568,
+      "sha256": "8cd784d0b5d33feafd893a35e9e17095cd4d129826568b1b65c890ab23801b3b"
+    },
+    {
+      "path": "editable/glyphs/W.svg",
+      "size": 5403,
+      "sha256": "f7b0fe4dd7bd09bc683e82a32eebbbb9206a0dfb6e1cb8fa51b493baf88b8b94"
+    },
+    {
+      "path": "editable/glyphs/X.svg",
+      "size": 5190,
+      "sha256": "09f466d662f11df6ae0796edc802c31348882b29c94d297b764227cfe38b3555"
+    },
+    {
+      "path": "editable/glyphs/Y.svg",
+      "size": 5784,
+      "sha256": "48f779d4b687aee5374b1f9e2cef90f5c9815011b997fe940418719c8b52b431"
+    },
+    {
+      "path": "editable/glyphs/Z.svg",
+      "size": 5140,
+      "sha256": "5b32271b50c2e9e6b3795b5f21f66f35640d2c0d22db3c7e74f19ad9210cdf4a"
+    },
+    {
+      "path": "editable/glyphs/a.svg",
+      "size": 4160,
+      "sha256": "ab9e2336da91421badf5d5d882bd7576b35dd67f71686d19c734a6e39e363cb6"
+    },
+    {
+      "path": "editable/glyphs/b.svg",
+      "size": 3706,
+      "sha256": "5ad8a921069bed5215e87e4ba6dc80cdfe24c51cac3aa97d382ad1c99be67b1b"
+    },
+    {
+      "path": "editable/glyphs/c.svg",
+      "size": 3227,
+      "sha256": "ca7ab9d8f91a7ad44eecbea9c7579e209b28ad16437af0123b4e32df9858a27a"
+    },
+    {
+      "path": "editable/glyphs/d.svg",
+      "size": 3356,
+      "sha256": "a3771b188f030251a442e844646ed573a4a2bb5b9a721b6d910353d99274ee21"
+    },
+    {
+      "path": "editable/glyphs/e.svg",
+      "size": 2902,
+      "sha256": "dd5ae6454a73b15d8dba3e3f4e8d8a9799a4b2a8c0edd69a8c7e515197a197fb"
+    },
+    {
+      "path": "editable/glyphs/f.svg",
+      "size": 3624,
+      "sha256": "588b0cee7b3ca877312079162c314c26de6238804f73f1920672383711ee8cc0"
+    },
+    {
+      "path": "editable/glyphs/g.svg",
+      "size": 4711,
+      "sha256": "c6516f95d42b273aa52a1a728a4064c79f9fd875b1ba47c0300d86e802c8fb1b"
+    },
+    {
+      "path": "editable/glyphs/h.svg",
+      "size": 4116,
+      "sha256": "86036eb0eb1c4a6cc928303bf2749eae2ef85fd008deefa0e9796c53884e46ed"
+    },
+    {
+      "path": "editable/glyphs/i.dotless.svg",
+      "size": 961,
+      "sha256": "66fa88ab0dccd03157bdf74ece82fba11f91aaf23f510ca7bdbea75a94913827"
+    },
+    {
+      "path": "editable/glyphs/i.svg",
+      "size": 2599,
+      "sha256": "22fd8f05243672bb0a01f9870888fd32c29e5c45ac5058dc116a40f41a3285bc"
+    },
+    {
+      "path": "editable/glyphs/iogonek.dotless.svg",
+      "size": 1235,
+      "sha256": "e47687b7029d85cc5fe418eb67040376e2dd34082f11fe4b0d589f287dd04dbb"
+    },
+    {
+      "path": "editable/glyphs/j.dotless.svg",
+      "size": 1454,
+      "sha256": "6fcb832f3f3404d97bf01c5e01dac0f8f7c62c22a38f6da663ee5565a3513925"
+    },
+    {
+      "path": "editable/glyphs/j.svg",
+      "size": 3801,
+      "sha256": "79fe5b7428554b26b2d5bd20d5cfc508b6f27124e50b8601d2747ccea979ceef"
+    },
+    {
+      "path": "editable/glyphs/k.svg",
+      "size": 4990,
+      "sha256": "295912e1da00c11450edb47929296247470e140ffb445968ad407ff088a22c32"
+    },
+    {
+      "path": "editable/glyphs/l.svg",
+      "size": 1685,
+      "sha256": "371137c806759d1665ebc1fed2808aa19730060816f28e88de1f30cb69a3dda7"
+    },
+    {
+      "path": "editable/glyphs/m.svg",
+      "size": 5463,
+      "sha256": "f855920fb924934785b67a3c5d22fa94a3aca5d69f75fb94842acfcbcc19ba62"
+    },
+    {
+      "path": "editable/glyphs/n.svg",
+      "size": 3717,
+      "sha256": "a29c53aadb518e2e4d241b3d7298ef51b9ddc3a5da4fc325cb644c02dff8babe"
+    },
+    {
+      "path": "editable/glyphs/o.svg",
+      "size": 2640,
+      "sha256": "f26a4f7bb43c575e28599e4b0dccf4418627f9c3116a2f9505720f62bb3f2139"
+    },
+    {
+      "path": "editable/glyphs/p.svg",
+      "size": 4616,
+      "sha256": "bdc5135cac03c8caceaf0e886ed6b9558b4b17b5c44de0a4ca90f376b2bee488"
+    },
+    {
+      "path": "editable/glyphs/q.svg",
+      "size": 3631,
+      "sha256": "ec235b05982493ea8576a486c3bf16149a624027a907f47097a29dbc1c4fe500"
+    },
+    {
+      "path": "editable/glyphs/r.svg",
+      "size": 3286,
+      "sha256": "8057486017f14654e38f37ac4c1172bba6a54e006a56a11848c90bab1da2e58f"
+    },
+    {
+      "path": "editable/glyphs/s.svg",
+      "size": 4701,
+      "sha256": "52a0266a8b774de9d18ebe413af5a172e95cb01378b2f3a27a246ed550d462bb"
+    },
+    {
+      "path": "editable/glyphs/t.svg",
+      "size": 2680,
+      "sha256": "309a4a883f09e79d2aab16128dcdb6cdf77ec21b0699a8e71240723f3b78d5eb"
+    },
+    {
+      "path": "editable/glyphs/u.svg",
+      "size": 3669,
+      "sha256": "a7b5b8ec2c6cf8ee705df237a03e43238c4d0a311b87f0bf202f356ec335de67"
+    },
+    {
+      "path": "editable/glyphs/uni0021.svg",
+      "size": 238,
+      "sha256": "e1cf2574f77c5410b47602a4b01f21059ee21ad3b5da5801f6aad780171f9d0c"
+    },
+    {
+      "path": "editable/glyphs/uni0022.svg",
+      "size": 264,
+      "sha256": "bfe14863280d14f1331ec8082368d5541f19f90393971f24fff65df9e809dccb"
+    },
+    {
+      "path": "editable/glyphs/uni0023.svg",
+      "size": 293,
+      "sha256": "d3d338e4b5f11587afe6930c329fb0437c6fc918c09ae58ffaa638da99707736"
+    },
+    {
+      "path": "editable/glyphs/uni0024.svg",
+      "size": 1432,
+      "sha256": "3b3bdaf0fb53d20cbaad7a2b26476d9af8914f0e94d63fc8e9d68ae124939120"
+    },
+    {
+      "path": "editable/glyphs/uni0025.svg",
+      "size": 1317,
+      "sha256": "a6e33d0f34c007156facbe8317bf9bc3d0291392a5136b831ba5cdd1d7f42b1a"
+    },
+    {
+      "path": "editable/glyphs/uni0026.svg",
+      "size": 1246,
+      "sha256": "7556f06e77f5221f5a414b094a7d425cc5c589a790af447903792d3f62f8ae94"
+    },
+    {
+      "path": "editable/glyphs/uni0027.svg",
+      "size": 171,
+      "sha256": "109d89b750a103af4dee46ed3348c0ac3dadb6279b75db3fb48a18d7b727c09c"
+    },
+    {
+      "path": "editable/glyphs/uni0028.svg",
+      "size": 196,
+      "sha256": "f7400d01b4c51706599316d8c02d48014f6ef33900f987ef8231e78fe940e18c"
+    },
+    {
+      "path": "editable/glyphs/uni0029.svg",
+      "size": 202,
+      "sha256": "2b5c6ece8db9da47ff13364549835cb417fa1bcbb852540d31d1edeff7e42669"
+    },
+    {
+      "path": "editable/glyphs/uni002A.svg",
+      "size": 223,
+      "sha256": "8ed56b059f77ecdc0cba07450b3fec980819b395fb297753997dd4d6f8ac4b8a"
+    },
+    {
+      "path": "editable/glyphs/uni002B.svg",
+      "size": 176,
+      "sha256": "2af1a3c240866ce1cf270f5b9ba0fc55a81a72b4ab0b2bbe298f416c19534ed0"
+    },
+    {
+      "path": "editable/glyphs/uni002C.svg",
+      "size": 177,
+      "sha256": "2b7d8352e6e3bed71d88a3b95f61378630fa52a09ca21f5251236d341ae07695"
+    },
+    {
+      "path": "editable/glyphs/uni002D.svg",
+      "size": 104,
+      "sha256": "babc99f44965a7babdf8065c1512f776bd46ba5345f06f0c144203bdcf528172"
+    },
+    {
+      "path": "editable/glyphs/uni002E.svg",
+      "size": 211,
+      "sha256": "f8d87be12f6055f189846e928475a6106e5f58c2d21ab2fb10ac925ef080c0e7"
+    },
+    {
+      "path": "editable/glyphs/uni002F.svg",
+      "size": 114,
+      "sha256": "23e9f1ba5f0d5fb32cf2fc4a3cf3df8a60b9e2aee1df7e523183a802891686e4"
+    },
+    {
+      "path": "editable/glyphs/uni0030.svg",
+      "size": 1135,
+      "sha256": "ad27886c264d78e9b6829bf060019a023909fb95861194813ea75e793f8a1c08"
+    },
+    {
+      "path": "editable/glyphs/uni0031.svg",
+      "size": 432,
+      "sha256": "4ff897b87654960b6a2b5694fe4d14c0cd9828aec79756c62d6aaf16f71fd677"
+    },
+    {
+      "path": "editable/glyphs/uni0032.svg",
+      "size": 297,
+      "sha256": "df7520086a515ee584580eaa1c95e351e08c17de779742537643e4b10feb3bf2"
+    },
+    {
+      "path": "editable/glyphs/uni0033.svg",
+      "size": 888,
+      "sha256": "9368d8a5e12696ecd4c76ba24cccf0d740dd0a36f658ef4c7a06cd76740de5f0"
+    },
+    {
+      "path": "editable/glyphs/uni0034.svg",
+      "size": 480,
+      "sha256": "d1bafbfb786082b457182b6c62262d9cb851d153295e379ad10dd782796a0ce0"
+    },
+    {
+      "path": "editable/glyphs/uni0035.svg",
+      "size": 960,
+      "sha256": "a51b8657fde8b4e4823bd49d6a1171319ab346512b1e6a446f1669d1fe245edc"
+    },
+    {
+      "path": "editable/glyphs/uni0036.svg",
+      "size": 734,
+      "sha256": "a780fe369a2db3dbfc9b1046c97ee382e351902e8d3a41de280cbe33810fce67"
+    },
+    {
+      "path": "editable/glyphs/uni0037.svg",
+      "size": 245,
+      "sha256": "1bd35365301ab3c28c6ac638d505eb35a268dba92510ca81c07b2231a6eaeb8c"
+    },
+    {
+      "path": "editable/glyphs/uni0038.svg",
+      "size": 1278,
+      "sha256": "2a2e63bf28711baf3575733fcd7c01bc33ee9ece5491b1956822532d3e9c35b2"
+    },
+    {
+      "path": "editable/glyphs/uni0039.svg",
+      "size": 736,
+      "sha256": "f30388366f7da13f7ef1180e6615c3f2fa8e2a8817fb2fc2808c414826b41afd"
+    },
+    {
+      "path": "editable/glyphs/uni003A.svg",
+      "size": 339,
+      "sha256": "12727552ba523c91bd78f801963c2cbdaaa81bc97fa807fca6dc44e7c66a4f77"
+    },
+    {
+      "path": "editable/glyphs/uni003B.svg",
+      "size": 311,
+      "sha256": "50041eb08d173a2dc113c6ad3729f7408dfa863913afa131db646b3fdc1de7a4"
+    },
+    {
+      "path": "editable/glyphs/uni003C.svg",
+      "size": 129,
+      "sha256": "d2e855c996e8e0b1beaf6aa190b494199ba05494b40d9fa11f859e97c3a9c1a9"
+    },
+    {
+      "path": "editable/glyphs/uni003D.svg",
+      "size": 127,
+      "sha256": "3c899d208c788248c882d3cc74d92fa43999394c28dbb182ea9b17924f83bc67"
+    },
+    {
+      "path": "editable/glyphs/uni003E.svg",
+      "size": 128,
+      "sha256": "e2214cf4ac1bc7eaace2c075494a54fb12e2314ca0cd2f7149519d811010377b"
+    },
+    {
+      "path": "editable/glyphs/uni003F.svg",
+      "size": 413,
+      "sha256": "3c27f091d6c8bfe56217b19d09922c342becce6efb8bc0120315a4c97430d883"
+    },
+    {
+      "path": "editable/glyphs/uni0040.svg",
+      "size": 1234,
+      "sha256": "7050f1c593f76ad84b027dce8d16e0c261dff4e35218093c887fb204bf4388a0"
+    },
+    {
+      "path": "editable/glyphs/uni005B.svg",
+      "size": 156,
+      "sha256": "d84d6239df0170cc80eeab7b427417fbe647aa69a4238025772d706830266149"
+    },
+    {
+      "path": "editable/glyphs/uni005C.svg",
+      "size": 115,
+      "sha256": "ceac64503429139c27f6e4eebaccc77d7fd92dda30bfd041f420897be2cfd565"
+    },
+    {
+      "path": "editable/glyphs/uni005D.svg",
+      "size": 154,
+      "sha256": "95b15856732e68f3beab7e8a2c34e4fcdc43d7d7a1eae5b847e06e928da73043"
+    },
+    {
+      "path": "editable/glyphs/uni005E.svg",
+      "size": 128,
+      "sha256": "8390bd7c355b1ef81bb69cb292a5787cdc3bf64a1179b1408fe014ffca3b96ff"
+    },
+    {
+      "path": "editable/glyphs/uni005F.svg",
+      "size": 106,
+      "sha256": "574efb9673c21b225a0645bab3e5719e40eea25d19eb7e5740caace8aa932275"
+    },
+    {
+      "path": "editable/glyphs/uni0060.svg",
+      "size": 113,
+      "sha256": "f6b82877988170c5504ab91e78b7c766b5c6996a00f5901797ceb86702c5e3ed"
+    },
+    {
+      "path": "editable/glyphs/uni007B.svg",
+      "size": 329,
+      "sha256": "d00e257f86adbc067de8f4cec46fe74dbffda78b44ad4bc3afa444d563a807a9"
+    },
+    {
+      "path": "editable/glyphs/uni007C.svg",
+      "size": 127,
+      "sha256": "84c74776184e7cd57d5ba30cdffd84aab6d51cff813fa73da9699206c38ce917"
+    },
+    {
+      "path": "editable/glyphs/uni007D.svg",
+      "size": 331,
+      "sha256": "69bdee48b0dea41b7d12c230c3227cfea78e42887c72522186c81de94469f84c"
+    },
+    {
+      "path": "editable/glyphs/uni007E.svg",
+      "size": 199,
+      "sha256": "9fdd22a54155705e155aaa44f30de7ebfe04d14c7beb7b6b8346cb19186d6207"
+    },
+    {
+      "path": "editable/glyphs/uni00A1.svg",
+      "size": 241,
+      "sha256": "341e225f8b52c3b63c5a62de01e30fca034a2aea63395d86080e2a363b4c6bc0"
+    },
+    {
+      "path": "editable/glyphs/uni00A2.svg",
+      "size": 867,
+      "sha256": "31ded5000c956a7eedd6372f267894d1831dd477e1bb41e0c43acb7c1e0ea468"
+    },
+    {
+      "path": "editable/glyphs/uni00A3.svg",
+      "size": 1020,
+      "sha256": "dc864cc83cde54fabcf82c1be44fa5c4155d985e65557829ad38878baf7bc4c7"
+    },
+    {
+      "path": "editable/glyphs/uni00A4.svg",
+      "size": 841,
+      "sha256": "37b39d5f18eb936c363238b1bf9af4568b14b6204f13a161aa04ada1d7194292"
+    },
+    {
+      "path": "editable/glyphs/uni00A5.svg",
+      "size": 1437,
+      "sha256": "a2c937948196de014341ce0f79dd37e494f3cd792c8b6f85fecaf4207a7101f1"
+    },
+    {
+      "path": "editable/glyphs/uni00A6.svg",
+      "size": 120,
+      "sha256": "ca58a9ff1b7390d5574ed00cf32c72ef3aba9474d0704fad373a6d5b015eb050"
+    },
+    {
+      "path": "editable/glyphs/uni00A7.svg",
+      "size": 1988,
+      "sha256": "395538b89ae8c1b408d757dd9ac12a8427bad4bcdce344d37b3a0947c563fc21"
+    },
+    {
+      "path": "editable/glyphs/uni00A8.svg",
+      "size": 144,
+      "sha256": "3e1faad404e97b29c8c0753bb6c4cd15c79254cccdabd0bf01bfb690f1135434"
+    },
+    {
+      "path": "editable/glyphs/uni00A9.svg",
+      "size": 1197,
+      "sha256": "ff84dfc08246802ee0edfc824295f0504fa3700d40391fc8f8cbc9783c2c0c85"
+    },
+    {
+      "path": "editable/glyphs/uni00AA.svg",
+      "size": 940,
+      "sha256": "0b568a09893d43343bb9a763085ab7374f4c0450a25e12c17aa43483cd5ae136"
+    },
+    {
+      "path": "editable/glyphs/uni00AB.svg",
+      "size": 177,
+      "sha256": "027bcfb9aa321e94724d008372e72ad76094043e0fad288d23a7873b78766c8b"
+    },
+    {
+      "path": "editable/glyphs/uni00AC.svg",
+      "size": 108,
+      "sha256": "0bf803bd7418f946abe4cd462540f6a936f34d78f0f9730a3d1aa0a86d1c0c51"
+    },
+    {
+      "path": "editable/glyphs/uni00AD.svg",
+      "size": 111,
+      "sha256": "fc67ba81050d3ca02da4a69d140d69eb9b0637e9afbca91b4258cf396a8a4a71"
+    },
+    {
+      "path": "editable/glyphs/uni00AE.svg",
+      "size": 1893,
+      "sha256": "0f90c5a85270cc593c529be5c45290e70b4a9631b40f65f455461bd1234fffe9"
+    },
+    {
+      "path": "editable/glyphs/uni00AF.svg",
+      "size": 100,
+      "sha256": "17de32e53c2479387868f7e53223e226f49b87d475de6788e44632f4803a2f67"
+    },
+    {
+      "path": "editable/glyphs/uni00B0.svg",
+      "size": 283,
+      "sha256": "a94514af0e6ab9c278decbcfb2f5244b3709017427d7d58dd058671b41e41856"
+    },
+    {
+      "path": "editable/glyphs/uni00B1.svg",
+      "size": 199,
+      "sha256": "e26ef0c351904d95a6148a570c35ccd948d673e96dad32776a89dfa1a00234b9"
+    },
+    {
+      "path": "editable/glyphs/uni00B2.svg",
+      "size": 294,
+      "sha256": "a5299abb4a0adbed2f73f0d8263a2282c1e74cc16517833b9a2d76edf9c9d78f"
+    },
+    {
+      "path": "editable/glyphs/uni00B3.svg",
+      "size": 870,
+      "sha256": "9b3554ddabe2bd9bb79dc2f6322a96795f5e471d36e495c182ab430a776a3d81"
+    },
+    {
+      "path": "editable/glyphs/uni00B4.svg",
+      "size": 105,
+      "sha256": "5a8027bc944a0ba551acae5ca427084a955fac29138aa4c1f84947adf4e4c014"
+    },
+    {
+      "path": "editable/glyphs/uni00B5.svg",
+      "size": 943,
+      "sha256": "3bb680f0fde5d9d19cae4503f530ad25cc454ce826da3ee7d8de69f38107c4ce"
+    },
+    {
+      "path": "editable/glyphs/uni00B6.svg",
+      "size": 174,
+      "sha256": "4d923fefd4ffee965cc6da70bef86e3e9aec06184515ee9234910385c9a5471b"
+    },
+    {
+      "path": "editable/glyphs/uni00B7.svg",
+      "size": 210,
+      "sha256": "9c2dedb5ee2ee9e3fa6826febba57412e04b8c44187810e80315d9b6f666b05c"
+    },
+    {
+      "path": "editable/glyphs/uni00B8.svg",
+      "size": 166,
+      "sha256": "d461d00b1ca1c7e0c2507dd7359708445c2e0cb9af45bd536df4abbcdd736269"
+    },
+    {
+      "path": "editable/glyphs/uni00B9.svg",
+      "size": 429,
+      "sha256": "4c309c7a8a1b773df4cd043883099d8314fa97c1f7971747cb08ed234a68715c"
+    },
+    {
+      "path": "editable/glyphs/uni00BA.svg",
+      "size": 646,
+      "sha256": "ff8f021ffc49c25c1e960841a43d987c27c9b9024f6002172fc17bc454559b12"
+    },
+    {
+      "path": "editable/glyphs/uni00BB.svg",
+      "size": 175,
+      "sha256": "8f2c0940f097c3080206371619310010cd5a7a7b7fe261a5dcaf919791307b64"
+    },
+    {
+      "path": "editable/glyphs/uni00BC.svg",
+      "size": 824,
+      "sha256": "106d4bc773de2e2a3e53eeea38d356e02548429b7f3bf7e3671204cd06b3c71a"
+    },
+    {
+      "path": "editable/glyphs/uni00BD.svg",
+      "size": 678,
+      "sha256": "df647b9a9bafd33cad95eb7db3893a3f24acc8164050a85a0a496f6b5e1bf517"
+    },
+    {
+      "path": "editable/glyphs/uni00BE.svg",
+      "size": 1268,
+      "sha256": "c6fa0f49ee148ef8804f91c33e22d564f3250201e544f1f0c0fd66c6a519fbff"
+    },
+    {
+      "path": "editable/glyphs/uni00BF.svg",
+      "size": 415,
+      "sha256": "2a735ed1a8f5c2f6f9ca1965a7c516ddc476c02ca0ca48e486a730169de7a58f"
+    },
+    {
+      "path": "editable/glyphs/uni00C0.svg",
+      "size": 1485,
+      "sha256": "df4c01f193aa2b8d391b2ddef4bdd738b1b17329459d865910305ae829481120"
+    },
+    {
+      "path": "editable/glyphs/uni00C1.svg",
+      "size": 1481,
+      "sha256": "5c582b73d0d94fa90a13743ae2add0477eb7f69aff188c0322ad0c01f4438772"
+    },
+    {
+      "path": "editable/glyphs/uni00C2.svg",
+      "size": 1509,
+      "sha256": "ad55a7db48a927654b3adc2ef884a7f2c3076f9447acc70f1fb71c7ac0df07ad"
+    },
+    {
+      "path": "editable/glyphs/uni00C3.svg",
+      "size": 1577,
+      "sha256": "6dbf658e99fba5de014479ea32d2ac5b3bb413d163b2e82378db9166710ffe3c"
+    },
+    {
+      "path": "editable/glyphs/uni00C4.svg",
+      "size": 1522,
+      "sha256": "421c6d727a6ce59eb2d45247d0990e003f9bb24a7b078cf39528427c367fa836"
+    },
+    {
+      "path": "editable/glyphs/uni00C5.svg",
+      "size": 1663,
+      "sha256": "64ee2eaf71690b482514a34ff7b70c6cf4737c822531c869635c8895857b2d13"
+    },
+    {
+      "path": "editable/glyphs/uni00C6.svg",
+      "size": 3077,
+      "sha256": "79424421584a5f74588e57aecdc37f6ecb111971d5da858762eb40d5ec2db160"
+    },
+    {
+      "path": "editable/glyphs/uni00C7.svg",
+      "size": 1067,
+      "sha256": "da9bcefc7058f7ec3fbd402e8842cb640bd1b00e439afc9d7f4cc6d4198fd1f9"
+    },
+    {
+      "path": "editable/glyphs/uni00C8.svg",
+      "size": 1678,
+      "sha256": "ad7c0d6e21ea173217bcd2aed60a2dbd1a013395980e857a6521203e2a60b8f9"
+    },
+    {
+      "path": "editable/glyphs/uni00C9.svg",
+      "size": 1674,
+      "sha256": "154c2c4090686eac7a7b6c52835aa68d6c0e45f962222ccca434bfa5850526cf"
+    },
+    {
+      "path": "editable/glyphs/uni00CA.svg",
+      "size": 1702,
+      "sha256": "3742485005b426fbe7c34f204513e8d27cba29b25c26b0a1c9d54f07d863055f"
+    },
+    {
+      "path": "editable/glyphs/uni00CB.svg",
+      "size": 1715,
+      "sha256": "0ae1aae67fef2aa5711ec43c9c6ffa3e8243101e70c53a7b776a4c166b5185b3"
+    },
+    {
+      "path": "editable/glyphs/uni00CC.svg",
+      "size": 1027,
+      "sha256": "cdbb6b9eb61d68d454b4afdeb82d257a0a03f7f79c15481610d75cbbde0210a4"
+    },
+    {
+      "path": "editable/glyphs/uni00CD.svg",
+      "size": 1023,
+      "sha256": "87293183aa64d8ff7d3ec833c8f4c0704a159c260fc6f5ffd45dc6b369384f50"
+    },
+    {
+      "path": "editable/glyphs/uni00CE.svg",
+      "size": 1051,
+      "sha256": "0d1996e760a032779803fe0e197c20c9507b628ca2a03edfec31704f4f2d8095"
+    },
+    {
+      "path": "editable/glyphs/uni00CF.svg",
+      "size": 1064,
+      "sha256": "c4ae308bee6fbe3b4e1a44b212cf78af8d4c67e468f915d77a33bf0aefd81bb4"
+    },
+    {
+      "path": "editable/glyphs/uni00D0.svg",
+      "size": 1554,
+      "sha256": "f070680c580d8774cd9603b53e908013cf9f72583df477619cde1142ea0f77ab"
+    },
+    {
+      "path": "editable/glyphs/uni00D1.svg",
+      "size": 1628,
+      "sha256": "d682637e0c158be0b2c826763aee75456cf4d31082f99241554cca70689d68cc"
+    },
+    {
+      "path": "editable/glyphs/uni00D2.svg",
+      "size": 1053,
+      "sha256": "15964e392333f4da0edb483c392666d05a9bdb423d7dbf300f6a5c1eb9cac935"
+    },
+    {
+      "path": "editable/glyphs/uni00D3.svg",
+      "size": 1049,
+      "sha256": "7fcb69a76a0a8427a3dc984776e3247127f895469769ba34847e01569ec32fda"
+    },
+    {
+      "path": "editable/glyphs/uni00D4.svg",
+      "size": 1077,
+      "sha256": "caf0632c88483fcb613c37c519b578de67a3762b47ee0adda8e130ecda4f0700"
+    },
+    {
+      "path": "editable/glyphs/uni00D5.svg",
+      "size": 1145,
+      "sha256": "24a0451b7a6edc9d6f09861fba561fa62ebbfdfca734ae0a5fc8acd3ea3dedd9"
+    },
+    {
+      "path": "editable/glyphs/uni00D6.svg",
+      "size": 1090,
+      "sha256": "65bf33a83435b2f6bca457712c5e17a2384f799542cc28c4ad3b122d6db8ec79"
+    },
+    {
+      "path": "editable/glyphs/uni00D7.svg",
+      "size": 175,
+      "sha256": "bcd46a73c6db22f4fe63b2fa14ee3ef741e667990f3a63020697af6e67c7339b"
+    },
+    {
+      "path": "editable/glyphs/uni00D8.svg",
+      "size": 1141,
+      "sha256": "97eb7880a72a8bb8c6d3e376429d45576af0ddeebcaad857177620f05e2ca26c"
+    },
+    {
+      "path": "editable/glyphs/uni00D9.svg",
+      "size": 1294,
+      "sha256": "ba10912a26a95ccad7764a0fb4adce840a0e0b7f953bd7adcc22b016f114d172"
+    },
+    {
+      "path": "editable/glyphs/uni00DA.svg",
+      "size": 1290,
+      "sha256": "1956b6e3d6437dc5816eb5ac1f37480692f24dbed522ee32b7bfdb5fda813fd7"
+    },
+    {
+      "path": "editable/glyphs/uni00DB.svg",
+      "size": 1318,
+      "sha256": "03cd65cb9f4f078d62c6e072bc4e818a31e3d8917a36be0c04b56fa694862bf5"
+    },
+    {
+      "path": "editable/glyphs/uni00DC.svg",
+      "size": 1331,
+      "sha256": "af228bab7b2779a76b179ed26d6f881585d57124e6785418b6891f528e002353"
+    },
+    {
+      "path": "editable/glyphs/uni00DD.svg",
+      "size": 1356,
+      "sha256": "e1da8097bfd7748ac7805fadfaff18e9662cabaf73e23fb21c855db1c549151f"
+    },
+    {
+      "path": "editable/glyphs/uni00DE.svg",
+      "size": 1549,
+      "sha256": "7d4be25f4ffe92892e4f801866a55a7748a47cf9e75181bec1afa5306bb66300"
+    },
+    {
+      "path": "editable/glyphs/uni00DF.svg",
+      "size": 1901,
+      "sha256": "2d784f20112442d2f21570db3a5fa30ce5b46a980becb99f0bd302e3a7c2d491"
+    },
+    {
+      "path": "editable/glyphs/uni00E0.svg",
+      "size": 983,
+      "sha256": "4213efa044dfe0563e0dc9cfbd26b43347012956e106789b3523751c5d10cf14"
+    },
+    {
+      "path": "editable/glyphs/uni00E1.svg",
+      "size": 979,
+      "sha256": "51c4770b52c1617150cf208258d1355147b90aebb76145abe1ac4f0216467e17"
+    },
+    {
+      "path": "editable/glyphs/uni00E2.svg",
+      "size": 1007,
+      "sha256": "c0fb1e2bf1a34fc18788e3c480098978511163814bd6c0d3c461da7b29a66ae3"
+    },
+    {
+      "path": "editable/glyphs/uni00E3.svg",
+      "size": 1075,
+      "sha256": "2d92c1050bf08cc4c864b553269953321228aebf511f5bd8fcf7982465272f16"
+    },
+    {
+      "path": "editable/glyphs/uni00E4.svg",
+      "size": 1020,
+      "sha256": "3d52b61ffffb29449a0309f2b2a890d43b4f6bf349d92b89b32914df0a3f5e46"
+    },
+    {
+      "path": "editable/glyphs/uni00E5.svg",
+      "size": 1164,
+      "sha256": "5c4966062591ae3f059157748e9491cb007eff5498357822707e6053be7940b0"
+    },
+    {
+      "path": "editable/glyphs/uni00E6.svg",
+      "size": 1541,
+      "sha256": "828e2a2c67d2d13d266cc353aec86b933101c478ce057b8452bf16ac4dde52bb"
+    },
+    {
+      "path": "editable/glyphs/uni00E7.svg",
+      "size": 893,
+      "sha256": "cf854c59003b9d67e0d2f8eefcf7859ecd2dcea3d548be6f1fb4069a3b750514"
+    },
+    {
+      "path": "editable/glyphs/uni00E8.svg",
+      "size": 716,
+      "sha256": "2dd373ebb3d5e4e46a1f53069f6ac818876fbe4c0d15966c1bc50baee91c4479"
+    },
+    {
+      "path": "editable/glyphs/uni00E9.svg",
+      "size": 712,
+      "sha256": "5ed089a149bac4f12f8e199e97caf577c8270f7310058e9c063372b06c555886"
+    },
+    {
+      "path": "editable/glyphs/uni00EA.svg",
+      "size": 740,
+      "sha256": "d10b5ec30b9cce6c91671e9e7cdf29a9eed8d53f8339417ad35a117249fc80dc"
+    },
+    {
+      "path": "editable/glyphs/uni00EB.svg",
+      "size": 753,
+      "sha256": "9b607b5154d57627f5efe95921c384811f7ee7c50a866830e59aa82d5621d1af"
+    },
+    {
+      "path": "editable/glyphs/uni00EC.svg",
+      "size": 511,
+      "sha256": "ec2ea3f1f3b32471f282a686efae1e2520cbbeeb5a4eef69ea005322e4eec7cd"
+    },
+    {
+      "path": "editable/glyphs/uni00ED.svg",
+      "size": 508,
+      "sha256": "9f05645cbad7b5a59aded57f1fb28cfa32b165fc4136b8e6e11e1b4fabcb607b"
+    },
+    {
+      "path": "editable/glyphs/uni00EE.svg",
+      "size": 534,
+      "sha256": "f88daed5e86e9b647d3a6561e376c772b28b6ff0bbc8d2f5b141d6dc0f1d72b9"
+    },
+    {
+      "path": "editable/glyphs/uni00EF.svg",
+      "size": 546,
+      "sha256": "aea1521e0fa3079ddf3b7e3d400f07e3b0530ddfe0153a620aa4b0adade77684"
+    },
+    {
+      "path": "editable/glyphs/uni00F0.svg",
+      "size": 787,
+      "sha256": "f61ef1df39faf82e5b5e92c6a4cd6e845ec2b29f70b91193cb66d37dbeb74a19"
+    },
+    {
+      "path": "editable/glyphs/uni00F1.svg",
+      "size": 1048,
+      "sha256": "217050eacc2eafa4dc1da982232fc412e1e1ba9354e68d2acf1f299309174801"
+    },
+    {
+      "path": "editable/glyphs/uni00F2.svg",
+      "size": 704,
+      "sha256": "6322e5df7fa11c1717663fd01cca3a5179cf23becf2995d150ca7b1174086fc6"
+    },
+    {
+      "path": "editable/glyphs/uni00F3.svg",
+      "size": 700,
+      "sha256": "ffb1503749b19e6d2327f996e9f8e49ecbde2b65b0dbefdad95525a579d62294"
+    },
+    {
+      "path": "editable/glyphs/uni00F4.svg",
+      "size": 728,
+      "sha256": "31d934665c2d04c15f963ef3e9af6d12e4d0958cc360a4dc0a3d3536e2bdaaf0"
+    },
+    {
+      "path": "editable/glyphs/uni00F5.svg",
+      "size": 796,
+      "sha256": "51490e511aafc03f9db61ca4d3897bf3dfa98860c418a8632ee82606a1caa8c9"
+    },
+    {
+      "path": "editable/glyphs/uni00F6.svg",
+      "size": 741,
+      "sha256": "6be0750cbbd780226a3f55f6c3703840c52bb29a16b2f498ff89f52db3b9b33a"
+    },
+    {
+      "path": "editable/glyphs/uni00F7.svg",
+      "size": 170,
+      "sha256": "c0f7e848be79f4d93a64d268c7cf6a65464da4416fb71862d8483287f4536f99"
+    },
+    {
+      "path": "editable/glyphs/uni00F8.svg",
+      "size": 787,
+      "sha256": "dfc8312625c1b3d8746e5e2beea8cb82b768111c1913071ca12cc38221744a46"
+    },
+    {
+      "path": "editable/glyphs/uni00F9.svg",
+      "size": 897,
+      "sha256": "668f04b4ca5bca39a66ff06f8b9adf3811e186675507ec54e1400c253b708c8a"
+    },
+    {
+      "path": "editable/glyphs/uni00FA.svg",
+      "size": 893,
+      "sha256": "d8573fcb8f2b854085a58c895ae5a364b5d9d30cea1a7ced7a0c8db18225b061"
+    },
+    {
+      "path": "editable/glyphs/uni00FB.svg",
+      "size": 921,
+      "sha256": "077fecb55ab45e2a71b46da75fb867280111baf6c0016839550c63c71fe9708b"
+    },
+    {
+      "path": "editable/glyphs/uni00FC.svg",
+      "size": 934,
+      "sha256": "1e09b405b8554f13d5ec93315ab1e2b97d0da35f3357720760307e4b96609ec5"
+    },
+    {
+      "path": "editable/glyphs/uni00FD.svg",
+      "size": 1089,
+      "sha256": "1999bf287afdaf216942d22252ee02e124f771229f74770a391a58d10315c01b"
+    },
+    {
+      "path": "editable/glyphs/uni00FE.svg",
+      "size": 908,
+      "sha256": "cefdecb449771b955039d53f757bd768cd3fadc5ffbb320c40f7734c2a59ddd2"
+    },
+    {
+      "path": "editable/glyphs/uni00FF.svg",
+      "size": 1130,
+      "sha256": "9cf5dbc6d9b620fa59b48840d653677bb5266d22af55d6f51cdd202d5911c5b0"
+    },
+    {
+      "path": "editable/glyphs/uni0100.svg",
+      "size": 1477,
+      "sha256": "d58d1ccfe69ebea78a32b6d78affaa0f1104aed0f9bb2e764049b69def565a5f"
+    },
+    {
+      "path": "editable/glyphs/uni0101.svg",
+      "size": 975,
+      "sha256": "9fab466a032807f2647d32eba2b380e8f0aec36cdd1d1e0f7b0a0168ae6f544a"
+    },
+    {
+      "path": "editable/glyphs/uni0102.svg",
+      "size": 1517,
+      "sha256": "ef849de1d72a567a1d49e20d7078cb7210492d54b7f5b475fc2963c13579bd6a"
+    },
+    {
+      "path": "editable/glyphs/uni0103.svg",
+      "size": 1015,
+      "sha256": "e5588c7cecfe13d28406a4e5f9c17f5debfa5eda18efe18447141edf9fc39f47"
+    },
+    {
+      "path": "editable/glyphs/uni0104.svg",
+      "size": 1528,
+      "sha256": "cdff01e70f735bba8381f10e7935bce9270fc5876d2f51332b564d52eab0ae1d"
+    },
+    {
+      "path": "editable/glyphs/uni0105.svg",
+      "size": 1026,
+      "sha256": "fb6abcde9f03545a3a0a7524e79cc8d82c66390ed0047c73e0b95458ff2c00c0"
+    },
+    {
+      "path": "editable/glyphs/uni0106.svg",
+      "size": 1008,
+      "sha256": "c3ad4222d69278b0ae5dd058c4863767eae154fbe4de4085b74ec37fe966ba8c"
+    },
+    {
+      "path": "editable/glyphs/uni0107.svg",
+      "size": 830,
+      "sha256": "443842ac0dac2d24f61e524a155060d3fa5701795e2d358b426c5ac264662595"
+    },
+    {
+      "path": "editable/glyphs/uni0108.svg",
+      "size": 1036,
+      "sha256": "54ec4f086a226179797b0a75de1e4304102271d98c581dfe69a56150a04166b6"
+    },
+    {
+      "path": "editable/glyphs/uni0109.svg",
+      "size": 857,
+      "sha256": "9d66f3c5e53adfc91b5c3ff7028dae1c9f9b93ce8bacc3815ca2504fd8209208"
+    },
+    {
+      "path": "editable/glyphs/uni010A.svg",
+      "size": 1016,
+      "sha256": "efdc78f761b8314f7593d0fcddda18664d54bd47db7da034a6e0f62ee629056a"
+    },
+    {
+      "path": "editable/glyphs/uni010B.svg",
+      "size": 838,
+      "sha256": "814d9aa88516aec0c6ccdb0cea5ad3a8965bb6c9a5975c506ac43ab286307190"
+    },
+    {
+      "path": "editable/glyphs/uni010C.svg",
+      "size": 1036,
+      "sha256": "68415d9317d7e6e6c8b693c84208887cd4ada6b48a9bf76cdba50b33c4419028"
+    },
+    {
+      "path": "editable/glyphs/uni010D.svg",
+      "size": 857,
+      "sha256": "75eed2c3a15ee1df35b235ff6ea4b6c62294035d49cadd925c611e5862cee54d"
+    },
+    {
+      "path": "editable/glyphs/uni010E.svg",
+      "size": 1548,
+      "sha256": "8246df5df09b687528ffba332569a80f1a1d13dc803ec527d72aeaf6cfc63b29"
+    },
+    {
+      "path": "editable/glyphs/uni010F.svg",
+      "size": 863,
+      "sha256": "e0bc04a4318de5c656ca8083f017552df91b0ad88965abb96944565a56ff3faf"
+    },
+    {
+      "path": "editable/glyphs/uni0110.svg",
+      "size": 1554,
+      "sha256": "f070680c580d8774cd9603b53e908013cf9f72583df477619cde1142ea0f77ab"
+    },
+    {
+      "path": "editable/glyphs/uni0111.svg",
+      "size": 804,
+      "sha256": "e8776e189c76a97bafb99e705d53a5c6bdcd174e86b9b8bff16350bf7792a675"
+    },
+    {
+      "path": "editable/glyphs/uni0112.svg",
+      "size": 1670,
+      "sha256": "40d78a91f2b8ea814c5d167594f5bad19a280ac5f2bca8cda0a3cf99f99f51f1"
+    },
+    {
+      "path": "editable/glyphs/uni0113.svg",
+      "size": 708,
+      "sha256": "bb6b42f0ebcd28c2e4ba497fef572ccf8370f1bb3a67fe9241bd20226b343a93"
+    },
+    {
+      "path": "editable/glyphs/uni0114.svg",
+      "size": 1710,
+      "sha256": "e43b157b36b45dd75606d52a66113977720652a5f78f6d1a8a849e1cc12faafa"
+    },
+    {
+      "path": "editable/glyphs/uni0115.svg",
+      "size": 748,
+      "sha256": "00b8f77269cf005597be5535e16eaf2c2f41fa1873cfd9cd4f184150ef9fd0a1"
+    },
+    {
+      "path": "editable/glyphs/uni0116.svg",
+      "size": 1682,
+      "sha256": "85236a0049c8e2b8baca1c5acda74a97af4868794accda36a1b2cfe5614b9485"
+    },
+    {
+      "path": "editable/glyphs/uni0117.svg",
+      "size": 720,
+      "sha256": "c46699be3ef9c97531cc0936ef135e81aa98367372c14101a8b8c738d3457f90"
+    },
+    {
+      "path": "editable/glyphs/uni0118.svg",
+      "size": 1721,
+      "sha256": "2bdea3a44e1ef65838c4997fc8c424277bb3ab89918377bfbd0c6cbf5a1a6d64"
+    },
+    {
+      "path": "editable/glyphs/uni0119.svg",
+      "size": 758,
+      "sha256": "316a73d8da2561091d050e38e15ddf62f5251f3cc019cce3685282a6861503bd"
+    },
+    {
+      "path": "editable/glyphs/uni011A.svg",
+      "size": 1702,
+      "sha256": "ca4aae497e734bd6891076582871b6dcefc352ccfc7604bcb87930c6641d6571"
+    },
+    {
+      "path": "editable/glyphs/uni011B.svg",
+      "size": 740,
+      "sha256": "2c6672369c9f484fa6f85417c5618415286d5a5565e00d352c6a6df43d2da11b"
+    },
+    {
+      "path": "editable/glyphs/uni011C.svg",
+      "size": 1448,
+      "sha256": "306d6ca5d9a0a4c7e7a30755fb190679860a1479b30d829bcfbb3030cf72ab41"
+    },
+    {
+      "path": "editable/glyphs/uni011D.svg",
+      "size": 1172,
+      "sha256": "25c6efb3334ba407f8067aa5fbe39a0e8e29868a00a6c7b664c0753fa5ec4921"
+    },
+    {
+      "path": "editable/glyphs/uni011E.svg",
+      "size": 1456,
+      "sha256": "a8143ea48baedc00e08e72637c34559bfe9f5ed97af727f54474cc69fd864186"
+    },
+    {
+      "path": "editable/glyphs/uni011F.svg",
+      "size": 1180,
+      "sha256": "735a758d3e7bb5843df33f7710210c3cf6cd45c6068352779c7fc729f80e149b"
+    },
+    {
+      "path": "editable/glyphs/uni0120.svg",
+      "size": 1428,
+      "sha256": "2c0e65398f2f7f29da5f56c662e644ad32a09cbb17ddcda5a66c481137946850"
+    },
+    {
+      "path": "editable/glyphs/uni0121.svg",
+      "size": 1152,
+      "sha256": "5e2131d2d8c9ef20d0278934656aa36fe6133f0d25a5a14ff001a727205ecef3"
+    },
+    {
+      "path": "editable/glyphs/uni0122.svg",
+      "size": 1500,
+      "sha256": "f74a37c01c5017b18ef9456d62c6d759b43d3d51acd1839593aed9783ebd1b02"
+    },
+    {
+      "path": "editable/glyphs/uni0123.svg",
+      "size": 1212,
+      "sha256": "4631c05c798c6f3005cedd53a1cd28517f947c56df0b3b33c2b9cb60938d6118"
+    },
+    {
+      "path": "editable/glyphs/uni0124.svg",
+      "size": 1625,
+      "sha256": "f8421a189cd3401e4611ac7abecf6cbc04f202d7abf46be8adc161b9150504bd"
+    },
+    {
+      "path": "editable/glyphs/uni0125.svg",
+      "size": 1052,
+      "sha256": "d3eb6e0f7733628ad0dcc561764ce0101a791e9b15fdb8c0ca5c66cbc4c10fee"
+    },
+    {
+      "path": "editable/glyphs/uni0126.svg",
+      "size": 1679,
+      "sha256": "0bb252c7e33a79a251ec04a99c49876ba5555a9c65adc543ce9fa4ea76b7c8d8"
+    },
+    {
+      "path": "editable/glyphs/uni0127.svg",
+      "size": 984,
+      "sha256": "3d3143ce061f5ae2baf15cecbe9ff5104399cd2d3f6aaa595649e682ce997120"
+    },
+    {
+      "path": "editable/glyphs/uni0128.svg",
+      "size": 1119,
+      "sha256": "d45bcd289bf7903874da996f4939ac50169652a6e1f50b23c9af07bd36299d65"
+    },
+    {
+      "path": "editable/glyphs/uni0129.svg",
+      "size": 599,
+      "sha256": "a41bd72e066986b6679aadf78d8191e57105dcec7eef751dc669acb61bfd3ae2"
+    },
+    {
+      "path": "editable/glyphs/uni012A.svg",
+      "size": 1019,
+      "sha256": "ead796169a11b54e8869d0c1e2f5d469c7e185a016d5374fc2adc997b69e4caa"
+    },
+    {
+      "path": "editable/glyphs/uni012B.svg",
+      "size": 502,
+      "sha256": "a30fe5bcd92cfd9029d2ec1fa1cdfad4761a24a7f1db755527030096637588c8"
+    },
+    {
+      "path": "editable/glyphs/uni012C.svg",
+      "size": 1059,
+      "sha256": "0ea6119a1b25f9c793b4980610737aef4d1d975a8570c37400d6f566b3cfc6fe"
+    },
+    {
+      "path": "editable/glyphs/uni012D.svg",
+      "size": 541,
+      "sha256": "d92a457a5f6aed34f8601ad5b0746b72abf1ef1cbd4ec1bc49241fbb8ef96057"
+    },
+    {
+      "path": "editable/glyphs/uni012E.svg",
+      "size": 1070,
+      "sha256": "ad81faa8c03eef966a8e8753359ddb7f6d0601ab30a78c3712e711e6c9cba60c"
+    },
+    {
+      "path": "editable/glyphs/uni012F.svg",
+      "size": 687,
+      "sha256": "eb6770fa49d56454ecb740853afd3d3c4f46f4227f4492cb0cb8e6f068404a53"
+    },
+    {
+      "path": "editable/glyphs/uni0130.svg",
+      "size": 1031,
+      "sha256": "78851ba7a3be7f19d467e71fc448d2f6979da8952edc118ccd55e0c1cb3aee87"
+    },
+    {
+      "path": "editable/glyphs/uni0131.svg",
+      "size": 483,
+      "sha256": "11f253d9e4d17a8a33be87871693bbf93e881795836eef9ef52ea718a5bac281"
+    },
+    {
+      "path": "editable/glyphs/uni0132.svg",
+      "size": 2336,
+      "sha256": "b9300d5e9325738c96e1a8906c4307f44aa3537bae5088c86faa1303cbf9f2b9"
+    },
+    {
+      "path": "editable/glyphs/uni0133.svg",
+      "size": 1461,
+      "sha256": "7f326290c2071bf3269e8aa1d7e949624c313e3161f7f99b145f191d7a526fa5"
+    },
+    {
+      "path": "editable/glyphs/uni0134.svg",
+      "size": 1452,
+      "sha256": "36dc13e114f97d029dd63856b164db59a8087d12cd8e566fa3d47ac1505047d5"
+    },
+    {
+      "path": "editable/glyphs/uni0135.svg",
+      "size": 804,
+      "sha256": "aa40175e0170a84529f9bb00f67cb77d4174014f49baecbf9d76c1c630143fbf"
+    },
+    {
+      "path": "editable/glyphs/uni0136.svg",
+      "size": 1757,
+      "sha256": "7b9f43ad58dc8284bbae8cf835743a7a5e8524a18cf77f6bf396f9a98593cbb2"
+    },
+    {
+      "path": "editable/glyphs/uni0137.svg",
+      "size": 1245,
+      "sha256": "cd42d759a4c0ecd338dddf452f4be0e438b05938658c94be4de50437c76208fe"
+    },
+    {
+      "path": "editable/glyphs/uni0138.svg",
+      "size": 1111,
+      "sha256": "f63042c12fb74c62e5a4c8a550d0c4a49bd74954356977145067f0005227105b"
+    },
+    {
+      "path": "editable/glyphs/uni0139.svg",
+      "size": 1053,
+      "sha256": "50ad15564ca48879c2b7496e62d5eb74e0745aba7af2c4c15d51cd6de4ebd7c2"
+    },
+    {
+      "path": "editable/glyphs/uni013A.svg",
+      "size": 425,
+      "sha256": "faad6bd92bee949cd2bec466cc56ede92b54b80e5c65a4d56f9b97963e5fd0a5"
+    },
+    {
+      "path": "editable/glyphs/uni013B.svg",
+      "size": 1133,
+      "sha256": "1a67059f625e5da07c9190daae4826d0d182f26fe1e8465c89e35e928b10428e"
+    },
+    {
+      "path": "editable/glyphs/uni013C.svg",
+      "size": 505,
+      "sha256": "43d3227949d295102f4bd7d87101d90fe879433ffe70a73f751a4aa10e633b4f"
+    },
+    {
+      "path": "editable/glyphs/uni013D.svg",
+      "size": 1121,
+      "sha256": "2ab17aebde44eb966505567b6abcd9879948b33e4ffb5a2ba62c99cf37949959"
+    },
+    {
+      "path": "editable/glyphs/uni013E.svg",
+      "size": 488,
+      "sha256": "ea6bd097db892d7281cf60c6e1f44a8ffc057f1ebdda80fbaf07c95a9be8831d"
+    },
+    {
+      "path": "editable/glyphs/uni013F.svg",
+      "size": 1061,
+      "sha256": "a004e39d376ba298eb8f34b54f6df074fd703fb3447237775493280dae5792ee"
+    },
+    {
+      "path": "editable/glyphs/uni0140.svg",
+      "size": 428,
+      "sha256": "257d3f72a418d1a53b3e640a2b7d0c1799534a5835c64bd22531a90aa75f004f"
+    },
+    {
+      "path": "editable/glyphs/uni0141.svg",
+      "size": 1080,
+      "sha256": "e584d3fa2990b30a47606e8d8b6cf5f77a5ff2b03e4b3857646bf4880e2ae5d7"
+    },
+    {
+      "path": "editable/glyphs/uni0142.svg",
+      "size": 458,
+      "sha256": "62e6892a2e35f2978eb2c2bb05070a750b15ac3ef1de3766e14ffc0d47a84a6e"
+    },
+    {
+      "path": "editable/glyphs/uni0143.svg",
+      "size": 1532,
+      "sha256": "fe57a05e68dad5a9bf40f6895753859d6851a4c2026d14c2de0a8a02783c1219"
+    },
+    {
+      "path": "editable/glyphs/uni0144.svg",
+      "size": 952,
+      "sha256": "03a78d52e583483c5d973edfae22c25e8c636ba58afe08907fea7cd59501310b"
+    },
+    {
+      "path": "editable/glyphs/uni0145.svg",
+      "size": 1612,
+      "sha256": "6c3c1b7c56095413479582ee4d9692925788532b8747e95ea7107f4b70ce0163"
+    },
+    {
+      "path": "editable/glyphs/uni0146.svg",
+      "size": 1032,
+      "sha256": "395583ab5059d7caff9f90fdc444931381c26899507dccfc7dee161219fd450d"
+    },
+    {
+      "path": "editable/glyphs/uni0147.svg",
+      "size": 1558,
+      "sha256": "ac14babddfd49abf766df10896efc129275357fb960fc40f93b7812649aac92d"
+    },
+    {
+      "path": "editable/glyphs/uni0148.svg",
+      "size": 980,
+      "sha256": "6aec9c95af5000fb183e8a993e5cf74c1ad65de5d7c0e54378dc3d73661dca1e"
+    },
+    {
+      "path": "editable/glyphs/uni0149.svg",
+      "size": 1022,
+      "sha256": "9fc245b7a48b3f23be8546c5e4678c69f5b49a6b04b296be2277367575ec9af0"
+    },
+    {
+      "path": "editable/glyphs/uni014A.svg",
+      "size": 1591,
+      "sha256": "5a97e6f5a6d936a8c26f3edf4ac406f7172b5fbd90786ed6289b09db00c13218"
+    },
+    {
+      "path": "editable/glyphs/uni014B.svg",
+      "size": 967,
+      "sha256": "0266f7959c1ecbe599d5fbf4a64efe38600c4faac69395a0ba4451aa46b172ce"
+    },
+    {
+      "path": "editable/glyphs/uni014C.svg",
+      "size": 1045,
+      "sha256": "fccf829d6d9730871110257b43bd3fb67a5d7c8f77c6d9eabfd5cdf26ffb9d30"
+    },
+    {
+      "path": "editable/glyphs/uni014D.svg",
+      "size": 696,
+      "sha256": "e312c137da1b09980c71354a166fa8e37a28f025b0c47b7f6aa67323b3566826"
+    },
+    {
+      "path": "editable/glyphs/uni014E.svg",
+      "size": 1085,
+      "sha256": "0ed2893d5c7b3cd21fc6c386387985d8c3b96bbce34059d0b7e4947513c32130"
+    },
+    {
+      "path": "editable/glyphs/uni014F.svg",
+      "size": 736,
+      "sha256": "a9505a9e7ee892d97621f28435aad98e0ce5e4f9683af78f23e6b2e4a173d433"
+    },
+    {
+      "path": "editable/glyphs/uni0150.svg",
+      "size": 1074,
+      "sha256": "ce99a5fcf4b78d114cb5110a287bb6d31b3a0632ae4c83dee933e5934ddfd3c2"
+    },
+    {
+      "path": "editable/glyphs/uni0151.svg",
+      "size": 725,
+      "sha256": "b7f2501698df4a7d83763c6f32385682aa7abce781d7a05b3914e8c253faf245"
+    },
+    {
+      "path": "editable/glyphs/uni0152.svg",
+      "size": 2628,
+      "sha256": "eef7d8dd57f69b61eb4ecfe3718e5265f2f5857d28df0adc0839fdb3699f58a5"
+    },
+    {
+      "path": "editable/glyphs/uni0153.svg",
+      "size": 1290,
+      "sha256": "c577800469d11fad713a6aa671ad52f88efdb865bb0d5eb9820d983c7d2d602b"
+    },
+    {
+      "path": "editable/glyphs/uni0154.svg",
+      "size": 1697,
+      "sha256": "a753107005b64be444892e5162b31a5af720c42722479a62951ef4023a99fec5"
+    },
+    {
+      "path": "editable/glyphs/uni0155.svg",
+      "size": 812,
+      "sha256": "88bc73cd97e9b5f20a7d68ae4c62b8eee2da5e6a719137daa3dfcb01e417727a"
+    },
+    {
+      "path": "editable/glyphs/uni0156.svg",
+      "size": 1777,
+      "sha256": "2938317964e57fb3cea23c143b759c1f5d0732ba720865e83b70856d7389f78a"
+    },
+    {
+      "path": "editable/glyphs/uni0157.svg",
+      "size": 892,
+      "sha256": "aff963623d3fa8f826e615a82a8b6a13e8c2d5fafeded4030b605b17219f62bb"
+    },
+    {
+      "path": "editable/glyphs/uni0158.svg",
+      "size": 1723,
+      "sha256": "a478bb57321d2ed46eecc643b6939d29e2a4a1b76376dbfa0442f0860bd40cc4"
+    },
+    {
+      "path": "editable/glyphs/uni0159.svg",
+      "size": 840,
+      "sha256": "9eb08b571a270677dad927650a4f74b09005ee7eb5bc2b1fb0be205d446fd672"
+    },
+    {
+      "path": "editable/glyphs/uni015A.svg",
+      "size": 1283,
+      "sha256": "08289512c5a5ca7ae9cc02e2095e2183bc863f2583e1dacf8e748ae27eb1c794"
+    },
+    {
+      "path": "editable/glyphs/uni015B.svg",
+      "size": 1124,
+      "sha256": "b98b11b40f14ec3bb1399d88239906f118149479286d279ace4cc76d7933e79a"
+    },
+    {
+      "path": "editable/glyphs/uni015C.svg",
+      "size": 1311,
+      "sha256": "a1312f260f5f53a43f2f0ce33679d46812b9a0f899fa094073393dcfd079c28e"
+    },
+    {
+      "path": "editable/glyphs/uni015D.svg",
+      "size": 1152,
+      "sha256": "21d4c46034ba43cc608d8864377dc298e3b37f458ebdca9ba2bf88dbabd5909b"
+    },
+    {
+      "path": "editable/glyphs/uni015E.svg",
+      "size": 1347,
+      "sha256": "c8293f0492af3fc2518d52ad17274f28e38d6c13fe5ccd4a96661c376f5432d6"
+    },
+    {
+      "path": "editable/glyphs/uni015F.svg",
+      "size": 1182,
+      "sha256": "75e279d1070f8b4dd107f27cf1a555412cc65c39430bd5fc27142e55346bde91"
+    },
+    {
+      "path": "editable/glyphs/uni0160.svg",
+      "size": 1311,
+      "sha256": "126ac5e7ccd9e0102fcbf3c791ca18b37cda2714332df275df07e174aa7a6372"
+    },
+    {
+      "path": "editable/glyphs/uni0161.svg",
+      "size": 1152,
+      "sha256": "61851cedf1dae9e6b5f0a25932b3d6e69f7d8a496b26799c13486fc19fb50394"
+    },
+    {
+      "path": "editable/glyphs/uni0162.svg",
+      "size": 1265,
+      "sha256": "8e52ebe375db4dd20e9263af2c89e5637e0252d2344f1d657c4e0f34c785eeb4"
+    },
+    {
+      "path": "editable/glyphs/uni0163.svg",
+      "size": 729,
+      "sha256": "42d966a36dec48980b0fed9d11779e7c8bdd6a0f89a5a814cca652c0884a9594"
+    },
+    {
+      "path": "editable/glyphs/uni0164.svg",
+      "size": 1227,
+      "sha256": "cb5873e6a2d0975841f1b8f1356e507017d1536acba6d2db997e4be9cf0467cf"
+    },
+    {
+      "path": "editable/glyphs/uni0165.svg",
+      "size": 735,
+      "sha256": "027fab8fa95acb6659739dfbf0b841cf1d841df273cdb69d15ed6f896256cc44"
+    },
+    {
+      "path": "editable/glyphs/uni0166.svg",
+      "size": 1235,
+      "sha256": "099f5d0a409a4baac99349499e9ad818d8f926c1b53c2f64757a502298c1d042"
+    },
+    {
+      "path": "editable/glyphs/uni0167.svg",
+      "size": 673,
+      "sha256": "9514e1767ab224df395f277eedad4d2d4f032879944639b95396c8037c48848c"
+    },
+    {
+      "path": "editable/glyphs/uni0168.svg",
+      "size": 1386,
+      "sha256": "21da44304cc888288143c6557dce89e3d8ad3ba7d8d8a23d1739d7423fa89d9e"
+    },
+    {
+      "path": "editable/glyphs/uni0169.svg",
+      "size": 989,
+      "sha256": "bae00b1474aac5f63230e1c97a0c1c61c00b32c86555444eaa706b3140d4b6f4"
+    },
+    {
+      "path": "editable/glyphs/uni016A.svg",
+      "size": 1286,
+      "sha256": "0ab384126b1f70247ec4f5a5ac4007cde133b497600131c2957a1713c019437a"
+    },
+    {
+      "path": "editable/glyphs/uni016B.svg",
+      "size": 889,
+      "sha256": "a4cb41cfd52b7efc6284cff82375e320e91a141065e40b11be02eedab42045bf"
+    },
+    {
+      "path": "editable/glyphs/uni016C.svg",
+      "size": 1326,
+      "sha256": "da63cfdfdfd498a364cf4a203506e01068b700a270936f9d6fdbf1c64ca3024c"
+    },
+    {
+      "path": "editable/glyphs/uni016D.svg",
+      "size": 929,
+      "sha256": "56a6c802a06b96d79a87e91c2e3cf1c154bb409ee336427bb826fe8770bff7d5"
+    },
+    {
+      "path": "editable/glyphs/uni016E.svg",
+      "size": 1472,
+      "sha256": "36122982b2500deccfa65509608f15a679c6588791108b1f6532258927cd4f44"
+    },
+    {
+      "path": "editable/glyphs/uni016F.svg",
+      "size": 1078,
+      "sha256": "bf1c97894d4aca41dbfdcff646c59e3234de997b13aa7d7a21319f80b992ea18"
+    },
+    {
+      "path": "editable/glyphs/uni0170.svg",
+      "size": 1315,
+      "sha256": "ed555f6b61b793ac89a900bcbd67d677a76aefa88c60682c5efc5e9410954844"
+    },
+    {
+      "path": "editable/glyphs/uni0171.svg",
+      "size": 918,
+      "sha256": "57dae95df0ce4533d298db3b0ad5597e6d1af6b24f975284a269ffc3aa4aa7cc"
+    },
+    {
+      "path": "editable/glyphs/uni0172.svg",
+      "size": 1337,
+      "sha256": "beea34a837b6a284d97e9c318a1e467153e001f5787bdbc881e95c0e586f888b"
+    },
+    {
+      "path": "editable/glyphs/uni0173.svg",
+      "size": 940,
+      "sha256": "fb99784089300f659adde674afcfb62231dea07e36800dfecc60667a0361195e"
+    },
+    {
+      "path": "editable/glyphs/uni0174.svg",
+      "size": 1276,
+      "sha256": "1a25abb6a4e3ad9a0571b25e7ae0daa818b120c3e102c4c105c2b079157f22b4"
+    },
+    {
+      "path": "editable/glyphs/uni0175.svg",
+      "size": 1030,
+      "sha256": "7f53c3513a3cdc47159a44a6a35b8d28e1982766a02949f6c4aab3134f320a05"
+    },
+    {
+      "path": "editable/glyphs/uni0176.svg",
+      "size": 1384,
+      "sha256": "daab1b5eefcb1f323c4b4e9de89f15baf7b178baef6a1e1f28ff2fd6e60b8742"
+    },
+    {
+      "path": "editable/glyphs/uni0177.svg",
+      "size": 1117,
+      "sha256": "1ac0e0041aa2015f86699237a738829cba5f90f85bc68430a036cb46c9480ff0"
+    },
+    {
+      "path": "editable/glyphs/uni0178.svg",
+      "size": 1397,
+      "sha256": "783b14ae87591d3273cc0c4440820a8b1d6760acfa778bb518cf4a1dd01d7f9e"
+    },
+    {
+      "path": "editable/glyphs/uni0179.svg",
+      "size": 1194,
+      "sha256": "fa113fa1c3e564a0b2af2be95e2448b17037ab61fe621279940375fc546b6f35"
+    },
+    {
+      "path": "editable/glyphs/uni017A.svg",
+      "size": 1163,
+      "sha256": "6cceb98fcd0dc77c2c715f073b3e934cd80a2f88a65aecfad25e626cab8d537a"
+    },
+    {
+      "path": "editable/glyphs/uni017B.svg",
+      "size": 1202,
+      "sha256": "282cd4fd8c741a447ee733683aa7232f8667134e005c07e52fa6da4e99b70747"
+    },
+    {
+      "path": "editable/glyphs/uni017C.svg",
+      "size": 1171,
+      "sha256": "a75beda07bba1e43ef6d3ae9e1d6599b509943c022b8190d836f27ddd8b3cd8f"
+    },
+    {
+      "path": "editable/glyphs/uni017D.svg",
+      "size": 1222,
+      "sha256": "b670d6aa8a3ab024db7ee634c3fe049205feacee1db253e98211766bf0117f59"
+    },
+    {
+      "path": "editable/glyphs/uni017E.svg",
+      "size": 1191,
+      "sha256": "cff80f87ded398682025f0f3556b8d1dd26958a7142a21f04e6bf1981807d4db"
+    },
+    {
+      "path": "editable/glyphs/uni017F.svg",
+      "size": 497,
+      "sha256": "4e65810dadf2ae79e7c9f74bad977b2a6723baab4847a157d61359d746801f04"
+    },
+    {
+      "path": "editable/glyphs/uni0218.svg",
+      "size": 1363,
+      "sha256": "f3c9f884371984c26a6340b9b58611d0429dd83bea549d2e621f45c06eb89231"
+    },
+    {
+      "path": "editable/glyphs/uni0219.svg",
+      "size": 1204,
+      "sha256": "a7f0a9cb01efbbd08e4af224794f81361b86a2e41afcb4e7563a8fe5a3bc2ebf"
+    },
+    {
+      "path": "editable/glyphs/uni021A.svg",
+      "size": 1281,
+      "sha256": "2d5227543cc2342079d1bd39f187a8a82d09fb8de46abbefa2485833fa065135"
+    },
+    {
+      "path": "editable/glyphs/uni021B.svg",
+      "size": 747,
+      "sha256": "71ee50b40412376202be21c1972ffe06daff99a384a1eb998880aabda807552b"
+    },
+    {
+      "path": "editable/glyphs/uni0300.svg",
+      "size": 111,
+      "sha256": "56002837ad2fd9a3deb5970b3c32cdcda9d1fb5ebdb69fadabeb1da49fb69853"
+    },
+    {
+      "path": "editable/glyphs/uni0301.svg",
+      "size": 114,
+      "sha256": "8111105217b22b749630549938ffde36e5ace29e3b59a6b7ce3848a36f816c17"
+    },
+    {
+      "path": "editable/glyphs/uni0302.svg",
+      "size": 133,
+      "sha256": "e3c26d8b4ea265b78f5d77a070330d99af557ade2b3ccd980b9e182e7fa43a7c"
+    },
+    {
+      "path": "editable/glyphs/uni0303.svg",
+      "size": 203,
+      "sha256": "8e41bb1ecf4a4a16b06fd3227092a6218e390bb8d376589211e0adff6b4917a7"
+    },
+    {
+      "path": "editable/glyphs/uni0304.svg",
+      "size": 110,
+      "sha256": "d97ca418e623eaf5c5af8c2dce5bdee0e533b500bbfe5301a25fd9b2d64402e3"
+    },
+    {
+      "path": "editable/glyphs/uni0306.svg",
+      "size": 146,
+      "sha256": "a3da5d9f87f68ac39b229b001734a748de7bef82ce361f438c672ed70ff53a21"
+    },
+    {
+      "path": "editable/glyphs/uni0307.svg",
+      "size": 118,
+      "sha256": "23cb7607a1f57417dc8f5e5030dad983ba6966c660878f06259e42e1feb396b9"
+    },
+    {
+      "path": "editable/glyphs/uni0308.svg",
+      "size": 147,
+      "sha256": "ad9cae6377ce6d9e248d85a624712d950aa5a257805ad491f65b0ac138a0e505"
+    },
+    {
+      "path": "editable/glyphs/uni030A.svg",
+      "size": 274,
+      "sha256": "44ae589dc3acd52ae8a4dee8f064f4147c95fb67ae90d8a9630f2406d2129db9"
+    },
+    {
+      "path": "editable/glyphs/uni030B.svg",
+      "size": 130,
+      "sha256": "4161985be2303f3407956ba9c61381f181c9db81d93b57884cf471ccf1d6d39f"
+    },
+    {
+      "path": "editable/glyphs/uni030C.svg",
+      "size": 132,
+      "sha256": "74abc678d293190705f01ff35bf78fe518c6621beb911e38620e00e69680ad55"
+    },
+    {
+      "path": "editable/glyphs/uni0326.svg",
+      "size": 179,
+      "sha256": "11674e085516e4a8e3335f118546c48547ba75cd41044d9054586fd9c23b6ce2"
+    },
+    {
+      "path": "editable/glyphs/uni0327.svg",
+      "size": 165,
+      "sha256": "3125b81701d5e0c31b4c2a6f0b8135b6671e2897398b5a877ca82abc4f553d0a"
+    },
+    {
+      "path": "editable/glyphs/uni0328.svg",
+      "size": 151,
+      "sha256": "a582509ff7929169ae74b52f5da885d32fbfc13788b5fd3fa8b95bd13774467b"
+    },
+    {
+      "path": "editable/glyphs/uni1E80.svg",
+      "size": 1242,
+      "sha256": "3c52adda1bab3506ffa43f8dc67e5926be828b3be70b2efe3b0902376e79bc3a"
+    },
+    {
+      "path": "editable/glyphs/uni1E81.svg",
+      "size": 994,
+      "sha256": "a02efd3653eb2007bdc9300bbcd81373bd26cb011c5142c6f3227bf794dda527"
+    },
+    {
+      "path": "editable/glyphs/uni1E82.svg",
+      "size": 1238,
+      "sha256": "229746a381cda333749f82336abb7fec148ff215446c1d949ac2661fdffa5027"
+    },
+    {
+      "path": "editable/glyphs/uni1E83.svg",
+      "size": 990,
+      "sha256": "460a3f8c0d523db5c2c19126bb868a462eb0f5a4cf7dacc56e149b5b01cd5c78"
+    },
+    {
+      "path": "editable/glyphs/uni1E84.svg",
+      "size": 1279,
+      "sha256": "7e0d9a2eb2a30b1770fed5e563f06f5bcbd57d9833c2b05dd7d68ba1e0d73182"
+    },
+    {
+      "path": "editable/glyphs/uni1E85.svg",
+      "size": 1031,
+      "sha256": "8c9eac8db14380da5b29ea906d4a6d5b09284da77cbb448ee324e4881290a906"
+    },
+    {
+      "path": "editable/glyphs/uni1E9E.svg",
+      "size": 1760,
+      "sha256": "fbaf7ba42a31557b5acbdc17e999418ce2ab359b3d16d7a8ecddfeea1d30c8df"
+    },
+    {
+      "path": "editable/glyphs/uni1EF2.svg",
+      "size": 1355,
+      "sha256": "8c8843aa20e39ef581651ea337011a5f4ac0ca9f47abf64bdf063811e330da91"
+    },
+    {
+      "path": "editable/glyphs/uni1EF3.svg",
+      "size": 1080,
+      "sha256": "d1336ea8c34e1a1224f2c0f3097acdeaa7b61eccf042e3fde7ecba2ad9f0ce1d"
+    },
+    {
+      "path": "editable/glyphs/uni2013.svg",
+      "size": 104,
+      "sha256": "d29db7616309dcc013e3ad44f8713145bfe8648bfcff5e413ad0da2585e8ca15"
+    },
+    {
+      "path": "editable/glyphs/uni2014.svg",
+      "size": 105,
+      "sha256": "87c1290f83c7a48a963ee1b3ce019d43d529b25ee08558e5b610d1d8a4530c22"
+    },
+    {
+      "path": "editable/glyphs/uni2018.svg",
+      "size": 171,
+      "sha256": "7850edb473f6e3b9ae509e72ced6e934129ae3d723ea1b1972f4b33f043c44ca"
+    },
+    {
+      "path": "editable/glyphs/uni2019.svg",
+      "size": 171,
+      "sha256": "868fa7f121df0be93d618461f7b0dbd95896458882044d813ffc74256182a423"
+    },
+    {
+      "path": "editable/glyphs/uni201C.svg",
+      "size": 264,
+      "sha256": "ad1c3e38ca0360d9ff05e065a2f8a1ad77d908c9e356aa6ea4c30b0a7b15eced"
+    },
+    {
+      "path": "editable/glyphs/uni201D.svg",
+      "size": 264,
+      "sha256": "a983494b09085184d4297e660ba5ed29a3f0865214ba33037fcba7bfb95d8606"
+    },
+    {
+      "path": "editable/glyphs/uni2026.svg",
+      "size": 487,
+      "sha256": "d1b03c3ff1ae3b3a8f63d911d84863230943170c78130612066845ca3686a83b"
+    },
+    {
+      "path": "editable/glyphs/uni20AC.svg",
+      "size": 1116,
+      "sha256": "c279a4c89125a47be52023eb994ee6b80234451a51a1cf595ee044daa7d0866a"
+    },
+    {
+      "path": "editable/glyphs/v.svg",
+      "size": 2982,
+      "sha256": "35a3fa1dc6ebc0047697a7fff3edb04f6f8dea27cf8521d6f234192a77f9ec0d"
+    },
+    {
+      "path": "editable/glyphs/w.svg",
+      "size": 4177,
+      "sha256": "43a16d8d8f18f2c841af232e6130117145314e4cc4e061ce27b0cc3812a55253"
+    },
+    {
+      "path": "editable/glyphs/x.svg",
+      "size": 4438,
+      "sha256": "f61e7c21eeedd93d77fd5684c1a952b59486b5048dd3ccebb805dbbb3a24889c"
+    },
+    {
+      "path": "editable/glyphs/y.svg",
+      "size": 4514,
+      "sha256": "0cd1b5e4f1c050a16a8354030adcdc9bb5ea7b3d01785889d537940851cd432c"
+    },
+    {
+      "path": "editable/glyphs/z.svg",
+      "size": 4880,
+      "sha256": "25edab784f626d1e356b32e38bbb4fe7a44d95214b3919c01d3a1dac245634e1"
+    },
+    {
+      "path": "editable/min-size-pair-corrections.json",
+      "size": 3840,
+      "sha256": "9ad0b8e6c0cfe85fbb5121d86a01366ae1fcba33b7801a23139895e2833e9577"
+    },
+    {
+      "path": "editable/quality-v3.json",
+      "size": 210760,
+      "sha256": "b5e656f362632c2ad13759ac614b5e38da54c5e28a4529fde83fcbd62d8da094"
+    },
+    {
+      "path": "editable/review-gate.json",
+      "size": 585,
+      "sha256": "b5abea1c00df074b2cb830aa51a871282224804984d62feb6418e3019d80fbda"
+    },
+    {
+      "path": "editable/spacing-decisions.json",
+      "size": 10061,
+      "sha256": "1cc0eabddf112005123bb3f02db18b9ed5076c0aa90646fd5b8c8c9c57a631c9"
+    },
+    {
+      "path": "editable/technical-glyph-audit.json",
+      "size": 24578,
+      "sha256": "42c8cc6445d9e1d89b3c609d9cbc3e5c96fed118f6f0f2d3708dc7cd1ac6fad1"
+    },
+    {
+      "path": "editable/unicode-construction-evidence.json",
+      "size": 50081,
+      "sha256": "5271cc4431814dd7e948e982c3b566f9919dbcd7f9e65c746c233421dd5be5de"
+    },
+    {
+      "path": "editable/unicode-features.fea",
+      "size": 290064,
+      "sha256": "4ab59669d88c9305b1440876076a890a50579920693fe7fe583f0940dbd48459"
+    },
+    {
+      "path": "editable/unicode-support.json",
+      "size": 1585,
+      "sha256": "af5fb41bc7936b28345ac8e34e7f9fe84787bcae2a4dccfb95b4d8816461da5b"
+    },
+    {
+      "path": "editable/union-additions.json",
+      "size": 9436,
+      "sha256": "bbe61bac034f0c3a5ca111256fb6756425d8d793b7414e0126b4b41c9889ef22"
+    },
+    {
+      "path": "font-metadata.json",
+      "size": 2856,
+      "sha256": "a8c3da4d08531a06a8b6eb46cc6340b21d9ba4748c81cf7835cdb4989c7e3b15"
+    },
+    {
+      "path": "fonts/Charterquill-Regular-v0.216.ttf",
+      "size": 203860,
+      "sha256": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94"
+    },
+    {
+      "path": "fonts/Charterquill-Regular-v0.216.woff2",
+      "size": 50544,
+      "sha256": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8"
+    },
+    {
+      "path": "fonts/font.css",
+      "size": 2484,
+      "sha256": "cf587dd7e545e59a4dd36f71a853e8e89a490d1f41675a2e51fb9e21f730979d"
+    },
+    {
+      "path": "fonts/glyph-sheet.svg",
+      "size": 724345,
+      "sha256": "09f3ae286814ab29e44c180da61a2b10dfff644e4464473d7dcc421f7719d689"
+    },
+    {
+      "path": "fonts/proof.html",
+      "size": 5433596,
+      "sha256": "8ceca5ec157fe22e86d8eb2e452a386eafe7a7fd7f856e694adbec948fea545e"
+    },
+    {
+      "path": "fonts/quality.json",
+      "size": 2820350,
+      "sha256": "010cd3d5f225bc1862df0ca95e141ff4eab4393406543053fc8e7a82c472726f"
+    },
+    {
+      "path": "fonts/release-manifest.json",
+      "size": 1162795,
+      "sha256": "d42b767efed19623e1ee27adbbedcbe0dd9df9e5be9701dda424efffa265a6fa"
+    },
+    {
+      "path": "fonts/size-proof-evidence.json",
+      "size": 64454,
+      "sha256": "97c1e880d8edeaa3ba7dd95ec48a855e4c8976dfdb67b262b55c8aeca2a7e559"
+    },
+    {
+      "path": "fonts/size-proof.html",
+      "size": 113624,
+      "sha256": "7d11d6a49f6bc557443600a169b90a2bc2586816968700b837a1d9aac1cc4705"
+    },
+    {
+      "path": "fonts/size-ttf-48.png",
+      "size": 1111846,
+      "sha256": "954d6ac0faf99bb95854201fe351e0fbe329c90da13016f027c78bccc21b4d8a"
+    },
+    {
+      "path": "fonts/size-ttf-72.png",
+      "size": 1778567,
+      "sha256": "e1816ef62142c57c614afbc3629f83878711e97d04cbebfe347466ecbe38eea9"
+    },
+    {
+      "path": "fonts/size-ttf-96.png",
+      "size": 2454609,
+      "sha256": "edb625108be1632f8932842d1dec54fb343eb2984bc0b57123ca3b6ac870e500"
+    },
+    {
+      "path": "fonts/validation.json",
+      "size": 1967004,
+      "sha256": "62e36d85c6edcf3de808eda442960de3de7a62831ed3bad3c55253b2ae270ab2"
+    },
+    {
+      "path": "provenance/charset-comparison-curlz.json",
+      "size": 3436,
+      "sha256": "82fade480dc1130ca4865dff31afb3fc481f9065fb1e3f01cc359d9a12cf333a"
+    },
+    {
+      "path": "provenance/charset-target-354.json",
+      "size": 43264,
+      "sha256": "58ecea77b7e6aa8752fc7f7b70a7cbf02ab76e3c9a89c9102d01d7f34bd617be"
+    },
+    {
+      "path": "provenance/charset-target.json",
+      "size": 7404,
+      "sha256": "5c49f9cc053d8ad1cd4178b3efb7403553c04fc0eaad3564715007701efaaa9a"
+    },
+    {
+      "path": "provenance/fontify-base.json",
+      "size": 791,
+      "sha256": "0541164efaec5b23f1603eb9473721eb4a2d1ee3f1c2e3b3b864258083ac44fc"
+    },
+    {
+      "path": "provenance/generation-prompt.txt",
+      "size": 2416,
+      "sha256": "cc52429b6f79dc9201844fc36a16add97ad136d8799941cc1471816e3cafbd08"
+    },
+    {
+      "path": "provenance/selected-A.png",
+      "size": 1287097,
+      "sha256": "d3d5c1cef1f82fbb4c10de9bd39994154f0968c9a5dbbfb9aaa33e0e2373c86f"
+    },
+    {
+      "path": "provenance/selected-raster-inventory.json",
+      "size": 32535,
+      "sha256": "f73fa8598ea8b393e554395c0572e11337bb885e5b65fe3920a83d05d686e123"
+    },
+    {
+      "path": "provenance/selection.json",
+      "size": 843,
+      "sha256": "e7696e9deac615c2f9ac9ae1a00bd6df322df3d4ae27889eb1b70b4f0ad64ed6"
+    },
+    {
+      "path": "provenance/trace-plan.json",
+      "size": 19809,
+      "sha256": "1eafd9e0c7c3b82c9d5aae9ab2a7cd150ca2a4cf825d31643921044f76b6efce"
+    },
+    {
+      "path": "provenance/union-spacing-config.json",
+      "size": 645176,
+      "sha256": "cc97713759761c7a6dfdc6e0d1e2b4506b66f9a2fe4523a2959463fdde0fc62c"
+    },
+    {
+      "path": "provenance/union-updated-names.json",
+      "size": 665,
+      "sha256": "80f02440b84b92b2b2dfc56465634f6003266efd2c2bd4201df5d01e2a100e12"
+    },
+    {
+      "path": "scripts/build_with_cached_shaping.py",
+      "size": 3038,
+      "sha256": "13a5e819f509f5a4d35e480d07b35d0e157e89dc3d637268f82d86cf1aa461c5"
+    },
+    {
+      "path": "scripts/capture_union_final_proofs.py",
+      "size": 751,
+      "sha256": "35ffc5748433df9cdd590e78a0ca8c6ba241b9ce2ed7724dd468878ad37df971"
+    },
+    {
+      "path": "scripts/check_mixed_marks.py",
+      "size": 3711,
+      "sha256": "323fd893a77c71acca426507bdb4a4b8fe98b831b29de67de50bb5ae0b81f0ff"
+    },
+    {
+      "path": "scripts/clear_union_pairs.py",
+      "size": 2653,
+      "sha256": "cf0577d8318420ed70b9f649ac502498886257499fefbce2dc3ff335aadaca46"
+    },
+    {
+      "path": "scripts/coherence_revision.py",
+      "size": 11039,
+      "sha256": "78a3327ca0345c44bcebc2d37454715a25ddce2042c374e9a4a2ded4ef70ceda"
+    },
+    {
+      "path": "scripts/coherence_revision_r2.py",
+      "size": 11242,
+      "sha256": "648e0a3d145dc53a3683a9fdb3687c308cd51c5667ee68ec89da0d5030bdfe6d"
+    },
+    {
+      "path": "scripts/coherence_revision_r3.py",
+      "size": 11633,
+      "sha256": "ab023acd7427d5bc0e57d79c220dc35e089a8cee05429771afc438291ef29201"
+    },
+    {
+      "path": "scripts/expand_union.py",
+      "size": 8794,
+      "sha256": "9480d4b927b9edf4bc4a71bdb1f9a5464ab885172a387ff7e4b3cb846a13dc8f"
+    },
+    {
+      "path": "scripts/make_union_specimens.py",
+      "size": 5370,
+      "sha256": "c4cbf0a703e2c51bff52e4d6bf8af4853013aa321ff0e2826d4357fd3c321b1e"
+    },
+    {
+      "path": "scripts/merge_union_candidate.py",
+      "size": 5712,
+      "sha256": "4160e9715cf251b4797fbc75616254554859edf88277789a283eda14286fa17a"
+    },
+    {
+      "path": "scripts/package_union_delivery.py",
+      "size": 13469,
+      "sha256": "67ba7e4c6dfcd99206e0d07901001938489ae21280f57d875c5c75ca0dc7e5e1"
+    },
+    {
+      "path": "scripts/prepare_union_spacing.py",
+      "size": 2160,
+      "sha256": "0c26efc853089b251005644e70054419f90dc7de7daf63cc64f6ea06eebe6879"
+    },
+    {
+      "path": "scripts/rebuild.py",
+      "size": 584,
+      "sha256": "dc0b8e3df885fde29144520ad34378379df58880a332a3dda219be144a67ee05"
+    },
+    {
+      "path": "scripts/release_union_review.py",
+      "size": 7982,
+      "sha256": "7742947b7a7a50c5c42f784dc3be327f3bc03dcfbebce7b02a371c0f01b8e3c3"
+    },
+    {
+      "path": "scripts/screen_union_sizes.py",
+      "size": 2096,
+      "sha256": "c6c7b82d6e3c9eb396a53e9593e1dbeb19fbe2b8233cfaac85949507f282e166"
+    },
+    {
+      "path": "scripts/unicode_support.py",
+      "size": 6982,
+      "sha256": "163d81bae3780953bf31ffc41d81bee32351772b38e0f1f3ed6967b391af8718"
+    },
+    {
+      "path": "scripts/verify_union_semantics.py",
+      "size": 10235,
+      "sha256": "3e387c049cbdda443dd25f27621afc1eb8a2de18f5c90d380b3bf9ba34bade9f"
+    }
+  ],
+  "fontify_revision": "249bf421e4be58bac8b42024fb42af264bd39838",
+  "status": "private_ready_for_review",
+  "version": "0.216"
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Marqevra",
+  "style": "Regular",
+  "version": "0.021",
+  "title": "Theatrical Art Deco contrast",
+  "inspiration": "Broadway",
+  "description": "A high-contrast display face with broad circular forms, asymmetric dark and light strokes and curling terminals. Its true lowercase carries a theatrical voice into mixed-case editorial titles.",
+  "story": "Broadway inspired the Art Deco architecture. The selected OpenAI A raster from review v2 is byte-identical to A in v1; earlier vector A and the unrelated B edit are excluded. Recorded tracing, cleanup, optical spacing and authored companions retain the selected direction. Version 0.021 corrects ordinary dotted į and contextual accents. The report-r1 package corrects review metadata only, with unchanged font bytes.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "I/l retain related theatrical pillars; avoid identifiers requiring strong standalone I/l distinction."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Marqevra-Regular-v0.021.ttf",
+      "sha256": "4aed6a2c1a6233b5eb5683dd23f4cf471d5fe9d1c262931c240996ad8beed71e",
+      "bytes": 111632,
+      "package_path": "complete-v021/Marqevra-Regular-v0.021.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Marqevra-Regular-v0.021.woff2",
+      "sha256": "75b4a734d18e41cf8cf998b0747eae6282306a29274d2bcf2f9948047c2fe589",
+      "bytes": 25752,
+      "package_path": "complete-v021/Marqevra-Regular-v0.021.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "2999924d6ac9ebb55b5a7173b2657116644e7a048dee317ddba79f1a41f1673f",
+      "bytes": 84000,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "31aa5c279e2a91dd212e70edd4a26bbcb3c76bd2cca9d86be0b96da26a6a4828",
+      "bytes": 25213,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "53b3e6e17f7d0aaec1f26bde03035428192ce69aa88f74b7922b1128f8bcaeef",
+      "bytes": 275,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "31ca693aacfd97aefe81ca5b71676302f840d65bd8268a0f075b21c9852e1458",
+      "bytes": 17068,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}

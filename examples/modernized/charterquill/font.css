@@ -1,0 +1,2 @@
+@font-face { font-family: "Charterquill"; src: url("fonts/Charterquill-Regular-v0.216.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; }
+.sample { font-family: "Charterquill", sans-serif; font-synthesis: none; font-kerning: normal; line-height: 1.9; }

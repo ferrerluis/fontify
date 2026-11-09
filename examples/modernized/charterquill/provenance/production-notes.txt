@@ -1,0 +1,13 @@
+Charterquill Regular0.216 — selected Old English A
+
+Contemporary blackletter for short commercial/editorial display settings at48px and above. The52 selected letters and their previous placement/advance are unchanged. Focused new extensions follow the family’s angular broad-pen contrast. This private review build supersedes provisional0.209; preserve that earlier version as history.
+
+Fonts: static TrueType TTF and browser WOFF2.354 encoded scalars: original323 plus31 union additions. This includes all printable ASCII/US symbols, Latin1 including conditional soft hyphen, ExtendedA, ȘșȚț,ẞ, selected WelshW/Y accents, editorial dashes/quotes/ellipsis/Euro and14 zero-advance combining marks. Three unencoded contextual dotless forms support accenting selected i/j/į without changing ordinary source i/j. Exact names/codepoints and coverage are in coverage.csv; no all-Latin-languages claim.
+
+QA: actual pinned Fontify249bf421 source/compiled checks and354-glyph/schema3 review gate passed;13046 GPOS pairs verified in bothformats;113569 printable pairs clear raster contact checks at48/72/96/128ppem. Native TTF and actual Chrome WOFF2 at48/72/96 inspected. Latvian comma-below/above-g, proper Ç/ç cedilla, capital SlovakĽ side-caron and dotlessĵ reviewed.21 declared sample groups match NFC/NFD. Mixed j+comma-below+acute and i+comma-below+double-acute, including reversed inputs, pass actual shaping and browser pixel equivalence.
+
+NBSP is genuinely blank/nonbreaking. Soft hyphen has zero control advance and no ink in unbroken Chrome text; at a wrap it draws this font’s hyphen without fallback. Chrome changes kerning across the discretionary boundary: the48px example measures234.9125px versus231.4565px after removal. Exact pixel identity with an explicitly hyphenated reference is not claimed; this limitation is retained in QA evidence.
+
+Rebuild uses actual pinned Fontify with the disclosed project-local adapter: its JSON loader cannot directly admit blank NBSP/zero-advance marks. The strict public-Project adapter and installed-fontTools feature wrapper add declared contextual/mark positioning and verify real output. No shared checkout edit. Full-evidence bundle includes SVGs, manifests, scripts, exact generation prompt/raw chosen raster, annotated intent, technical audits, real native/browser proofs and release hashes.
+
+Not tested: Firefox/Safari, text below48px, arbitrary long combining stacks or every possible mark order; OTF/CFF unsupported by pinned builder. The approved design is a display face, not a generic small-text face. No final human approval, redistribution license, MIT assertion or publication permission is implied. No new image calls, spending, installation, repository change or publication occurred.

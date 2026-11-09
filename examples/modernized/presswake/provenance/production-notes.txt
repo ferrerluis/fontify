@@ -1,0 +1,39 @@
+# Presswake / Impact study02 / selected2A / v5
+
+Current private review build: fonts/Presswake-Regular-v1.011.ttf and .woff2. This package supersedes v4, which remains historical. Exactly354 required Unicode scalars are mapped; the final fonts contain356 physical glyphs, including three unmapped contextual alternates. Every original333 target is retained. No missing/extra mappings, new generation, spending, installation, publication or repository change.
+
+## Precise v5 correction
+
+Independent review demonstrated that v4 plain į U+012F was dotless. NFD i + U+0328 composed to that same defective form. V5 restores the actual selected i dot translated horizontally -6 units to align with the existing ogonek stem. All existing ogonek TrueType coordinates, flags, recorded contours and292-unit advance are retained. The prior dotless ogonek drawing becomes an unencoded iogonek.dotless alternate, selected only before an actual above mark. Ordinary selected i/j and every unrelated glyph remain unchanged.
+
+Plain į and NFD i+ogonek now visibly retain the dot. Acute/double-acute above contexts use the dotless alternate; precomposed/decomposed and reversed ogonek/above orders shape and render identically. The earlier j+comma-below+acute and i+comma-below+double-acute regressions still pass in both orders. Ordinary and below-only i/j retain their dots. The mark-filtering ccmp lookup skips intervening below marks without suppressing dots for below-only input.
+
+qa/ogonek-mixed-reviewed.json records six equivalent-input pairs,18 native pixel comparisons,36 actual browser TTF/WOFF2 pixel comparisons, six ordinary/below-only/immediate controls and nine visually inspected focused images at48/72/96. final-evidence/ogonek-mixed-regression contains actual before/after fonts and current browser proofs. Six actual-size coverage crops were also inspected. Whole-proof v4/v5 pixel identity is NOT claimed: adding a dot changes the ink box and can cause slight raster scan-conversion differences around existing curves. Existing underlying ogonek coordinates and contours were independently checked unchanged.
+
+## Current validation and design preservation
+
+qa/FINAL_QA.json and qa/final-agent-review.json bind the final1.011 hashes and current acceptance evidence. All356 TTF/WOFF2 outlines and metrics agree; all354 mappings load without missing glyphs. Relative to v4,354 existing physical outlines are unchanged; only uni012F receives the dot, and one unencoded alternate is added. All existing advances, selected52 letter shapes, numerals and11 heavier v2 extension corrections are preserved.
+
+Seventeen language/sample groups pass NFC/NFD shaped equality,51 native pixel checks and102 browser pixel checks. All14 combining marks have true zero advances, GDEF mark classification and explicit mark/mkmk positioning;84 browser advance cases and14 unencoded Q attachment checks pass. All13 original kerning pairs retain their measured adjustments. Six actual fixed-size native/browser coverage proofs and multilingual specimens were regenerated after the fix. NBSP remains genuinely blank/nonbreaking; SHY is hidden unbroken and shows the authored hyphen at a permitted English wrap. The3 native and6 real-browser control cases pass, including own-hyphen pixel equality.
+
+The nine earlier Latvian comma-below fixes remain; correct ģ above-comma, Ç/ç cedillas, Slovak Ľ side-caron and dotless accented ĵ are preserved. Current language samples and corrected ogonek coverage appear in specimens/ and final-evidence/. Separate combining-mark specimens show marks on real family bases rather than unsupported fallback dotted circles.
+
+## Editable source and exact reproducibility
+
+The pinned Fontify revision is249bf421e4be58bac8b42024fb42af264bd39838. editable-source338/ and gated-source338-build/ preserve the compiler-valid intermediate and its verified12 frozen artifacts. That historical intermediate still contains the dotless plain į defect; its earlier compiler gate is not a claim that this precise semantic defect passed. Do not install it as the final font.
+
+The final native artifact recipe explicitly handles the compiler's unsupported zero-advance mark tables, control aliases and localized ogonek correction. editable-artifact-corrections/uni012F.svg is the actual corrected vector drawing. native-mark-assets14/ contains the editable accent assets; its600-unit diagnostic fixture advance is not final text spacing. features.fea, artifact-extension.json and the executable recipe expose the complete transformation. No third-party/system outlines were used. artifact-proof-context.json is a final-binary proof context, not a compiler-valid project.
+
+With the pinned runtime/dependencies, reproduce both final fonts using:
+
+```
+python provenance/authoring-tools/presswake_union_binary_v5.py editable-source338/fontify.json gated-source338-build/Presswake-Regular-v1.008.ttf native-mark-assets14/fontify.json target-354.json NEW_FINAL --fonts-only
+```
+
+qa/rebuild-reproducibility.json confirms exact byte equality for both binaries from the gated source and native assets. Other scripts retain historical absolute paths for provenance. SHA256SUMS covers every package file except itself. Historical source/draft captures may remain labeled unreviewed; the current final QA reports are authoritative, not old generated labels or prior package acceptance.
+
+## Provenance and limits
+
+The approved input remains Impact study02 optionA / Presswake R2 after its missing-F edit, raster SHA2564733c01d3218e64a4fd8c309e2532657d1077f4dfc7b615fdfe1676c0e22bfd1. The selected raster, prompts, receipts, protection decisions and earlier traces remain intact. Rejected native-vector concepts supplied no final letter outlines. Historical v3 overlays remain provenance; no new v5 overlay capture is claimed.
+
+Static Regular display face; use48px or larger. No body-text, CFF/OTF, variable or italic claim. Original typographic metrics1000/-250 remain; Windows clip guards1250/650 cover tested stacks. Use generous line height. Arbitrary repeated stacks, every Latin sequence, language-specific Lithuanian locale overrides, other browsers/OSs and print/PDF applications are not certified. The tested default-Latin above-accent contexts are listed exactly in QA. Final human aesthetic approval and distribution licensing remain pending; MIT plan withdrawn. Private review only.

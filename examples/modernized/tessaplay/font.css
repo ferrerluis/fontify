@@ -1,0 +1,2 @@
+@font-face { font-family: "Tessaplay"; src: url("fonts/Tessaplay-Regular-v0.024.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; }
+.sample { font-family: "Tessaplay", sans-serif; font-synthesis: none; font-kerning: normal; line-height: 1.9; }

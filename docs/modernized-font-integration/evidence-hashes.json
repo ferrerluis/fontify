@@ -1,0 +1,610 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All integration deliverables except this self-referential hash index. Does not grant approval or distribution rights.",
+  "files": {
+    "README.md": {
+      "bytes": 18228,
+      "sha256": "1e3620d908c27ffc8b8231820ce7f13e4540603ec7c7215e2983b4b7dd95635d"
+    },
+    "docs/modernized-font-integration/REPORT.md": {
+      "bytes": 8787,
+      "sha256": "550d825dcfb80bb41447a66670e06dcbc13b978b1c11a906c07d4ecdbe035ac4"
+    },
+    "docs/modernized-font-integration/binary-validation.json": {
+      "bytes": 8643,
+      "sha256": "510b84b8b94a7e14febb8059b7a2df7682125f25f89dc4721044897c333cadf4"
+    },
+    "docs/modernized-font-integration/browser-validation.json": {
+      "bytes": 6266,
+      "sha256": "405d7242320af2d05b40a06909a8edd8a3310a507d62e87979a04883c85839fb"
+    },
+    "docs/modernized-font-integration/changed-files.txt": {
+      "bytes": 7967,
+      "sha256": "4e88dfdfe6e54e00086985b7d9d00ac69f42fb2b10e6a5798187db54df134e1e"
+    },
+    "docs/modernized-font-integration/charterquill-rendering-validation.json": {
+      "bytes": 13937,
+      "sha256": "c543d9ad795c452c76ec5990297d179527b0125827e5698e7346c81fe65f4f46"
+    },
+    "docs/modernized-font-integration/charterquill-source-validation.json": {
+      "bytes": 59341,
+      "sha256": "78c6c1e5050c53935e40342b1083c94ee11280cf0bbd9cd741125cb5aee1e0ed"
+    },
+    "docs/modernized-font-integration/environment-and-tests.json": {
+      "bytes": 2473,
+      "sha256": "0a5370707fa435652592ef8e1fef9c287949c04e6cfe7c2f34683967871c1d20"
+    },
+    "docs/modernized-font-integration/package-integrity.json": {
+      "bytes": 1955,
+      "sha256": "2004517e5f9515364de71b12bd4d74f5de17aaa72fb16a64c925e9a81e62b3d6"
+    },
+    "docs/modernized-font-integration/producer-release-integrity.json": {
+      "bytes": 1295,
+      "sha256": "fdc0290438142dedecdf8faa1ce4c13f9c2ca0907dc040f3129dda48f071098b"
+    },
+    "examples/modernized/README.md": {
+      "bytes": 5267,
+      "sha256": "f078e093d6a00f85d393ddf2bf2a591b776923a2bc65413beb1f695f70b594a1"
+    },
+    "examples/modernized/bunvale/README.md": {
+      "bytes": 4463,
+      "sha256": "5f5a17cd38786b4435d04e68e400e5e0757b5f74c883b58fffc25dde78edce9b"
+    },
+    "examples/modernized/bunvale/coverage.csv": {
+      "bytes": 17778,
+      "sha256": "b108b25d889514ef7f2d483d18c46d284ae7b7753162fee81f35785a9da9e018"
+    },
+    "examples/modernized/bunvale/font.css": {
+      "bytes": 272,
+      "sha256": "a1b0d7bb034539b0f4ff9f3b4ed0a69ec7b5e3bd9d857ee097ac0d624357e41e"
+    },
+    "examples/modernized/bunvale/fonts/Bunvale-Regular-v0.016.ttf": {
+      "bytes": 138008,
+      "sha256": "d0cf8baa9937c98c4c2010b901a8b5dfcf391c79190b276f29caa87ccba22e2b"
+    },
+    "examples/modernized/bunvale/fonts/Bunvale-Regular-v0.016.woff2": {
+      "bytes": 33688,
+      "sha256": "a0920ace48023db711dac9fb619f9517dfdf9e71d2af7dc4697096c012a62e2f"
+    },
+    "examples/modernized/bunvale/metadata.json": {
+      "bytes": 3762,
+      "sha256": "07a2eacadc32d9d3b10a95d3aa6a353d7b01025832430311b2c3ad75547fdd8b"
+    },
+    "examples/modernized/bunvale/preview.png": {
+      "bytes": 70892,
+      "sha256": "00f2d6001c4fc972c37500895f8f6b7da28a1bfcc56f8e1c2d07bdea68a9e644"
+    },
+    "examples/modernized/bunvale/provenance.json": {
+      "bytes": 1195,
+      "sha256": "faae5054fed19e1b2647d02633229ac41725683ac58769d9992811a5b0ac730e"
+    },
+    "examples/modernized/bunvale/provenance/PACKAGE_CONTENTS.json": {
+      "bytes": 85318,
+      "sha256": "ce930de478e3de15c4dde6bc9b53b4cd460496bf6f577e7a696b890f48a24557"
+    },
+    "examples/modernized/bunvale/provenance/production-notes.txt": {
+      "bytes": 6109,
+      "sha256": "2d06a7a1499ffb7cf4a5edee1834ae16fda654a956cc4ee4c78ef0e711df50d9"
+    },
+    "examples/modernized/bunvale/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "63501a8ddc587578e5d34ebaca67987589980dc4b9721f0aecfed7ce18ac49f8"
+    },
+    "examples/modernized/bunvale/review-evidence/woff2-minimum.png": {
+      "bytes": 62945,
+      "sha256": "cf0276738c52218a7df0b4507974e2dc81a86111f5ac44c80397408902dbb6b5"
+    },
+    "examples/modernized/bunvale/specimen.html": {
+      "bytes": 25538,
+      "sha256": "8fe2385ca6cb1a47d74050cade82046b0cdc488f5373d654c10efe2c4c5b80c1"
+    },
+    "examples/modernized/catalog.json": {
+      "bytes": 3260,
+      "sha256": "a5c450a89d66b6967e2eff4423a2ac77f5568e8a70a7d95d24e196b6c69e960f"
+    },
+    "examples/modernized/charterquill/README.md": {
+      "bytes": 4898,
+      "sha256": "9f63650b2c04cc27213eeb365eb68aec44cdd0ca1dc6b9aa78d707c6617b4ba1"
+    },
+    "examples/modernized/charterquill/coverage.csv": {
+      "bytes": 17069,
+      "sha256": "10cf40be47955767d9f792501fbb91bfb4ab7a92d822e42b91435b540779ee06"
+    },
+    "examples/modernized/charterquill/font.css": {
+      "bytes": 287,
+      "sha256": "488abacb05fd6c000efafee0a13e7383e09852b0bb7f226e1792f58314095b97"
+    },
+    "examples/modernized/charterquill/fonts/Charterquill-Regular-v0.216.ttf": {
+      "bytes": 203860,
+      "sha256": "0f7c1319bf84c4a2ba1deabb03fad63f6affd9a6db37b0e25eceb9c277723f94"
+    },
+    "examples/modernized/charterquill/fonts/Charterquill-Regular-v0.216.woff2": {
+      "bytes": 50544,
+      "sha256": "376ec348488e68b1179cdeea53c41e82320c17bd7b8000698ed2a071f78220e8"
+    },
+    "examples/modernized/charterquill/metadata.json": {
+      "bytes": 3884,
+      "sha256": "a36ea2087ff357f7f35256caa77f168f3ab00bcf180cd20ee7afc3268f90497a"
+    },
+    "examples/modernized/charterquill/preview.png": {
+      "bytes": 116744,
+      "sha256": "96f3ec53d9b14922a2132bc1b731cb1570a00e2bcddb840c0542e5384a6435e5"
+    },
+    "examples/modernized/charterquill/provenance.json": {
+      "bytes": 1232,
+      "sha256": "fea4c5316054ecd2d4f83192e8c28d936639755e9920274ee14be55a8927a7e3"
+    },
+    "examples/modernized/charterquill/provenance/PACKAGE_MANIFEST.json": {
+      "bytes": 76025,
+      "sha256": "255a5680fba326e72e84cdf9b61d562b12f94b7fee81a187a956e39bcf266941"
+    },
+    "examples/modernized/charterquill/provenance/production-notes.txt": {
+      "bytes": 2765,
+      "sha256": "2b1ffbf44147f13e94457a56a798a11724260166934f7ad23905b59f49a7511e"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-ttf-48.png": {
+      "bytes": 122527,
+      "sha256": "e4ef949d7f4e4dcd5e1afab5a4f828ab64ca1b0baccb3313ec8cc04f0e6ca4ad"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-ttf-72.png": {
+      "bytes": 163765,
+      "sha256": "866a1cd1e2310d653a36152d90b778343b43b6f1a9e88e3b7a7d484c12dc5602"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-ttf-96.png": {
+      "bytes": 203964,
+      "sha256": "2b7362bbf96acc380adefc66c9af8bdecfa4c36dc6328aa61aa7e8bfa030f08f"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-woff2-48.png": {
+      "bytes": 111801,
+      "sha256": "058410074db7c46393babb7bae238f0ed80dc670e20ef0166e3266da1e3eceaa"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-woff2-72.png": {
+      "bytes": 167598,
+      "sha256": "a338e2da66d37531498dc721084c2a2b5b1794a265401132e703d2219a7b44e7"
+    },
+    "examples/modernized/charterquill/review-evidence/actual-woff2-96.png": {
+      "bytes": 210281,
+      "sha256": "7190c2f81b0b9c9339b239fbd595f73524e0fb6ad8a1753ae71910260b9b483b"
+    },
+    "examples/modernized/charterquill/review-evidence/integration-review.json": {
+      "bytes": 2747,
+      "sha256": "15326530649c9572c397f8b479bac9b453abf83fb6afe4f1e1113b3b0370ad62"
+    },
+    "examples/modernized/charterquill/review-evidence/woff2-minimum.png": {
+      "bytes": 105975,
+      "sha256": "56a66990c640c2deabf2eb3789bd2f501d4b8d2c4da04394a172b5dae0508758"
+    },
+    "examples/modernized/charterquill/specimen.html": {
+      "bytes": 25495,
+      "sha256": "b879c19b4960a5ce6695c563d217df2b58448847d67ad73caf3d2ddafa616c7c"
+    },
+    "examples/modernized/index.html": {
+      "bytes": 3454,
+      "sha256": "7a33d114b84269285e8b052b6582cd32d0fafd03ac4c4a6f05af20f49faa5e2c"
+    },
+    "examples/modernized/lapisent/README.md": {
+      "bytes": 4504,
+      "sha256": "1f432551c8dc050afa7849cf6a97263628de1a44d3b9b27006cc72c67b520e4b"
+    },
+    "examples/modernized/lapisent/coverage.csv": {
+      "bytes": 16721,
+      "sha256": "40669175db16c0cded8bad41461390733ed99ac0077651023e81d597376fd757"
+    },
+    "examples/modernized/lapisent/font.css": {
+      "bytes": 275,
+      "sha256": "d6d7e1c75580928ad34bd5a785e9273a40ba85756749b3ef04a199a124f0caeb"
+    },
+    "examples/modernized/lapisent/fonts/Lapisent-Regular-v1.003.ttf": {
+      "bytes": 93912,
+      "sha256": "b10b7c48e043b49fe19ad0d4a44d620166b2baa5ba005b44e889757a20896dfa"
+    },
+    "examples/modernized/lapisent/fonts/Lapisent-Regular-v1.003.woff2": {
+      "bytes": 25496,
+      "sha256": "3e5e99431b3f72ee06010618f2d7494e68ceb492db3fee7938c8bf1f3a8149d3"
+    },
+    "examples/modernized/lapisent/metadata.json": {
+      "bytes": 3742,
+      "sha256": "2e5af100944f92d9b41a2760e7bbbe05a1e1a5cb3e7b5623865619da87217d98"
+    },
+    "examples/modernized/lapisent/preview.png": {
+      "bytes": 70091,
+      "sha256": "f001ebb3fa5b6d91111aa2e55b560cd7ebb535506fa740771ce717cf0728cf7e"
+    },
+    "examples/modernized/lapisent/provenance.json": {
+      "bytes": 1204,
+      "sha256": "f6470ce9e53b2b0d027c9a08ead3a5a0c949e73339f7494538c56a550ea8a3db"
+    },
+    "examples/modernized/lapisent/provenance/SHA256SUMS": {
+      "bytes": 50246,
+      "sha256": "f3bdc50642d0b4091a809baf23c0b04fc85b2127035aab3d381ca95754f2cd88"
+    },
+    "examples/modernized/lapisent/provenance/production-notes.txt": {
+      "bytes": 2994,
+      "sha256": "f744e9906901f8850300efe0663b295cf753268d8a62cc88e5a7bdef1c83ff6f"
+    },
+    "examples/modernized/lapisent/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "6c8925d08bf691fc5bc53e13cb5259599495e9d1482619d791181b65d5c14684"
+    },
+    "examples/modernized/lapisent/review-evidence/woff2-minimum.png": {
+      "bytes": 61278,
+      "sha256": "0d47b007dedc13ebf0a5255f7bed3eceb7862d8e28506a3916897db5e1061ee7"
+    },
+    "examples/modernized/lapisent/specimen.html": {
+      "bytes": 25374,
+      "sha256": "b2221833f335fa03ffc789e037adeb0336e4792a3cb2d99e9f823ba9b8e7c28a"
+    },
+    "examples/modernized/liltvale/README.md": {
+      "bytes": 4360,
+      "sha256": "bfe692a3e6569f398ddef68af8c2ea1759d15e7f1fbeb9d3c97d7282aa8b145e"
+    },
+    "examples/modernized/liltvale/coverage.csv": {
+      "bytes": 17376,
+      "sha256": "3d5a29662e6d09f1b51b5ad774081a48d7d3bf7325c3611b11466629a2071035"
+    },
+    "examples/modernized/liltvale/font.css": {
+      "bytes": 275,
+      "sha256": "8f77bdc4bab9cd7229ccd1424f6b9b8c612e5cbf3eeeee3643088f07ac8a0ccf"
+    },
+    "examples/modernized/liltvale/fonts/Liltvale-Regular-v0.048.ttf": {
+      "bytes": 189964,
+      "sha256": "bf4de894521eddf45981ebae12b0f01e74def57d4688e1e724661c3b63dc925d"
+    },
+    "examples/modernized/liltvale/fonts/Liltvale-Regular-v0.048.woff2": {
+      "bytes": 45468,
+      "sha256": "4a73ded0a34aa54c431a5be87770c85e9b25d4195367e92af2822260b35f6354"
+    },
+    "examples/modernized/liltvale/metadata.json": {
+      "bytes": 3559,
+      "sha256": "bef6dffec4ea63d9b1476be1c65a3cf44cf0397da054ab3b602fc28ba47528a9"
+    },
+    "examples/modernized/liltvale/preview.png": {
+      "bytes": 74935,
+      "sha256": "cf8979df634291a2cc2612a23a2d600d36e3d2830ec264ebe044c2faf699865d"
+    },
+    "examples/modernized/liltvale/provenance.json": {
+      "bytes": 1143,
+      "sha256": "07b8a1b9a99162ef19e172724621be9718c4ce0f0221c9e2031a5eb5e1f9a2be"
+    },
+    "examples/modernized/liltvale/provenance/FILES.sha256.json": {
+      "bytes": 118603,
+      "sha256": "deb0f48e67e57f0dbfcbb74cecd90dad05213da0348680ba9fab9cc76163fe95"
+    },
+    "examples/modernized/liltvale/provenance/production-notes.txt": {
+      "bytes": 2219,
+      "sha256": "9b91a1ff50adb49b1c19fcad4ed435c8c03b747807c86c0d4456af63e60bc090"
+    },
+    "examples/modernized/liltvale/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "09cd700f8c9a9434fa3f157fb653b7b6b4ae56dd3b3fbb7230db095c10131481"
+    },
+    "examples/modernized/liltvale/review-evidence/woff2-minimum.png": {
+      "bytes": 64156,
+      "sha256": "cafcd2b619a85fa126d6a12095d5e3dd185d3f9b2988105e05440a84f72fb96c"
+    },
+    "examples/modernized/liltvale/specimen.html": {
+      "bytes": 25189,
+      "sha256": "c7bbcd3f5436c4199e6a2f05aba8d3d24d306db5f290fa69b945fa43315bcc39"
+    },
+    "examples/modernized/marqevra/README.md": {
+      "bytes": 4384,
+      "sha256": "a33bb4423ce9c37139f7fddcdeb5c3a3f4c79e8d372b6105cccd9e77173ba1ea"
+    },
+    "examples/modernized/marqevra/coverage.csv": {
+      "bytes": 17068,
+      "sha256": "31ca693aacfd97aefe81ca5b71676302f840d65bd8268a0f075b21c9852e1458"
+    },
+    "examples/modernized/marqevra/font.css": {
+      "bytes": 275,
+      "sha256": "53b3e6e17f7d0aaec1f26bde03035428192ce69aa88f74b7922b1128f8bcaeef"
+    },
+    "examples/modernized/marqevra/fonts/Marqevra-Regular-v0.021.ttf": {
+      "bytes": 111632,
+      "sha256": "4aed6a2c1a6233b5eb5683dd23f4cf471d5fe9d1c262931c240996ad8beed71e"
+    },
+    "examples/modernized/marqevra/fonts/Marqevra-Regular-v0.021.woff2": {
+      "bytes": 25752,
+      "sha256": "75b4a734d18e41cf8cf998b0747eae6282306a29274d2bcf2f9948047c2fe589"
+    },
+    "examples/modernized/marqevra/metadata.json": {
+      "bytes": 3599,
+      "sha256": "37af274844abacbc50b1b42c7633703417cd2b45e5c071353b78484a856bf2d4"
+    },
+    "examples/modernized/marqevra/preview.png": {
+      "bytes": 84000,
+      "sha256": "2999924d6ac9ebb55b5a7173b2657116644e7a048dee317ddba79f1a41f1673f"
+    },
+    "examples/modernized/marqevra/provenance.json": {
+      "bytes": 1236,
+      "sha256": "1e52edd1efe54aeefd6cab3ba4afebcc8a3f8b67b9a24a358f506baa5a425359"
+    },
+    "examples/modernized/marqevra/provenance/CONTENTS_SHA256.json": {
+      "bytes": 115200,
+      "sha256": "0095cda90e26d7d289e8d6ea7109f616a4b6a3926583f5a64d2e79ff29122712"
+    },
+    "examples/modernized/marqevra/provenance/production-notes.txt": {
+      "bytes": 6108,
+      "sha256": "9430b58c38f79d92c9d4d94a15a335cf5737b6262c928ca37a5e5acc47859420"
+    },
+    "examples/modernized/marqevra/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "423cb08f51d89a08999656f51dea6e6e761bdc2f12f62e62c659677f391c6206"
+    },
+    "examples/modernized/marqevra/review-evidence/woff2-minimum.png": {
+      "bytes": 78741,
+      "sha256": "3ec20a8957787f4287a14e1bdea4a0eee9892acc2b3ceebfaf7e756d0e5037e3"
+    },
+    "examples/modernized/marqevra/specimen.html": {
+      "bytes": 25213,
+      "sha256": "31aa5c279e2a91dd212e70edd4a26bbcb3c76bd2cca9d86be0b96da26a6a4828"
+    },
+    "examples/modernized/presswake/README.md": {
+      "bytes": 4316,
+      "sha256": "3f987a832248b48bb10ef7daedcd33e6b5febfb7ff874f75622f3299df6140e3"
+    },
+    "examples/modernized/presswake/coverage.csv": {
+      "bytes": 17379,
+      "sha256": "9a5249a90a52494b61517838580bba7fc225592e011aa8a6026cbea7eabe3129"
+    },
+    "examples/modernized/presswake/font.css": {
+      "bytes": 278,
+      "sha256": "4edec0de06af18a9a5ccd4cb38bc2f4537ac030a906c3f699732a588b4b98f16"
+    },
+    "examples/modernized/presswake/fonts/Presswake-Regular-v1.011.ttf": {
+      "bytes": 91376,
+      "sha256": "54bb682407dbc77883db810062674e678bcfb0f1798f6e580a231598dd61bca9"
+    },
+    "examples/modernized/presswake/fonts/Presswake-Regular-v1.011.woff2": {
+      "bytes": 22900,
+      "sha256": "10c1cdded1ce566a3f159c459405d386f5fc407aa1ba970a3147b3320d4fb64a"
+    },
+    "examples/modernized/presswake/metadata.json": {
+      "bytes": 3512,
+      "sha256": "a3b86f381fd82fcca3d4dc3d455031f79479396f8b5a58de3b3a447714fd25b3"
+    },
+    "examples/modernized/presswake/preview.png": {
+      "bytes": 65418,
+      "sha256": "63df83dd5db1e707e769bb2664d6a02ad5e7e2bc1913853e83fcff627cd56997"
+    },
+    "examples/modernized/presswake/provenance.json": {
+      "bytes": 1340,
+      "sha256": "4d88338022677e6bca4e3686a6f585f68915e81c374b1fd44aa348dc5a3e9b9e"
+    },
+    "examples/modernized/presswake/provenance/SHA256SUMS": {
+      "bytes": 76313,
+      "sha256": "99bd7867ca99e3133ce5d235ea8483af7d8da269d03d9b43d76a443f677c4129"
+    },
+    "examples/modernized/presswake/provenance/production-notes.txt": {
+      "bytes": 6383,
+      "sha256": "ce092101413ed9c4aa9913aa52b27aa15c7a40a507f19e71a533920c28d97843"
+    },
+    "examples/modernized/presswake/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "fc38faa241e54f72ad38ed64f370f79cdad830ad7f7f677e9bf5d2d91e0981b7"
+    },
+    "examples/modernized/presswake/review-evidence/woff2-minimum.png": {
+      "bytes": 60819,
+      "sha256": "6515cfb62027fea4ddc4f3e3a971b2fc6029f34d062f4467e9e482caa3c34db5"
+    },
+    "examples/modernized/presswake/specimen.html": {
+      "bytes": 25145,
+      "sha256": "f3d525f6dd50e0e4ddf1f0fbfaa65bead292afd89aaac182cae9c362e770c998"
+    },
+    "examples/modernized/reedmere/README.md": {
+      "bytes": 4449,
+      "sha256": "740fecbbac59640da6d74547a82ec5366dccc19bfb57d89deaec60309e850bd2"
+    },
+    "examples/modernized/reedmere/coverage.csv": {
+      "bytes": 17379,
+      "sha256": "3ea58767e442da3245ee263d2729462eb5c899797fcea11009830ebfe30e1520"
+    },
+    "examples/modernized/reedmere/font.css": {
+      "bytes": 275,
+      "sha256": "0a01af643c0bde49c6c829588c14176620a22425bffa913c784112c0825045fc"
+    },
+    "examples/modernized/reedmere/fonts/Reedmere-Regular-v0.025.ttf": {
+      "bytes": 269376,
+      "sha256": "e3e46c305e11c9042102749279086f1c42f281c5c411b193c051b860c3aab388"
+    },
+    "examples/modernized/reedmere/fonts/Reedmere-Regular-v0.025.woff2": {
+      "bytes": 54892,
+      "sha256": "e7ce54def97c6ad26965218bea758823be1528a22e8701e96ecb032cb80632f8"
+    },
+    "examples/modernized/reedmere/metadata.json": {
+      "bytes": 3654,
+      "sha256": "14eb313ee4b290ac2f3505a61f8db5fc6fcbba89d3502117d4ecb6e8ca8ca3a1"
+    },
+    "examples/modernized/reedmere/preview.png": {
+      "bytes": 106654,
+      "sha256": "94f2af195e4cee814d43965bc85dabd33cda96ff36ac4432b882db36abfdbd54"
+    },
+    "examples/modernized/reedmere/provenance.json": {
+      "bytes": 1229,
+      "sha256": "509dc0a8aab7f1b3aabe63f4dfd94036d961109462b94180e8b31c72ced5b981"
+    },
+    "examples/modernized/reedmere/provenance/PACKAGE_MANIFEST.json": {
+      "bytes": 118160,
+      "sha256": "bfba689e16a2842e4f281162fbbfe9beec36ca5ee6c3490ac19d501dddf2b3b4"
+    },
+    "examples/modernized/reedmere/provenance/production-notes.txt": {
+      "bytes": 5142,
+      "sha256": "4249b985dc667f1392e34a255777c6104306ab0bb275717cb7ce376013bf7623"
+    },
+    "examples/modernized/reedmere/review-evidence/integration-review.json": {
+      "bytes": 1131,
+      "sha256": "569a48dc2aca35362719daa199a32550c3a9dcbae5cc425bf650fb4746dcc332"
+    },
+    "examples/modernized/reedmere/review-evidence/woff2-minimum.png": {
+      "bytes": 99214,
+      "sha256": "b2b88735d7b89c3725935407fcf83064b69a939e8dd15c0fde8825f34bb22df9"
+    },
+    "examples/modernized/reedmere/specimen.html": {
+      "bytes": 25284,
+      "sha256": "0cd6fb153c1ab0964193a708368fa0e43e60bae28bbb3dc26793106f7016869f"
+    },
+    "examples/modernized/required-union.json": {
+      "bytes": 5120,
+      "sha256": "9470a129d8d744128e3efd01529b298082dd603b763617c7a453136a8c2d3972"
+    },
+    "examples/modernized/riftstave/README.md": {
+      "bytes": 4370,
+      "sha256": "527e0701ecb61b866885f9781ccce44b4e8b8367934dbc64b125153b7c4ecfc6"
+    },
+    "examples/modernized/riftstave/coverage.csv": {
+      "bytes": 17379,
+      "sha256": "8f33971a6a1a90ad6b0fae9451a794802859c78f3f553a272b1100cc76cc1486"
+    },
+    "examples/modernized/riftstave/font.css": {
+      "bytes": 278,
+      "sha256": "bf2c014d0a24953824b4d3673e006a4b9702e6a0877a142108eefc42e529b31e"
+    },
+    "examples/modernized/riftstave/fonts/Riftstave-Regular-v0.018.ttf": {
+      "bytes": 178112,
+      "sha256": "520019f030d8f4f7a00b42c273642fc8eb455f62ba49e472ebf4c4d157e346aa"
+    },
+    "examples/modernized/riftstave/fonts/Riftstave-Regular-v0.018.woff2": {
+      "bytes": 39624,
+      "sha256": "40e99b7729c9ac7b05799ef715ea475c09cc68612a385bd5787449f40cc6b6cd"
+    },
+    "examples/modernized/riftstave/metadata.json": {
+      "bytes": 3578,
+      "sha256": "dfb462f44ea9e0da5e6323d3e130a444a5051cbd8afea48d548a07f234f96e5f"
+    },
+    "examples/modernized/riftstave/preview.png": {
+      "bytes": 92464,
+      "sha256": "c1831fab99ab6ff0724df1e09d684fd919cd8f187e3c74857523461236f88df0"
+    },
+    "examples/modernized/riftstave/provenance.json": {
+      "bytes": 1253,
+      "sha256": "761dcd0ef6b5c31a3ec46a0e20870eae347307eec52434a15fabe4642074bf10"
+    },
+    "examples/modernized/riftstave/provenance/SHA256SUMS.json": {
+      "bytes": 69101,
+      "sha256": "1e002061f3b25dcf6b60c9b6f2ca0c9a3a0bab21463feacb0d21111bf2c7e141"
+    },
+    "examples/modernized/riftstave/provenance/production-notes.txt": {
+      "bytes": 4096,
+      "sha256": "1bf08434c27c4edcb6e3420d8d29cf679294dca7abd6dfd43b2e2ad243fb2036"
+    },
+    "examples/modernized/riftstave/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "af3d11dae2ae17d7d2af55d02a2e0a3e1c492fb357b97773604e4c451b1c4192"
+    },
+    "examples/modernized/riftstave/review-evidence/woff2-minimum.png": {
+      "bytes": 86913,
+      "sha256": "585c8c8684b4b68ac0711f357d0e4941a20547f06fdcc6e63cac79e06a73a102"
+    },
+    "examples/modernized/riftstave/specimen.html": {
+      "bytes": 25199,
+      "sha256": "02a98e7752e0f548dafca417062d81dcb51cb030572a8d8a625e1a815e2290fb"
+    },
+    "examples/modernized/semiloft/README.md": {
+      "bytes": 4463,
+      "sha256": "745bc68c914f661a38623e2519341f42665ff5abb12ca4adbe6d7c4079bbf80e"
+    },
+    "examples/modernized/semiloft/coverage.csv": {
+      "bytes": 17441,
+      "sha256": "c20ec9565939018e58d5627d7f61cd4f0a73ea62bdd365b7d1ef23cdba04b201"
+    },
+    "examples/modernized/semiloft/font.css": {
+      "bytes": 275,
+      "sha256": "cc6eb17840618cecb64bfa7e1154eddb40b40b5105c33561d9970fb806aa9d55"
+    },
+    "examples/modernized/semiloft/fonts/Semiloft-Regular-v0.019.ttf": {
+      "bytes": 266412,
+      "sha256": "4d0b75790cdbd566ce80c5648b178a194798f3a22f82ae43aa5614718e11a53c"
+    },
+    "examples/modernized/semiloft/fonts/Semiloft-Regular-v0.019.woff2": {
+      "bytes": 51232,
+      "sha256": "3db1a9fb3bd78bce76b05d03ef725457855f9fd2e8ed809d350854d8c7e09f85"
+    },
+    "examples/modernized/semiloft/metadata.json": {
+      "bytes": 3684,
+      "sha256": "91be8b8c47ba91fe573519198561160d0f79f1d1f4d7e93621e371e070e0eefc"
+    },
+    "examples/modernized/semiloft/preview.png": {
+      "bytes": 59990,
+      "sha256": "b432ff6d835799dd6815f2de92058b17f7d0e4fd989707bed47a93a1ed73a683"
+    },
+    "examples/modernized/semiloft/provenance.json": {
+      "bytes": 1491,
+      "sha256": "4d55f6e4926c6038e1ee74ae36ad8e6860feed8ab504d2a1e78a828f7bf10063"
+    },
+    "examples/modernized/semiloft/provenance/PACKAGE_SHA256.json": {
+      "bytes": 160665,
+      "sha256": "f838046ce0144ed5dedfc90f7df82d00fd5ff712dc703afc4a73afe805e1f196"
+    },
+    "examples/modernized/semiloft/provenance/production-notes.txt": {
+      "bytes": 1237,
+      "sha256": "18d896aa39892e6ffe7f54b55da027bc5f1ea6526324b5a0839cb67a6b311006"
+    },
+    "examples/modernized/semiloft/review-evidence/integration-review.json": {
+      "bytes": 1130,
+      "sha256": "ae476be2f8ba8e249916f659886bf9d9d26f22f4d6fbb00c17eea57c19fd567a"
+    },
+    "examples/modernized/semiloft/review-evidence/woff2-minimum.png": {
+      "bytes": 50919,
+      "sha256": "5c52bf0396bc2e06c784dde12bd72b691df2b116566e5f8b75bc9b528ea6d064"
+    },
+    "examples/modernized/semiloft/specimen.html": {
+      "bytes": 25345,
+      "sha256": "e4ba228fe2e39abac5c8e84563933630859a6c735ade0491945254e719d5d73c"
+    },
+    "examples/modernized/tessaplay/README.md": {
+      "bytes": 4581,
+      "sha256": "29e90c18eeedb0b5980669517f6693899db32f6547f1290d8cdc5d601fe33b26"
+    },
+    "examples/modernized/tessaplay/coverage.csv": {
+      "bytes": 17376,
+      "sha256": "b67d28d750b39dd63b106b50952c5e8618c376752be903016d9aef93dde54c20"
+    },
+    "examples/modernized/tessaplay/font.css": {
+      "bytes": 278,
+      "sha256": "342644e6791150843db43ccfd86ae3d03f3e986ec184564324db75712d16f366"
+    },
+    "examples/modernized/tessaplay/fonts/Tessaplay-Regular-v0.024.ttf": {
+      "bytes": 177260,
+      "sha256": "bc35b10eda5e2295100302e49f533ed03247e7c9298bbaf31ecb89f06b13bc1e"
+    },
+    "examples/modernized/tessaplay/fonts/Tessaplay-Regular-v0.024.woff2": {
+      "bytes": 34916,
+      "sha256": "8cafc48b2535f2c0025ed11b867427082937b8c12f38b19adbcc342857d2c45b"
+    },
+    "examples/modernized/tessaplay/metadata.json": {
+      "bytes": 3790,
+      "sha256": "8b4deb67f0e8197aa14070647e0a4bd3a9e0436be10cc7d3a8fa20997257e50a"
+    },
+    "examples/modernized/tessaplay/preview.png": {
+      "bytes": 103472,
+      "sha256": "f5482e7a4b73d10616fc9d322167581b16e0d7d57ced621dab2dd7e79755032b"
+    },
+    "examples/modernized/tessaplay/provenance.json": {
+      "bytes": 1266,
+      "sha256": "065c80d8f20e1acebb28811edc7cefd7512573b5804724823fc49161977f7ccb"
+    },
+    "examples/modernized/tessaplay/provenance/package-manifest.json": {
+      "bytes": 137260,
+      "sha256": "1489f4022782699ba261fb8cfb20bab283d3d637987f8faa449d4953914cf2e9"
+    },
+    "examples/modernized/tessaplay/provenance/production-notes.txt": {
+      "bytes": 5127,
+      "sha256": "bb460ba030d37cc9687ce6f3999abd2477eee49f2f9c4cecda789278fa32287c"
+    },
+    "examples/modernized/tessaplay/review-evidence/integration-review.json": {
+      "bytes": 1131,
+      "sha256": "f03894477ec7d1c11b08bb7a4fc1015458e0532afb441469aac0e4e63821f054"
+    },
+    "examples/modernized/tessaplay/review-evidence/woff2-minimum.png": {
+      "bytes": 98892,
+      "sha256": "3a1173a5407dbb7c3d2fdcf88d6b87a857cca710f8901e282609e4bed5e48be6"
+    },
+    "examples/modernized/tessaplay/specimen.html": {
+      "bytes": 25422,
+      "sha256": "2df196c55b91db9f110cd5c59289d57535abcf7e70b8b55e1b83b8fdc43b2426"
+    },
+    "scripts/verify_modernized_samples.py": {
+      "bytes": 6996,
+      "sha256": "45bdde3a7f78f03ce8b361e1b74ab9c2b03cfa6b7999aa06d507ff810087413a"
+    }
+  }
+}

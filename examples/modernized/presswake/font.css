@@ -1,0 +1,2 @@
+@font-face { font-family: "Presswake"; src: url("fonts/Presswake-Regular-v1.011.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; }
+.sample { font-family: "Presswake", sans-serif; font-synthesis: none; font-kerning: normal; line-height: 1.9; }

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "status": "integration_preview_inspected",
+  "scope": "Fresh final-TTF preview and actual Chrome WOFF2 minimum-size sample rows; not a new every-glyph optical certification or human aesthetic approval.",
+  "font_hashes": {
+    "ttf": "b10b7c48e043b49fe19ad0d4a44d620166b2baa5ba005b44e889757a20896dfa",
+    "woff2": "3e5e99431b3f72ee06010618f2d7494e68ceb492db3fee7938c8bf1f3a8149d3"
+  },
+  "renderer": {
+    "native": "Pillow 13.0.0 / FreeType / RAQM",
+    "browser": "Chrome 156.0.8078.47",
+    "device_scale": 1
+  },
+  "findings": "Selected uppercase/lowercase, figures, punctuation, accented sample forms and focused mixed contexts are visible without clipping in these specimen rows. Display minimum retained; family-specific limitations remain in metadata and README.",
+  "evidence": [
+    {
+      "path": "preview.png",
+      "sha256": "f001ebb3fa5b6d91111aa2e55b560cd7ebb535506fa740771ce717cf0728cf7e",
+      "bytes": 70091
+    },
+    {
+      "path": "review-evidence/woff2-minimum.png",
+      "sha256": "0d47b007dedc13ebf0a5255f7bed3eceb7862d8e28506a3916897db5e1061ee7",
+      "bytes": 61278
+    }
+  ]
+}

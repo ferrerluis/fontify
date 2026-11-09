@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "samples": [
+    {
+      "slug": "reedmere",
+      "name": "Reedmere",
+      "version": "0.025",
+      "title": "Broad hand-ink headlines",
+      "inspiration": "Papyrus",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "reedmere/metadata.json",
+      "specimen": "reedmere/specimen.html"
+    },
+    {
+      "slug": "presswake",
+      "name": "Presswake",
+      "version": "1.011",
+      "title": "Condensed editorial force",
+      "inspiration": "Impact",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "presswake/metadata.json",
+      "specimen": "presswake/specimen.html"
+    },
+    {
+      "slug": "bunvale",
+      "name": "Bunvale",
+      "version": "0.016",
+      "title": "Warm, buoyant heavy serif",
+      "inspiration": "Cooper Black",
+      "minimum_display_px": 32,
+      "coverage_count": 358,
+      "metadata": "bunvale/metadata.json",
+      "specimen": "bunvale/specimen.html"
+    },
+    {
+      "slug": "lapisent",
+      "name": "Lapisent",
+      "version": "1.003",
+      "title": "Inscriptional display with lowercase",
+      "inspiration": "Trajan",
+      "minimum_display_px": 32,
+      "coverage_count": 354,
+      "metadata": "lapisent/metadata.json",
+      "specimen": "lapisent/specimen.html"
+    },
+    {
+      "slug": "liltvale",
+      "name": "Liltvale",
+      "version": "0.048",
+      "title": "Light ribbon curls",
+      "inspiration": "Curlz MT",
+      "minimum_display_px": 32,
+      "coverage_count": 354,
+      "metadata": "liltvale/metadata.json",
+      "specimen": "liltvale/specimen.html"
+    },
+    {
+      "slug": "tessaplay",
+      "name": "Tessaplay",
+      "version": "0.024",
+      "title": "Angular lettering and ornament",
+      "inspiration": "Jokerman",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "tessaplay/metadata.json",
+      "specimen": "tessaplay/specimen.html"
+    },
+    {
+      "slug": "riftstave",
+      "name": "Riftstave",
+      "version": "0.018",
+      "title": "Pointed, urgent brush display",
+      "inspiration": "Chiller",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "riftstave/metadata.json",
+      "specimen": "riftstave/specimen.html"
+    },
+    {
+      "slug": "semiloft",
+      "name": "Semiloft",
+      "version": "0.019",
+      "title": "Architectural flat and round",
+      "inspiration": "Bauhaus 93",
+      "minimum_display_px": 32,
+      "coverage_count": 355,
+      "metadata": "semiloft/metadata.json",
+      "specimen": "semiloft/specimen.html"
+    },
+    {
+      "slug": "marqevra",
+      "name": "Marqevra",
+      "version": "0.021",
+      "title": "Theatrical Art Deco contrast",
+      "inspiration": "Broadway",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "marqevra/metadata.json",
+      "specimen": "marqevra/specimen.html"
+    },
+    {
+      "slug": "charterquill",
+      "name": "Charterquill",
+      "version": "0.216",
+      "title": "Contemporary ceremonial blackletter",
+      "inspiration": "Old English Text MT",
+      "minimum_display_px": 48,
+      "coverage_count": 354,
+      "metadata": "charterquill/metadata.json",
+      "specimen": "charterquill/specimen.html"
+    }
+  ]
+}

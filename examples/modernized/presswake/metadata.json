@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Presswake",
+  "style": "Regular",
+  "version": "1.011",
+  "title": "Condensed editorial force",
+  "inspiration": "Impact",
+  "description": "An ultraheavy condensed display sans with blunt terminals, compact lowercase and tightly held counters. Built for short editorial headlines, campaign titles and loud web typography.",
+  "story": "Impact inspired the dense advertising mass. The selected 2A raster after the missing-F edit develops that pressure into contemporary editorial lettering. Protected tracing and optical spacing retain the selected alphabet, while authored symbols, Latin composites and mark positioning extend its use. Package v5 restores the dot on ordinary į and reserves its dotless form for above-accent contexts.",
+  "minimum_display_px": 48,
+  "intended_use": "display",
+  "independent_review": "Current final package cleared in integration handoff",
+  "final_human_aesthetic_approval": "pending",
+  "distribution_terms": "Pending owner review. No redistribution license is assigned to these sample font assets. The repository compiler license is unchanged.",
+  "build_boundary": "The final 354-scalar assembly includes an explicit fontTools artifact step after the compiler-valid ordinary source. A full final-assembly stock CLI preflight/release pass is not claimed. Producer source-stage checks and final-binary validation remain separate.",
+  "limitations": [
+    "Display use from 48px; body text and smaller sizes are not certified.",
+    "Exact listed coverage and documented language/one- or two-mark samples only. Arbitrary accent stacks, every Latin orthography and every rendering engine are not certified.",
+    "Static Regular TTF/WOFF2 only; no CFF OTF, variable axes or additional styles.",
+    "No language-specific Lithuanian locale override is certified."
+  ],
+  "assets": {
+    "ttf": {
+      "path": "fonts/Presswake-Regular-v1.011.ttf",
+      "sha256": "54bb682407dbc77883db810062674e678bcfb0f1798f6e580a231598dd61bca9",
+      "bytes": 91376,
+      "package_path": "fonts/Presswake-Regular-v1.011.ttf"
+    },
+    "woff2": {
+      "path": "fonts/Presswake-Regular-v1.011.woff2",
+      "sha256": "10c1cdded1ce566a3f159c459405d386f5fc407aa1ba970a3147b3320d4fb64a",
+      "bytes": 22900,
+      "package_path": "fonts/Presswake-Regular-v1.011.woff2"
+    },
+    "preview": {
+      "path": "preview.png",
+      "sha256": "63df83dd5db1e707e769bb2664d6a02ad5e7e2bc1913853e83fcff627cd56997",
+      "bytes": 65418,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "specimen": {
+      "path": "specimen.html",
+      "sha256": "f3d525f6dd50e0e4ddf1f0fbfaa65bead292afd89aaac182cae9c362e770c998",
+      "bytes": 25145,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "css": {
+      "path": "font.css",
+      "sha256": "4edec0de06af18a9a5ccd4cb38bc2f4537ac030a906c3f699732a588b4b98f16",
+      "bytes": 278,
+      "origin": "Integration asset generated from the unchanged final font"
+    },
+    "coverage": {
+      "path": "coverage.csv",
+      "sha256": "9a5249a90a52494b61517838580bba7fc225592e011aa8a6026cbea7eabe3129",
+      "bytes": 17379,
+      "origin": "Integration asset generated from the unchanged final font"
+    }
+  },
+  "coverage_count": 354,
+  "extra_codepoints": [],
+  "preview_rendering": {
+    "renderer": "Pillow 13.0.0 / FreeType / RAQM",
+    "canvas_px": [
+      1500,
+      740
+    ],
+    "name_ppem": 88,
+    "sample_ppem": 48,
+    "resized": false
+  }
+}
