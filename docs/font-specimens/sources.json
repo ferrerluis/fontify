@@ -1,0 +1,116 @@
+{
+  "status": "Font specimen source inventory. No new distribution license is conferred.",
+  "families": [
+    {
+      "family": "Reedmere",
+      "version": "0.030",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Reedmere-Regular-v0.030.ttf",
+      "ttf_sha256": "4516cfacba5fc9bf55705a361658aa31de61079c7cbfd794e2451871dbdc516e",
+      "description": "Broad hand-ink headlines",
+      "inspiration": "Papyrus"
+    },
+    {
+      "family": "Presswake",
+      "version": "1.021",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Presswake-Regular-v1.021.ttf",
+      "ttf_sha256": "4e8b4434cd35e59d0034a2145edc1d113c1ffef02389a9c4c519a3586a9954c0",
+      "description": "Condensed editorial force",
+      "inspiration": "Impact"
+    },
+    {
+      "family": "Bunvale",
+      "version": "0.023",
+      "coverage": 358,
+      "minimum_display_px": 32,
+      "artwork_source": "vector-origin",
+      "ttf": "Bunvale-Regular-v0.023.ttf",
+      "ttf_sha256": "947e11e0f9d9618aebb205b3e96676002237a0e068704cdd64615aa291c2249c",
+      "description": "Warm, buoyant heavy serif",
+      "inspiration": "Cooper Black"
+    },
+    {
+      "family": "Lapisent",
+      "version": "1.007",
+      "coverage": 354,
+      "minimum_display_px": 32,
+      "artwork_source": "vector-origin",
+      "ttf": "Lapisent-Regular-v1.007.ttf",
+      "ttf_sha256": "1adeb6f9a8d8b06bce5cf961c00644b6a83ed03c1677fc8c241ea7e871f791ba",
+      "description": "Inscriptional display with lowercase",
+      "inspiration": "Trajan"
+    },
+    {
+      "family": "Liltvale",
+      "version": "0.080",
+      "coverage": 354,
+      "minimum_display_px": 32,
+      "artwork_source": "image-derived",
+      "ttf": "Liltvale-Regular-v0.080.ttf",
+      "ttf_sha256": "f1c80ffc8e6db10ca19fce6920f6160daf428a0bc82088440ea56ce78bdce464",
+      "description": "Light ribbon curls",
+      "inspiration": "Curlz MT"
+    },
+    {
+      "family": "Tessaplay",
+      "version": "0.032",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Tessaplay-Regular-v0.032.ttf",
+      "ttf_sha256": "d1da72aca31e834067beabdc1fff41d4e3374260eb3d8a36f657ebc9a2e802b1",
+      "description": "Angular lettering and ornament",
+      "inspiration": "Jokerman"
+    },
+    {
+      "family": "Riftstave",
+      "version": "0.023",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Riftstave-Regular-v0.023.ttf",
+      "ttf_sha256": "b47eca596bbb5921217e5a99b64c58257d040f26dbcc1adc154286d1a812dadd",
+      "description": "Pointed, urgent brush display",
+      "inspiration": "Chiller"
+    },
+    {
+      "family": "Semiloft",
+      "version": "0.034",
+      "coverage": 355,
+      "minimum_display_px": 32,
+      "artwork_source": "image-derived",
+      "ttf": "Semiloft-Regular-v0.034.ttf",
+      "ttf_sha256": "9685689550a996bf92fd0ad04c15244034a4db60432907f298a52a5c388c1181",
+      "description": "Architectural flat and round",
+      "inspiration": "Bauhaus 93"
+    },
+    {
+      "family": "Marqevra",
+      "version": "0.036",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Marqevra-Regular-v0.036.ttf",
+      "ttf_sha256": "ff9ea41b17356fa3edade973aee28bb79ce7de5bb52c60dc8aaff5e5e33db0cd",
+      "description": "Theatrical Art Deco contrast",
+      "inspiration": "Broadway"
+    },
+    {
+      "family": "Charterquill",
+      "version": "0.306",
+      "coverage": 354,
+      "minimum_display_px": 48,
+      "artwork_source": "image-derived",
+      "ttf": "Charterquill-Regular-v0.306.ttf",
+      "ttf_sha256": "b8bc84b92b5fcec0bc281d3bb9d24cfcc59a4b1cdc29a4bd2255897088ecb124",
+      "description": "Contemporary ceremonial blackletter",
+      "inspiration": "Old English Text MT"
+    }
+  ],
+  "specimen_sha256": "54d7f6c0ab5c836c2d5724dfc59c3bf04d14bfd2b0b765dc86def76447e7cece"
+}
