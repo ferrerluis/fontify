@@ -40,6 +40,22 @@ Space is mandatory, blank and explicitly mapped. `.notdef` is generated and
 unmapped. Control characters and surrogate codepoints cannot be drawing glyphs.
 Supplementary Unicode mappings are supported through fontTools' Unicode cmap.
 
+For new skill projects, use `fontify coverage-plan` and copy its `coverage`
+object, `required_characters` and `samples`. The fixed five-language baseline is
+mandatory; see [character-coverage.md](character-coverage.md) for the exact
+Unicode inventory, on-request language selection and normalization behavior.
+The project loader rejects missing profile mappings or reduced requirements;
+export checks both TTF/WOFF2 and adds the mandatory specimens to proofs.
+
+`coverage` has `profile: "en-es-fr-it-pt-v1"`, a `languages` list (always retaining
+en/es/fr/it/pt), `additional_characters` and `request_note`. The last two default
+to empty strings. Extra languages or characters require a nonempty request note.
+Unknown profile names/language codes/fields fail. Historical unprofiled subset
+projects still rebuild unchanged; that is not the contract for new skill work.
+U+00A0 and U+202F, like U+0020, require `source: null` and positive advances.
+Profiled exports require NBSP to match the ordinary space advance and narrow
+NBSP to be no wider. Other drawing glyphs still need local SVG sources.
+
 `required_characters` lists the minimum coverage, not an assumed character set.
 Extra mappings are reported too. A missing required mapping or unsupported proof
 sample is an error; no lowercase aliasing or fallback glyph is invented.

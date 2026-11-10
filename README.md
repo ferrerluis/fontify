@@ -32,6 +32,12 @@ Requires Python 3.11+ and an agent that supports local skills.
 3. Review the font files and browser preview. Request changes or approve the
    design when you're happy with it.
 
+New fonts cover English, Spanish, French, Italian and Portuguese, all printable
+US keyboard characters, and common punctuation. Other researched European
+language alphabets are added only when requested. The [complete character
+inventory](references/character-coverage.md) lists every Unicode character and
+its language mappings. The historical examples below keep their original subsets.
+
 Building fonts runs locally after setup, with no API key needed. Generating new
 artwork may use an online service; Recraft is optional. The agent's setup and
 build commands are below.
@@ -150,6 +156,11 @@ template, replace its SVGs and edit `fontify.json`. Set `approval` to `null` for
 the new design and create fresh quality intent and review evidence. Never reuse
 the example's receipt for changed letters or spacing.
 
+- Run `fontify coverage-plan --output coverage-plan.json` first and copy its
+  `coverage`, `required_characters` and `samples` into the new manifest. The
+  160-character default is mandatory for new skill work. Use `--language de`
+  and a concrete `--request-note` only for a requested extension; see the
+  [inventory and checking contract](references/character-coverage.md).
 - Declare every character mapping, advance width and required character. A
   wordmark or alphabet image doesn't supply missing letters automatically.
 - Use black filled, closed SVG paths and explicit placement. Review coordinate
@@ -329,7 +340,8 @@ the development toolchain for byte-for-byte reproduction across rebuilds.
 - Doesn't generate the context-dependent letter forms and mark positioning
   needed by fonts such as [Noto Naskh Arabic](https://notofonts.github.io/arabic/).
   Mapping Arabic characters alone doesn't provide correct joining behavior.
-- Ligatures, hinting and CFF/OTF export aren't implemented.
+- Optional typographic GSUB ligatures, hinting and CFF/OTF export aren't implemented.
+  Encoded alphabetic æ/Æ and œ/Œ are supported as ordinary mapped glyphs.
 - SVG input is limited to paths and affine groups. Expand strokes, remove
   backgrounds and convert other shapes/arcs explicitly. The compiler rejects
   overlaps/intersections instead of silently repairing approved designs.
