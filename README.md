@@ -344,3 +344,7 @@ the development toolchain for byte-for-byte reproduction across rebuilds.
   style defaults beyond the two source experiments.
 
 </details>
+
+## Font specimen PDFs
+
+Browse [ten complete font specimen PDFs](docs/font-specimens/README.md), with alphabets, numerals, symbols, spacing proofs and full character inventories.
