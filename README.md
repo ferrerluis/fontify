@@ -4,6 +4,8 @@ Fontify turns letter drawings into font files you can install on your computer
 (TTF) or use on a website (WOFF2). Use it with a coding agent to develop a typeface
 from an idea, or bring your own SVG drawings.
 
+[Visit the Fontify website](https://fontify.haciendo.ai/).
+
 ## Why
 
 Letter drawings need spacing and a way for apps to match each drawing to the
