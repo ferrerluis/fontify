@@ -16,12 +16,50 @@ Examples and commands are in [README.md](README.md).
   compiled version/coverage and approved baseline. An old root README or build
   script may describe a different revision. Verify artifact hashes with
   `fontify verify-release` before comparison.
-- Identify exact required characters and intended use. A wordmark provides only
+- Start with the mandatory keyboard/five-language coverage below, then identify
+  additional explicitly requested characters and intended use. A wordmark provides only
   its known letters; missing letters/lowercase are new designs, not recovered
   originals. Do not promise a complete character set from an alphabet image.
 - If building from prior work, keep that project read-only unless the user asks
   to change it. [Ferrer lessons](docs/ferrer-lessons.md) explain actual failure
   modes that motivated these checks; the example does not depend on Ferrer files.
+
+## Mandatory language coverage
+
+Read [character-coverage.md](references/character-coverage.md) before generation.
+Every new font must generate and verify the **160-character**
+`en-es-fr-it-pt-v1` baseline: English, Spanish, French, Italian, Portuguese,
+all printable US QWERTY letters/digits/space and all **32** keyboard specials:
+
+~~~text
+! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~
+~~~
+
+The linked reference enumerates **every character**, its displayed Unicode
+character, codepoint, description and language mappings, including both cases of
+accented letters, French æ/Æ and œ/Œ, Spanish ¡/¿, prose punctuation, ordinals
+and nonbreaking spaces. Run `fontify coverage-plan` before artwork generation;
+attach its `coverage` object and `required_characters` to the new project.
+Generate missing glyphs deliberately; an alphabet sheet is not complete coverage.
+The shared inventory drives generation targets, source checks, exported cmap/ink
+checks and mandatory per-language specimens in actual-font proofs. Do not delete
+requirements to get a partial alphabet through this workflow.
+
+Other Latin alphabets are **on request only**, beginning with the reference's
+23 researched European profiles. Select only requested `--language` codes and
+record `--request-note`; unknown languages need new research or an explicit
+character extension. Never default to all Latin, all Europe, entire Unicode
+blocks, auxiliary loanword lists or historical alphabets. The reference states
+the modern/optional/historical boundaries and current catalog gaps.
+
+Before presenting a font, run `fontify coverage-check <project>` and repeat with
+both `--font <actual.ttf> --webfont <actual.woff2>`. Fix every missing or blank ink
+glyph, incorrect space advance and raw NFC/NFD shaping difference. Inspect every
+accent, ligature and symbol and the language specimens at the declared sizes,
+with kerning on/off: correct encoding or equivalent shaping does not establish
+optical accent placement. Preserve precomposed mappings and test decomposed text
+without first normalizing away the test. Frozen historical subset examples stay
+reproducible; they do not meet the new baseline or justify a new subset font.
 
 ## Separate drawing from construction
 
@@ -129,7 +167,7 @@ a corrected, reviewed first candidate, not become the first defect finder.
    internal correction; `needs_visual_review` is not permission to present a font.
    Drafts never update `current.json`.
 5. **Inspect every letter visually** enlarged and at every declared fixed proof
-   size, at a common scale/baseline, plus actual shaped words and pair samples
+   size, at a common scale/baseline, plus the mandatory language specimens in NFC and NFD and actual shaped words and pair samples
    with kerning on/off. For text fonts include 12, 16, 24 and 48 pixels. Display
    fonts can declare a higher minimum with a concrete rationale. Use actual TTF
    raster proofs and browser-loaded WOFF2 screenshots, never resized large proofs

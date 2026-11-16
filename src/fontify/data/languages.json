@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "profile": "en-es-fr-it-pt-v1",
+  "default_languages": [
+    "en",
+    "es",
+    "fr",
+    "it",
+    "pt"
+  ],
+  "keyboard_specials": "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+  "common_punctuation": "«»‘’“”…–—",
+  "spaces": "   ",
+  "languages": {
+    "ca": {
+      "exemplar": "· aà b cç d eéè f g h iíï j k l m n oóò p q r s t uúü v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÇÈÉÍÏÒÓÚÜàçèéíïòóúü",
+      "name": "Catalan",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/ca.xml",
+      "sample": "La col·laboració és útil: qüestió, això i raïm.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "·"
+    },
+    "cs": {
+      "exemplar": "aá b c č dď eéě f g h {ch} ií j k l m nň oó p q r ř s š tť uúů v w x yý z ž",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÁÉÍÓÚÝáéíóúýČčĎďĚěŇňŘřŠšŤťŮůŽž",
+      "name": "Czech",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/cs.xml",
+      "sample": "Příliš žluťoučký kůň úpěl ďábelské ódy.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "„‚"
+    },
+    "cy": {
+      "exemplar": "aáàâä b c {ch} d {dd} eéèêë f {ff} g {ng} h iíìîï j l {ll} m n oóòôö p {ph} r {rh} s t {th} uúùûü wẃẁŵẅ yýỳŷÿ",
+      "letters": "ABCDEFGHIJLMNOPRSTUWYabcdefghijlmnoprstuwyÀÁÂÄÈÉÊËÌÍÎÏÒÓÔÖÙÚÛÜÝàáâäèéêëìíîïòóôöùúûüýÿŴŵŶŷŸẀẁẂẃẄẅỲỳ",
+      "name": "Welsh",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/cy.xml",
+      "sample": "Dŵr, tŷ, ŵy a chân.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "da": {
+      "exemplar": "a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÅÆØåæø",
+      "name": "Danish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/da.xml",
+      "sample": "Blåbær, æbler og smør.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "de": {
+      "exemplar": "aä b c d e f g h i j k l m n oö p q r s ß t uü v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÄÖÜßäöüẞ",
+      "name": "German",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/de.xml",
+      "sample": "Grüße, Straße, STRAẞE: „schön“.",
+      "note": "Adds uppercase ẞ explicitly; Unicode full uppercase of ß is SS, which is not a substitute for the encoded capital.",
+      "punctuation": "„‚"
+    },
+    "en": {
+      "exemplar": "abcdefghijklmnopqrstuvwxyz",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+      "name": "English",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/en.xml",
+      "sample": "The quick brown fox jumps over 0123456789. “Ready?”",
+      "note": "No extra obligatory letters. Accented loanwords already in the baseline remain covered; arbitrary foreign names are not a language-wide promise.",
+      "punctuation": ""
+    },
+    "es": {
+      "exemplar": "aá b c d eé f g h ií j k l m n ñ oó p q r s t uúü v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÁÉÍÑÓÚÜáéíñóúü",
+      "name": "Spanish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/es.xml",
+      "sample": "¡Qué alegría! ¿El pingüino pidió caña? 1.º y 1.ª.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "¡¿ªº"
+    },
+    "et": {
+      "exemplar": "a b c d e f g h i j k l m n o p q r s š z ž t u v w õ ä ö ü x y",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÄÕÖÜäõöüŠšŽž",
+      "name": "Estonian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/et.xml",
+      "sample": "Õun, šokolaad ja žürii.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "„‚"
+    },
+    "eu": {
+      "exemplar": "a b cç d e f g h i j k l m nñ o p q r s t u v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÇÑçñ",
+      "name": "Basque",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/eu.xml",
+      "sample": "Iñaki eta ç hitza.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "fi": {
+      "exemplar": "a b c d e f g h i j k l m n o p q r sš t u v w x y zž å ä ö",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÄÅÖäåöŠšŽž",
+      "name": "Finnish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/fi.xml",
+      "sample": "Yö, šakki ja džonkki.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "fr": {
+      "exemplar": "aàâ æ b cç d eéèêë f g h iîï j k l m n oô œ p q r s t uùûü v w x yÿ z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÂÆÇÈÉÊËÎÏÔÙÛÜàâæçèéêëîïôùûüÿŒœŸ",
+      "name": "French",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/fr.xml",
+      "sample": "« L’œuvre de ma sœur : cœur, Noël, aiguë, ex æquo. »",
+      "note": "Includes rare ÿ/Ÿ and alphabetic æ/Æ, œ/Œ, including conventional learned vocabulary; no arbitrary foreign-name extension.",
+      "punctuation": ""
+    },
+    "ga": {
+      "exemplar": "aá b c d eé f g h ií l m n oó p r s t uú",
+      "letters": "ABCDEFGHILMNOPRSTUabcdefghilmnoprstuÁÉÍÓÚáéíóú",
+      "name": "Irish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/ga.xml",
+      "sample": "Ár nÉireann: ceol agus grá.",
+      "note": "Modern acute accents; historical dot-above consonants remain on request.",
+      "punctuation": ""
+    },
+    "hr": {
+      "exemplar": "a b c č ć d {dž} đ e f g h i j k l {lj} m n {nj} o p r s š t u v z ž",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVZabcdefghijklmnoprstuvzĆćČčĐđŠšŽž",
+      "name": "Croatian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/hr.xml",
+      "sample": "Čovjek, ćud, đak, šuma i žaba.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "hu": {
+      "exemplar": "aá b c {cs} {ccs} d {dz} {ddz} {dzs} {ddzs} eé f g {gy} {ggy} h ií j k l {ly} {lly} m n {ny} {nny} oó öő p r s {sz} {ssz} t {ty} {tty} uú üű v z {zs} {zzs}",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVYZabcdefghijklmnoprstuvyzÁÉÍÓÖÚÜáéíóöúüŐőŰű",
+      "name": "Hungarian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/hu.xml",
+      "sample": "Árvíztűrő tükörfúrógép.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "is": {
+      "exemplar": "a á b d ð e é f g h i í j k l m n o ó p r s t u ú v x y ý þ æ ö",
+      "letters": "ABDEFGHIJKLMNOPRSTUVXYabdefghijklmnoprstuvxyÁÆÉÍÐÓÖÚÝÞáæéíðóöúýþ",
+      "name": "Icelandic",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/is.xml",
+      "sample": "Þjóð, ævi, öxl og blíð jól.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "it": {
+      "exemplar": "aà b c d eéè f g h iì j k l m n oò p q r s t uù v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÈÉÌÒÓÙàèéìòóù",
+      "name": "Italian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/it.xml",
+      "sample": "È già lunedì: perché il caffè è più buono? L’àncora è ancóra qui.",
+      "note": "Adds ó/Ó for ordinary optional stress disambiguation (ancóra); acute í/ú are already covered by Spanish/Portuguese. Historical contracted plural î is not an Italian requirement.",
+      "punctuation": ""
+    },
+    "lt": {
+      "exemplar": "aą b c č d eęė f g h iįy j k l m n o p r s š t uųū v z ž",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVYZabcdefghijklmnoprstuvyzĄąČčĖėĘęĮįŠšŪūŲųŽž",
+      "name": "Lithuanian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/lt.xml",
+      "sample": "Ąžuolas, ę, ė, į, šuo, ų, ū ir žąsis.",
+      "note": "Modern ordinary spelling; dictionary stress marks and special casing of additional accented text require a separate extension.",
+      "punctuation": "„‚"
+    },
+    "lv": {
+      "exemplar": "a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVZabcdefghijklmnoprstuvzĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž",
+      "name": "Latvian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/lv.xml",
+      "sample": "Ābols, čūska, ģimene, ķirsis, ļaudis, ņ, šūpoles un žogs.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "„‚"
+    },
+    "mt": {
+      "exemplar": "aà b ċ d eè f ġ g {għ} h ħ iì j k l m n oò p q r s t uù v w x ż z",
+      "letters": "ABDEFGHIJKLMNOPQRSTUVWXZabdefghijklmnopqrstuvwxzÀÈÌÒÙàèìòùĊċĠġĦħŻż",
+      "name": "Maltese",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/mt.xml",
+      "sample": "Ċavetta, ġnien, għasfur, ħobż u żarbun.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "no": {
+      "exemplar": "aà b c d eé f g h i j k l m n oóòô p q r s t u v w x y z æ ø å",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÅÆÉÒÓÔØàåæéòóôø",
+      "name": "Norwegian (Bokmål)",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/no.xml",
+      "sample": "Blåbær, øy, ære og fôr.",
+      "note": "Bokmål scope only; Nynorsk is not implicitly claimed.",
+      "punctuation": ""
+    },
+    "pl": {
+      "exemplar": "a ą b c ć d e ę f g h i j k l ł m n ń o ó p r s ś t u w y z ź ż",
+      "letters": "ABCDEFGHIJKLMNOPRSTUWYZabcdefghijklmnoprstuwyzÓóĄąĆćĘęŁłŃńŚśŹźŻż",
+      "name": "Polish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/pl.xml",
+      "sample": "Pchnąć w tę łódź jeża lub osiem skrzyń fig.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "„‚"
+    },
+    "pt": {
+      "exemplar": "aáàâã b cç d eéê f g h ií j k l m n oóòôõ p q r s t uú v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÇÉÊÍÓÔÕÚàáâãçéêíóôõú",
+      "name": "Portuguese",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/pt.xml",
+      "sample": "Às três, a mãe põe açúcar no café; avó, avô, órgão, saúde.",
+      "note": "Modern Portugal/Brazil orthography. The inherited CLDR ò is omitted as a Portuguese requirement: modern grave use is à; it remains covered for Italian. Historical trema is not a Portuguese requirement.",
+      "punctuation": "ªº"
+    },
+    "ro": {
+      "exemplar": "a ă â b c d e f g h i î j k l m n o p q r s ș t ț u v w x y z",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÂÎâîĂăȘșȚț",
+      "name": "Romanian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/ro.xml",
+      "sample": "În țară, șase oameni învață românește.",
+      "note": "Comma-below ș/ț, not legacy cedilla substitutes ş/ţ.",
+      "punctuation": "„‚"
+    },
+    "sk": {
+      "exemplar": "aá ä b c č dď {dz} {dž} eé f g h {ch} ií j k lĺľ m nň oó ô p q rŕ s š tť uú v w x yý z ž",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÁÄÉÍÓÔÚÝáäéíóôúýČčĎďĹĺĽľŇňŔŕŠšŤťŽž",
+      "name": "Slovak",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/sk.xml",
+      "sample": "Kŕdeľ ďatľov učí koňa žrať kôru.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": "„‚"
+    },
+    "sl": {
+      "exemplar": "a b c č d e f g h i j k l m n o p r s š t u v z ž",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVZabcdefghijklmnoprstuvzČčŠšŽž",
+      "name": "Slovenian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/sl.xml",
+      "sample": "Čmrlj, šola in žaba.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "sq": {
+      "exemplar": "a b c ç d {dh} e ë f g {gj} h i j k l {ll} m n {nj} o p q r {rr} s {sh} t {th} u v x {xh} y z {zh}",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyzÇËçë",
+      "name": "Albanian",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/sq.xml",
+      "sample": "Çfarë është kjo? Një gjuhë e bukur.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "sv": {
+      "exemplar": "aà b c d eé f g h i j k l m n o p q r s t u v w x y z å ä ö",
+      "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÄÅÉÖàäåéö",
+      "name": "Swedish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/sv.xml",
+      "sample": "Åtta äpplen, en ö och kafé.",
+      "note": "Modern CLDR main exemplars; auxiliary foreign and historical letters are excluded.",
+      "punctuation": ""
+    },
+    "tr": {
+      "exemplar": "a b c ç d e f g ğ h ı iİ j k l m n o ö p r s ş t u ü v y z",
+      "letters": "ABCDEFGHIJKLMNOPRSTUVYZabcdefghijklmnoprstuvyzÂÇÎÖÛÜâçîöûüĞğİıŞş",
+      "name": "Turkish",
+      "source": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/tr.xml",
+      "sample": "İstanbul, ılık çay, öğün, şeker, kâğıt ve sükûn.",
+      "note": "Explicit İ and ı; adds normative circumflex â, î, û. Locale casing must retain I/ı and İ/i.",
+      "punctuation": ""
+    }
+  }
+}

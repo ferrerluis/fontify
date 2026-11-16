@@ -3,6 +3,7 @@
 import json
 import math
 import re
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -73,7 +74,7 @@ def load_project(path):
         raise FontifyError(f"cannot read project: {e}") from e
     keys(
         d,
-        "schema family style version copyright license units_per_em ascender descender line_gap cap_height x_height svg_baseline curve_error required_characters glyphs kerning samples approval quality",
+        "schema family style version copyright license units_per_em ascender descender line_gap cap_height x_height svg_baseline curve_error required_characters glyphs kerning samples approval quality coverage",
         "project",
     )
     if d.get("schema") != 1:
@@ -134,7 +135,7 @@ def load_project(path):
         names.add(n)
         cps.add(cp)
         number(g.get("advance"), f"{n}.advance", 1, 32767, integer=True)
-        if cp == 32:
+        if cp in (32, 0xA0, 0x202F):
             if g.get("source") is not None:
                 raise FontifyError("space must be blank: source must be null")
         else:
@@ -173,11 +174,20 @@ def load_project(path):
     ):
         raise FontifyError("samples must be a nonempty list of nonempty strings")
     for s in samples:
-        if set(map(ord, s)) - cps:
+        if (
+            set(map(ord, s)) - cps
+            and set(map(ord, unicodedata.normalize("NFC", s))) - cps
+        ):
             raise FontifyError(f"proof sample contains unmapped characters: {s!r}")
     d["samples"] = samples
     if d.get("approval") is not None:
         local_path(path.parent, d["approval"])
     if d.get("quality") is not None:
         local_path(path.parent, d["quality"])
-    return Project(path, d)
+    project = Project(path, d)
+    if d.get("coverage") is not None:
+        from .coverage import require_project_coverage, specimens
+
+        require_project_coverage(project)
+        d["samples"] = list(dict.fromkeys([*samples, *specimens(d["coverage"])]))
+    return project

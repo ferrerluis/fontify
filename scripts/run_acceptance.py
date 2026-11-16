@@ -52,6 +52,10 @@ CASES = {
     "TC11.1": ("Vector optical spacing and collision-guarded pairs", "test_spacing_"),
     "TC12.1": ("Raster-only preparation and preservation", "test_raster_"),
     "TC13.1": ("Fixed-size proof generation and release gate", "test_size_proof_"),
+    "TC16.1": ("Exact language and keyboard inventory", "test_language_inventory"),
+    "TC16.2": ("On-request language expansion", "test_language_extension"),
+    "TC16.3": ("Mandatory language source contract", "test_language_contract"),
+    "TC16.4": ("Encoded coverage and canonical shaping", "test_language_compiled"),
     "TC14.1": (
         "Native vector route excludes raster tools",
         "test_vector_source_route_",
@@ -135,7 +139,7 @@ def main():
         }
     )
     report = {
-        "catalog_version": 10,
+        "catalog_version": 11,
         "timestamp": stamp,
         "source_digest": source_digest(),
         "python": platform.python_version(),
